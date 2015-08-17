@@ -166,3 +166,17 @@ ActiveRecord::NoDatabaseError (Unknown database 'diaspora_development'):
   Rendered home/default.haml within layouts/application (68.7ms)
   Rendered layouts/_open_graph.haml (8.3ms)
 [2015-08-17T21:08:46] INFO  PID-3757 TID-45853840 ActionController::Base: Completed 200 OK in 1892ms (Views: 1855.1ms | ActiveRecord: 0.0ms)
+[2015-08-17T21:34:48] DEBUG PID-4213 TID-50587680 Rails: 
+[2015-08-17T21:34:48] DEBUG PID-4213 TID-50587680 Rails: 
+[2015-08-17T21:34:48] INFO  PID-4213 TID-50587680 Rails: Started GET "/myCarousel" for 127.0.0.1 at 2015-08-17 21:34:48 +0300
+[2015-08-17T21:34:49] FATAL PID-4213 TID-50587680 Rails: 
+ActionController::RoutingError (No route matches [GET] "/myCarousel"):
+  lib/rack/chrome_frame.rb:39:in `call'
+
+
+  Rendered /home/smt/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /home/smt/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (20.8ms)
+  Rendered /home/smt/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.1ms)
+  Rendered /home/smt/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (10.0ms)
+  Rendered /home/smt/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (20.8ms)
+  Rendered /home/smt/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (255.9ms)
