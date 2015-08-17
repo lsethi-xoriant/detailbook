@@ -2,8 +2,8 @@ mysql: &mysql
   adapter: mysql2
   host: "localhost"
   port: 3306
-  username: smt2803
-  password: exitosoml15
+  username: root
+  password: qwe123
 #  socket: /tmp/mysql.sock
   encoding: utf8mb4
   collation: utf8mb4_bin
