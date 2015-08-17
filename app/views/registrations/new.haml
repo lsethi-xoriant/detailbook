@@ -1,0 +1,11 @@
+#registration{:class => "#{'student-land' if params['type'] == 'student'}#{'tutor-land' if params['type'] == 'tutor'}#{'university-land' if params['type'] == 'university'}#{'business-land' if params['type'] == 'business'}"}
+  .container-fluid
+    .row-fluid
+      .span10.offset1
+        .span12.v-center
+          .content.text-center
+            %h2#pod-name
+              = AppConfig.settings.pod_name
+            = render partial: 'form'
+
+        

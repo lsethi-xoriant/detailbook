@@ -1,0 +1,1009 @@
+[2015-07-14T13:02:45] DEBUG PID-64858 TID-70121665610360 Rails: 
+[2015-07-14T13:02:45] INFO  PID-64858 TID-70121665610360 Rails: Started GET "/" for ::1 at 2015-07-14 13:02:45 +0100
+[2015-07-14T13:02:45] INFO  PID-64858 TID-70121665610360 ActionController::Base: Processing by HomeController#show as HTML
+  Rendered home/default.haml within layouts/application (59.1ms)
+  Rendered layouts/_open_graph.haml (5.5ms)
+[2015-07-14T13:02:47] INFO  PID-64858 TID-70121665610360 ActionController::Base: Completed 200 OK in 1683ms (Views: 1661.4ms | ActiveRecord: 0.0ms)
+[2015-07-14T13:03:01] DEBUG PID-64858 TID-70121665609800 Rails: 
+[2015-07-14T13:03:01] DEBUG PID-64858 TID-70121665609800 Rails: 
+[2015-07-14T13:03:01] INFO  PID-64858 TID-70121665609800 Rails: Started GET "/login" for ::1 at 2015-07-14 13:03:01 +0100
+[2015-07-14T13:03:01] DEBUG PID-64858 TID-70121665609800 Rails: 
+[2015-07-14T13:03:01] DEBUG PID-64858 TID-70121665609800 Rails: 
+[2015-07-14T13:03:01] INFO  PID-64858 TID-70121665609800 Rails: Started GET "/users/sign_in" for ::1 at 2015-07-14 13:03:01 +0100
+[2015-07-14T13:03:01] INFO  PID-64858 TID-70121665609800 ActionController::Base: Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.haml within layouts/with_header_with_footer (19.3ms)
+  Rendered shared/_links.haml (2.9ms)
+  Rendered layouts/_footer.html.haml (6.5ms)
+  Rendered layouts/_header.html.haml (5.4ms)
+  Rendered layouts/_open_graph.haml (1.8ms)
+  Rendered layouts/application.html.haml (135.6ms)
+  Rendered layouts/with_header.html.haml (145.5ms)
+[2015-07-14T13:03:01] INFO  PID-64858 TID-70121665609800 ActionController::Base: Completed 200 OK in 256ms (Views: 179.7ms | ActiveRecord: 40.5ms)
+[2015-07-14T13:03:44] DEBUG PID-64858 TID-70121723901000 Rails: 
+[2015-07-14T13:03:44] DEBUG PID-64858 TID-70121723901000 Rails: 
+[2015-07-14T13:03:44] INFO  PID-64858 TID-70121723901000 Rails: Started GET "/users/sign_up?type=student" for ::1 at 2015-07-14 13:03:44 +0100
+[2015-07-14T13:03:44] INFO  PID-64858 TID-70121723901000 ActionController::Base: Processing by RegistrationsController#new as HTML
+[2015-07-14T13:03:44] INFO  PID-64858 TID-70121723901000 ActionController::Base:   Parameters: {"type"=>"student"}
+  Rendered simple_captcha/_simple_captcha.haml (2.7ms)
+  Rendered registrations/_form.haml (103.0ms)
+  Rendered registrations/new.haml within layouts/with_header (107.1ms)
+  Rendered layouts/_header.html.haml (1.8ms)
+  Rendered layouts/_open_graph.haml (1.6ms)
+  Rendered layouts/application.html.haml (133.5ms)
+[2015-07-14T13:03:45] INFO  PID-64858 TID-70121723901000 ActionController::Base: Completed 200 OK in 257ms (Views: 197.0ms | ActiveRecord: 55.1ms)
+[2015-07-14T13:03:47] DEBUG PID-64858 TID-70121723901000 Rails: 
+[2015-07-14T13:03:47] DEBUG PID-64858 TID-70121723901000 Rails: 
+[2015-07-14T13:03:47] INFO  PID-64858 TID-70121723901000 Rails: Started GET "/simple_captcha?code=0d5fe2581b0fe2fdae4dbd0ae846ea0d51ce7771&time=1436875425" for ::1 at 2015-07-14 13:03:47 +0100
+[2015-07-14T13:09:08] DEBUG PID-64858 TID-70121713273920 Rails: 
+[2015-07-14T13:09:08] DEBUG PID-64858 TID-70121713273920 Rails: 
+[2015-07-14T13:09:08] INFO  PID-64858 TID-70121713273920 Rails: Started POST "/users" for ::1 at 2015-07-14 13:09:08 +0100
+[2015-07-14T13:09:08] INFO  PID-64858 TID-70121713273920 ActionController::Base: Processing by RegistrationsController#create as HTML
+[2015-07-14T13:09:08] INFO  PID-64858 TID-70121713273920 ActionController::Base:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"MSnZkoJ2spJHCyGKQCJC68k9xHdOxeQnFqyrq2/KSwvR7vYvRyOPxtrjuIQ+T/B9XrsJYM6KfT5u7bD8a/e0sw==", "user"=>{"email"=>"george@thetechsolution.london", "username"=>"jorgem3r", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "captcha"=>"17874", "captcha_key"=>"0d5fe2581b0fe2fdae4dbd0ae846ea0d51ce7771", "role"=>"student"}, "commit"=>"Sign up"}
+[2015-07-14T13:09:08] DEBUG PID-64858 TID-70121713273920 ActionController::Base: Unpermitted parameter: role
+[2015-07-14T13:09:09] INFO  PID-64858 TID-70121713273920 ActionController::Base: Redirected to http://localhost:3000/getting_started
+[2015-07-14T13:09:09] INFO  PID-64858 TID-70121713273920 RegistrationsController: event=registration status=successful user=jorgem3r@localhost:3000
+[2015-07-14T13:09:09] INFO  PID-64858 TID-70121713273920 ActionController::Base: Completed 302 Found in 1239ms (ActiveRecord: 232.4ms)
+[2015-07-14T13:09:09] DEBUG PID-64858 TID-70121713273920 Rails: 
+[2015-07-14T13:09:09] DEBUG PID-64858 TID-70121713273920 Rails: 
+[2015-07-14T13:09:09] INFO  PID-64858 TID-70121713273920 Rails: Started GET "/getting_started" for ::1 at 2015-07-14 13:09:09 +0100
+[2015-07-14T13:09:09] INFO  PID-64858 TID-70121713273920 ActionController::Base: Processing by UsersController#getting_started as HTML
+  Rendered photos/_new_profile_photo.haml (11.1ms)
+  Rendered users/getting_started.haml within layouts/with_header_with_footer (30.1ms)
+  Rendered shared/_links.haml (3.2ms)
+  Rendered layouts/_footer.html.haml (6.1ms)
+  Rendered layouts/_header.html.haml (0.1ms)
+  Rendered layouts/_open_graph.haml (3.0ms)
+  Rendered layouts/application.html.haml (371.5ms)
+  Rendered layouts/with_header.html.haml (375.2ms)
+[2015-07-14T13:09:09] INFO  PID-64858 TID-70121713273920 ActionController::Base: Completed 200 OK in 436ms (Views: 326.1ms | ActiveRecord: 96.0ms)
+[2015-07-14T13:23:09] DEBUG PID-64858 TID-70121733971240 Rails: 
+[2015-07-14T13:23:09] DEBUG PID-64858 TID-70121733971240 Rails: 
+[2015-07-14T13:23:09] INFO  PID-64858 TID-70121733971240 Rails: Started GET "/users/sign_up?type=student" for ::1 at 2015-07-14 13:23:09 +0100
+[2015-07-14T13:23:09] INFO  PID-64858 TID-70121733971240 ActionController::Base: Processing by RegistrationsController#new as HTML
+[2015-07-14T13:23:09] INFO  PID-64858 TID-70121733971240 ActionController::Base:   Parameters: {"type"=>"student"}
+[2015-07-14T13:23:09] INFO  PID-64858 TID-70121733971240 ActionController::Base: Redirected to http://localhost:3000/getting_started
+[2015-07-14T13:23:09] INFO  PID-64858 TID-70121733971240 ActionController::Base: Filter chain halted as :require_no_authentication rendered or redirected
+[2015-07-14T13:23:09] INFO  PID-64858 TID-70121733971240 ActionController::Base: Completed 302 Found in 79ms (ActiveRecord: 11.5ms)
+[2015-07-14T13:23:09] DEBUG PID-64858 TID-70121733971240 Rails: 
+[2015-07-14T13:23:09] DEBUG PID-64858 TID-70121733971240 Rails: 
+[2015-07-14T13:23:09] INFO  PID-64858 TID-70121733971240 Rails: Started GET "/getting_started" for ::1 at 2015-07-14 13:23:09 +0100
+[2015-07-14T13:23:09] INFO  PID-64858 TID-70121733971240 ActionController::Base: Processing by UsersController#getting_started as HTML
+  Rendered photos/_new_profile_photo.haml (3.9ms)
+  Rendered users/getting_started.haml within layouts/with_header_with_footer (15.3ms)
+  Rendered shared/_links.haml (4.2ms)
+  Rendered layouts/_footer.html.haml (6.2ms)
+  Rendered layouts/_header.html.haml (0.2ms)
+  Rendered layouts/_open_graph.haml (4.5ms)
+  Rendered layouts/application.html.haml (280.7ms)
+  Rendered layouts/with_header.html.haml (285.0ms)
+[2015-07-14T13:23:09] INFO  PID-64858 TID-70121733971240 ActionController::Base: Completed 200 OK in 328ms (Views: 315.8ms | ActiveRecord: 3.1ms)
+[2015-07-14T13:23:32] DEBUG PID-64858 TID-70121722681720 Rails: 
+[2015-07-14T13:23:32] DEBUG PID-64858 TID-70121722681720 Rails: 
+[2015-07-14T13:23:32] INFO  PID-64858 TID-70121722681720 Rails: Started GET "/" for ::1 at 2015-07-14 13:23:32 +0100
+[2015-07-14T13:23:32] INFO  PID-64858 TID-70121722681720 ActionController::Base: Processing by HomeController#show as HTML
+[2015-07-14T13:23:32] INFO  PID-64858 TID-70121722681720 ActionController::Base: Redirected to http://localhost:3000/stream
+[2015-07-14T13:23:32] INFO  PID-64858 TID-70121722681720 ActionController::Base: Completed 302 Found in 5ms (ActiveRecord: 0.3ms)
+[2015-07-14T13:23:32] DEBUG PID-64858 TID-70121722681720 Rails: 
+[2015-07-14T13:23:32] DEBUG PID-64858 TID-70121722681720 Rails: 
+[2015-07-14T13:23:32] INFO  PID-64858 TID-70121722681720 Rails: Started GET "/stream" for ::1 at 2015-07-14 13:23:32 +0100
+[2015-07-14T13:23:32] INFO  PID-64858 TID-70121722681720 ActionController::Base: Processing by StreamsController#multi as HTML
+  Rendered aspects/_aspect_listings.haml (1.3ms)
+  Rendered tags/_followed_tags_listings.haml (1.2ms)
+  Rendered publisher/_aspect_dropdown.html.haml (8.1ms)
+  Rendered shared/_public_explain.haml (4.2ms)
+  Rendered publisher/_publisher.html.haml (166.3ms)
+  Rendered aspects/_no_posts_message.haml (1.3ms)
+  Rendered aspects/_no_contacts_message.haml (2.0ms)
+  Rendered aspects/_aspect_stream.haml (181.1ms)
+  Rendered shared/_modal.haml (2.2ms)
+  Rendered shared/_invitations.haml (61.9ms)
+  Rendered shared/_links.haml (1.4ms)
+  Rendered shared/_right_sections.html.haml (76.9ms)
+  Rendered streams/main_stream.html.haml within layouts/with_header (278.8ms)
+  Rendered layouts/_header.html.haml (0.1ms)
+  Rendered layouts/_open_graph.haml (2.0ms)
+  Rendered layouts/application.html.haml (204.5ms)
+[2015-07-14T13:23:32] INFO  PID-64858 TID-70121722681720 ActionController::Base: Completed 200 OK in 538ms (Views: 446.4ms | ActiveRecord: 76.7ms)
+[2015-07-14T13:23:40] DEBUG PID-64858 TID-70121722643500 Rails: 
+[2015-07-14T13:23:40] DEBUG PID-64858 TID-70121722643500 Rails: 
+[2015-07-14T13:23:40] INFO  PID-64858 TID-70121722643500 Rails: Started GET "/stream?_=1436876613333" for ::1 at 2015-07-14 13:23:40 +0100
+[2015-07-14T13:23:40] INFO  PID-64858 TID-70121722643500 ActionController::Base: Processing by StreamsController#multi as JSON
+[2015-07-14T13:23:40] INFO  PID-64858 TID-70121722643500 ActionController::Base:   Parameters: {"_"=>"1436876613333"}
+[2015-07-14T13:23:40] DEBUG PID-64858 TID-70121722643500 EvilQuery::MultiStream: [EVIL-QUERY] make_relation!
+[2015-07-14T13:23:40] DEBUG PID-64858 TID-70121722643500 EvilQuery::MultiStream: [EVIL-QUERY] aspect_post_ids!
+[2015-07-14T13:23:40] DEBUG PID-64858 TID-70121722643500 User: [EVIL-QUERY] user.construct_public_followings_sql
+[2015-07-14T13:23:40] DEBUG PID-64858 TID-70121722643500 EvilQuery::MultiStream: [EVIL-QUERY] followed_tags_posts!
+[2015-07-14T13:23:40] DEBUG PID-64858 TID-70121722643500 EvilQuery::MultiStream: [EVIL-QUERY] mentioned_posts
+[2015-07-14T13:23:40] INFO  PID-64858 TID-70121722643500 ActionController::Base: Completed 200 OK in 221ms (Views: 1.1ms | ActiveRecord: 124.5ms)
+[2015-07-14T13:23:54] DEBUG PID-64858 TID-70121722630420 Rails: 
+[2015-07-14T13:23:54] DEBUG PID-64858 TID-70121722630420 Rails: 
+[2015-07-14T13:23:54] INFO  PID-64858 TID-70121722630420 Rails: Started DELETE "/users/sign_out" for ::1 at 2015-07-14 13:23:54 +0100
+[2015-07-14T13:23:54] INFO  PID-64858 TID-70121722630420 ActionController::Base: Processing by SessionsController#destroy as HTML
+[2015-07-14T13:23:54] INFO  PID-64858 TID-70121722630420 ActionController::Base:   Parameters: {"authenticity_token"=>"9DXR05suNS2UjQahWq+0Fx0b6itmDFNfozQ0RcLgpEcU8v5uXnsIeQlln68kwgaBip0nPOZDykbbdS8Sxt1b/w=="}
+[2015-07-14T13:23:54] INFO  PID-64858 TID-70121722630420 ActionController::Base: Redirected to http://localhost:3000/users/sign_in
+[2015-07-14T13:23:54] INFO  PID-64858 TID-70121722630420 ActionController::Base: Completed 302 Found in 54ms (ActiveRecord: 18.4ms)
+[2015-07-14T13:23:54] DEBUG PID-64858 TID-70121722630420 Rails: 
+[2015-07-14T13:23:54] DEBUG PID-64858 TID-70121722630420 Rails: 
+[2015-07-14T13:23:54] INFO  PID-64858 TID-70121722630420 Rails: Started GET "/users/sign_in" for ::1 at 2015-07-14 13:23:54 +0100
+[2015-07-14T13:23:54] INFO  PID-64858 TID-70121722630420 ActionController::Base: Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.haml within layouts/with_header_with_footer (5.0ms)
+  Rendered shared/_links.haml (3.3ms)
+  Rendered layouts/_footer.html.haml (5.4ms)
+  Rendered layouts/_header.html.haml (2.3ms)
+  Rendered layouts/_open_graph.haml (3.7ms)
+  Rendered layouts/application.html.haml (220.7ms)
+  Rendered layouts/with_header.html.haml (227.7ms)
+[2015-07-14T13:23:55] INFO  PID-64858 TID-70121722630420 ActionController::Base: Completed 200 OK in 256ms (Views: 249.0ms | ActiveRecord: 0.0ms)
+[2015-07-14T13:24:07] DEBUG PID-64858 TID-70121722628880 Rails: 
+[2015-07-14T13:24:07] DEBUG PID-64858 TID-70121722628880 Rails: 
+[2015-07-14T13:24:07] INFO  PID-64858 TID-70121722628880 Rails: Started GET "/users/sign_up" for ::1 at 2015-07-14 13:24:07 +0100
+[2015-07-14T13:24:07] INFO  PID-64858 TID-70121722628880 ActionController::Base: Processing by RegistrationsController#new as HTML
+  Rendered simple_captcha/_simple_captcha.haml (0.1ms)
+  Rendered registrations/_form.haml (17.0ms)
+  Rendered registrations/new.haml within layouts/with_header (22.1ms)
+  Rendered layouts/_header.html.haml (1.1ms)
+  Rendered layouts/_open_graph.haml (2.1ms)
+  Rendered layouts/application.html.haml (135.0ms)
+[2015-07-14T13:24:07] INFO  PID-64858 TID-70121722628880 ActionController::Base: Completed 200 OK in 170ms (Views: 158.4ms | ActiveRecord: 7.2ms)
+[2015-07-14T13:24:14] DEBUG PID-64858 TID-70121722681720 Rails: 
+[2015-07-14T13:24:14] DEBUG PID-64858 TID-70121722681720 Rails: 
+[2015-07-14T13:24:14] INFO  PID-64858 TID-70121722681720 Rails: Started GET "/simple_captcha?code=784f6a560fc2c2dd3ef74eb0a985eeff417fdca4&time=1436876647" for ::1 at 2015-07-14 13:24:14 +0100
+[2015-07-14T13:51:10] DEBUG PID-64858 TID-70121742417080 Rails: 
+[2015-07-14T13:51:10] DEBUG PID-64858 TID-70121742417080 Rails: 
+[2015-07-14T13:51:10] INFO  PID-64858 TID-70121742417080 Rails: Started GET "/users/sign_up" for ::1 at 2015-07-14 13:51:10 +0100
+[2015-07-14T13:51:11] INFO  PID-64858 TID-70121742417080 ActionController::Base: Processing by RegistrationsController#new as HTML
+  Rendered simple_captcha/_simple_captcha.haml (0.4ms)
+  Rendered registrations/_form.haml (78.5ms)
+  Rendered registrations/new.haml within layouts/with_header (103.3ms)
+  Rendered layouts/_header.html.haml (5.7ms)
+  Rendered layouts/_open_graph.haml (7.2ms)
+[2015-07-14T13:51:11] WARN  PID-64858 TID-70121742417080 Rails: DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/entypo-rails-2.2.3/app/assets/stylesheets/entypo-fonts.css.scss to /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/entypo-rails-2.2.3/app/assets/stylesheets/entypo-fonts.scss. (called from _app_views_layouts_application_html_haml___1036730276496630874_70121737218260 at /Users/jorgem1r/Desktop/detailbook_dev/detailbook/app/views/layouts/application.html.haml:25)
+[2015-07-14T13:51:13] WARN  PID-64858 TID-70121742417080 Rails: DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/entypo-rails-2.2.3/app/assets/stylesheets/entypo-fonts.css.scss to /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/entypo-rails-2.2.3/app/assets/stylesheets/entypo-fonts.scss. (called from _app_views_layouts_application_html_haml___1036730276496630874_70121737218260 at /Users/jorgem1r/Desktop/detailbook_dev/detailbook/app/views/layouts/application.html.haml:25)
+  Rendered layouts/application.html.haml (4799.1ms)
+[2015-07-14T13:51:15] INFO  PID-64858 TID-70121742417080 ActionController::Base: Completed 200 OK in 4957ms (Views: 4910.1ms | ActiveRecord: 11.1ms)
+[2015-07-14T13:51:23] DEBUG PID-64858 TID-70121529808740 Rails: 
+[2015-07-14T13:51:23] DEBUG PID-64858 TID-70121529808740 Rails: 
+[2015-07-14T13:51:23] INFO  PID-64858 TID-70121529808740 Rails: Started GET "/simple_captcha?code=3b03866a9a51127965f234f9d7f3ecdf6dfe326d&time=1436878271" for ::1 at 2015-07-14 13:51:23 +0100
+[2015-07-14T13:51:25] DEBUG PID-64858 TID-70121529809540 Rails: 
+[2015-07-14T13:51:25] DEBUG PID-64858 TID-70121529809540 Rails: 
+[2015-07-14T13:51:25] INFO  PID-64858 TID-70121529809540 Rails: Started GET "/" for ::1 at 2015-07-14 13:51:25 +0100
+[2015-07-14T13:51:25] INFO  PID-64858 TID-70121529809540 ActionController::Base: Processing by HomeController#show as HTML
+  Rendered home/default.haml within layouts/application (23.4ms)
+  Rendered layouts/_open_graph.haml (3.7ms)
+[2015-07-14T13:51:25] INFO  PID-64858 TID-70121529809540 ActionController::Base: Completed 200 OK in 230ms (Views: 224.1ms | ActiveRecord: 0.0ms)
+[2015-07-14T13:51:37] DEBUG PID-64858 TID-70121742417080 Rails: 
+[2015-07-14T13:51:37] DEBUG PID-64858 TID-70121742417080 Rails: 
+[2015-07-14T13:51:37] INFO  PID-64858 TID-70121742417080 Rails: Started GET "/users/sign_up?type=student" for ::1 at 2015-07-14 13:51:37 +0100
+[2015-07-14T13:51:37] INFO  PID-64858 TID-70121742417080 ActionController::Base: Processing by RegistrationsController#new as HTML
+[2015-07-14T13:51:37] INFO  PID-64858 TID-70121742417080 ActionController::Base:   Parameters: {"type"=>"student"}
+  Rendered simple_captcha/_simple_captcha.haml (0.1ms)
+  Rendered registrations/_form.haml (33.9ms)
+  Rendered registrations/new.haml within layouts/with_header (37.5ms)
+  Rendered layouts/_header.html.haml (2.0ms)
+  Rendered layouts/_open_graph.haml (3.7ms)
+  Rendered layouts/application.html.haml (203.8ms)
+[2015-07-14T13:51:37] INFO  PID-64858 TID-70121742417080 ActionController::Base: Completed 200 OK in 262ms (Views: 236.6ms | ActiveRecord: 17.5ms)
+[2015-07-14T13:51:46] DEBUG PID-64858 TID-70121529809940 Rails: 
+[2015-07-14T13:51:46] DEBUG PID-64858 TID-70121529809940 Rails: 
+[2015-07-14T13:51:46] INFO  PID-64858 TID-70121529809940 Rails: Started GET "/simple_captcha?code=35ec50781cc4061afe603645b177512fe448ea78&time=1436878297" for ::1 at 2015-07-14 13:51:46 +0100
+[2015-07-14T13:52:17] DEBUG PID-64858 TID-70121751222280 Rails: 
+[2015-07-14T13:52:17] DEBUG PID-64858 TID-70121751222280 Rails: 
+[2015-07-14T13:52:17] INFO  PID-64858 TID-70121751222280 Rails: Started GET "/users/sign_up?type=student" for ::1 at 2015-07-14 13:52:17 +0100
+[2015-07-14T13:52:17] INFO  PID-64858 TID-70121751222280 ActionController::Base: Processing by RegistrationsController#new as HTML
+[2015-07-14T13:52:17] INFO  PID-64858 TID-70121751222280 ActionController::Base:   Parameters: {"type"=>"student"}
+  Rendered simple_captcha/_simple_captcha.haml (0.2ms)
+  Rendered registrations/_form.haml (34.7ms)
+  Rendered registrations/new.haml within layouts/with_header (38.9ms)
+  Rendered layouts/_header.html.haml (3.0ms)
+  Rendered layouts/_open_graph.haml (3.3ms)
+  Rendered layouts/application.html.haml (260.0ms)
+[2015-07-14T13:52:17] INFO  PID-64858 TID-70121751222280 ActionController::Base: Completed 200 OK in 315ms (Views: 287.3ms | ActiveRecord: 22.7ms)
+[2015-07-14T13:52:25] DEBUG PID-64858 TID-70121696231340 Rails: 
+[2015-07-14T13:52:25] DEBUG PID-64858 TID-70121696231340 Rails: 
+[2015-07-14T13:52:25] INFO  PID-64858 TID-70121696231340 Rails: Started GET "/simple_captcha?code=0d3fb0b5a17a0876e24318f99dd5862c18e1fc34&time=1436878337" for ::1 at 2015-07-14 13:52:25 +0100
+[2015-07-14T13:53:05] DEBUG PID-64858 TID-70121524964800 Rails: 
+[2015-07-14T13:53:05] DEBUG PID-64858 TID-70121524964800 Rails: 
+[2015-07-14T13:53:05] INFO  PID-64858 TID-70121524964800 Rails: Started GET "/users/sign_up?type=tutor" for ::1 at 2015-07-14 13:53:05 +0100
+[2015-07-14T13:53:05] INFO  PID-64858 TID-70121524964800 ActionController::Base: Processing by RegistrationsController#new as HTML
+[2015-07-14T13:53:05] INFO  PID-64858 TID-70121524964800 ActionController::Base:   Parameters: {"type"=>"tutor"}
+  Rendered simple_captcha/_simple_captcha.haml (0.1ms)
+  Rendered registrations/_form.haml (29.4ms)
+  Rendered registrations/new.haml within layouts/with_header (32.0ms)
+  Rendered layouts/_header.html.haml (1.2ms)
+  Rendered layouts/_open_graph.haml (2.0ms)
+  Rendered layouts/application.html.haml (205.1ms)
+[2015-07-14T13:53:05] INFO  PID-64858 TID-70121524964800 ActionController::Base: Completed 200 OK in 252ms (Views: 227.5ms | ActiveRecord: 19.2ms)
+[2015-07-14T13:53:13] DEBUG PID-64858 TID-70121524964400 Rails: 
+[2015-07-14T13:53:13] DEBUG PID-64858 TID-70121524964400 Rails: 
+[2015-07-14T13:53:13] INFO  PID-64858 TID-70121524964400 Rails: Started GET "/simple_captcha?code=28a339c318d9f88dc108b08945cce95f56e20486&time=1436878385" for ::1 at 2015-07-14 13:53:13 +0100
+[2015-07-14T13:54:48] DEBUG PID-64858 TID-70121676998680 Rails: 
+[2015-07-14T13:54:48] DEBUG PID-64858 TID-70121676998680 Rails: 
+[2015-07-14T13:54:48] INFO  PID-64858 TID-70121676998680 Rails: Started GET "/users/sign_up?type=tutor" for ::1 at 2015-07-14 13:54:48 +0100
+[2015-07-14T13:54:48] INFO  PID-64858 TID-70121676998680 ActionController::Base: Processing by RegistrationsController#new as HTML
+[2015-07-14T13:54:48] INFO  PID-64858 TID-70121676998680 ActionController::Base:   Parameters: {"type"=>"tutor"}
+  Rendered simple_captcha/_simple_captcha.haml (0.2ms)
+  Rendered registrations/_form.haml (61.4ms)
+  Rendered registrations/new.haml within layouts/with_header (63.9ms)
+  Rendered layouts/_header.html.haml (1.1ms)
+  Rendered layouts/_open_graph.haml (2.0ms)
+[2015-07-14T13:54:49] WARN  PID-64858 TID-70121676998680 Rails: DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/entypo-rails-2.2.3/app/assets/stylesheets/entypo-fonts.css.scss to /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/entypo-rails-2.2.3/app/assets/stylesheets/entypo-fonts.scss. (called from _app_views_layouts_application_html_haml___1036730276496630874_70121737218260 at /Users/jorgem1r/Desktop/detailbook_dev/detailbook/app/views/layouts/application.html.haml:25)
+[2015-07-14T13:54:50] WARN  PID-64858 TID-70121676998680 Rails: DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/entypo-rails-2.2.3/app/assets/stylesheets/entypo-fonts.css.scss to /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/entypo-rails-2.2.3/app/assets/stylesheets/entypo-fonts.scss. (called from _app_views_layouts_application_html_haml___1036730276496630874_70121737218260 at /Users/jorgem1r/Desktop/detailbook_dev/detailbook/app/views/layouts/application.html.haml:25)
+  Rendered layouts/application.html.haml (3435.8ms)
+[2015-07-14T13:54:52] INFO  PID-64858 TID-70121676998680 ActionController::Base: Completed 200 OK in 3515ms (Views: 3490.2ms | ActiveRecord: 19.1ms)
+[2015-07-14T13:55:00] DEBUG PID-64858 TID-70121676998680 Rails: 
+[2015-07-14T13:55:00] DEBUG PID-64858 TID-70121676998680 Rails: 
+[2015-07-14T13:55:00] INFO  PID-64858 TID-70121676998680 Rails: Started GET "/simple_captcha?code=18a6b9321fbe92f5c8e7487aae612ac005fd3655&time=1436878488" for ::1 at 2015-07-14 13:55:00 +0100
+[2015-07-14T13:55:13] DEBUG PID-64858 TID-70121676998280 Rails: 
+[2015-07-14T13:55:13] DEBUG PID-64858 TID-70121676998280 Rails: 
+[2015-07-14T13:55:13] INFO  PID-64858 TID-70121676998280 Rails: Started GET "/users/sign_up?type=student" for ::1 at 2015-07-14 13:55:13 +0100
+[2015-07-14T13:55:13] INFO  PID-64858 TID-70121676998280 ActionController::Base: Processing by RegistrationsController#new as HTML
+[2015-07-14T13:55:13] INFO  PID-64858 TID-70121676998280 ActionController::Base:   Parameters: {"type"=>"student"}
+  Rendered simple_captcha/_simple_captcha.haml (0.1ms)
+  Rendered registrations/_form.haml (33.5ms)
+  Rendered registrations/new.haml within layouts/with_header (35.8ms)
+  Rendered layouts/_header.html.haml (2.6ms)
+  Rendered layouts/_open_graph.haml (2.2ms)
+  Rendered layouts/application.html.haml (230.3ms)
+[2015-07-14T13:55:13] INFO  PID-64858 TID-70121676998280 ActionController::Base: Completed 200 OK in 290ms (Views: 261.0ms | ActiveRecord: 18.5ms)
+[2015-07-14T13:55:21] DEBUG PID-64858 TID-70121676997080 Rails: 
+[2015-07-14T13:55:21] DEBUG PID-64858 TID-70121676997080 Rails: 
+[2015-07-14T13:55:21] INFO  PID-64858 TID-70121676997080 Rails: Started GET "/simple_captcha?code=ad4244aa7e2e7601187b8cc44941ad8ff3fe5f1a&time=1436878513" for ::1 at 2015-07-14 13:55:21 +0100
+[2015-07-14T13:56:24] DEBUG PID-64858 TID-70121786446520 Rails: 
+[2015-07-14T13:56:24] DEBUG PID-64858 TID-70121786446520 Rails: 
+[2015-07-14T13:56:24] INFO  PID-64858 TID-70121786446520 Rails: Started GET "/users/sign_up?type=student" for ::1 at 2015-07-14 13:56:24 +0100
+[2015-07-14T13:56:25] INFO  PID-64858 TID-70121786446520 ActionController::Base: Processing by RegistrationsController#new as HTML
+[2015-07-14T13:56:25] INFO  PID-64858 TID-70121786446520 ActionController::Base:   Parameters: {"type"=>"student"}
+  Rendered simple_captcha/_simple_captcha.haml (0.2ms)
+  Rendered registrations/_form.haml (32.8ms)
+  Rendered registrations/new.haml within layouts/with_header (35.7ms)
+  Rendered layouts/_header.html.haml (1.6ms)
+  Rendered layouts/_open_graph.haml (3.3ms)
+[2015-07-14T13:56:25] WARN  PID-64858 TID-70121786446520 Rails: DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/entypo-rails-2.2.3/app/assets/stylesheets/entypo-fonts.css.scss to /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/entypo-rails-2.2.3/app/assets/stylesheets/entypo-fonts.scss. (called from _app_views_layouts_application_html_haml___1036730276496630874_70121737218260 at /Users/jorgem1r/Desktop/detailbook_dev/detailbook/app/views/layouts/application.html.haml:25)
+[2015-07-14T13:56:26] WARN  PID-64858 TID-70121786446520 Rails: DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/entypo-rails-2.2.3/app/assets/stylesheets/entypo-fonts.css.scss to /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/entypo-rails-2.2.3/app/assets/stylesheets/entypo-fonts.scss. (called from _app_views_layouts_application_html_haml___1036730276496630874_70121737218260 at /Users/jorgem1r/Desktop/detailbook_dev/detailbook/app/views/layouts/application.html.haml:25)
+  Rendered layouts/application.html.haml (3340.6ms)
+[2015-07-14T13:56:28] INFO  PID-64858 TID-70121786446520 ActionController::Base: Completed 200 OK in 3393ms (Views: 3370.9ms | ActiveRecord: 16.1ms)
+[2015-07-14T13:56:35] DEBUG PID-64858 TID-70121786446120 Rails: 
+[2015-07-14T13:56:35] DEBUG PID-64858 TID-70121786446120 Rails: 
+[2015-07-14T13:56:35] INFO  PID-64858 TID-70121786446120 Rails: Started GET "/simple_captcha?code=75ba19a41ed4380efb7a631fbdb04bfc0e862b1b&time=1436878585" for ::1 at 2015-07-14 13:56:35 +0100
+[2015-07-14T13:56:36] DEBUG PID-64858 TID-70121786446120 Rails: 
+[2015-07-14T13:56:36] DEBUG PID-64858 TID-70121786446120 Rails: 
+[2015-07-14T13:56:36] INFO  PID-64858 TID-70121786446120 Rails: Started GET "/simple_captcha?code=75ba19a41ed4380efb7a631fbdb04bfc0e862b1b&time=1436878585" for ::1 at 2015-07-14 13:56:36 +0100
+[2015-07-14T13:56:52] DEBUG PID-64858 TID-70121786446120 Rails: 
+[2015-07-14T13:56:52] DEBUG PID-64858 TID-70121786446120 Rails: 
+[2015-07-14T13:56:52] INFO  PID-64858 TID-70121786446120 Rails: Started GET "/users/sign_up?type=student" for ::1 at 2015-07-14 13:56:52 +0100
+[2015-07-14T13:56:52] INFO  PID-64858 TID-70121786446120 ActionController::Base: Processing by RegistrationsController#new as HTML
+[2015-07-14T13:56:52] INFO  PID-64858 TID-70121786446120 ActionController::Base:   Parameters: {"type"=>"student"}
+  Rendered simple_captcha/_simple_captcha.haml (0.2ms)
+  Rendered registrations/_form.haml (31.1ms)
+  Rendered registrations/new.haml within layouts/with_header (33.9ms)
+  Rendered layouts/_header.html.haml (1.7ms)
+  Rendered layouts/_open_graph.haml (2.1ms)
+[2015-07-14T13:56:53] WARN  PID-64858 TID-70121786446120 Rails: DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/entypo-rails-2.2.3/app/assets/stylesheets/entypo-fonts.css.scss to /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/entypo-rails-2.2.3/app/assets/stylesheets/entypo-fonts.scss. (called from _app_views_layouts_application_html_haml___1036730276496630874_70121737218260 at /Users/jorgem1r/Desktop/detailbook_dev/detailbook/app/views/layouts/application.html.haml:25)
+[2015-07-14T13:56:54] WARN  PID-64858 TID-70121786446120 Rails: DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/entypo-rails-2.2.3/app/assets/stylesheets/entypo-fonts.css.scss to /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/entypo-rails-2.2.3/app/assets/stylesheets/entypo-fonts.scss. (called from _app_views_layouts_application_html_haml___1036730276496630874_70121737218260 at /Users/jorgem1r/Desktop/detailbook_dev/detailbook/app/views/layouts/application.html.haml:25)
+  Rendered layouts/application.html.haml (3394.2ms)
+[2015-07-14T13:56:56] INFO  PID-64858 TID-70121786446120 ActionController::Base: Completed 200 OK in 3444ms (Views: 3418.9ms | ActiveRecord: 19.1ms)
+[2015-07-14T13:57:03] DEBUG PID-64858 TID-70121786446520 Rails: 
+[2015-07-14T13:57:03] DEBUG PID-64858 TID-70121786446520 Rails: 
+[2015-07-14T13:57:03] INFO  PID-64858 TID-70121786446520 Rails: Started GET "/simple_captcha?code=121c43de698e95e2c439daf348d6550229c7c147&time=1436878612" for ::1 at 2015-07-14 13:57:03 +0100
+[2015-07-14T13:57:08] DEBUG PID-64858 TID-70121786445720 Rails: 
+[2015-07-14T13:57:08] DEBUG PID-64858 TID-70121786445720 Rails: 
+[2015-07-14T13:57:08] INFO  PID-64858 TID-70121786445720 Rails: Started GET "/simple_captcha?code=121c43de698e95e2c439daf348d6550229c7c147&time=1436878612" for ::1 at 2015-07-14 13:57:08 +0100
+[2015-07-14T13:57:18] DEBUG PID-64858 TID-70121786445720 Rails: 
+[2015-07-14T13:57:18] DEBUG PID-64858 TID-70121786445720 Rails: 
+[2015-07-14T13:57:18] INFO  PID-64858 TID-70121786445720 Rails: Started GET "/users/sign_up?type=student" for ::1 at 2015-07-14 13:57:18 +0100
+[2015-07-14T13:57:18] INFO  PID-64858 TID-70121786445720 ActionController::Base: Processing by RegistrationsController#new as HTML
+[2015-07-14T13:57:18] INFO  PID-64858 TID-70121786445720 ActionController::Base:   Parameters: {"type"=>"student"}
+  Rendered simple_captcha/_simple_captcha.haml (0.2ms)
+  Rendered registrations/_form.haml (32.1ms)
+  Rendered registrations/new.haml within layouts/with_header (35.1ms)
+  Rendered layouts/_header.html.haml (1.4ms)
+  Rendered layouts/_open_graph.haml (3.5ms)
+[2015-07-14T13:57:18] WARN  PID-64858 TID-70121786445720 Rails: DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/entypo-rails-2.2.3/app/assets/stylesheets/entypo-fonts.css.scss to /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/entypo-rails-2.2.3/app/assets/stylesheets/entypo-fonts.scss. (called from _app_views_layouts_application_html_haml___1036730276496630874_70121737218260 at /Users/jorgem1r/Desktop/detailbook_dev/detailbook/app/views/layouts/application.html.haml:25)
+[2015-07-14T13:57:19] WARN  PID-64858 TID-70121786445720 Rails: DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/entypo-rails-2.2.3/app/assets/stylesheets/entypo-fonts.css.scss to /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/entypo-rails-2.2.3/app/assets/stylesheets/entypo-fonts.scss. (called from _app_views_layouts_application_html_haml___1036730276496630874_70121737218260 at /Users/jorgem1r/Desktop/detailbook_dev/detailbook/app/views/layouts/application.html.haml:25)
+  Rendered layouts/application.html.haml (3335.0ms)
+[2015-07-14T13:57:21] INFO  PID-64858 TID-70121786445720 ActionController::Base: Completed 200 OK in 3389ms (Views: 3363.3ms | ActiveRecord: 19.1ms)
+[2015-07-14T13:57:29] DEBUG PID-64858 TID-70121786445720 Rails: 
+[2015-07-14T13:57:29] DEBUG PID-64858 TID-70121786445720 Rails: 
+[2015-07-14T13:57:29] INFO  PID-64858 TID-70121786445720 Rails: Started GET "/simple_captcha?code=6da7e27728280b0a5dd0ec673bfb7091015a6cda&time=1436878638" for ::1 at 2015-07-14 13:57:29 +0100
+[2015-07-14T13:57:33] DEBUG PID-64858 TID-70121786444520 Rails: 
+[2015-07-14T13:57:33] DEBUG PID-64858 TID-70121786444520 Rails: 
+[2015-07-14T13:57:33] INFO  PID-64858 TID-70121786444520 Rails: Started GET "/simple_captcha?code=6da7e27728280b0a5dd0ec673bfb7091015a6cda&time=1436878638" for ::1 at 2015-07-14 13:57:33 +0100
+[2015-07-14T13:59:13] DEBUG PID-64858 TID-70121673479000 Rails: 
+[2015-07-14T13:59:13] DEBUG PID-64858 TID-70121673479000 Rails: 
+[2015-07-14T13:59:13] INFO  PID-64858 TID-70121673479000 Rails: Started GET "/users/sign_up?type=student" for ::1 at 2015-07-14 13:59:13 +0100
+[2015-07-14T13:59:13] INFO  PID-64858 TID-70121673479000 ActionController::Base: Processing by RegistrationsController#new as HTML
+[2015-07-14T13:59:13] INFO  PID-64858 TID-70121673479000 ActionController::Base:   Parameters: {"type"=>"student"}
+  Rendered simple_captcha/_simple_captcha.haml (0.4ms)
+  Rendered registrations/_form.haml (75.8ms)
+  Rendered registrations/new.haml within layouts/with_header (87.6ms)
+  Rendered layouts/_header.html.haml (4.5ms)
+  Rendered layouts/_open_graph.haml (6.5ms)
+[2015-07-14T13:59:14] WARN  PID-64858 TID-70121673479000 Rails: DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/entypo-rails-2.2.3/app/assets/stylesheets/entypo-fonts.css.scss to /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/entypo-rails-2.2.3/app/assets/stylesheets/entypo-fonts.scss. (called from _app_views_layouts_application_html_haml___1036730276496630874_70121737218260 at /Users/jorgem1r/Desktop/detailbook_dev/detailbook/app/views/layouts/application.html.haml:25)
+[2015-07-14T13:59:15] WARN  PID-64858 TID-70121673479000 Rails: DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/entypo-rails-2.2.3/app/assets/stylesheets/entypo-fonts.css.scss to /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/entypo-rails-2.2.3/app/assets/stylesheets/entypo-fonts.scss. (called from _app_views_layouts_application_html_haml___1036730276496630874_70121737218260 at /Users/jorgem1r/Desktop/detailbook_dev/detailbook/app/views/layouts/application.html.haml:25)
+  Rendered layouts/application.html.haml (3667.3ms)
+[2015-07-14T13:59:17] INFO  PID-64858 TID-70121673479000 ActionController::Base: Completed 200 OK in 3825ms (Views: 3753.1ms | ActiveRecord: 24.8ms)
+[2015-07-14T13:59:24] DEBUG PID-64858 TID-70121529117540 Rails: 
+[2015-07-14T13:59:24] DEBUG PID-64858 TID-70121529117540 Rails: 
+[2015-07-14T13:59:24] INFO  PID-64858 TID-70121529117540 Rails: Started GET "/simple_captcha?code=dee2d3df7c4ad615e9527c658db0b84aae8a7575&time=1436878753" for ::1 at 2015-07-14 13:59:24 +0100
+[2015-07-14T13:59:30] DEBUG PID-64858 TID-70121529117140 Rails: 
+[2015-07-14T13:59:30] DEBUG PID-64858 TID-70121529117140 Rails: 
+[2015-07-14T13:59:30] INFO  PID-64858 TID-70121529117140 Rails: Started GET "/simple_captcha?code=dee2d3df7c4ad615e9527c658db0b84aae8a7575&time=1436878753" for ::1 at 2015-07-14 13:59:30 +0100
+[2015-07-14T14:01:01] DEBUG PID-64858 TID-70121758191540 Rails: 
+[2015-07-14T14:01:01] DEBUG PID-64858 TID-70121758191540 Rails: 
+[2015-07-14T14:01:01] INFO  PID-64858 TID-70121758191540 Rails: Started GET "/users/sign_up?type=student" for ::1 at 2015-07-14 14:01:01 +0100
+[2015-07-14T14:01:01] INFO  PID-64858 TID-70121758191540 ActionController::Base: Processing by RegistrationsController#new as HTML
+[2015-07-14T14:01:01] INFO  PID-64858 TID-70121758191540 ActionController::Base:   Parameters: {"type"=>"student"}
+  Rendered simple_captcha/_simple_captcha.haml (0.2ms)
+  Rendered registrations/_form.haml (32.7ms)
+  Rendered registrations/new.haml within layouts/with_header (39.7ms)
+  Rendered layouts/_header.html.haml (2.3ms)
+  Rendered layouts/_open_graph.haml (2.7ms)
+  Rendered layouts/application.html.haml (205.0ms)
+[2015-07-14T14:01:02] INFO  PID-64858 TID-70121758191540 ActionController::Base: Completed 200 OK in 262ms (Views: 237.3ms | ActiveRecord: 18.5ms)
+[2015-07-14T14:01:09] DEBUG PID-64858 TID-70121530282820 Rails: 
+[2015-07-14T14:01:09] DEBUG PID-64858 TID-70121530282820 Rails: 
+[2015-07-14T14:01:09] INFO  PID-64858 TID-70121530282820 Rails: Started GET "/simple_captcha?code=a8c4e378fe874ae68732fb7fe29282e6a8721dfd&time=1436878861" for ::1 at 2015-07-14 14:01:09 +0100
+[2015-07-14T14:01:15] DEBUG PID-64858 TID-70121530283480 Rails: 
+[2015-07-14T14:01:15] DEBUG PID-64858 TID-70121530283480 Rails: 
+[2015-07-14T14:01:15] INFO  PID-64858 TID-70121530283480 Rails: Started GET "/simple_captcha?code=a8c4e378fe874ae68732fb7fe29282e6a8721dfd&time=1436878861" for ::1 at 2015-07-14 14:01:15 +0100
+[2015-07-14T14:02:03] DEBUG PID-64858 TID-70121674363760 Rails: 
+[2015-07-14T14:02:03] DEBUG PID-64858 TID-70121674363760 Rails: 
+[2015-07-14T14:02:03] INFO  PID-64858 TID-70121674363760 Rails: Started GET "/users/sign_up?type=student" for ::1 at 2015-07-14 14:02:03 +0100
+[2015-07-14T14:02:03] INFO  PID-64858 TID-70121674363760 ActionController::Base: Processing by RegistrationsController#new as HTML
+[2015-07-14T14:02:03] INFO  PID-64858 TID-70121674363760 ActionController::Base:   Parameters: {"type"=>"student"}
+  Rendered registrations/new.haml within layouts/with_header (114.5ms)
+[2015-07-14T14:02:03] INFO  PID-64858 TID-70121674363760 ActionController::Base: Completed 500 Internal Server Error in 124ms (ActiveRecord: 0.0ms)
+[2015-07-14T14:02:03] FATAL PID-64858 TID-70121674363760 Rails: 
+ActionView::Template::Error (Illegal nesting: nesting within a tag that already has content is illegal.):
+     8:               = AppConfig.settings.pod_name
+     9:             = render partial: 'form'
+    10:         /.span7.hidden-phone
+    11:           / h1.ball
+    12:         
+  app/views/registrations/new.haml:11
+  app/controllers/registrations_controller.rb:30:in `new'
+  lib/rack/chrome_frame.rb:39:in `call'
+
+
+  Rendered /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.3ms)
+  Rendered /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (93.7ms)
+[2015-07-14T14:02:28] DEBUG PID-64858 TID-70121674363760 Rails: 
+[2015-07-14T14:02:28] DEBUG PID-64858 TID-70121674363760 Rails: 
+[2015-07-14T14:02:28] INFO  PID-64858 TID-70121674363760 Rails: Started GET "/users/sign_up?type=student" for ::1 at 2015-07-14 14:02:28 +0100
+[2015-07-14T14:02:28] INFO  PID-64858 TID-70121674363760 ActionController::Base: Processing by RegistrationsController#new as HTML
+[2015-07-14T14:02:28] INFO  PID-64858 TID-70121674363760 ActionController::Base:   Parameters: {"type"=>"student"}
+  Rendered simple_captcha/_simple_captcha.haml (0.2ms)
+  Rendered registrations/_form.haml (29.8ms)
+  Rendered registrations/new.haml within layouts/with_header (35.8ms)
+  Rendered layouts/_header.html.haml (1.6ms)
+  Rendered layouts/_open_graph.haml (1.9ms)
+  Rendered layouts/application.html.haml (220.3ms)
+[2015-07-14T14:02:28] INFO  PID-64858 TID-70121674363760 ActionController::Base: Completed 200 OK in 269ms (Views: 245.5ms | ActiveRecord: 19.4ms)
+[2015-07-14T14:02:36] DEBUG PID-64858 TID-70121674363760 Rails: 
+[2015-07-14T14:02:36] DEBUG PID-64858 TID-70121674363760 Rails: 
+[2015-07-14T14:02:36] INFO  PID-64858 TID-70121674363760 Rails: Started GET "/simple_captcha?code=3cb456ce235229328e7e5fa3cf080a7cfb040517&time=1436878948" for ::1 at 2015-07-14 14:02:36 +0100
+[2015-07-14T14:02:41] DEBUG PID-64858 TID-70121544567360 Rails: 
+[2015-07-14T14:02:41] DEBUG PID-64858 TID-70121544567360 Rails: 
+[2015-07-14T14:02:41] INFO  PID-64858 TID-70121544567360 Rails: Started GET "/simple_captcha?code=3cb456ce235229328e7e5fa3cf080a7cfb040517&time=1436878948" for ::1 at 2015-07-14 14:02:41 +0100
+[2015-07-14T14:14:58] DEBUG PID-64858 TID-70121721333160 Rails: 
+[2015-07-14T14:14:58] DEBUG PID-64858 TID-70121721333160 Rails: 
+[2015-07-14T14:14:58] INFO  PID-64858 TID-70121721333160 Rails: Started GET "/users/sign_up?type=student" for ::1 at 2015-07-14 14:14:58 +0100
+[2015-07-14T14:14:59] INFO  PID-64858 TID-70121721333160 ActionController::Base: Processing by RegistrationsController#new as HTML
+[2015-07-14T14:14:59] INFO  PID-64858 TID-70121721333160 ActionController::Base:   Parameters: {"type"=>"student"}
+  Rendered simple_captcha/_simple_captcha.haml (0.2ms)
+  Rendered registrations/_form.haml (49.0ms)
+  Rendered registrations/new.haml within layouts/with_header (55.3ms)
+  Rendered layouts/_header.html.haml (4.9ms)
+  Rendered layouts/_open_graph.haml (10.7ms)
+  Rendered layouts/application.html.haml (303.7ms)
+[2015-07-14T14:14:59] INFO  PID-64858 TID-70121721333160 ActionController::Base: Completed 200 OK in 407ms (Views: 371.6ms | ActiveRecord: 6.9ms)
+[2015-07-14T14:15:06] DEBUG PID-64858 TID-70121751172760 Rails: 
+[2015-07-14T14:15:06] DEBUG PID-64858 TID-70121751172760 Rails: 
+[2015-07-14T14:15:06] INFO  PID-64858 TID-70121751172760 Rails: Started GET "/simple_captcha?code=d1193910c84db33ff77d3a13991aef70071d407f&time=1436879699" for ::1 at 2015-07-14 14:15:06 +0100
+[2015-07-14T17:56:34] DEBUG PID-68056 TID-70127207369500 Rails: 
+[2015-07-14T17:56:34] DEBUG PID-68056 TID-70127207369500 Rails: 
+[2015-07-14T17:56:34] INFO  PID-68056 TID-70127207369500 Rails: Started GET "/users/sign_up?type=business" for ::1 at 2015-07-14 17:56:34 +0100
+[2015-07-14T17:56:34] FATAL PID-68056 TID-70127207369500 Rails: 
+SyntaxError (/Users/jorgem1r/Desktop/detailbook_dev/detailbook/app/controllers/registrations_controller.rb:73: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/controllers/registrations_controller.rb:73: syntax error, unexpected end-of-input, expecting keyword_end
+  lib/rack/chrome_frame.rb:39:in `call'
+
+
+  Rendered /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.9ms)
+  Rendered /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendered /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (15.0ms)
+  Rendered /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (106.9ms)
+[2015-07-14T17:57:34] DEBUG PID-68083 TID-70265427445240 Rails: 
+[2015-07-14T17:57:34] DEBUG PID-68083 TID-70265427445240 Rails: 
+[2015-07-14T17:57:34] INFO  PID-68083 TID-70265427445240 Rails: Started GET "/users/sign_up?type=business" for ::1 at 2015-07-14 17:57:34 +0100
+[2015-07-14T17:57:34] INFO  PID-68083 TID-70265427445240 ActionController::Base: Processing by RegistrationsController#new as HTML
+[2015-07-14T17:57:34] INFO  PID-68083 TID-70265427445240 ActionController::Base:   Parameters: {"type"=>"business"}
+  Rendered simple_captcha/_simple_captcha.haml (1.2ms)
+  Rendered registrations/_form.haml (93.4ms)
+  Rendered registrations/new.haml within layouts/with_header (108.1ms)
+  Rendered layouts/_header.html.haml (6.8ms)
+  Rendered layouts/_open_graph.haml (4.6ms)
+[2015-07-14T17:57:35] WARN  PID-68083 TID-70265427445240 Rails: DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/entypo-rails-2.2.3/app/assets/stylesheets/entypo-fonts.css.scss to /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/entypo-rails-2.2.3/app/assets/stylesheets/entypo-fonts.scss. (called from _app_views_layouts_application_html_haml__48845546289817915_70265488818480 at /Users/jorgem1r/Desktop/detailbook_dev/detailbook/app/views/layouts/application.html.haml:25)
+[2015-07-14T17:57:36] WARN  PID-68083 TID-70265427445240 Rails: DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/entypo-rails-2.2.3/app/assets/stylesheets/entypo-fonts.css.scss to /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/entypo-rails-2.2.3/app/assets/stylesheets/entypo-fonts.scss. (called from _app_views_layouts_application_html_haml__48845546289817915_70265488818480 at /Users/jorgem1r/Desktop/detailbook_dev/detailbook/app/views/layouts/application.html.haml:25)
+  Rendered layouts/application.html.haml (4968.5ms)
+[2015-07-14T17:57:40] INFO  PID-68083 TID-70265427445240 ActionController::Base: Completed 200 OK in 5181ms (Views: 5080.7ms | ActiveRecord: 49.4ms)
+[2015-07-14T17:57:48] DEBUG PID-68083 TID-70265427427980 Rails: 
+[2015-07-14T17:57:48] DEBUG PID-68083 TID-70265427427980 Rails: 
+[2015-07-14T17:57:48] INFO  PID-68083 TID-70265427427980 Rails: Started GET "/simple_captcha?code=416407255335c9d7b99a1a93775adfd8f0fbd42d&time=1436893055" for ::1 at 2015-07-14 17:57:48 +0100
+[2015-07-14T17:57:48] DEBUG PID-68083 TID-70265417876520 Rails: 
+[2015-07-14T17:57:48] DEBUG PID-68083 TID-70265417876520 Rails: 
+[2015-07-14T17:57:48] INFO  PID-68083 TID-70265417876520 Rails: Started GET "/images/landing/business-detail.jpg" for ::1 at 2015-07-14 17:57:48 +0100
+[2015-07-14T17:57:48] FATAL PID-68083 TID-70265417876520 Rails: 
+ActionController::RoutingError (No route matches [GET] "/images/landing/business-detail.jpg"):
+  lib/rack/chrome_frame.rb:39:in `call'
+
+
+  Rendered /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (20.9ms)
+  Rendered /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.6ms)
+  Rendered /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (5.1ms)
+  Rendered /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.4ms)
+  Rendered /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (258.8ms)
+[2015-07-14T17:58:42] DEBUG PID-68083 TID-70265462383840 Rails: 
+[2015-07-14T17:58:42] DEBUG PID-68083 TID-70265462383840 Rails: 
+[2015-07-14T17:58:42] INFO  PID-68083 TID-70265462383840 Rails: Started GET "/users/sign_up?type=business" for ::1 at 2015-07-14 17:58:42 +0100
+[2015-07-14T17:58:42] INFO  PID-68083 TID-70265462383840 ActionController::Base: Processing by RegistrationsController#new as HTML
+[2015-07-14T17:58:42] INFO  PID-68083 TID-70265462383840 ActionController::Base:   Parameters: {"type"=>"business"}
+  Rendered simple_captcha/_simple_captcha.haml (0.2ms)
+  Rendered registrations/_form.haml (55.3ms)
+  Rendered registrations/new.haml within layouts/with_header (66.1ms)
+  Rendered layouts/_header.html.haml (2.6ms)
+  Rendered layouts/_open_graph.haml (3.8ms)
+  Rendered layouts/application.html.haml (218.0ms)
+[2015-07-14T17:58:43] INFO  PID-68083 TID-70265462383840 ActionController::Base: Completed 200 OK in 339ms (Views: 306.3ms | ActiveRecord: 3.0ms)
+[2015-07-14T17:58:51] DEBUG PID-68083 TID-70265479863260 Rails: 
+[2015-07-14T17:58:51] DEBUG PID-68083 TID-70265479863260 Rails: 
+[2015-07-14T17:58:51] INFO  PID-68083 TID-70265479863260 Rails: Started GET "/simple_captcha?code=dcb06dcde7e1ec879827782d895509ef5f77b2eb&time=1436893122" for ::1 at 2015-07-14 17:58:51 +0100
+[2015-07-14T17:58:51] DEBUG PID-68083 TID-70265479987780 Rails: 
+[2015-07-14T17:58:51] DEBUG PID-68083 TID-70265479987780 Rails: 
+[2015-07-14T17:58:51] INFO  PID-68083 TID-70265479987780 Rails: Started GET "/images/landing/business-detail.jpg" for ::1 at 2015-07-14 17:58:51 +0100
+[2015-07-14T17:58:51] FATAL PID-68083 TID-70265479987780 Rails: 
+ActionController::RoutingError (No route matches [GET] "/images/landing/business-detail.jpg"):
+  lib/rack/chrome_frame.rb:39:in `call'
+
+
+  Rendered /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.9ms)
+  Rendered /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (9.4ms)
+  Rendered /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
+  Rendered /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.6ms)
+  Rendered /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (269.2ms)
+[2015-07-14T18:01:18] DEBUG PID-68083 TID-70265463494880 Rails: 
+[2015-07-14T18:01:18] DEBUG PID-68083 TID-70265463494880 Rails: 
+[2015-07-14T18:01:18] INFO  PID-68083 TID-70265463494880 Rails: Started GET "/users/sign_up?type=business" for ::1 at 2015-07-14 18:01:18 +0100
+[2015-07-14T18:01:18] INFO  PID-68083 TID-70265463494880 ActionController::Base: Processing by RegistrationsController#new as HTML
+[2015-07-14T18:01:18] INFO  PID-68083 TID-70265463494880 ActionController::Base:   Parameters: {"type"=>"business"}
+  Rendered simple_captcha/_simple_captcha.haml (0.1ms)
+  Rendered registrations/_form.haml (24.2ms)
+  Rendered registrations/new.haml within layouts/with_header (27.6ms)
+  Rendered layouts/_header.html.haml (1.5ms)
+  Rendered layouts/_open_graph.haml (2.7ms)
+  Rendered layouts/application.html.haml (246.7ms)
+[2015-07-14T18:01:19] INFO  PID-68083 TID-70265463494880 ActionController::Base: Completed 200 OK in 288ms (Views: 270.1ms | ActiveRecord: 13.2ms)
+[2015-07-14T18:01:26] DEBUG PID-68083 TID-70265463492120 Rails: 
+[2015-07-14T18:01:26] DEBUG PID-68083 TID-70265463492120 Rails: 
+[2015-07-14T18:01:26] INFO  PID-68083 TID-70265463492120 Rails: Started GET "/simple_captcha?code=39e6cc941078c0592ff872bcd363a5697e8014bc&time=1436893278" for ::1 at 2015-07-14 18:01:26 +0100
+[2015-07-14T18:01:27] DEBUG PID-68083 TID-70265463494380 Rails: 
+[2015-07-14T18:01:27] DEBUG PID-68083 TID-70265463494380 Rails: 
+[2015-07-14T18:01:27] INFO  PID-68083 TID-70265463494380 Rails: Started GET "/images/landing/business-detail.jpg" for ::1 at 2015-07-14 18:01:27 +0100
+[2015-07-14T18:01:27] FATAL PID-68083 TID-70265463494380 Rails: 
+ActionController::RoutingError (No route matches [GET] "/images/landing/business-detail.jpg"):
+  lib/rack/chrome_frame.rb:39:in `call'
+
+
+  Rendered /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (10.1ms)
+  Rendered /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.2ms)
+  Rendered /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (3.9ms)
+  Rendered /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.2ms)
+  Rendered /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (284.6ms)
+[2015-07-14T18:09:50] DEBUG PID-68083 TID-70265408986760 Rails: 
+[2015-07-14T18:09:50] DEBUG PID-68083 TID-70265408986760 Rails: 
+[2015-07-14T18:09:50] INFO  PID-68083 TID-70265408986760 Rails: Started GET "/users/sign_up?type=business" for ::1 at 2015-07-14 18:09:50 +0100
+[2015-07-14T18:09:51] INFO  PID-68083 TID-70265408986760 ActionController::Base: Processing by RegistrationsController#new as HTML
+[2015-07-14T18:09:51] INFO  PID-68083 TID-70265408986760 ActionController::Base:   Parameters: {"type"=>"business"}
+  Rendered simple_captcha/_simple_captcha.haml (0.3ms)
+  Rendered registrations/_form.haml (49.2ms)
+  Rendered registrations/new.haml within layouts/with_header (55.4ms)
+  Rendered layouts/_header.html.haml (5.1ms)
+  Rendered layouts/_open_graph.haml (4.4ms)
+[2015-07-14T18:09:51] WARN  PID-68083 TID-70265408986760 Rails: DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/entypo-rails-2.2.3/app/assets/stylesheets/entypo-fonts.css.scss to /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/entypo-rails-2.2.3/app/assets/stylesheets/entypo-fonts.scss. (called from _app_views_layouts_application_html_haml__48845546289817915_70265488818480 at /Users/jorgem1r/Desktop/detailbook_dev/detailbook/app/views/layouts/application.html.haml:25)
+[2015-07-14T18:09:52] WARN  PID-68083 TID-70265408986760 Rails: DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/entypo-rails-2.2.3/app/assets/stylesheets/entypo-fonts.css.scss to /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/entypo-rails-2.2.3/app/assets/stylesheets/entypo-fonts.scss. (called from _app_views_layouts_application_html_haml__48845546289817915_70265488818480 at /Users/jorgem1r/Desktop/detailbook_dev/detailbook/app/views/layouts/application.html.haml:25)
+  Rendered layouts/application.html.haml (3855.1ms)
+[2015-07-14T18:09:55] INFO  PID-68083 TID-70265408986760 ActionController::Base: Completed 200 OK in 3957ms (Views: 3924.7ms | ActiveRecord: 4.8ms)
+[2015-07-14T18:10:02] DEBUG PID-68083 TID-70265407625220 Rails: 
+[2015-07-14T18:10:02] DEBUG PID-68083 TID-70265407625220 Rails: 
+[2015-07-14T18:10:02] INFO  PID-68083 TID-70265407625220 Rails: Started GET "/simple_captcha?code=c0009261db272a3363e0659891645e4311381728&time=1436893791" for ::1 at 2015-07-14 18:10:02 +0100
+[2015-07-14T18:10:47] DEBUG PID-68083 TID-70265509423960 Rails: 
+[2015-07-14T18:10:47] DEBUG PID-68083 TID-70265509423960 Rails: 
+[2015-07-14T18:10:47] INFO  PID-68083 TID-70265509423960 Rails: Started GET "/users/sign_up?type=business" for ::1 at 2015-07-14 18:10:47 +0100
+[2015-07-14T18:10:47] INFO  PID-68083 TID-70265509423960 ActionController::Base: Processing by RegistrationsController#new as HTML
+[2015-07-14T18:10:47] INFO  PID-68083 TID-70265509423960 ActionController::Base:   Parameters: {"type"=>"business"}
+  Rendered simple_captcha/_simple_captcha.haml (0.1ms)
+  Rendered registrations/_form.haml (28.8ms)
+  Rendered registrations/new.haml within layouts/with_header (33.2ms)
+  Rendered layouts/_header.html.haml (1.3ms)
+  Rendered layouts/_open_graph.haml (1.9ms)
+[2015-07-14T18:10:48] WARN  PID-68083 TID-70265509423960 Rails: DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/entypo-rails-2.2.3/app/assets/stylesheets/entypo-fonts.css.scss to /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/entypo-rails-2.2.3/app/assets/stylesheets/entypo-fonts.scss. (called from _app_views_layouts_application_html_haml__48845546289817915_70265488818480 at /Users/jorgem1r/Desktop/detailbook_dev/detailbook/app/views/layouts/application.html.haml:25)
+[2015-07-14T18:10:49] WARN  PID-68083 TID-70265509423960 Rails: DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/entypo-rails-2.2.3/app/assets/stylesheets/entypo-fonts.css.scss to /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/entypo-rails-2.2.3/app/assets/stylesheets/entypo-fonts.scss. (called from _app_views_layouts_application_html_haml__48845546289817915_70265488818480 at /Users/jorgem1r/Desktop/detailbook_dev/detailbook/app/views/layouts/application.html.haml:25)
+  Rendered layouts/application.html.haml (3235.3ms)
+[2015-07-14T18:10:51] INFO  PID-68083 TID-70265509423960 ActionController::Base: Completed 200 OK in 3286ms (Views: 3259.2ms | ActiveRecord: 18.8ms)
+[2015-07-14T18:10:58] DEBUG PID-68083 TID-70265138444500 Rails: 
+[2015-07-14T18:10:58] DEBUG PID-68083 TID-70265138444500 Rails: 
+[2015-07-14T18:10:58] INFO  PID-68083 TID-70265138444500 Rails: Started GET "/simple_captcha?code=ca2b823bbfe7c573ba5ebb4f4814af3305654337&time=1436893847" for ::1 at 2015-07-14 18:10:58 +0100
+[2015-07-14T18:11:02] DEBUG PID-68083 TID-70265511629520 Rails: 
+[2015-07-14T18:11:02] DEBUG PID-68083 TID-70265511629520 Rails: 
+[2015-07-14T18:11:02] INFO  PID-68083 TID-70265511629520 Rails: Started GET "/simple_captcha?code=ca2b823bbfe7c573ba5ebb4f4814af3305654337&time=1436893847" for ::1 at 2015-07-14 18:11:02 +0100
+[2015-07-14T18:12:07] DEBUG PID-68083 TID-70265406764360 Rails: 
+[2015-07-14T18:12:07] DEBUG PID-68083 TID-70265406764360 Rails: 
+[2015-07-14T18:12:07] INFO  PID-68083 TID-70265406764360 Rails: Started GET "/users/sign_up?type=business" for ::1 at 2015-07-14 18:12:07 +0100
+[2015-07-14T18:12:07] INFO  PID-68083 TID-70265406764360 ActionController::Base: Processing by RegistrationsController#new as HTML
+[2015-07-14T18:12:07] INFO  PID-68083 TID-70265406764360 ActionController::Base:   Parameters: {"type"=>"business"}
+  Rendered simple_captcha/_simple_captcha.haml (0.1ms)
+  Rendered registrations/_form.haml (31.8ms)
+  Rendered registrations/new.haml within layouts/with_header (35.2ms)
+  Rendered layouts/_header.html.haml (1.5ms)
+  Rendered layouts/_open_graph.haml (3.0ms)
+[2015-07-14T18:12:07] WARN  PID-68083 TID-70265406764360 Rails: DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/entypo-rails-2.2.3/app/assets/stylesheets/entypo-fonts.css.scss to /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/entypo-rails-2.2.3/app/assets/stylesheets/entypo-fonts.scss. (called from _app_views_layouts_application_html_haml__48845546289817915_70265488818480 at /Users/jorgem1r/Desktop/detailbook_dev/detailbook/app/views/layouts/application.html.haml:25)
+[2015-07-14T18:12:08] WARN  PID-68083 TID-70265406764360 Rails: DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/entypo-rails-2.2.3/app/assets/stylesheets/entypo-fonts.css.scss to /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/entypo-rails-2.2.3/app/assets/stylesheets/entypo-fonts.scss. (called from _app_views_layouts_application_html_haml__48845546289817915_70265488818480 at /Users/jorgem1r/Desktop/detailbook_dev/detailbook/app/views/layouts/application.html.haml:25)
+  Rendered layouts/application.html.haml (3494.2ms)
+[2015-07-14T18:12:11] INFO  PID-68083 TID-70265406764360 ActionController::Base: Completed 200 OK in 3547ms (Views: 3521.2ms | ActiveRecord: 19.0ms)
+[2015-07-14T18:12:20] DEBUG PID-68083 TID-70265406761860 Rails: 
+[2015-07-14T18:12:20] DEBUG PID-68083 TID-70265406761860 Rails: 
+[2015-07-14T18:12:20] INFO  PID-68083 TID-70265406761860 Rails: Started GET "/simple_captcha?code=d8e41880b7b4e6eefdd0019e20a07b91ad854240&time=1436893927" for ::1 at 2015-07-14 18:12:20 +0100
+[2015-07-14T18:13:06] DEBUG PID-68083 TID-70265492592620 Rails: 
+[2015-07-14T18:13:06] DEBUG PID-68083 TID-70265492592620 Rails: 
+[2015-07-14T18:13:06] INFO  PID-68083 TID-70265492592620 Rails: Started GET "/users/sign_up?type=business" for ::1 at 2015-07-14 18:13:06 +0100
+[2015-07-14T18:13:07] INFO  PID-68083 TID-70265492592620 ActionController::Base: Processing by RegistrationsController#new as HTML
+[2015-07-14T18:13:07] INFO  PID-68083 TID-70265492592620 ActionController::Base:   Parameters: {"type"=>"business"}
+  Rendered simple_captcha/_simple_captcha.haml (0.7ms)
+  Rendered registrations/_form.haml (49.5ms)
+  Rendered registrations/new.haml within layouts/with_header (56.4ms)
+  Rendered layouts/_header.html.haml (4.4ms)
+  Rendered layouts/_open_graph.haml (7.0ms)
+  Rendered layouts/application.html.haml (314.4ms)
+[2015-07-14T18:13:07] INFO  PID-68083 TID-70265492592620 ActionController::Base: Completed 200 OK in 418ms (Views: 383.2ms | ActiveRecord: 6.2ms)
+[2015-07-14T18:13:15] DEBUG PID-68083 TID-70265507735300 Rails: 
+[2015-07-14T18:13:15] DEBUG PID-68083 TID-70265507735300 Rails: 
+[2015-07-14T18:13:15] INFO  PID-68083 TID-70265507735300 Rails: Started GET "/simple_captcha?code=b9cea55d549765830c3a7d88674cc13285f57ac0&time=1436893987" for ::1 at 2015-07-14 18:13:15 +0100
+[2015-07-14T18:13:25] DEBUG PID-68083 TID-70265507733800 Rails: 
+[2015-07-14T18:13:25] DEBUG PID-68083 TID-70265507733800 Rails: 
+[2015-07-14T18:13:25] INFO  PID-68083 TID-70265507733800 Rails: Started GET "/users/sign_up?type=business" for ::1 at 2015-07-14 18:13:25 +0100
+[2015-07-14T18:13:25] INFO  PID-68083 TID-70265507733800 ActionController::Base: Processing by RegistrationsController#new as HTML
+[2015-07-14T18:13:25] INFO  PID-68083 TID-70265507733800 ActionController::Base:   Parameters: {"type"=>"business"}
+  Rendered simple_captcha/_simple_captcha.haml (0.2ms)
+  Rendered registrations/_form.haml (24.7ms)
+  Rendered registrations/new.haml within layouts/with_header (27.3ms)
+  Rendered layouts/_header.html.haml (1.8ms)
+  Rendered layouts/_open_graph.haml (2.6ms)
+  Rendered layouts/application.html.haml (137.8ms)
+[2015-07-14T18:13:25] INFO  PID-68083 TID-70265507733800 ActionController::Base: Completed 200 OK in 183ms (Views: 164.1ms | ActiveRecord: 12.5ms)
+[2015-07-14T18:13:33] DEBUG PID-68083 TID-70265492591500 Rails: 
+[2015-07-14T18:13:33] DEBUG PID-68083 TID-70265492591500 Rails: 
+[2015-07-14T18:13:33] INFO  PID-68083 TID-70265492591500 Rails: Started GET "/simple_captcha?code=6eed20ffee98b9070a634ffb598ac44b83001e31&time=1436894005" for ::1 at 2015-07-14 18:13:33 +0100
+[2015-07-14T18:22:14] DEBUG PID-68083 TID-70265528671000 Rails: 
+[2015-07-14T18:22:14] DEBUG PID-68083 TID-70265528671000 Rails: 
+[2015-07-14T18:22:14] INFO  PID-68083 TID-70265528671000 Rails: Started GET "/users/sign_up?type=business" for ::1 at 2015-07-14 18:22:14 +0100
+[2015-07-14T18:22:14] INFO  PID-68083 TID-70265528671000 ActionController::Base: Processing by RegistrationsController#new as HTML
+[2015-07-14T18:22:14] INFO  PID-68083 TID-70265528671000 ActionController::Base:   Parameters: {"type"=>"business"}
+  Rendered simple_captcha/_simple_captcha.haml (0.2ms)
+  Rendered registrations/_form.haml (30.6ms)
+  Rendered registrations/new.haml within layouts/with_header (34.0ms)
+  Rendered layouts/_header.html.haml (1.7ms)
+  Rendered layouts/_open_graph.haml (3.7ms)
+[2015-07-14T18:22:15] WARN  PID-68083 TID-70265528671000 Rails: DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/entypo-rails-2.2.3/app/assets/stylesheets/entypo-fonts.css.scss to /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/entypo-rails-2.2.3/app/assets/stylesheets/entypo-fonts.scss. (called from _app_views_layouts_application_html_haml__48845546289817915_70265488818480 at /Users/jorgem1r/Desktop/detailbook_dev/detailbook/app/views/layouts/application.html.haml:25)
+[2015-07-14T18:22:16] WARN  PID-68083 TID-70265528671000 Rails: DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/entypo-rails-2.2.3/app/assets/stylesheets/entypo-fonts.css.scss to /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/entypo-rails-2.2.3/app/assets/stylesheets/entypo-fonts.scss. (called from _app_views_layouts_application_html_haml__48845546289817915_70265488818480 at /Users/jorgem1r/Desktop/detailbook_dev/detailbook/app/views/layouts/application.html.haml:25)
+  Rendered layouts/application.html.haml (3557.5ms)
+[2015-07-14T18:22:18] INFO  PID-68083 TID-70265528671000 ActionController::Base: Completed 200 OK in 3613ms (Views: 3589.3ms | ActiveRecord: 13.6ms)
+[2015-07-14T18:22:26] DEBUG PID-68083 TID-70265528666820 Rails: 
+[2015-07-14T18:22:26] DEBUG PID-68083 TID-70265528666820 Rails: 
+[2015-07-14T18:22:26] INFO  PID-68083 TID-70265528666820 Rails: Started GET "/simple_captcha?code=8f96180a9636e47e393f3cc27a6815c46f3f50cd&time=1436894534" for ::1 at 2015-07-14 18:22:26 +0100
+[2015-07-14T18:22:26] DEBUG PID-68083 TID-70265528667840 Rails: 
+[2015-07-14T18:22:26] DEBUG PID-68083 TID-70265528667840 Rails: 
+[2015-07-14T18:22:26] INFO  PID-68083 TID-70265528667840 Rails: Started GET "/simple_captcha?code=8f96180a9636e47e393f3cc27a6815c46f3f50cd&time=1436894534" for ::1 at 2015-07-14 18:22:26 +0100
+[2015-07-14T18:23:07] DEBUG PID-68083 TID-70265135569360 Rails: 
+[2015-07-14T18:23:07] DEBUG PID-68083 TID-70265135569360 Rails: 
+[2015-07-14T18:23:07] INFO  PID-68083 TID-70265135569360 Rails: Started GET "/users/sign_up?type=business" for ::1 at 2015-07-14 18:23:07 +0100
+[2015-07-14T18:23:07] INFO  PID-68083 TID-70265135569360 ActionController::Base: Processing by RegistrationsController#new as HTML
+[2015-07-14T18:23:07] INFO  PID-68083 TID-70265135569360 ActionController::Base:   Parameters: {"type"=>"business"}
+  Rendered simple_captcha/_simple_captcha.haml (0.2ms)
+  Rendered registrations/_form.haml (34.0ms)
+  Rendered registrations/new.haml within layouts/with_header (37.3ms)
+  Rendered layouts/_header.html.haml (2.0ms)
+  Rendered layouts/_open_graph.haml (4.6ms)
+[2015-07-14T18:23:07] WARN  PID-68083 TID-70265135569360 Rails: DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/entypo-rails-2.2.3/app/assets/stylesheets/entypo-fonts.css.scss to /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/entypo-rails-2.2.3/app/assets/stylesheets/entypo-fonts.scss. (called from _app_views_layouts_application_html_haml__48845546289817915_70265488818480 at /Users/jorgem1r/Desktop/detailbook_dev/detailbook/app/views/layouts/application.html.haml:25)
+  Rendered layouts/application.html.haml (690.8ms)
+[2015-07-14T18:23:08] INFO  PID-68083 TID-70265135569360 ActionController::Base: Completed 500 Internal Server Error in 749ms (ActiveRecord: 19.1ms)
+[2015-07-14T18:23:08] FATAL PID-68083 TID-70265135569360 Rails: 
+ActionView::Template::Error (Invalid CSS after "  background": expected ";", was ": image-url("la..."
+  (in /Users/jorgem1r/Desktop/detailbook_dev/detailbook/app/assets/stylesheets/application.scss:74)):
+    22:     = include_mixpanel
+    23: 
+    24:     = include_base_css_framework
+    25:     = stylesheet_link_tag 'application', :media => 'all'
+    26: 
+    27:     - if rtl?
+    28:       = stylesheet_link_tag :rtl, :media => 'all'
+  app/assets/stylesheets/new_styles/_registration.scss:74
+  app/views/layouts/application.html.haml:25:in `_app_views_layouts_application_html_haml__48845546289817915_70265488818480'
+  app/views/layouts/with_header.html.haml:4:in `_app_views_layouts_with_header_html_haml___2321727969592924172_70265490082560'
+  app/controllers/registrations_controller.rb:43:in `new'
+  lib/rack/chrome_frame.rb:39:in `call'
+
+
+  Rendered /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (11.5ms)
+  Rendered /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.6ms)
+  Rendered /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (96.4ms)
+[2015-07-14T18:25:44] DEBUG PID-68083 TID-70265440680280 Rails: 
+[2015-07-14T18:25:44] DEBUG PID-68083 TID-70265440680280 Rails: 
+[2015-07-14T18:25:44] INFO  PID-68083 TID-70265440680280 Rails: Started GET "/users/sign_up?type=business" for ::1 at 2015-07-14 18:25:44 +0100
+[2015-07-14T18:25:44] INFO  PID-68083 TID-70265440680280 ActionController::Base: Processing by RegistrationsController#new as HTML
+[2015-07-14T18:25:44] INFO  PID-68083 TID-70265440680280 ActionController::Base:   Parameters: {"type"=>"business"}
+  Rendered simple_captcha/_simple_captcha.haml (0.2ms)
+  Rendered registrations/_form.haml (28.1ms)
+  Rendered registrations/new.haml within layouts/with_header (30.7ms)
+  Rendered layouts/_header.html.haml (1.3ms)
+  Rendered layouts/_open_graph.haml (2.8ms)
+[2015-07-14T18:25:44] WARN  PID-68083 TID-70265440680280 Rails: DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/entypo-rails-2.2.3/app/assets/stylesheets/entypo-fonts.css.scss to /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/entypo-rails-2.2.3/app/assets/stylesheets/entypo-fonts.scss. (called from _app_views_layouts_application_html_haml__48845546289817915_70265488818480 at /Users/jorgem1r/Desktop/detailbook_dev/detailbook/app/views/layouts/application.html.haml:25)
+  Rendered layouts/application.html.haml (665.2ms)
+[2015-07-14T18:25:45] INFO  PID-68083 TID-70265440680280 ActionController::Base: Completed 500 Internal Server Error in 711ms (ActiveRecord: 18.3ms)
+[2015-07-14T18:25:45] FATAL PID-68083 TID-70265440680280 Rails: 
+ActionView::Template::Error (Invalid CSS after "  background": expected ";", was ": image-url("la..."
+  (in /Users/jorgem1r/Desktop/detailbook_dev/detailbook/app/assets/stylesheets/application.scss:74)):
+    22:     = include_mixpanel
+    23: 
+    24:     = include_base_css_framework
+    25:     = stylesheet_link_tag 'application', :media => 'all'
+    26: 
+    27:     - if rtl?
+    28:       = stylesheet_link_tag :rtl, :media => 'all'
+  app/assets/stylesheets/new_styles/_registration.scss:74
+  app/views/layouts/application.html.haml:25:in `_app_views_layouts_application_html_haml__48845546289817915_70265488818480'
+  app/views/layouts/with_header.html.haml:4:in `_app_views_layouts_with_header_html_haml___2321727969592924172_70265490082560'
+  app/controllers/registrations_controller.rb:43:in `new'
+  lib/rack/chrome_frame.rb:39:in `call'
+
+
+  Rendered /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (10.4ms)
+  Rendered /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.8ms)
+  Rendered /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (93.6ms)
+[2015-07-14T18:26:00] DEBUG PID-68083 TID-70265440680280 Rails: 
+[2015-07-14T18:26:00] DEBUG PID-68083 TID-70265440680280 Rails: 
+[2015-07-14T18:26:00] INFO  PID-68083 TID-70265440680280 Rails: Started GET "/users/sign_up?type=business" for ::1 at 2015-07-14 18:26:00 +0100
+[2015-07-14T18:26:00] INFO  PID-68083 TID-70265440680280 ActionController::Base: Processing by RegistrationsController#new as HTML
+[2015-07-14T18:26:00] INFO  PID-68083 TID-70265440680280 ActionController::Base:   Parameters: {"type"=>"business"}
+  Rendered simple_captcha/_simple_captcha.haml (0.1ms)
+  Rendered registrations/_form.haml (21.4ms)
+  Rendered registrations/new.haml within layouts/with_header (25.6ms)
+  Rendered layouts/_header.html.haml (1.4ms)
+  Rendered layouts/_open_graph.haml (2.3ms)
+[2015-07-14T18:26:00] WARN  PID-68083 TID-70265440680280 Rails: DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/entypo-rails-2.2.3/app/assets/stylesheets/entypo-fonts.css.scss to /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/entypo-rails-2.2.3/app/assets/stylesheets/entypo-fonts.scss. (called from _app_views_layouts_application_html_haml__48845546289817915_70265488818480 at /Users/jorgem1r/Desktop/detailbook_dev/detailbook/app/views/layouts/application.html.haml:25)
+[2015-07-14T18:26:01] WARN  PID-68083 TID-70265440680280 Rails: DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/entypo-rails-2.2.3/app/assets/stylesheets/entypo-fonts.css.scss to /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/entypo-rails-2.2.3/app/assets/stylesheets/entypo-fonts.scss. (called from _app_views_layouts_application_html_haml__48845546289817915_70265488818480 at /Users/jorgem1r/Desktop/detailbook_dev/detailbook/app/views/layouts/application.html.haml:25)
+  Rendered layouts/application.html.haml (3394.8ms)
+[2015-07-14T18:26:03] INFO  PID-68083 TID-70265440680280 ActionController::Base: Completed 200 OK in 3434ms (Views: 3417.4ms | ActiveRecord: 12.0ms)
+[2015-07-14T18:26:11] DEBUG PID-68083 TID-70265408442860 Rails: 
+[2015-07-14T18:26:11] DEBUG PID-68083 TID-70265408442860 Rails: 
+[2015-07-14T18:26:11] INFO  PID-68083 TID-70265408442860 Rails: Started GET "/simple_captcha?code=14693d1b24eb890d14f5b4c35af35da4e370b51e&time=1436894760" for ::1 at 2015-07-14 18:26:11 +0100
+[2015-07-14T18:26:15] DEBUG PID-68083 TID-70265408443300 Rails: 
+[2015-07-14T18:26:15] DEBUG PID-68083 TID-70265408443300 Rails: 
+[2015-07-14T18:26:15] INFO  PID-68083 TID-70265408443300 Rails: Started GET "/simple_captcha?code=14693d1b24eb890d14f5b4c35af35da4e370b51e&time=1436894760" for ::1 at 2015-07-14 18:26:15 +0100
+[2015-07-14T18:26:37] DEBUG PID-68083 TID-70265511472880 Rails: 
+[2015-07-14T18:26:37] DEBUG PID-68083 TID-70265511472880 Rails: 
+[2015-07-14T18:26:37] INFO  PID-68083 TID-70265511472880 Rails: Started GET "/" for ::1 at 2015-07-14 18:26:37 +0100
+[2015-07-14T18:26:37] INFO  PID-68083 TID-70265511472880 ActionController::Base: Processing by HomeController#show as HTML
+  Rendered home/default.haml within layouts/application (76.8ms)
+  Rendered layouts/_open_graph.haml (2.5ms)
+[2015-07-14T18:26:37] INFO  PID-68083 TID-70265511472880 ActionController::Base: Completed 200 OK in 287ms (Views: 281.9ms | ActiveRecord: 0.0ms)
+[2015-07-14T18:26:48] DEBUG PID-68083 TID-70265511472880 Rails: 
+[2015-07-14T18:26:48] DEBUG PID-68083 TID-70265511472880 Rails: 
+[2015-07-14T18:26:48] INFO  PID-68083 TID-70265511472880 Rails: Started GET "/users/sign_up?type=business" for ::1 at 2015-07-14 18:26:48 +0100
+[2015-07-14T18:26:48] INFO  PID-68083 TID-70265511472880 ActionController::Base: Processing by RegistrationsController#new as HTML
+[2015-07-14T18:26:48] INFO  PID-68083 TID-70265511472880 ActionController::Base:   Parameters: {"type"=>"business"}
+  Rendered simple_captcha/_simple_captcha.haml (0.1ms)
+  Rendered registrations/_form.haml (29.2ms)
+  Rendered registrations/new.haml within layouts/with_header (31.6ms)
+  Rendered layouts/_header.html.haml (1.2ms)
+  Rendered layouts/_open_graph.haml (2.2ms)
+  Rendered layouts/application.html.haml (128.6ms)
+[2015-07-14T18:26:49] INFO  PID-68083 TID-70265511472880 ActionController::Base: Completed 200 OK in 173ms (Views: 150.4ms | ActiveRecord: 18.7ms)
+[2015-07-14T18:26:49] DEBUG PID-68083 TID-70265508821840 Rails: 
+[2015-07-14T18:26:49] DEBUG PID-68083 TID-70265508821840 Rails: 
+[2015-07-14T18:26:49] INFO  PID-68083 TID-70265508821840 Rails: Started GET "/simple_captcha?code=826bad1ab63a398a52be38bcc3ac7efee90ab775&time=1436894808" for ::1 at 2015-07-14 18:26:49 +0100
+[2015-07-14T18:27:14] DEBUG PID-68083 TID-70265508822940 Rails: 
+[2015-07-14T18:27:14] DEBUG PID-68083 TID-70265508822940 Rails: 
+[2015-07-14T18:27:14] INFO  PID-68083 TID-70265508822940 Rails: Started GET "/users/sign_up?type=university" for ::1 at 2015-07-14 18:27:14 +0100
+[2015-07-14T18:27:14] INFO  PID-68083 TID-70265508822940 ActionController::Base: Processing by RegistrationsController#new as HTML
+[2015-07-14T18:27:14] INFO  PID-68083 TID-70265508822940 ActionController::Base:   Parameters: {"type"=>"university"}
+  Rendered simple_captcha/_simple_captcha.haml (0.1ms)
+  Rendered registrations/_form.haml (27.7ms)
+  Rendered registrations/new.haml within layouts/with_header (29.9ms)
+  Rendered layouts/_header.html.haml (1.4ms)
+  Rendered layouts/_open_graph.haml (3.1ms)
+  Rendered layouts/application.html.haml (253.1ms)
+[2015-07-14T18:27:14] INFO  PID-68083 TID-70265508822940 ActionController::Base: Completed 200 OK in 301ms (Views: 274.7ms | ActiveRecord: 18.0ms)
+[2015-07-14T18:27:14] DEBUG PID-68083 TID-70265511472880 Rails: 
+[2015-07-14T18:27:14] DEBUG PID-68083 TID-70265511472880 Rails: 
+[2015-07-14T18:27:14] INFO  PID-68083 TID-70265511472880 Rails: Started GET "/simple_captcha?code=bcc34f8a92f4c0e201852430dd9c7dc855197251&time=1436894834" for ::1 at 2015-07-14 18:27:14 +0100
+[2015-07-14T18:27:14] DEBUG PID-68083 TID-70265511472880 Rails: 
+[2015-07-14T18:27:14] DEBUG PID-68083 TID-70265511472880 Rails: 
+[2015-07-14T18:27:14] INFO  PID-68083 TID-70265511472880 Rails: Started GET "/images/landing/UniversityWestmisnter.jpg" for ::1 at 2015-07-14 18:27:14 +0100
+[2015-07-14T18:27:15] FATAL PID-68083 TID-70265511472880 Rails: 
+ActionController::RoutingError (No route matches [GET] "/images/landing/UniversityWestmisnter.jpg"):
+  lib/rack/chrome_frame.rb:39:in `call'
+
+
+  Rendered /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.6ms)
+  Rendered /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (10.2ms)
+  Rendered /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.6ms)
+  Rendered /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.6ms)
+  Rendered /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (259.0ms)
+[2015-07-14T18:27:17] DEBUG PID-68083 TID-70265511472880 Rails: 
+[2015-07-14T18:27:17] DEBUG PID-68083 TID-70265511472880 Rails: 
+[2015-07-14T18:27:17] INFO  PID-68083 TID-70265511472880 Rails: Started GET "/users/sign_up?type=university" for ::1 at 2015-07-14 18:27:17 +0100
+[2015-07-14T18:27:17] INFO  PID-68083 TID-70265511472880 ActionController::Base: Processing by RegistrationsController#new as HTML
+[2015-07-14T18:27:17] INFO  PID-68083 TID-70265511472880 ActionController::Base:   Parameters: {"type"=>"university"}
+  Rendered simple_captcha/_simple_captcha.haml (0.1ms)
+  Rendered registrations/_form.haml (37.4ms)
+  Rendered registrations/new.haml within layouts/with_header (39.4ms)
+  Rendered layouts/_header.html.haml (2.0ms)
+  Rendered layouts/_open_graph.haml (5.2ms)
+  Rendered layouts/application.html.haml (152.5ms)
+[2015-07-14T18:27:18] INFO  PID-68083 TID-70265511472880 ActionController::Base: Completed 200 OK in 206ms (Views: 199.2ms | ActiveRecord: 2.7ms)
+[2015-07-14T18:27:28] DEBUG PID-68083 TID-70265527535240 Rails: 
+[2015-07-14T18:27:28] DEBUG PID-68083 TID-70265527535240 Rails: 
+[2015-07-14T18:27:28] INFO  PID-68083 TID-70265527535240 Rails: Started GET "/users/sign_up?type=student" for ::1 at 2015-07-14 18:27:28 +0100
+[2015-07-14T18:27:28] INFO  PID-68083 TID-70265527535240 ActionController::Base: Processing by RegistrationsController#new as HTML
+[2015-07-14T18:27:28] INFO  PID-68083 TID-70265527535240 ActionController::Base:   Parameters: {"type"=>"student"}
+  Rendered simple_captcha/_simple_captcha.haml (0.1ms)
+  Rendered registrations/_form.haml (8.8ms)
+  Rendered registrations/new.haml within layouts/with_header (10.5ms)
+  Rendered layouts/_header.html.haml (0.9ms)
+  Rendered layouts/_open_graph.haml (1.4ms)
+  Rendered layouts/application.html.haml (123.3ms)
+[2015-07-14T18:27:28] INFO  PID-68083 TID-70265527535240 ActionController::Base: Completed 200 OK in 146ms (Views: 139.5ms | ActiveRecord: 1.2ms)
+[2015-07-14T18:27:31] DEBUG PID-68083 TID-70265527536840 Rails: 
+[2015-07-14T18:27:31] DEBUG PID-68083 TID-70265527536840 Rails: 
+[2015-07-14T18:27:31] INFO  PID-68083 TID-70265527536840 Rails: Started GET "/simple_captcha?code=6465f1908e7fe4f412353e82ae6efc02c899350c&time=1436894848" for ::1 at 2015-07-14 18:27:31 +0100
+[2015-07-14T18:27:37] DEBUG PID-68083 TID-70265527535240 Rails: 
+[2015-07-14T18:27:37] DEBUG PID-68083 TID-70265527535240 Rails: 
+[2015-07-14T18:27:37] INFO  PID-68083 TID-70265527535240 Rails: Started GET "/users/sign_up?type=university" for ::1 at 2015-07-14 18:27:37 +0100
+[2015-07-14T18:27:37] INFO  PID-68083 TID-70265527535240 ActionController::Base: Processing by RegistrationsController#new as HTML
+[2015-07-14T18:27:37] INFO  PID-68083 TID-70265527535240 ActionController::Base:   Parameters: {"type"=>"university"}
+  Rendered simple_captcha/_simple_captcha.haml (0.1ms)
+  Rendered registrations/_form.haml (11.0ms)
+  Rendered registrations/new.haml within layouts/with_header (13.8ms)
+  Rendered layouts/_header.html.haml (1.7ms)
+  Rendered layouts/_open_graph.haml (2.2ms)
+  Rendered layouts/application.html.haml (127.6ms)
+[2015-07-14T18:27:37] INFO  PID-68083 TID-70265527535240 ActionController::Base: Completed 200 OK in 155ms (Views: 147.9ms | ActiveRecord: 1.3ms)
+[2015-07-14T18:27:40] DEBUG PID-68083 TID-70265527535240 Rails: 
+[2015-07-14T18:27:40] DEBUG PID-68083 TID-70265527535240 Rails: 
+[2015-07-14T18:27:40] INFO  PID-68083 TID-70265527535240 Rails: Started GET "/simple_captcha?code=3d4dd8e099e1c92ad1c70a3b588a46301225ee8e&time=1436894857" for ::1 at 2015-07-14 18:27:40 +0100
+[2015-07-14T18:27:41] DEBUG PID-68083 TID-70265527535640 Rails: 
+[2015-07-14T18:27:41] DEBUG PID-68083 TID-70265527535640 Rails: 
+[2015-07-14T18:27:41] INFO  PID-68083 TID-70265527535640 Rails: Started GET "/images/landing/UniversityWestmisnter.jpg" for ::1 at 2015-07-14 18:27:41 +0100
+[2015-07-14T18:27:41] FATAL PID-68083 TID-70265527535640 Rails: 
+ActionController::RoutingError (No route matches [GET] "/images/landing/UniversityWestmisnter.jpg"):
+  lib/rack/chrome_frame.rb:39:in `call'
+
+
+  Rendered /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (13.4ms)
+  Rendered /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
+  Rendered /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.8ms)
+  Rendered /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (219.8ms)
+[2015-07-14T18:27:50] DEBUG PID-68083 TID-70265527535640 Rails: 
+[2015-07-14T18:27:50] DEBUG PID-68083 TID-70265527535640 Rails: 
+[2015-07-14T18:27:50] INFO  PID-68083 TID-70265527535640 Rails: Started GET "/users/sign_up?type=university" for ::1 at 2015-07-14 18:27:50 +0100
+[2015-07-14T18:27:50] INFO  PID-68083 TID-70265527535640 ActionController::Base: Processing by RegistrationsController#new as HTML
+[2015-07-14T18:27:50] INFO  PID-68083 TID-70265527535640 ActionController::Base:   Parameters: {"type"=>"university"}
+  Rendered simple_captcha/_simple_captcha.haml (0.2ms)
+  Rendered registrations/_form.haml (28.4ms)
+  Rendered registrations/new.haml within layouts/with_header (30.6ms)
+  Rendered layouts/_header.html.haml (1.6ms)
+  Rendered layouts/_open_graph.haml (2.8ms)
+[2015-07-14T18:27:50] WARN  PID-68083 TID-70265527535640 Rails: DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/entypo-rails-2.2.3/app/assets/stylesheets/entypo-fonts.css.scss to /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/entypo-rails-2.2.3/app/assets/stylesheets/entypo-fonts.scss. (called from _app_views_layouts_application_html_haml__48845546289817915_70265488818480 at /Users/jorgem1r/Desktop/detailbook_dev/detailbook/app/views/layouts/application.html.haml:25)
+[2015-07-14T18:27:51] WARN  PID-68083 TID-70265527535640 Rails: DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/entypo-rails-2.2.3/app/assets/stylesheets/entypo-fonts.css.scss to /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/entypo-rails-2.2.3/app/assets/stylesheets/entypo-fonts.scss. (called from _app_views_layouts_application_html_haml__48845546289817915_70265488818480 at /Users/jorgem1r/Desktop/detailbook_dev/detailbook/app/views/layouts/application.html.haml:25)
+  Rendered layouts/application.html.haml (3534.0ms)
+[2015-07-14T18:27:53] INFO  PID-68083 TID-70265527535640 ActionController::Base: Completed 200 OK in 3581ms (Views: 3555.6ms | ActiveRecord: 18.1ms)
+[2015-07-14T18:28:00] DEBUG PID-68083 TID-70265527536040 Rails: 
+[2015-07-14T18:28:00] DEBUG PID-68083 TID-70265527536040 Rails: 
+[2015-07-14T18:28:00] INFO  PID-68083 TID-70265527536040 Rails: Started GET "/simple_captcha?code=8548aecc6c0e1aa48d704de053d753e654e3520b&time=1436894870" for ::1 at 2015-07-14 18:28:00 +0100
+[2015-07-14T18:29:35] DEBUG PID-68083 TID-70265508572000 Rails: 
+[2015-07-14T18:29:35] DEBUG PID-68083 TID-70265508572000 Rails: 
+[2015-07-14T18:29:35] INFO  PID-68083 TID-70265508572000 Rails: Started GET "/users/sign_up?type=university" for ::1 at 2015-07-14 18:29:35 +0100
+[2015-07-14T18:29:35] INFO  PID-68083 TID-70265508572000 ActionController::Base: Processing by RegistrationsController#new as HTML
+[2015-07-14T18:29:35] INFO  PID-68083 TID-70265508572000 ActionController::Base:   Parameters: {"type"=>"university"}
+  Rendered simple_captcha/_simple_captcha.haml (0.1ms)
+  Rendered registrations/_form.haml (21.8ms)
+  Rendered registrations/new.haml within layouts/with_header (24.8ms)
+  Rendered layouts/_header.html.haml (1.6ms)
+  Rendered layouts/_open_graph.haml (4.4ms)
+[2015-07-14T18:29:35] WARN  PID-68083 TID-70265508572000 Rails: DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/entypo-rails-2.2.3/app/assets/stylesheets/entypo-fonts.css.scss to /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/entypo-rails-2.2.3/app/assets/stylesheets/entypo-fonts.scss. (called from _app_views_layouts_application_html_haml__48845546289817915_70265488818480 at /Users/jorgem1r/Desktop/detailbook_dev/detailbook/app/views/layouts/application.html.haml:25)
+[2015-07-14T18:29:36] WARN  PID-68083 TID-70265508572000 Rails: DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/entypo-rails-2.2.3/app/assets/stylesheets/entypo-fonts.css.scss to /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/entypo-rails-2.2.3/app/assets/stylesheets/entypo-fonts.scss. (called from _app_views_layouts_application_html_haml__48845546289817915_70265488818480 at /Users/jorgem1r/Desktop/detailbook_dev/detailbook/app/views/layouts/application.html.haml:25)
+  Rendered layouts/application.html.haml (3299.2ms)
+[2015-07-14T18:29:38] INFO  PID-68083 TID-70265508572000 ActionController::Base: Completed 200 OK in 3340ms (Views: 3322.4ms | ActiveRecord: 11.9ms)
+[2015-07-14T18:29:45] DEBUG PID-68083 TID-70265508572000 Rails: 
+[2015-07-14T18:29:45] DEBUG PID-68083 TID-70265508572000 Rails: 
+[2015-07-14T18:29:45] INFO  PID-68083 TID-70265508572000 Rails: Started GET "/simple_captcha?code=cbf759c68a3950e87a649e7820e7803d87124b6d&time=1436894975" for ::1 at 2015-07-14 18:29:45 +0100
+[2015-07-14T18:30:34] DEBUG PID-68083 TID-70265457319460 Rails: 
+[2015-07-14T18:30:34] DEBUG PID-68083 TID-70265457319460 Rails: 
+[2015-07-14T18:30:34] INFO  PID-68083 TID-70265457319460 Rails: Started GET "/users/sign_up?type=university" for ::1 at 2015-07-14 18:30:34 +0100
+[2015-07-14T18:30:34] INFO  PID-68083 TID-70265457319460 ActionController::Base: Processing by RegistrationsController#new as HTML
+[2015-07-14T18:30:34] INFO  PID-68083 TID-70265457319460 ActionController::Base:   Parameters: {"type"=>"university"}
+  Rendered simple_captcha/_simple_captcha.haml (0.1ms)
+  Rendered registrations/_form.haml (33.7ms)
+  Rendered registrations/new.haml within layouts/with_header (36.5ms)
+  Rendered layouts/_header.html.haml (2.4ms)
+  Rendered layouts/_open_graph.haml (3.3ms)
+[2015-07-14T18:30:34] WARN  PID-68083 TID-70265457319460 Rails: DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/entypo-rails-2.2.3/app/assets/stylesheets/entypo-fonts.css.scss to /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/entypo-rails-2.2.3/app/assets/stylesheets/entypo-fonts.scss. (called from _app_views_layouts_application_html_haml__48845546289817915_70265488818480 at /Users/jorgem1r/Desktop/detailbook_dev/detailbook/app/views/layouts/application.html.haml:25)
+[2015-07-14T18:30:35] WARN  PID-68083 TID-70265457319460 Rails: DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/entypo-rails-2.2.3/app/assets/stylesheets/entypo-fonts.css.scss to /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/entypo-rails-2.2.3/app/assets/stylesheets/entypo-fonts.scss. (called from _app_views_layouts_application_html_haml__48845546289817915_70265488818480 at /Users/jorgem1r/Desktop/detailbook_dev/detailbook/app/views/layouts/application.html.haml:25)
+  Rendered layouts/application.html.haml (3368.8ms)
+[2015-07-14T18:30:38] INFO  PID-68083 TID-70265457319460 ActionController::Base: Completed 200 OK in 3425ms (Views: 3397.7ms | ActiveRecord: 19.1ms)
+[2015-07-14T18:30:45] DEBUG PID-68083 TID-70265506339700 Rails: 
+[2015-07-14T18:30:45] DEBUG PID-68083 TID-70265506339700 Rails: 
+[2015-07-14T18:30:45] INFO  PID-68083 TID-70265506339700 Rails: Started GET "/simple_captcha?code=0b236dcf857810f0e66b4ba054acd56d1965c9a6&time=1436895034" for ::1 at 2015-07-14 18:30:45 +0100
+[2015-07-14T18:32:43] DEBUG PID-68083 TID-70265132316480 Rails: 
+[2015-07-14T18:32:43] DEBUG PID-68083 TID-70265132316480 Rails: 
+[2015-07-14T18:32:43] INFO  PID-68083 TID-70265132316480 Rails: Started GET "/users/sign_up?type=university" for ::1 at 2015-07-14 18:32:43 +0100
+[2015-07-14T18:32:43] INFO  PID-68083 TID-70265132316480 ActionController::Base: Processing by RegistrationsController#new as HTML
+[2015-07-14T18:32:43] INFO  PID-68083 TID-70265132316480 ActionController::Base:   Parameters: {"type"=>"university"}
+  Rendered simple_captcha/_simple_captcha.haml (0.4ms)
+  Rendered registrations/_form.haml (31.7ms)
+  Rendered registrations/new.haml within layouts/with_header (34.7ms)
+  Rendered layouts/_header.html.haml (1.7ms)
+  Rendered layouts/_open_graph.haml (2.9ms)
+[2015-07-14T18:32:44] WARN  PID-68083 TID-70265132316480 Rails: DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/entypo-rails-2.2.3/app/assets/stylesheets/entypo-fonts.css.scss to /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/entypo-rails-2.2.3/app/assets/stylesheets/entypo-fonts.scss. (called from _app_views_layouts_application_html_haml__48845546289817915_70265488818480 at /Users/jorgem1r/Desktop/detailbook_dev/detailbook/app/views/layouts/application.html.haml:25)
+[2015-07-14T18:32:45] WARN  PID-68083 TID-70265132316480 Rails: DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/entypo-rails-2.2.3/app/assets/stylesheets/entypo-fonts.css.scss to /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/entypo-rails-2.2.3/app/assets/stylesheets/entypo-fonts.scss. (called from _app_views_layouts_application_html_haml__48845546289817915_70265488818480 at /Users/jorgem1r/Desktop/detailbook_dev/detailbook/app/views/layouts/application.html.haml:25)
+  Rendered layouts/application.html.haml (3709.3ms)
+[2015-07-14T18:32:47] INFO  PID-68083 TID-70265132316480 ActionController::Base: Completed 200 OK in 3761ms (Views: 3736.1ms | ActiveRecord: 18.2ms)
+[2015-07-14T18:32:54] DEBUG PID-68083 TID-70265523183180 Rails: 
+[2015-07-14T18:32:54] DEBUG PID-68083 TID-70265523183180 Rails: 
+[2015-07-14T18:32:54] INFO  PID-68083 TID-70265523183180 Rails: Started GET "/simple_captcha?code=bf0846e004d48b65fa01af6ae3e5811c1c23b675&time=1436895163" for ::1 at 2015-07-14 18:32:54 +0100
+[2015-07-14T18:33:04] DEBUG PID-68083 TID-70265513597000 Rails: 
+[2015-07-14T18:33:04] DEBUG PID-68083 TID-70265513597000 Rails: 
+[2015-07-14T18:33:04] INFO  PID-68083 TID-70265513597000 Rails: Started GET "/users/sign_up?type=business" for ::1 at 2015-07-14 18:33:04 +0100
+[2015-07-14T18:33:04] INFO  PID-68083 TID-70265513597000 ActionController::Base: Processing by RegistrationsController#new as HTML
+[2015-07-14T18:33:04] INFO  PID-68083 TID-70265513597000 ActionController::Base:   Parameters: {"type"=>"business"}
+  Rendered simple_captcha/_simple_captcha.haml (0.2ms)
+  Rendered registrations/_form.haml (20.9ms)
+  Rendered registrations/new.haml within layouts/with_header (26.8ms)
+  Rendered layouts/_header.html.haml (4.2ms)
+  Rendered layouts/_open_graph.haml (3.3ms)
+  Rendered layouts/application.html.haml (178.9ms)
+[2015-07-14T18:33:04] INFO  PID-68083 TID-70265513597000 ActionController::Base: Completed 200 OK in 230ms (Views: 216.7ms | ActiveRecord: 2.3ms)
+[2015-07-14T18:33:11] DEBUG PID-68083 TID-70265523183180 Rails: 
+[2015-07-14T18:33:11] DEBUG PID-68083 TID-70265523183180 Rails: 
+[2015-07-14T18:33:11] INFO  PID-68083 TID-70265523183180 Rails: Started GET "/simple_captcha?code=a3d5dcb7b49a37715ef8a1ee7fd930dd2b35847a&time=1436895184" for ::1 at 2015-07-14 18:33:11 +0100
+[2015-07-14T18:33:38] DEBUG PID-68083 TID-70265513597440 Rails: 
+[2015-07-14T18:33:38] DEBUG PID-68083 TID-70265513597440 Rails: 
+[2015-07-14T18:33:38] INFO  PID-68083 TID-70265513597440 Rails: Started GET "/users/sign_up?type=university" for ::1 at 2015-07-14 18:33:38 +0100
+[2015-07-14T18:33:38] INFO  PID-68083 TID-70265513597440 ActionController::Base: Processing by RegistrationsController#new as HTML
+[2015-07-14T18:33:38] INFO  PID-68083 TID-70265513597440 ActionController::Base:   Parameters: {"type"=>"university"}
+  Rendered simple_captcha/_simple_captcha.haml (0.5ms)
+  Rendered registrations/_form.haml (25.8ms)
+  Rendered registrations/new.haml within layouts/with_header (29.7ms)
+  Rendered layouts/_header.html.haml (2.8ms)
+  Rendered layouts/_open_graph.haml (10.1ms)
+  Rendered layouts/application.html.haml (185.0ms)
+[2015-07-14T18:33:38] INFO  PID-68083 TID-70265513597440 ActionController::Base: Completed 200 OK in 237ms (Views: 223.0ms | ActiveRecord: 2.2ms)
+[2015-07-14T18:33:45] DEBUG PID-68083 TID-70265513597440 Rails: 
+[2015-07-14T18:33:45] DEBUG PID-68083 TID-70265513597440 Rails: 
+[2015-07-14T18:33:45] INFO  PID-68083 TID-70265513597440 Rails: Started GET "/simple_captcha?code=894e3e950849ddd2362693ada3c0065f918f85fa&time=1436895218" for ::1 at 2015-07-14 18:33:45 +0100
+[2015-07-14T18:34:13] DEBUG PID-68083 TID-70265132316480 Rails: 
+[2015-07-14T18:34:13] DEBUG PID-68083 TID-70265132316480 Rails: 
+[2015-07-14T18:34:13] INFO  PID-68083 TID-70265132316480 Rails: Started GET "/users/sign_up?type=student" for ::1 at 2015-07-14 18:34:13 +0100
+[2015-07-14T18:34:13] INFO  PID-68083 TID-70265132316480 ActionController::Base: Processing by RegistrationsController#new as HTML
+[2015-07-14T18:34:13] INFO  PID-68083 TID-70265132316480 ActionController::Base:   Parameters: {"type"=>"student"}
+  Rendered simple_captcha/_simple_captcha.haml (0.2ms)
+  Rendered registrations/_form.haml (32.8ms)
+  Rendered registrations/new.haml within layouts/with_header (37.9ms)
+  Rendered layouts/_header.html.haml (5.2ms)
+  Rendered layouts/_open_graph.haml (6.7ms)
+  Rendered layouts/application.html.haml (255.1ms)
+[2015-07-14T18:34:13] INFO  PID-68083 TID-70265132316480 ActionController::Base: Completed 200 OK in 318ms (Views: 300.6ms | ActiveRecord: 9.6ms)
+[2015-07-14T18:34:21] DEBUG PID-68083 TID-70265523183180 Rails: 
+[2015-07-14T18:34:21] DEBUG PID-68083 TID-70265523183180 Rails: 
+[2015-07-14T18:34:21] INFO  PID-68083 TID-70265523183180 Rails: Started GET "/simple_captcha?code=85f65936f92151801d5b0a5380576d5b550fbac8&time=1436895253" for ::1 at 2015-07-14 18:34:21 +0100
+[2015-07-14T18:34:39] DEBUG PID-68083 TID-70265513597440 Rails: 
+[2015-07-14T18:34:39] DEBUG PID-68083 TID-70265513597440 Rails: 
+[2015-07-14T18:34:39] INFO  PID-68083 TID-70265513597440 Rails: Started GET "/users/sign_up?type=student" for ::1 at 2015-07-14 18:34:39 +0100
+[2015-07-14T18:34:39] INFO  PID-68083 TID-70265513597440 ActionController::Base: Processing by RegistrationsController#new as HTML
+[2015-07-14T18:34:39] INFO  PID-68083 TID-70265513597440 ActionController::Base:   Parameters: {"type"=>"student"}
+  Rendered simple_captcha/_simple_captcha.haml (0.2ms)
+  Rendered registrations/_form.haml (31.3ms)
+  Rendered registrations/new.haml within layouts/with_header (33.9ms)
+  Rendered layouts/_header.html.haml (1.4ms)
+  Rendered layouts/_open_graph.haml (3.0ms)
+[2015-07-14T18:34:39] WARN  PID-68083 TID-70265513597440 Rails: DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/entypo-rails-2.2.3/app/assets/stylesheets/entypo-fonts.css.scss to /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/entypo-rails-2.2.3/app/assets/stylesheets/entypo-fonts.scss. (called from _app_views_layouts_application_html_haml__48845546289817915_70265488818480 at /Users/jorgem1r/Desktop/detailbook_dev/detailbook/app/views/layouts/application.html.haml:25)
+[2015-07-14T18:34:40] WARN  PID-68083 TID-70265513597440 Rails: DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/entypo-rails-2.2.3/app/assets/stylesheets/entypo-fonts.css.scss to /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/entypo-rails-2.2.3/app/assets/stylesheets/entypo-fonts.scss. (called from _app_views_layouts_application_html_haml__48845546289817915_70265488818480 at /Users/jorgem1r/Desktop/detailbook_dev/detailbook/app/views/layouts/application.html.haml:25)
+  Rendered layouts/application.html.haml (3396.3ms)
+[2015-07-14T18:34:42] INFO  PID-68083 TID-70265513597440 ActionController::Base: Completed 200 OK in 3445ms (Views: 3422.2ms | ActiveRecord: 17.8ms)
+[2015-07-14T18:34:49] DEBUG PID-68083 TID-70265132316480 Rails: 
+[2015-07-14T18:34:49] DEBUG PID-68083 TID-70265132316480 Rails: 
+[2015-07-14T18:34:49] INFO  PID-68083 TID-70265132316480 Rails: Started GET "/simple_captcha?code=fe998d9625f319664d2f7709e963997e5544a192&time=1436895279" for ::1 at 2015-07-14 18:34:49 +0100
+[2015-07-14T18:35:11] DEBUG PID-68083 TID-70265491690320 Rails: 
+[2015-07-14T18:35:11] DEBUG PID-68083 TID-70265491690320 Rails: 
+[2015-07-14T18:35:11] INFO  PID-68083 TID-70265491690320 Rails: Started GET "/" for ::1 at 2015-07-14 18:35:11 +0100
+[2015-07-14T18:35:11] INFO  PID-68083 TID-70265491690320 ActionController::Base: Processing by HomeController#show as HTML
+  Rendered home/default.haml within layouts/application (25.7ms)
+  Rendered layouts/_open_graph.haml (2.8ms)
+[2015-07-14T18:35:11] WARN  PID-68083 TID-70265491690320 Rails: DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/entypo-rails-2.2.3/app/assets/stylesheets/entypo-fonts.css.scss to /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/entypo-rails-2.2.3/app/assets/stylesheets/entypo-fonts.scss. (called from _app_views_layouts_application_html_haml__48845546289817915_70265488818480 at /Users/jorgem1r/Desktop/detailbook_dev/detailbook/app/views/layouts/application.html.haml:25)
+[2015-07-14T18:35:12] WARN  PID-68083 TID-70265491690320 Rails: DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/entypo-rails-2.2.3/app/assets/stylesheets/entypo-fonts.css.scss to /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/entypo-rails-2.2.3/app/assets/stylesheets/entypo-fonts.scss. (called from _app_views_layouts_application_html_haml__48845546289817915_70265488818480 at /Users/jorgem1r/Desktop/detailbook_dev/detailbook/app/views/layouts/application.html.haml:25)
+[2015-07-14T18:35:14] INFO  PID-68083 TID-70265491690320 ActionController::Base: Completed 200 OK in 3431ms (Views: 3425.7ms | ActiveRecord: 0.0ms)
+[2015-07-14T18:35:17] DEBUG PID-68083 TID-70265513597440 Rails: 
+[2015-07-14T18:35:17] DEBUG PID-68083 TID-70265513597440 Rails: 
+[2015-07-14T18:35:17] INFO  PID-68083 TID-70265513597440 Rails: Started GET "/users/sign_up?type=student" for ::1 at 2015-07-14 18:35:17 +0100
+[2015-07-14T18:35:17] INFO  PID-68083 TID-70265513597440 ActionController::Base: Processing by RegistrationsController#new as HTML
+[2015-07-14T18:35:17] INFO  PID-68083 TID-70265513597440 ActionController::Base:   Parameters: {"type"=>"student"}
+  Rendered simple_captcha/_simple_captcha.haml (0.1ms)
+  Rendered registrations/_form.haml (40.2ms)
+  Rendered registrations/new.haml within layouts/with_header (42.6ms)
+  Rendered layouts/_header.html.haml (1.1ms)
+  Rendered layouts/_open_graph.haml (1.5ms)
+  Rendered layouts/application.html.haml (131.8ms)
+[2015-07-14T18:35:17] INFO  PID-68083 TID-70265513597440 ActionController::Base: Completed 200 OK in 189ms (Views: 155.1ms | ActiveRecord: 29.5ms)
+[2015-07-14T18:35:25] DEBUG PID-68083 TID-70265513597440 Rails: 
+[2015-07-14T18:35:25] DEBUG PID-68083 TID-70265513597440 Rails: 
+[2015-07-14T18:35:25] INFO  PID-68083 TID-70265513597440 Rails: Started GET "/simple_captcha?code=af40790d6b3553b5161b31741a5f99410a10fa94&time=1436895317" for ::1 at 2015-07-14 18:35:25 +0100
+[2015-07-14T18:38:37] DEBUG PID-68083 TID-70265505953260 Rails: 
+[2015-07-14T18:38:37] DEBUG PID-68083 TID-70265505953260 Rails: 
+[2015-07-14T18:38:37] INFO  PID-68083 TID-70265505953260 Rails: Started GET "/users/sign_up?type=university" for ::1 at 2015-07-14 18:38:37 +0100
+[2015-07-14T18:38:37] INFO  PID-68083 TID-70265505953260 ActionController::Base: Processing by RegistrationsController#new as HTML
+[2015-07-14T18:38:37] INFO  PID-68083 TID-70265505953260 ActionController::Base:   Parameters: {"type"=>"university"}
+  Rendered simple_captcha/_simple_captcha.haml (0.1ms)
+  Rendered registrations/_form.haml (34.3ms)
+  Rendered registrations/new.haml within layouts/with_header (38.4ms)
+  Rendered layouts/_header.html.haml (4.2ms)
+  Rendered layouts/_open_graph.haml (2.6ms)
+[2015-07-14T18:38:37] WARN  PID-68083 TID-70265505953260 Rails: DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/entypo-rails-2.2.3/app/assets/stylesheets/entypo-fonts.css.scss to /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/entypo-rails-2.2.3/app/assets/stylesheets/entypo-fonts.scss. (called from _app_views_layouts_application_html_haml__48845546289817915_70265488818480 at /Users/jorgem1r/Desktop/detailbook_dev/detailbook/app/views/layouts/application.html.haml:25)
+[2015-07-14T18:38:38] WARN  PID-68083 TID-70265505953260 Rails: DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/entypo-rails-2.2.3/app/assets/stylesheets/entypo-fonts.css.scss to /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/entypo-rails-2.2.3/app/assets/stylesheets/entypo-fonts.scss. (called from _app_views_layouts_application_html_haml__48845546289817915_70265488818480 at /Users/jorgem1r/Desktop/detailbook_dev/detailbook/app/views/layouts/application.html.haml:25)
+  Rendered layouts/application.html.haml (3378.4ms)
+[2015-07-14T18:38:41] INFO  PID-68083 TID-70265505953260 ActionController::Base: Completed 200 OK in 3445ms (Views: 3421.7ms | ActiveRecord: 13.5ms)
+[2015-07-14T18:38:48] DEBUG PID-68083 TID-70265511488680 Rails: 
+[2015-07-14T18:38:48] DEBUG PID-68083 TID-70265511488680 Rails: 
+[2015-07-14T18:38:48] INFO  PID-68083 TID-70265511488680 Rails: Started GET "/simple_captcha?code=b3c93f14802f43b4c90c1039251134490f62fcbd&time=1436895517" for ::1 at 2015-07-14 18:38:48 +0100
+[2015-07-14T18:39:42] DEBUG PID-68083 TID-70265406572700 Rails: 
+[2015-07-14T18:39:42] DEBUG PID-68083 TID-70265406572700 Rails: 
+[2015-07-14T18:39:42] INFO  PID-68083 TID-70265406572700 Rails: Started GET "/users/sign_up?type=business" for ::1 at 2015-07-14 18:39:42 +0100
+[2015-07-14T18:39:42] INFO  PID-68083 TID-70265406572700 ActionController::Base: Processing by RegistrationsController#new as HTML
+[2015-07-14T18:39:42] INFO  PID-68083 TID-70265406572700 ActionController::Base:   Parameters: {"type"=>"business"}
+  Rendered simple_captcha/_simple_captcha.haml (0.1ms)
+  Rendered registrations/_form.haml (33.8ms)
+  Rendered registrations/new.haml within layouts/with_header (37.7ms)
+  Rendered layouts/_header.html.haml (3.8ms)
+  Rendered layouts/_open_graph.haml (8.9ms)
+  Rendered layouts/application.html.haml (245.6ms)
+[2015-07-14T18:39:43] INFO  PID-68083 TID-70265406572700 ActionController::Base: Completed 200 OK in 311ms (Views: 285.9ms | ActiveRecord: 14.3ms)
+[2015-07-14T18:39:50] DEBUG PID-68083 TID-70265406572700 Rails: 
+[2015-07-14T18:39:50] DEBUG PID-68083 TID-70265406572700 Rails: 
+[2015-07-14T18:39:50] INFO  PID-68083 TID-70265406572700 Rails: Started GET "/simple_captcha?code=07aecde28af6ed3c7fceec67d98abed44ac9448f&time=1436895582" for ::1 at 2015-07-14 18:39:50 +0100
+[2015-07-14T18:44:58] DEBUG PID-68083 TID-70265489514980 Rails: 
+[2015-07-14T18:44:58] DEBUG PID-68083 TID-70265489514980 Rails: 
+[2015-07-14T18:44:58] INFO  PID-68083 TID-70265489514980 Rails: Started GET "/users/sign_up?type=tutor" for ::1 at 2015-07-14 18:44:58 +0100
+[2015-07-14T18:44:58] INFO  PID-68083 TID-70265489514980 ActionController::Base: Processing by RegistrationsController#new as HTML
+[2015-07-14T18:44:58] INFO  PID-68083 TID-70265489514980 ActionController::Base:   Parameters: {"type"=>"tutor"}
+  Rendered simple_captcha/_simple_captcha.haml (1.0ms)
+  Rendered registrations/_form.haml (48.5ms)
+  Rendered registrations/new.haml within layouts/with_header (56.5ms)
+  Rendered layouts/_header.html.haml (3.1ms)
+  Rendered layouts/_open_graph.haml (6.3ms)
+[2015-07-14T18:44:58] WARN  PID-68083 TID-70265489514980 Rails: DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/entypo-rails-2.2.3/app/assets/stylesheets/entypo-fonts.css.scss to /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/entypo-rails-2.2.3/app/assets/stylesheets/entypo-fonts.scss. (called from _app_views_layouts_application_html_haml__48845546289817915_70265488818480 at /Users/jorgem1r/Desktop/detailbook_dev/detailbook/app/views/layouts/application.html.haml:25)
+[2015-07-14T18:45:00] WARN  PID-68083 TID-70265489514980 Rails: DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/entypo-rails-2.2.3/app/assets/stylesheets/entypo-fonts.css.scss to /Users/jorgem1r/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/entypo-rails-2.2.3/app/assets/stylesheets/entypo-fonts.scss. (called from _app_views_layouts_application_html_haml__48845546289817915_70265488818480 at /Users/jorgem1r/Desktop/detailbook_dev/detailbook/app/views/layouts/application.html.haml:25)
+  Rendered layouts/application.html.haml (3813.0ms)
+[2015-07-14T18:45:02] INFO  PID-68083 TID-70265489514980 ActionController::Base: Completed 200 OK in 3912ms (Views: 3880.5ms | ActiveRecord: 5.5ms)
+[2015-07-14T18:45:09] DEBUG PID-68083 TID-70265524552160 Rails: 
+[2015-07-14T18:45:09] DEBUG PID-68083 TID-70265524552160 Rails: 
+[2015-07-14T18:45:09] INFO  PID-68083 TID-70265524552160 Rails: Started GET "/simple_captcha?code=da1e7d51024a944b424506d97e984b12ade4c08d&time=1436895898" for ::1 at 2015-07-14 18:45:09 +0100
+[2015-07-15T18:12:25] DEBUG PID-68083 TID-70265528992260 Rails: 

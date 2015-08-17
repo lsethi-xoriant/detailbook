@@ -1,0 +1,151 @@
+- content_for(:head) do
+  = stylesheet_link_tag :home, media: "all"
+  = stylesheet_link_tag "//fonts.googleapis.com/css?family=Pacifico", media: "all"
+#page.container
+  %header#header
+    / Added Register Button
+    %ul#login-link.nav.navbar-nav.navbar-right
+      %li
+        .btn-group
+          %button#login-link.btn.btn-default.dropdown-toggle{"aria-expanded" => "false", "aria-haspopup" => "true", "data-toggle" => "dropdown", :type => "button"}
+            Register
+            %span.caret
+          %ul.dropdown-menu
+            %li
+              = link_to "Student", new_user_registration_path(type: "student")
+            %li
+              = link_to "Tutor", new_user_registration_path(type: "tutor")
+            %li
+              = link_to "University", new_user_registration_path(type: "university")
+            %li
+              = link_to "Business", new_user_registration_path(type: "business")
+          // Added Register Button
+        %a#login-link.btn.btn-primary{:href => "login"} Log In
+      %li
+    = link_to "DetailBook", root_path, :class => "logo-brand" 
+  
+  #myCarousel.carousel.slide
+    %ul.carousel-indicators
+      %li.active{"data-slide-to" => "0", "data-target" => "#myCarousel"}
+      %li{"data-slide-to" => "1", "data-target" => "#myCarousel"}
+      %li{"data-slide-to" => "2", "data-target" => "#myCarousel"}
+      %li{"data-slide-to" => "3", "data-target" => "#myCarousel"}
+      %li{"data-slide-to" => "4", "data-target" => "#myCarousel"}
+      %li{"data-slide-to" => "5", "data-target" => "#myCarousel"}
+      %li{"data-slide-to" => "6", "data-target" => "#myCarousel"}
+    / Carousel items
+    .carousel-inner
+      .active.item
+        = image_tag "landing/London.jpg"
+      .item
+        = image_tag "landing/NewYork.jpg"
+      .item
+        = image_tag "landing/Singapore.jpg"
+      .item
+        = image_tag "landing/Mumbai.jpg"
+      .item
+        = image_tag "landing/Dubai.jpg"
+      .item
+        = image_tag "landing/world1.jpg"
+    / Carousel nav
+    %a.carousel-control.left{"data-slide" => "prev", :href => "#myCarousel"} &lsaquo;
+    %a.carousel-control.right{"data-slide" => "next", :href => "#myCarousel"} &rsaquo;
+
+
+  
+
+  / #banner.row
+  /   %h1 Welcome, friend.
+  /   %h3 You're about to change the Internet. Let's get you set up, shall wet?
+  #steps.row
+    .span3
+      %h2 Student
+      = image_tag "landing/rsz_student-icon_1.png"
+      %br
+      %br
+      %p
+        Students can enhance their academic and employability skills
+    .span3
+      %h2 Tutor
+      = image_tag "landing/easel-icon.png"
+      %br
+      %br
+      %p
+        Tutors can teach students online through Detailbook
+    .span3
+      %h2 University
+      = image_tag "landing/rsz_bank-icon.png"
+      %br
+      %br
+      %p
+        Universities can enhance students' productivity
+    .span3
+      %h2 Business
+      = image_tag "landing/briefcase-icon.png"
+      %br
+      %br
+      %p
+        Businesses can post jobs & select potential candidates
+  / Second Row
+  #steps.row
+    .span2
+      %h2 Interact
+      = image_tag "landing/person-icon.png"
+      %br
+      %br
+      %p
+        Connect with people in your university and other universities around the world
+    .span3
+      %h2 Event
+      = image_tag "landing/calendar-icon.png"
+      %br
+      %br
+      %p
+        Attend or share your upcoming events to grow your connections
+    .span2
+      %h2 Books
+      = image_tag "landing/file-icon.png"
+      %br
+      %br
+      %p
+        Buy, sell or swap your unwanted books through DetailBook
+    .span3
+      %h2 Note
+      = image_tag "landing/puzzle-icon.png"
+      %br
+      %br
+      %p
+        Exchange or share your study notes to seek support & enhance your academic skills
+    .span2
+      %h2 Opportunity
+      = image_tag "landing/world-stat-icon.png"
+      %br
+      %br
+      %p
+        Get discovered by our passionate companies & the wide range of opportunities available
+  / %footer
+  /   %h3 Useful Resources
+  /   %ul#links
+  /     %ul.section
+  /       %li
+  /         = link_to "Codebase", "http://github.com/diaspora/diaspora", title: "Git repository"
+  /       %li
+  /         = link_to "Documentation", "http://wiki.diasporafoundation.org", title: "Wiki on github"
+  /     %ul.section
+  /       %li
+  /         = link_to "IRC - General", "http://webchat.freenode.net/?channels=diaspora", title: "#diaspora"
+  /       %li
+  /         = link_to "IRC - Development", "http://webchat.freenode.net/?channels=diaspora-dev", title: "#diaspora-dev"
+  /     %ul.section
+  /       %li
+  /         = link_to "Discussion - General", "http://groups.google.com/group/diaspora-discuss", title: "General discussion mailing list"
+  /       %li
+  /         = link_to "Discussion - Development", "http://groups.google.com/group/diaspora-dev", title: "Dev mailing list"
+  /     %ul.section
+  /       %li
+  /         = link_to "Find & Report bugs", "https://github.com/diaspora/diaspora/issues", title: "Bug tracker"
+  /       %li
+  /         = link_to "Learn more about Ruby On Rails!", "http://guides.rubyonrails.org/"
+  / #change-page
+  /   This page can be changed to a custom landing page by creating
+  /   %code app/views/home/_show.html.haml
