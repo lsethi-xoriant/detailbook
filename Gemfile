@@ -53,10 +53,11 @@ gem "rack-cors", "0.4.0", require: "rack/cors"
 
 # CSS
 
-gem "bootstrap-sass", "2.3.2.2"
+gem 'bootstrap-sass', '~> 3.3.5'
 gem "compass-rails",  "2.0.4"
 gem "sass-rails",     "5.0.1"
 gem "autoprefixer-rails", "5.1.11"
+gem 'font-awesome-sass', '~> 4.3.0'
 
 # for Admin stuff #
 #gem 'activeadmin'
@@ -254,6 +255,8 @@ group :development do
   gem "spring", "1.3.5"
   gem "spring-commands-rspec", "1.0.4"
   gem "spring-commands-cucumber", "1.0.1"
+
+  gem "rails-erd"
 
   # Debugging
   gem "pry"
