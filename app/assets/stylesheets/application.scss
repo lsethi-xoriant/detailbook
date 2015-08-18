@@ -1,5 +1,6 @@
 @import "bootstrap-sprockets";
-@import "bootstrap";
+@import "node_modules/bootstrap.css";
+
 
 @import 'perfect-scrollbar';
 
@@ -97,3 +98,4 @@
 
 /* statistics */
 @import 'new_styles/statistics';
+

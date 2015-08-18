@@ -46,7 +46,4 @@
 //= require aspects-dropdown
 //= require mentions
 //= require bootstrap
-//= require bootstrap
-//= require bootstrap
-//= require bootstrap
 //= require osmlocator
