@@ -14,8 +14,8 @@
       %li.aspect_selector{ :class => ('selected' if aspect_membership_ids[aspect.id].present?), 'data-aspect_id' => aspect.id, 'data-membership_id' => aspect_membership_ids[aspect.id], :tabindex => '0' }
         %a
           %span.status_indicator
-            %i.icon-ok
-            %i.icon-refresh
+            %i.glyphicon-ok
+            %i.glyphicon-refresh
           %span.text
             = aspect.name
 

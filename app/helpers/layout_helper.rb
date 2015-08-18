@@ -46,7 +46,7 @@ module LayoutHelper
   end
 
   def include_base_css_framework
-    stylesheet_link_tag('bootstrap-complete')
+    stylesheet_link_tag('bootstrap')
   end
 
   def old_browser_js_support

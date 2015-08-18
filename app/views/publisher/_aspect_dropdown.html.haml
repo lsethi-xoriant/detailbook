@@ -19,13 +19,13 @@
     %li.public.radio{"data-aspect_id" => "public", :class => ("selected" if publisher_public)}
       %a
         %span.status_indicator
-          %i.icon-ok
+          %i.glyphicon-ok
         %span.text
           = t('public')
     %li.all_aspects.radio{"data-aspect_id" => "all_aspects", :class => ("selected" if (!publisher_public && all_aspects_selected?(selected_aspects)))}
       %a
         %span.status_indicator
-          %i.icon-ok
+          %i.glyphicon-ok
         %span.text
           = t('all_aspects')
     %li.divider
@@ -33,6 +33,6 @@
       %li.aspect_selector{ 'data-aspect_id' => aspect.id, :class => !all_aspects_selected?(selected_aspects) && selected_aspects.include?(aspect) ? "selected" : "" }
         %a
           %span.status_indicator
-            %i.icon-ok
+            %i.glyphicon-ok
           %span.text
             = aspect.name

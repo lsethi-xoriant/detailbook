@@ -104,7 +104,7 @@ app.Router = Backbone.Router.extend({
     this.renderPage(function() {
       return new app.pages.Profile({
         person_id: guid,
-        el: $('body > .container-fluid'),
+        el: $('body > .container'),
         streamCollection: app.collections.Photos,
         streamView: app.views.Photos
       });
@@ -171,7 +171,7 @@ app.Router = Backbone.Router.extend({
 
   profile: function() {
     this.renderPage(function() { return new app.pages.Profile({
-      el: $('body > .container-fluid')
+      el: $('body > .container')
     }); });
   }
 });
