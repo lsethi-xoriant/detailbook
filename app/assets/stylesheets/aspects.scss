@@ -6,17 +6,17 @@
       height: 14px;
       display: inline-block;
     }
-    .icon-ok, .icon-refresh {
+    .glyphicon-ok, .glyphicon-refresh {
       padding-right: 5px;
       display: none;
     }
     &.selected {
-      .icon-ok { display: inline-block;}
-      .icon-refresh { display: none;}
+      .glyphicon-ok { display: inline-block;}
+      .glyphicon-refresh { display: none;}
     }
     &.loading {
-      .icon-refresh { display: inline-block;}
-      .icon-ok { display: none;}
+      .glyphicon-refresh { display: inline-block;}
+      .glyphicon-ok { display: none;}
     }
     a {
       .text {

@@ -84,11 +84,11 @@
         line-height: $line-height !important;
       }
 
-      &.with_attachments .row-fluid#photodropzone_container {
+      &.with_attachments .row#photodropzone_container {
         border-top: 1px dashed $border-grey;
       }
 
-      .row-fluid#poll_creator_container {
+      .row#poll_creator_container {
         display: none;
         border-top: 1px dashed $border-grey;
         padding:4px 6px 4px 6px;
@@ -104,7 +104,7 @@
         }
       }
 
-      &.with_location .row-fluid#location_container {
+      &.with_location .row#location_container {
         height: 30px;
         border-top: 1px dashed $border-grey;
         input[type='text'] {
@@ -112,7 +112,7 @@
           color: $text-grey;
         }
       }
-      &.active .row-fluid#button_container {
+      &.active .row#button_container {
         border-top: 1px solid $border-grey;
       }
 

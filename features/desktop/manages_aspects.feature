@@ -67,14 +67,14 @@ Feature: User manages contacts
     And I have 0 contacts
     And I click on my name in the header
     When I follow "Contacts"
-    Then I should see "Community spotlight" within ".span9"
+    Then I should see "Community spotlight" within ".col-md-9"
 
   Scenario: clicking on the contacts link in the header with contacts does not send a user to the featured users page
     Given I am signed in
     And I have 2 contacts
     And I click on my name in the header
     When I follow "Contacts"
-    Then I should not see "Community spotlight" within ".span9"
+    Then I should not see "Community spotlight" within ".col-md-9"
 
   Scenario: sorting the aspects
     Given I am signed in

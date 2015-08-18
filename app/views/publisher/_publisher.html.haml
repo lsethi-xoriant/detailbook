@@ -4,7 +4,7 @@
         if( app.publisher ) app.publisher.triggerGettingStarted();
       });
 
-.row-fluid#publisher{:class => ((aspect == :profile || publisher_open) ? "mention_popup" : "closed")}
+.row#publisher{:class => ((aspect == :profile || publisher_open) ? "mention_popup" : "closed")}
   .content_creation
     = form_for(StatusMessage.new) do |status|
       = status.error_messages
@@ -18,13 +18,13 @@
             = status.text_area :fake_text, :rows => 2, :value => h(publisher_formatted_text), :tabindex => 1, :placeholder => "#{t('contacts.index.start_a_conversation')}..."
           = status.hidden_field :text, :value => h(publisher_hidden_text), :class => 'clear_on_submit'
 
-          .row-fluid#photodropzone_container
+          .row#photodropzone_container
             %ul#photodropzone
-          .row-fluid#location_container
+          .row#location_container
             = hidden_field :location, :coords
-          .row-fluid#poll_creator_container
+          .row#poll_creator_container
             -# handlebars template
-          .row-fluid#button_container
+          .row#button_container
             #publisher-images.pull-right
               #poll_creator.btn.btn-link{:title => t('shared.publisher.poll.add_a_poll')}
                 %i.entypo.bar-graph
@@ -45,9 +45,9 @@
         - for aspect_id in aspect_ids
           = hidden_field_tag 'aspect_ids[]', aspect_id.to_s
 
-      .row-fluid#publisher_spinner{:class => 'hidden'}
+      .row#publisher_spinner{:class => 'hidden'}
         = image_tag 'ajax-loader.gif'
-      .row-fluid.options_and_submit
+      .row.options_and_submit
         .public_toggle
           .btn.btn-default.pull-left#hide_publisher{:title => t('shared.publisher.discard_post')}
             %span.text
