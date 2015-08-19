@@ -84,25 +84,25 @@ ast:
       updating: "anovando"
     index:
       diaspora_id:
-        content_1: "La to ID de diaspora* ye:"
-        content_2: "Compártila per uquiera y podrán alcontrate'n Diaspora*."
-        heading: "ID de diaspora*"
+        content_1: "La to ID de detailbook* ye:"
+        content_2: "Compártila per uquiera y podrán alcontrate'n Detailbook*."
+        heading: "ID de detailbook*"
       donate: "Donar"
-      handle_explanation: "Esta ye la to ID de diaspora*. Como una direición de corréu, pues dala pa que la xente t'alcuentre."
+      handle_explanation: "Esta ye la to ID de detailbook*. Como una direición de corréu, pues dala pa que la xente t'alcuentre."
       help:
         do_you: "¿Seique:"
         email_feedback: "Si lo prefieres, manda la to opinión %{link}"
         feature_suggestion: "... tienes %{link} que suxerir?"
         find_a_bug: "... alcuentres %{link}?"
         have_a_question: "... tienes %{link}?"
-        here_to_help: "¡La comunidá de diaspora* ta equí p'ayudate!"
+        here_to_help: "¡La comunidá de detailbook* ta equí p'ayudate!"
         need_help: "¿Necesites ayuda?"
         tag_bug: "un fallu"
         tag_feature: "una carauterística"
         tag_question: "una entruga"
       introduce_yourself: "Esta ye la to canal.  Entra y preséntati."
       new_here:
-        follow: "¡Sigui %{link} y da la bienvenida a diaspora* a los usuarios nuevos!"
+        follow: "¡Sigui %{link} y da la bienvenida a detailbook* a los usuarios nuevos!"
         learn_more: "Más información"
         title: "Da la bienvenida a los usuarios nuevos"
       no_contacts: "Nun hai contautos"
@@ -110,10 +110,10 @@ ast:
       people_sharing_with_you: "Persones que comparten contigo"
       post_a_message: "publica un mensaxe >>"
       services:
-        content: "Pues coneutar los servicios siguientes a diaspora*:"
+        content: "Pues coneutar los servicios siguientes a detailbook*:"
         heading: "Coneutar servicios"
       unfollow_tag: "Dexar de siguir #%{tag}"
-      welcome_to_diaspora: "¡Afáyati en diaspora*, %{name}!"
+      welcome_to_diaspora: "¡Afáyati en detailbook*, %{name}!"
     new:
       create: "Crear"
       name: "Nome (visible pa ti namái)"
@@ -137,9 +137,9 @@ ast:
     zero: "nun hai aspeutos"
   back: "Anterior"
   bookmarklet:
-    explanation: "Publicar en diaspora* dende uquiera poniendo esti enllaz nos marcadores => %{link}."
+    explanation: "Publicar en detailbook* dende uquiera poniendo esti enllaz nos marcadores => %{link}."
     heading: "Bookmarklet"
-    post_something: "Publicar en diaspora*"
+    post_something: "Publicar en detailbook*"
     post_success: "¡Publicao! Zarrando."
   cancel: "Encaboxar"
   comments:

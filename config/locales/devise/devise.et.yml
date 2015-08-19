@@ -32,7 +32,7 @@ et:
       inviter:
         accept_at: "aadressil %{url}, sa saad kutse aksepteerida.kasutades alljärgnevat linki."
         has_invited_you: "%{name}"
-        have_invited_you: "%{names} on kutsunud sind Diasporaga liituma"
+        have_invited_you: "%{names} on kutsunud sind Detailbook liituma"
       reset_password_instructions:
         change: "Muuda mu parooli"
         subject: "Parooli taastamise juhised"

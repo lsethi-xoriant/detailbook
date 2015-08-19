@@ -85,25 +85,25 @@ lt:
       updating: "Atnaujinama..."
     index:
       diaspora_id:
-        content_1: "Jūsų unikalus Diaspora ID:"
-        content_2: "Jo pagalba Jus galima surasti Diaspora tinkle."
-        heading: "Unikalus Diaspora ID"
+        content_1: "Jūsų unikalus Detailbook ID:"
+        content_2: "Jo pagalba Jus galima surasti Detailbook tinkle."
+        heading: "Unikalus Detailbook ID"
       donate: "Aukoti dabar"
-      handle_explanation: "Tai tavo unikalus numeris Diaspora tinkle. Jis, kaip ir el. pašto adresas, leidžia kitiems žmonėms surasti Jus tinkle."
+      handle_explanation: "Tai tavo unikalus numeris Detailbook tinkle. Jis, kaip ir el. pašto adresas, leidžia kitiems žmonėms surasti Jus tinkle."
       help:
         do_you: "Ar:"
         email_feedback: "%{link} Jūsų atsiliepimai"
         feature_suggestion: "... galite pasiūlyti %{link}?"
         find_a_bug: "...randate %{link}?"
         have_a_question: "... turite %{link}?"
-        here_to_help: "Diaspora bendruomenė tau gali padėti!"
+        here_to_help: "Detailbook bendruomenė tau gali padėti!"
         need_help: "Reikia pagalbos?"
         tag_bug: "nesklandumų"
         tag_feature: "ypatybė"
         tag_question: "klausimų"
       introduce_yourself: "Tai Jūsų srautas. Užeikite ir prisistatykite."
       new_here:
-        follow: "Sekti %{link} ir pasveikinti naujus tinklapio Diaspora* vartotojus!"
+        follow: "Sekti %{link} ir pasveikinti naujus tinklapio Detailbook* vartotojus!"
         learn_more: "Sužinoti daugiau"
         title: "Pasveikinkite naujus vartotojus"
       no_contacts: "Kontaktų nėra"
@@ -111,10 +111,10 @@ lt:
       people_sharing_with_you: "Žmonės dalijasi su jumis"
       post_a_message: "Parašyti žinutę"
       services:
-        content: "Jūs galite prijungti šias paslaugas prie savo Diaspora tinklapio:"
+        content: "Jūs galite prijungti šias paslaugas prie savo Detailbook tinklapio:"
         heading: "Prijungti paslaugas"
       unfollow_tag: "Sustabdyti sekimą #%{tag}"
-      welcome_to_diaspora: "Sveiki atvykę į tinklapį Diaspora, %{name}!"
+      welcome_to_diaspora: "Sveiki atvykę į tinklapį Detailbook, %{name}!"
     new:
       create: "Sukurti"
       name: "Vardas (matomas tik Jums)"
@@ -138,9 +138,9 @@ lt:
     zero: "Nėra kategorijų"
   back: "Atgal"
   bookmarklet:
-    explanation: "Paskelbkite tinkle Diaspora %{link} paspausdami šią nuorodą => %{link}"
-    heading: "Diaspora žymelės"
-    post_something: "Paskelbti Diaspora"
+    explanation: "Paskelbkite tinkle Detailbook %{link} paspausdami šią nuorodą => %{link}"
+    heading: "Detailbook žymelės"
+    post_something: "Paskelbti Detailbook"
     post_success: "Įrašas išsiųstas!"
   cancel: "Atšaukti"
   comments:
@@ -226,7 +226,7 @@ lt:
     new:
       already_invited: "Already invited"
       aspect: "Kategorija"
-      check_out_diaspora: "Užeik į tinklą Diaspora!"
+      check_out_diaspora: "Užeik į tinklą Detailbook!"
       if_they_accept_info: "Kvietimus priėmę žmonės bus pridėti prie kategorijos į kurią kvietėte."
       invite_someone_to_join: "Pakviesk ką nors prisijungti prie Diasporos!"
       language: "Kalba"
@@ -238,8 +238,8 @@ lt:
   layouts:
     application:
       back_to_top: "Į viršų"
-      powered_by: "TINKLAPĮ LEIDŽIA DIASPORA*"
-      public_feed: "Viešas atsiliepimas apie Diaspora %{name}"
+      powered_by: "TINKLAPĮ LEIDŽIA Detailbook*"
+      public_feed: "Viešas atsiliepimas apie Detailbook %{name}"
       toggle: "toggle mobile site"
       whats_new: "Kas naujo?"
       your_aspects: "Jūsų kategorijos"
@@ -361,18 +361,18 @@ lt:
       view_post: "parodyti įrašą"
     mentioned:
       mentioned: "paminėjo Jus įraše:"
-      subject: "%{name} paminėjo Jus Diaspora* tinkle"
+      subject: "%{name} paminėjo Jus Detailbook* tinkle"
     private_message:
       reply_to_or_view: "Atrašyti arba parodyti pokalbį"
     reshared:
       reshared: "%{name} just reshared your post"
       view_post: "parodyti įrašą"
     single_admin:
-      admin: "Jūsų Diaspora tinklo administratorius"
-      subject: "A message from your Diaspora administrator:"
+      admin: "Jūsų Detailbook tinklo administratorius"
+      subject: "A message from your Detailbook administrator:"
     started_sharing:
       sharing: "Pradėjo su jumis dalintis"
-      subject: "%{name} has started sharing with you on Diaspora*"
+      subject: "%{name} has started sharing with you on Detailbook*"
       view_profile: "Rodyti %{name} anketą"
     thanks: "Dėkojame"
     to_change_your_notification_settings: "kad pakeisti savo įspėjimų nustatymus"
@@ -448,7 +448,7 @@ lt:
   profiles:
     edit:
       your_tags: "You: in 5 #tags"
-      your_tags_placeholder: "i.e. #diaspora #ironing #kittens #music"
+      your_tags_placeholder: "i.e. #detailbook #ironing #kittens #music"
   public: "Viešas"
   reactions:
     few: "%{count} reakcijos"
@@ -516,10 +516,10 @@ lt:
   settings: "Nustatymai"
   shared:
     add_contact:
-      create_request: "Rask pagal Diaspora naudotojo vardą"
+      create_request: "Rask pagal Detailbook naudotojo vardą"
       diaspora_handle: "diaspora@handle.org"
       enter_a_diaspora_username: "Įveskite naudotojo vardą:"
-      your_diaspora_username_is: "Tavo Diaspora tinklo naudotojo vardas yra: %{diaspora_handle}"
+      your_diaspora_username_is: "Tavo Detailbook tinklo naudotojo vardas yra: %{diaspora_handle}"
     aspect_dropdown:
       add_to_aspect: "Add to aspect"
       toggle:
@@ -534,7 +534,7 @@ lt:
       dont_have_now: "Tu neturi jokių pakvietimų dabar, tačiau netrukus gausi daugiau!"
       invitations_left: "(liko %{count})"
       invite_someone: "Pakviesk ką nors"
-      invites_closed: "Invites are currently closed on this Diaspora seed"
+      invites_closed: "Invites are currently closed on this Detailbook seed"
     notification:
       new: "Naujas %{type} iš naudotojo \"%{from}\""
     public_explain:
@@ -597,14 +597,14 @@ lt:
       change_language: "Keisti kalbą"
       change_password: "Keisti slaptažodį"
       close_account:
-        what_we_delete: "We delete all of your posts, profile data, as soon as humanly possible. Your comments will hang around, but be associated with your Diaspora Handle."
+        what_we_delete: "We delete all of your posts, profile data, as soon as humanly possible. Your comments will hang around, but be associated with your Detailbook Handle."
       download_photos: "atsisiųsti mano nuotraukas"
       email_awaiting_confirmation: "We have sent you an activation link to %{unconfirmed_email}. Till you follow this link and activate the new address, we will continue to use your original address %{email}."
       export_data: "Eksportuoti duomenis"
       new_password: "Naujas slaptažodis"
       receive_email_notifications: "Receive email notificaions?"
       your_email: "Tavo el. pašto adresas"
-      your_handle: "Tavo Diaspora naudotojo vardas"
+      your_handle: "Tavo Detailbook naudotojo vardas"
     public:
       does_not_exist: "Vartotojas %{username} neegzistuoja!"
     update:

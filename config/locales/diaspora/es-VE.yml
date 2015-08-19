@@ -95,7 +95,7 @@ es-VE:
   all_aspects: "Todos los aspectos"
   application:
     helper:
-      diaspora_alpha: "DIASPORA* ALPHA"
+      diaspora_alpha: "Detailbook* ALPHA"
       unknown_person: "Persona desconocida"
       video_title:
         unknown: "Título de vídeo desconocido"
@@ -147,15 +147,15 @@ es-VE:
       remove: "eliminar"
     index:
       cubbies:
-        explanation: "Cubbi.es es la primera aplicación de Diaspora* en desarrollo."
+        explanation: "Cubbi.es es la primera aplicación de Detailbook* en desarrollo."
         heading: "Conecta a Cubbi.es"
         learn_more: "Aprende mas"
       diaspora_id:
-        content_1: "Tu identidad Diaspora es:"
-        content_2: "Compártela con quien quieras y podrá encontrarte en Diaspora."
-        heading: "Identidad Diaspora*"
+        content_1: "Tu identidad Detailbook es:"
+        content_2: "Compártela con quien quieras y podrá encontrarte en Detailbook."
+        heading: "Identidad Detailbook*"
       donate: "Donaciones"
-      handle_explanation: "Ésta es tu identificación de Diaspora*. Como una dirección de correo electrónico, puedes dársela a la gente para que te encuentre."
+      handle_explanation: "Ésta es tu identificación de Detailbook*. Como una dirección de correo electrónico, puedes dársela a la gente para que te encuentre."
       help:
         do_you: "Tal vez:"
         email_feedback: "Si lo prefieres, envía tus comentarios a este %{link}."
@@ -163,17 +163,17 @@ es-VE:
         feature_suggestion: "- Tengas una %{link} o sugerencia?."
         find_a_bug: "- Encuentres algún %{link}."
         have_a_question: "- Tengas una %{link}."
-        here_to_help: "¡La comunidad Diaspora está aquí!"
+        here_to_help: "¡La comunidad Detailbook está aquí!"
         need_help: "¿Necesitas ayuda?"
         tag_bug: "error"
         tag_feature: "idea"
         tag_question: "pregunta"
         tutorials_wiki_and_forum: "%{tutorial} & %{wiki} & %{forum}: Tutoriales, wiki y noticias"
       introduce_yourself: "Esta es tu entrada principal. Lánzate y preséntate..."
-      keep_diaspora_running: "¡Haz que el desarrollo de Diaspora vaya más rápido con una donación mensual!"
+      keep_diaspora_running: "¡Haz que el desarrollo de Detailbook vaya más rápido con una donación mensual!"
       keep_pod_running: "Haz que %{pod} vaya más rápido, ¡y compra a nuestros servidores su dosis de café con una donación mensual!"
       new_here:
-        follow: "¡Sigue %{link} y da la bienvenida a los nuevos usuarios de Diaspora*!"
+        follow: "¡Sigue %{link} y da la bienvenida a los nuevos usuarios de Detailbook*!"
         learn_more: "Más información"
         title: "Bienvenidos Nuevos Usuarios"
       no_contacts: "No hay contactos"
@@ -181,10 +181,10 @@ es-VE:
       people_sharing_with_you: "Personas que comparten contigo"
       post_a_message: "publica un mensaje >>"
       services:
-        content: "Puedes conectar los siguientes servicios a Diaspora:"
+        content: "Puedes conectar los siguientes servicios a Detailbook:"
         heading: "Conectar servicios"
       unfollow_tag: "Dejar de seguir #%{tag}"
-      welcome_to_diaspora: "¡Bienvenid@ a Diaspora, %{name}!"
+      welcome_to_diaspora: "¡Bienvenid@ a Detailbook, %{name}!"
     many: "%{count} aspectos"
     move_contact:
       error: "Error al mover el contacto: %{inspect}"
@@ -236,9 +236,9 @@ es-VE:
       failure: "No se pudo dejar de ignorar a ese usuario.  #evasion"
       success: "¡Vamos a ver lo que tienen que decir! #sayhello"
   bookmarklet:
-    explanation: "Publica en Diaspora* desde cualquier sitio agregando a tus marcadores este enlace => %{link}."
+    explanation: "Publica en Detailbook* desde cualquier sitio agregando a tus marcadores este enlace => %{link}."
     heading: "Marcador"
-    post_something: "Publicar en Diaspora*"
+    post_something: "Publicar en Detailbook*"
     post_success: "¡Publicado! ¡Cerrando!"
   cancel: "Cancelar"
   comments:
@@ -345,14 +345,14 @@ es-VE:
     new:
       already_invited: "Las siguientes personas no han aceptado tu invitación:"
       aspect: "Aspecto"
-      check_out_diaspora: "¡Echa un vistazo a Diaspora!"
+      check_out_diaspora: "¡Echa un vistazo a Detailbook!"
       codes_left:
         one: "Queda %{count} invitación para este código"
         other: "Quedan %{count} invitaciones para este código"
         zero: "No quedan invitaciones para este código"
       comma_separated_plz: "Puedes introducir múltiples direcciones de correo electrónico separadas por comas."
       if_they_accept_info: "Si acepta, se añadirá al aspecto seleccionado."
-      invite_someone_to_join: "¡Invita a alguien a unirse a Diaspora*!"
+      invite_someone_to_join: "¡Invita a alguien a unirse a Detailbook*!"
       language: "Idioma"
       paste_link: "¡Comparte este enlace con tus amigos para invitarlos a Diáspora*, o envíales directamente el enlace por correo electrónico!"
       personal_message: "Mensaje personal"
@@ -363,11 +363,11 @@ es-VE:
   layouts:
     application:
       back_to_top: "Volver arriba"
-      powered_by: "IMPULSADO POR DIASPORA*"
+      powered_by: "IMPULSADO POR Detailbook*"
       public_feed: "Canal público de %{name} "
       source_package: "descargar el paquete del código fuente"
       toggle: "cambiar al sitio móvil"
-      whats_new: "Novedades en Diaspora*"
+      whats_new: "Novedades en Detailbook*"
       your_aspects: "tus aspectos"
     header:
       admin: "Administrar"
@@ -459,7 +459,7 @@ es-VE:
       zero: "%{actors} ha empezado a compartir contigo."
   notifier:
     a_post_you_shared: "una publicación."
-    accept_invite: "¡Acepta tu invitación a Diaspora*!"
+    accept_invite: "¡Acepta tu invitación a Detailbook*!"
     click_here: "clic aquí"
     comment_on_post:
       reply: "Responder o ver los comentarios de %{name} >"
@@ -472,7 +472,7 @@ es-VE:
       message: |-
           ¡Hola!
 
-          ¡Has sido invitado para unirte a Diaspora*!
+          ¡Has sido invitado para unirte a Detailbook*!
 
           Sigue este enlace para comenzar
 
@@ -481,27 +481,27 @@ es-VE:
 
           Saludos,
 
-          ¡El generador de correo automático de Diaspora*!
+          ¡El generador de correo automático de Detailbook*!
 
           [1]: %{invite_url}
-    invited_you: "¡%{name} te ha invitado a Diaspora*!"
+    invited_you: "¡%{name} te ha invitado a Detailbook*!"
     liked:
       liked: "A %{name} le gustó tu publicación"
       view_post: "Ver publicación  >"
     mentioned:
       mentioned: "te mencionó en una publicación:"
-      subject: "%{name} te mencionó en Diaspora*"
+      subject: "%{name} te mencionó en Detailbook*"
     private_message:
       reply_to_or_view: "Responder o ver esta conversación >"
     reshared:
       reshared: "%{name} compartió tu publicación"
       view_post: "Ver publicación >"
     single_admin:
-      admin: "Tu administrador Diaspora*"
-      subject: "Un mensaje sobre tu cuenta Diaspora*:"
+      admin: "Tu administrador Detailbook*"
+      subject: "Un mensaje sobre tu cuenta Detailbook*:"
     started_sharing:
       sharing: "ha empezado a compartir contigo!"
-      subject: "%{name} ha empezado a compartir contigo en Diaspora*"
+      subject: "%{name} ha empezado a compartir contigo en Detailbook*"
       view_profile: "Ver el perfil de %{name}"
     thanks: "Gracias,"
     to_change_your_notification_settings: "para cambiar tu configuración de notificación"
@@ -621,7 +621,7 @@ es-VE:
   profile: "Perfil"
   profiles:
     edit:
-      allow_search: "Permitir que la gente te busque dentro de Diaspora*"
+      allow_search: "Permitir que la gente te busque dentro de Detailbook*"
       edit_profile: "Editar perfil"
       first_name: "Nombre"
       last_name: "Apellidos"
@@ -647,9 +647,9 @@ es-VE:
     other: "%{count} reacciones"
     zero: "0 reacciones"
   registrations:
-    closed: "Los registros están cerrados en este servidor de Diaspora."
+    closed: "Los registros están cerrados en este servidor de Detailbook."
     create:
-      success: "¡Te has unido a Diaspora*!"
+      success: "¡Te has unido a Detailbook*!"
     edit:
       cancel_my_account: "Cancelar mi cuenta"
       edit: "Editar %{name}"
@@ -661,7 +661,7 @@ es-VE:
     new:
       continue: "Continuar"
       create_my_account: "¡Crear mi cuenta!"
-      diaspora: "<3 Diaspora*"
+      diaspora: "<3 Detailbook*"
       email: "CORREO ELECTRÓNICO"
       enter_email: "Escribe un correo electrónico"
       enter_password: "Escribe una contraseña (seis caracteres como mínimo)"
@@ -676,7 +676,7 @@ es-VE:
   requests:
     create:
       sending: "Enviando"
-      sent: "Has pedido compartir con %{name}. Lo verá la próxima vez que inicie sesión en Diaspora*."
+      sent: "Has pedido compartir con %{name}. Lo verá la próxima vez que inicie sesión en Detailbook*."
     destroy:
       error: "¡Por favor selecciona un aspecto!"
       ignore: "Solicitud de contacto ignorada."
@@ -708,7 +708,7 @@ es-VE:
   search: "Buscar"
   services:
     create:
-      already_authorized: "Una persona con la identificación Diaspora %{diaspora_id} ya autorizó esa cuenta de %{service_name}."
+      already_authorized: "Una persona con la identificación Detailbook %{diaspora_id} ya autorizó esa cuenta de %{service_name}."
       failure: "Falló la autenticación."
       success: "Autenticación exitosa."
     destroy:
@@ -716,7 +716,7 @@ es-VE:
     failure:
       error: "hubo un error conectando ese servicio"
     finder:
-      fetching_contacts: "Diaspora está trasladando a tus contactos de %{service}; por favor vuelva en unos minutos."
+      fetching_contacts: "Detailbook está trasladando a tus contactos de %{service}; por favor vuelva en unos minutos."
       no_friends: "No se han encontrado amigos de Facebook."
       service_friends: "%{service} Amigos"
     index:
@@ -730,10 +730,10 @@ es-VE:
       really_disconnect: "¿Desconectar %{service}?"
     inviter:
       click_link_to_accept_invitation: "Sigue este enlace para aceptar la invitación"
-      join_me_on_diaspora: "Únete a mi en DIASPORA*."
+      join_me_on_diaspora: "Únete a mi en Detailbook*."
     remote_friend:
       invite: "invitar"
-      not_on_diaspora: "Todavía no está en Diaspora*"
+      not_on_diaspora: "Todavía no está en Detailbook*"
       resend: "reenviar"
   settings: "Configuración"
   share_visibilites:
@@ -743,11 +743,11 @@ es-VE:
   shared:
     add_contact:
       add_new_contact: "Añade un nuevo contacto"
-      create_request: "Buscar por identificación de Diaspora*"
+      create_request: "Buscar por identificación de Detailbook*"
       diaspora_handle: "diaspora@pod.org"
-      enter_a_diaspora_username: "Ingresa un nombre de usuario de Diaspora:"
+      enter_a_diaspora_username: "Ingresa un nombre de usuario de Detailbook:"
       know_email: "¿Conoces sus direcciones de correo electrónico? Podrías invitarlos"
-      your_diaspora_username_is: "Tu nombre de usuario Diaspora* es: %{diaspora_handle}"
+      your_diaspora_username_is: "Tu nombre de usuario Detailbook* es: %{diaspora_handle}"
     aspect_dropdown:
       add_to_aspect: "Añadir contacto"
       toggle:
@@ -767,7 +767,7 @@ es-VE:
       invite_someone: "Invita a alguien"
       invite_your_friends: "Invita a tus amigos"
       invites: "Invitaciones"
-      invites_closed: "Las invitaciones en este servidor Diaspora* están actualmente cerradas."
+      invites_closed: "Las invitaciones en este servidor Detailbook* están actualmente cerradas."
       share_this: "Comparte este enlace por correo electrónico, blog o red social favorita!"
     notification:
       new: "Nuevo %{type} de %{from}"
@@ -777,7 +777,7 @@ es-VE:
       logged_in: "conectado a %{service}"
       manage: "gestionar de servicios conectados"
       new_user_welcome_message: "Utiliza #etiquetas para clasificar tus publicaciones y encontrar personas que comparten tus intereses. Llama a gente increíble usando las @Menciones"
-      outside: "Los mensajes públicos también estarán disponibles para que otros fuera de Diaspora* los puedan ver."
+      outside: "Los mensajes públicos también estarán disponibles para que otros fuera de Detailbook* los puedan ver."
       share: "Comparte"
       title: "Configurar los servicios conectados"
       visibility_dropdown: "Usa este menú desplegable para cambiar la visibilidad de tu publicación. (Sugerimos hacer público el primero.)"
@@ -889,15 +889,15 @@ es-VE:
   tokens:
     show:
       connect_to_cubbies: "Conectarse a Cubbi.es"
-      connecting_is_simple: "Conectar tu cuenta de Diaspora* es sencillo. Solo tienes que introducir tu identificación de Diaspora*(<b>%{diaspora_id}</b>) desde tu página de <a href='%{href_link}'>Configuración</a> de cubbies y dale conectar."
-      daniels_account: "La cuenta de Diaspora de Daniel"
+      connecting_is_simple: "Conectar tu cuenta de Detailbook* es sencillo. Solo tienes que introducir tu identificación de Detailbook*(<b>%{diaspora_id}</b>) desde tu página de <a href='%{href_link}'>Configuración</a> de cubbies y dale conectar."
+      daniels_account: "La cuenta de Detailbook de Daniel"
       love_to_try: "Nos encantaría que lo pruebes."
       making_the_connection: "Haciendo la conexión"
       screenshot_explanation: "%{link1}. Este cubby en particular está conectado con %{link2}."
       sign_up_today: "¡Regístrate hoy!"
       typical_userpage: "Una típica página de un usuario de cubbi.es"
       via: "(vía %{link})"
-      what_is_cubbies: "Cubbi.es es la primera aplicación de Diaspora en el mundo. Es también la mejor forma de recopilar fotos en línea."
+      what_is_cubbies: "Cubbi.es es la primera aplicación de Detailbook en el mundo. Es también la mejor forma de recopilar fotos en línea."
   undo: "¿Deshacer?"
   username: "Nombre de usuario"
   users:
@@ -906,7 +906,7 @@ es-VE:
       email_not_confirmed: "El correo electrónico no pudo ser activado. ¿Enlace incorrecto?"
     destroy:
       no_password: "Por favor, introduzca su contraseña actual para cerrar la cuenta."
-      success: "Su cuenta ha sido bloqueada. Nos puede tomar 20 minutos terminar de cerrar su cuenta. Gracias por probar Diaspora."
+      success: "Su cuenta ha sido bloqueada. Nos puede tomar 20 minutos terminar de cerrar su cuenta. Gracias por probar Detailbook."
       wrong_password: "La contraseña introducida no coincide con la contraseña actual."
     edit:
       also_commented: "...alguien también comento en la publicación de tu contacto?"
@@ -922,10 +922,10 @@ es-VE:
         if_you_want_this: "Si realmente quieres esto, escribe tu contraseña debajo y haz clic en 'Eliminar Cuenta'"
         lock_username: "Esto bloquerá tu nombre de usuario si decides volver a registrarte."
         locked_out: "Saldrás y eliminarás tu cuenta."
-        make_diaspora_better: "Queremos que nos ayudes a hacer Diaspora mejor, podrías ayudarnos en vez de irte. Si te vas, queremos que sepas que sucede después."
+        make_diaspora_better: "Queremos que nos ayudes a hacer Detailbook mejor, podrías ayudarnos en vez de irte. Si te vas, queremos que sepas que sucede después."
         mr_wiggles: "El Tío Simón estará triste si te vas"
         no_turning_back: "Actualmente, no hay vuelta atrás."
-        what_we_delete: "Borramos todas tus publicaciones y datos del perfil, tan pronto como es humanamente posible. Tus comentarios seguirán en línea, pero asociados a tu dirección Diaspora*."
+        what_we_delete: "Borramos todas tus publicaciones y datos del perfil, tan pronto como es humanamente posible. Tus comentarios seguirán en línea, pero asociados a tu dirección Detailbook*."
       close_account_text: "Cerrar Cuenta"
       comment_on_post: "...alguien comenta en tu publicación?"
       current_password: "Contraseña actual"
@@ -949,18 +949,18 @@ es-VE:
       started_sharing: "...alquien empieza a compartir contigo?"
       stream_preferences: "Preferencias de Entrada"
       your_email: "Tu correo electrónico"
-      your_handle: "Tu identificación de Diaspora*"
+      your_handle: "Tu identificación de Detailbook*"
     getting_started:
-      awesome_take_me_to_diaspora: "¡Increíble! Llévame a Diaspora*"
-      community_welcome: "¡La comunidad de Diaspora está feliz de tenerte a bordo!"
-      hashtag_explanation: "Las etiquetas te permiten hablar acerca de tus intereses así como seguirlos. También es una gran manera de encontrar gente nueva en Diaspora. "
+      awesome_take_me_to_diaspora: "¡Increíble! Llévame a Detailbook*"
+      community_welcome: "¡La comunidad de Detailbook está feliz de tenerte a bordo!"
+      hashtag_explanation: "Las etiquetas te permiten hablar acerca de tus intereses así como seguirlos. También es una gran manera de encontrar gente nueva en Detailbook. "
       hashtag_suggestions: "Prueba seguiendo etiquetas como #futbol, #cine, #activismo, #programacion, etc."
       hooking_up_fb: "conectando tu cuenta de Facebook"
       saved: "¡Guardado!"
       we_can_speed_things_up: "Podemos acelerar las cosas un poco"
       well_hello_there: "Bueno, ¿qué tal?"
       what_are_you_in_to: "¿En que estas?"
-      what_facebook_does: "a Diaspora. Esto traerá tu nombre y foto, y habilitará publicaciones cruzadas."
+      what_facebook_does: "a Detailbook. Esto traerá tu nombre y foto, y habilitará publicaciones cruzadas."
       who_are_you: "¿Quién eres?"
     privacy_settings:
       ignored_users: "Usuarios Ignoradas"

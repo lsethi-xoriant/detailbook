@@ -32,7 +32,7 @@ bg:
       inviter:
         accept_at: "от %{url}, можете да приемете чрез връзката по-долу в писмото."
         has_invited_you: "%{name}"
-        have_invited_you: "%{names} Ви кани да се присъедините към Diaspora"
+        have_invited_you: "%{names} Ви кани да се присъедините към Detailbook"
       reset_password_instructions:
         change: "Промяна на паролата"
         ignore: "Ако не сте заявили промяната, моля игнорирайте писмото."

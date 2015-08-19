@@ -91,7 +91,7 @@ fi:
       week: "Viikko"
     user_entry:
       account_closed: "Käyttäjätili suljettu"
-      diaspora_handle: "Diaspora kahva"
+      diaspora_handle: "Detailbook kahva"
       email: "Sähköposti"
       guid: "GUID"
       id: "Tunnus"
@@ -178,11 +178,11 @@ fi:
       updating: "Päivittää"
     index:
       diaspora_id:
-        content_1: "Diaspora-ID:si on:"
-        content_2: "Anna se kenelle tahansa ja hän löytää sinut Diasporasta."
-        heading: "Diaspora-ID"
+        content_1: "Detailbook-ID:si on:"
+        content_2: "Anna se kenelle tahansa ja hän löytää sinut Detailbook."
+        heading: "Detailbook-ID"
       donate: "Lahjoita"
-      handle_explanation: "Tämä on Diaspora-tunnuksesi. Voit antaa sen ihmisille kuten sähköpostiosoitteesi, jotta he voivat sen avulla tavoittaa sinut Diasporasta."
+      handle_explanation: "Tämä on Detailbook-tunnuksesi. Voit antaa sen ihmisille kuten sähköpostiosoitteesi, jotta he voivat sen avulla tavoittaa sinut Detailbook."
       help:
         any_problem: "Ongelmia?"
         contact_podmin: "Ota yhteyttä podisi ylläpitäjään!"
@@ -192,7 +192,7 @@ fi:
         feature_suggestion: "... ehdottaa uutta ominaisuutta? %{link}"
         find_a_bug: "... raportoida ohjelmistovirheen? %{link}"
         have_a_question: "... kysyä kysymyksen? %{link}"
-        here_to_help: "Diaspora-yhteisö auttaa!"
+        here_to_help: "Detailbook-yhteisö auttaa!"
         mail_podmin: "Podin ylläpitäjän sähköpostiosoite"
         need_help: "Tarvitsetko apua?"
         tag_bug: "bugi"
@@ -201,10 +201,10 @@ fi:
         tutorial_link_text: "Ohjeita"
         tutorials_and_wiki: "%{faq}, %{tutorial} & %{wiki}: ohjeita alkuun pääsemiseksi."
       introduce_yourself: "Tämä on virtasi. Hyppää sekaan ja esittele itsesi."
-      keep_diaspora_running: "Pidä Diasporan kehitys nopeana kuukausittaisten lahjoitusten avulla!"
+      keep_diaspora_running: "Pidä Detailbook kehitys nopeana kuukausittaisten lahjoitusten avulla!"
       keep_pod_running: "Pidä %{pod} vauhdissa tarjoamalla palvelimille kupponen kahvia kuukausittaisella lahjoituksella!"
       new_here:
-        follow: "Seuraa tagia %{link} ja toivota uudet käyttäjät tervetulleiksi Diasporaan!"
+        follow: "Seuraa tagia %{link} ja toivota uudet käyttäjät tervetulleiksi Detailbook!"
         learn_more: "Lue lisää"
         title: "Tervehdi uusia käyttäjiä"
       no_contacts: "Ei kontakteja"
@@ -212,10 +212,10 @@ fi:
       people_sharing_with_you: "Henkiöt, jotka jakavat kanssasi"
       post_a_message: "Lähetä viesti >>"
       services:
-        content: "Voit yhdistää Diasporaan seuraavat palvelut:"
+        content: "Voit yhdistää Detailbook seuraavat palvelut:"
         heading: "Yhdistä palveluihin"
       unfollow_tag: "Lopeta tagin #%{tag} seuraaminen"
-      welcome_to_diaspora: "Tervetuloa Diasporaan, %{name}!"
+      welcome_to_diaspora: "Tervetuloa Detailbook, %{name}!"
     new:
       create: "Luo"
       name: "Nimi (näkyy vain sinulle)"
@@ -246,9 +246,9 @@ fi:
       failure: "En voinut lakata sivuuttamasta käyttäjää. #evasion"
       success: "Katsotaanpa, mitä sanottavaa hänellä on! #sayhello"
   bookmarklet:
-    explanation: "Voit julkaista Diasporaan mistä tahansa lisäämällä tämän linkin kirjanmerkkeihisi: %{link}"
+    explanation: "Voit julkaista Detailbook mistä tahansa lisäämällä tämän linkin kirjanmerkkeihisi: %{link}"
     heading: "Sovelluskirjanmerkki"
-    post_something: "Lähetä julkaisu Diasporaan"
+    post_something: "Lähetä julkaisu Detailbook"
     post_success: "Lähetetty! Suljetaan!"
   cancel: "Peruuta"
   comments:
@@ -344,7 +344,7 @@ fi:
       close_account_q: "Kuinka poistan käyttäjätilini?"
       data_other_podmins_a: "Kun aloitat jakamaan jonkun toisessa podissa olevan kanssa kaikki julkaisut mitä jaat ja kopio profiilistasi tallennetaan (välimuistiin) heidän podiinsa jolloin kyseisen podin tietokannan ylläpitäjällä on pääsy noihin tietoihin. Kun poistat julkaisun tai profiilitietoa se poistetaan omasta ja kaikista muista podeista mihin se oli tallennettuna."
       data_other_podmins_q: "Voivatko muiden podien ylläpitäjät nähdä tietojani?"
-      data_visible_to_podmin_a: "Podien välinen tietoliikenne on aina salattua (käyttäen SSL:ää ja diasporan* omaa liikenteen salausta), mutta tiedot podeissa ovat salaamattomia. Jos podisi tietokannan ylläpitäjä (yleensä henkilö, joka ylläpitää podia) niin tahtoo hänellä on pääsy profiilitietoihisi ja kaikkeen, mitä julkaiset (kuten on asianlaita suurimmassa osassa verkkosivustoja, jotka tallentavat käyttäjien tietoa). Oman podisi ylläpitäminen tarjoaa enemmän yksityisyyttä, koska silloin sinä voit itse hallita pääsyä tietokantaan."
+      data_visible_to_podmin_a: "Podien välinen tietoliikenne on aina salattua (käyttäen SSL:ää ja detailbook* omaa liikenteen salausta), mutta tiedot podeissa ovat salaamattomia. Jos podisi tietokannan ylläpitäjä (yleensä henkilö, joka ylläpitää podia) niin tahtoo hänellä on pääsy profiilitietoihisi ja kaikkeen, mitä julkaiset (kuten on asianlaita suurimmassa osassa verkkosivustoja, jotka tallentavat käyttäjien tietoa). Oman podisi ylläpitäminen tarjoaa enemmän yksityisyyttä, koska silloin sinä voit itse hallita pääsyä tietokantaan."
       data_visible_to_podmin_q: "Kuinka paljon tiedoistani podin ylläpitäjä voi nähdä?"
       download_data_a: "Kyllä. Käyttäjätilisi asetus-sivun alaosassa on kaksi painiketta joita voit käyttää tietojesi lataamiseen."
       download_data_q: "Voinko ladata itselleni kopion kaikesta käyttäjätilini sisältämästä tiedosta?"
@@ -371,19 +371,19 @@ fi:
       restrict_posts_i_see_a: "Kyllä. Klikkaa Omat näkymäni sivupalkissa ja klikkaa sitten listalta haluttua näkymää valitaksesi tai poistaaksesi valinnan. Vain niiden henkilöiden julkaisut, jotka kuuluvat valittuihin näkymiin, näkyvät virrassasi."
       restrict_posts_i_see_q: "Voinko rajoittaa näkemiäni julkaisuja siten, että näen ne vain tietyistä näkymistä?"
       title: "Näkymät"
-      what_is_an_aspect_a: "Näkymät ovat tapa jolla ryhmittelet yhteytesi Diasporassa. Näkymä voi olla yksi niistä kasvoista jotka näytät maailmalle. Se voi olla se mitä olet työpaikallasi tai se mitä olet perheellesi tai ystävillesi vaikkapa kerhossa johon kuulut."
+      what_is_an_aspect_a: "Näkymät ovat tapa jolla ryhmittelet yhteytesi Detailbook. Näkymä voi olla yksi niistä kasvoista jotka näytät maailmalle. Se voi olla se mitä olet työpaikallasi tai se mitä olet perheellesi tai ystävillesi vaikkapa kerhossa johon kuulut."
       what_is_an_aspect_q: "Mikä on näkymä?"
       who_sees_post_a: "Jos teet rajoitetun julkaisun sen näkevät vain henkilöt, jotka olet sijoittanut kyseiseen näkymään (tai näkymiin). Henkilöt, jotka eivät kuulu kyseiseen näkymään, eivät voi mitenkään nähdä sellaista julkaisua ellet ole tehnyt siitä julkista. Vain julkiset julkaisut ovat sellaisten henkilöiden nähtävillä, jotka eivät kuulu mihinkään näkymistäsi."
       who_sees_post_q: "Kun julkaisen näkymälle kuka voi nähdä sen?"
-    foundation_website: "Diaspora-säätiön kotisivu"
+    foundation_website: "Detailbook-säätiön kotisivu"
     getting_help:
-      get_support_a_hashtag: "kysy Diasporassa* julkisessa julkaisussa käyttämällä %{question} tagia"
+      get_support_a_hashtag: "kysy Detailbook* julkisessa julkaisussa käyttämällä %{question} tagia"
       get_support_a_irc: "juttele kanssamme %{irc} (Live chat)"
       get_support_a_tutorials: "Perehdy %{tutorials}"
       get_support_a_website: "Käy sivulla %{link}"
       get_support_a_wiki: "etsi %{link}"
       get_support_q: "Jos kysymykseeni ei löydy vastausta tästä UKK:sta? Mistä muualta voin saada tukea"
-      getting_started_a: "Sinua onnisti. Kokeile %{tutorial_series} projektisivullamme. Opastamme sinut vaihe vaiheelta läpi rekisteröitymisen ja annamme sinulle perustiedot, joita tarvitset diasporan* käyttämisessä."
+      getting_started_a: "Sinua onnisti. Kokeile %{tutorial_series} projektisivullamme. Opastamme sinut vaihe vaiheelta läpi rekisteröitymisen ja annamme sinulle perustiedot, joita tarvitset detailbook* käyttämisessä."
       getting_started_q: "Apua! Tarvitsen perusopastusta, jotta pääsen alkuun."
       title: "Hanki neuvoja"
     getting_started_tutorial: "'Näin pääset alkuun' kurssit"
@@ -414,8 +414,8 @@ fi:
     miscellaneous:
       back_to_top_a: "Kyllä. Kun olet vierittänyt sivua alas, klikkaa harmaata nuolta joka on selainikkunassa sivun oikeassa yläkulmassa."
       back_to_top_q: "Onko olemassa nopeaa tapaa siirtyä sivun alkuun sen jälkeen, kun olen vierittänyt sitä alas?"
-      diaspora_app_a: "On olemassa useita Android sovelluksia varhaisessa kehitysvaiheessa. Osa on jo pitkään hylättynä olleita ja eivät siitä syystä toimi hyvin nykyisen diaspora* version kanssa. Älä odota liikoja näiltä sovelluksilta tällä erää. Paras tapa käyttää diasporaa* puhelimesi kautta on selain, koska olemme suunnitelleet sivustosta mobiiliversion ja sen pitäisi toimia hyvin kaikilla laitteilla. Tällä hetkellä ei ole olemassa sovellusta iOS:lle, mutta kuten edellä, diaspora* pitäisi toimia hyvin selaimellasi."
-      diaspora_app_q: "Onko Android tai iOS käyttöjärjestelmälle Diaspora* sovellusta?"
+      diaspora_app_a: "On olemassa useita Android sovelluksia varhaisessa kehitysvaiheessa. Osa on jo pitkään hylättynä olleita ja eivät siitä syystä toimi hyvin nykyisen detailbook* version kanssa. Älä odota liikoja näiltä sovelluksilta tällä erää. Paras tapa käyttää detailbook* puhelimesi kautta on selain, koska olemme suunnitelleet sivustosta mobiiliversion ja sen pitäisi toimia hyvin kaikilla laitteilla. Tällä hetkellä ei ole olemassa sovellusta iOS:lle, mutta kuten edellä, detailbook* pitäisi toimia hyvin selaimellasi."
+      diaspora_app_q: "Onko Android tai iOS käyttöjärjestelmälle Detailbook* sovellusta?"
       photo_albums_a: "Ei tällä hetkellä. Voit kuitenkin katsella virtaa kunkin julkaisemista kuvista kuva-osiossa profiilisivun sivupalkissa."
       photo_albums_q: "Onko olemassa kuva- tai videoalbumeita?"
       subscribe_feed_a: "Kyllä, mutta tämä ei ole vielä viimeistelty ominaisuus ja lopputulos on vielä kohtalaisen karkeasti muotoiltu. Jos haluat silti kokeilla tätä, mene jonkun profiilisivulle ja klikkaa syöte-painiketta selaimessasi tai voit kopioida profiilin URL:n (esim. https://joindiaspora.com/people/jokunumero) ja liitä se syötelukijaan. Syntyvä syöteosoite näyttää tältä: https://joindiaspora.com/public/käyttäjänimi.atom Diaspora käyttää Atom:ia mieluummin, kuin RSS:ää."
@@ -425,16 +425,16 @@ fi:
       find_people_a: "Kutsu ystäviäsi käyttämällä sivupalkissa olevaa sähköpostilinkkiä. Seuraa #Tageja löytääksesi muita, jotka jakavat kiinnostuksen kohteesi ja lisätäksesi sinua kiinnostavia julkaisuja tehneet henkilöt omaan näkymääsi. Huuda olevasi #newhere julkisessa julkaisussa."
       find_people_q: "Liityin juuri podiin. Kuinka löydän ihmisiä, joiden kanssa haluan alkaa jakaa?"
       title: "Podit"
-      use_search_box_a: "Jos tiedät heidän diaspora* ID:nsä (esim. käyttäjänimi@podinimi.org), voit löytää heidät etsimällä sitä. Jos olet samassa podissa voit etsiä pelkän käyttäjänimen perusteella. Vaihtoehtoisesti voit etsiä profiilinimen perusteella (nimi, jonka näet näytöllä). Jos haku ei onnistu ensimmäisellä kerralla, yritä uudestaan."
+      use_search_box_a: "Jos tiedät heidän detailbook* ID:nsä (esim. käyttäjänimi@podinimi.org), voit löytää heidät etsimällä sitä. Jos olet samassa podissa voit etsiä pelkän käyttäjänimen perusteella. Vaihtoehtoisesti voit etsiä profiilinimen perusteella (nimi, jonka näet näytöllä). Jos haku ei onnistu ensimmäisellä kerralla, yritä uudestaan."
       use_search_box_q: "Kuinka käytän Etsi-kenttää löytääkseni jonkun henkilön?"
-      what_is_a_pod_a: "Podi on palvelin, jossa ajetaan diaspora* ohjelmaa ja joka on yhteydessä diaspora* verkkoon. \"Podi\" on vertaus joidenkin kasvien palkoihin joiden sisällä on siemeniä, vastaavasti palvelimen sisältäessä useita käyttäjätiliejä. On olemassa useita erilaisia podeja. Voit lisätä ystäväi muista podeista ja viestiä heidän kanssaan. (Voi ajatella diaspora* podin olevan kuten sähköpostipalvelu: on olemassa julkisia podeja, yksityisiä podeja ja jonkin verran vaivaa näkemällä voit ajaa myös omaa podiasi)"
+      what_is_a_pod_a: "Podi on palvelin, jossa ajetaan detailbook* ohjelmaa ja joka on yhteydessä detailbook* verkkoon. \"Podi\" on vertaus joidenkin kasvien palkoihin joiden sisällä on siemeniä, vastaavasti palvelimen sisältäessä useita käyttäjätiliejä. On olemassa useita erilaisia podeja. Voit lisätä ystäväi muista podeista ja viestiä heidän kanssaan. (Voi ajatella detailbook* podin olevan kuten sähköpostipalvelu: on olemassa julkisia podeja, yksityisiä podeja ja jonkin verran vaivaa näkemällä voit ajaa myös omaa podiasi)"
       what_is_a_pod_q: "Mikä on podi?"
     posts_and_posting:
       char_limit_services_a: "Sellaisessa tapauksessa julkaisusi pituus on rajoitettu pienempään merkkimäärään (Twitter 140; 1000 Tumblr), ja käytettävissä olevat merkit näkyvät, kun kyseisen palvelun kuvake on korostettuna. Voit lähettää myös pitempiä julkaisuja, mutta teksti katkaistaan ylimenevältä osalta noissa palveluissa."
       char_limit_services_q: "Mikä on merkkirajoitus julkaisuille, jotka on jaettu pienempää merkkimäärää soveltavan yhdistetyn palvelun kautta?"
       character_limit_a: "65,535 merkkiä. Se on 65,395 merkkiä enemmän, kuin mitä saat Twitterissä! ;)"
       character_limit_q: "Mikä on julkaisun enimmäispituus merkkeinä?"
-      embed_multimedia_a: "Yleensä riittää pelkkä URL:n liittäminen (esim. http://www.youtube.com/watch?v=nnnnnnnnnnn ) julkaisuusi ja video tai ääni upotetaan automaattisesti. Joitakin tuettuja sivustoja ovat: YouTube,Vimeo,SoundCloud, Flickr ja muutama muu. Diaspora* soveltaa oEmbediä tähän ominaisuuteen. Lisäämme tukea jatkuvasti uusille sivustoille. Muista aina julkaista yksinkertaisesti, täysiä linkkejä: ei typistettyjä linkkejä; ei operaattoreita perus URL:n jälkeen; ja jätä hiukan aikaa julkaisun jälkeen ennen kuin päivität sivun nähdäksesi esikatselun."
+      embed_multimedia_a: "Yleensä riittää pelkkä URL:n liittäminen (esim. http://www.youtube.com/watch?v=nnnnnnnnnnn ) julkaisuusi ja video tai ääni upotetaan automaattisesti. Joitakin tuettuja sivustoja ovat: YouTube,Vimeo,SoundCloud, Flickr ja muutama muu. Detailbook* soveltaa oEmbediä tähän ominaisuuteen. Lisäämme tukea jatkuvasti uusille sivustoille. Muista aina julkaista yksinkertaisesti, täysiä linkkejä: ei typistettyjä linkkejä; ei operaattoreita perus URL:n jälkeen; ja jätä hiukan aikaa julkaisun jälkeen ennen kuin päivität sivun nähdäksesi esikatselun."
       embed_multimedia_q: "Kuinka upotan videota, ääntä tai muuta multimediasisältöä julkaisuihini?"
       format_text_a: "Käyttämällä yksinkertaista menetelmää nimeltä %{markdown}. Täydellinen Markdown syntaksi löytyy %{here}. Esikatselupainike on tässä yhteydessä todella hyödyllinen sillä voit tarkistaa miltä julkaisusi näyttää, ennen kuin jaat sen."
       format_text_q: "Kuinka voin muotoilla julkaisuni tekstiä (lihavointi, kursiivi jne.)?"
@@ -456,14 +456,14 @@ fi:
       stream_full_of_posts_q: "Miksi minun virtani on täynnä julkaisuja henkilöiltä, joita en tunne ja joiden kanssa en jaa?"
       title: "Julkaisut ja lähettäminen"
     private_posts:
-      can_comment_a: "Vain kirjautuneet diaspora* käyttäjät, jotka olet sijoittanut kyseiseen näkymään, voivat tykätä tai kommentoida yksityistä julkaisuasi."
+      can_comment_a: "Vain kirjautuneet detailbook* käyttäjät, jotka olet sijoittanut kyseiseen näkymään, voivat tykätä tai kommentoida yksityistä julkaisuasi."
       can_comment_q: "Kuka voi kommentoida tai tykätä yksityisiä julkaisujani?"
-      can_reshare_a: "Ei kukaan. Yksityiset julkaisut eivät ole jaettavissa uudelleen. Sisäänkirjautuneet Diaspora* käyttäjät voivat tosin kopioida ja liittää julkaisusi."
+      can_reshare_a: "Ei kukaan. Yksityiset julkaisut eivät ole jaettavissa uudelleen. Sisäänkirjautuneet Detailbook* käyttäjät voivat tosin kopioida ja liittää julkaisusi."
       can_reshare_q: "Ketkä voivat jakaa yksityisen julkaisuni?"
       see_comment_a: "Vain ne henkilöt joille julkaisu on jaettu (eli henkilöt, jotka ovat julkaisun tekijän valitsemassa näkymässä) voivat nähdä kommentit ja tykkäykset. "
       see_comment_q: "Kuka voi nähdä kun kommentoin tai tykkään yksityistä julkaisua?"
       title: "Yksityiset julkaisut"
-      who_sees_post_a: "Vain kirjautuneet Diaspora* käyttäjät, jotka olet sijoittanut kyseiseen näkymään voivat nähdä yksityisen julkaisusi."
+      who_sees_post_a: "Vain kirjautuneet Detailbook* käyttäjät, jotka olet sijoittanut kyseiseen näkymään voivat nähdä yksityisen julkaisusi."
       who_sees_post_q: "Kun lähetän julkaisun näkymälle (esim. yksityinen julkaisu) kuka voi nähdä sen?"
     private_profiles:
       title: "Yksityiset profiilit"
@@ -474,13 +474,13 @@ fi:
       who_sees_updates_a: "Kuka tahansa joka on jossakin näkymässäsi voi nähdä muutokset yksityisessä profiilissasi. "
       who_sees_updates_q: "Kuka tai ketkä voivat nähdä yksityiseen profiiliini tekemät muutokset?"
     public_posts:
-      can_comment_reshare_like_a: "Kuka tahansa kirjautunut Diaspora* käyttäjä voi kommentoida, uudelleenjakaa tai tykätä julkista julkaisuasi."
+      can_comment_reshare_like_a: "Kuka tahansa kirjautunut Detailbook* käyttäjä voi kommentoida, uudelleenjakaa tai tykätä julkista julkaisuasi."
       can_comment_reshare_like_q: "Kuka voi kommentoida, uudelleenjakaa tai tykätä julkista julkaisuani?"
       deselect_aspect_posting_a: "Valinnan poistaminen näkymästä ei vaikuta julkiseen julkaisuun. Se näkyy silti kaikkien kontaktiesi virrassa. Tehdäksesi julkaisun näkyväksi vain tietylle näkymälle sinun täytyy valita halutut näkymät julkaisun alta."
       deselect_aspect_posting_q: "Mitä tapahtuu jos poistan valinnan yhdestä tai useammasta näkymästä tehdessäni julkista julkaisua?"
       find_public_post_a: "Julkiset julkaisusi näkyvät jokaisen sinua seuraavan virrassa. Jos merkitsit julkisen julkaisusi joillakin tai jollakin #tagilla, jokainen joka seuraa kyseistä tagia näkee julkaisusi omassa virrassaan. Jokaisella julkisella julkaisulla on myös oma URL jonka jokainen voi nähdä, jopa silloin kun he eivät ole kirjautuneet sisään - tällöin julkisiin julkaisuihin voidaan linkittää suoraan Twitteristä, blogista jne. Myös hakukoneet voivat indeksoida julkiset julkaisut."
       find_public_post_q: "Kuinka toiset henkilöt voivat löytää julkisen julkaisuni?"
-      see_comment_reshare_like_a: "Kuka tahansa kirjautunut Diaspora* käyttäjä ja jokainen Internetin käyttäjä. Kommentit, tykkäykset ja uudelleen jaot julkisesta julkaisusta ovat myös julkisia."
+      see_comment_reshare_like_a: "Kuka tahansa kirjautunut Detailbook* käyttäjä ja jokainen Internetin käyttäjä. Kommentit, tykkäykset ja uudelleen jaot julkisesta julkaisusta ovat myös julkisia."
       see_comment_reshare_like_q: "Kun kommentoin, jaan uudelleen tai tykkään julkisesta julkaisusta, kuka voi nähdä sen?"
       title: "Julkiset julkaisut"
       who_sees_post_a: "Jokaisella internetin käyttäjällä on mahdollisuus nähdä julkaisu jonka merkitset julkiseksi. Pidä siis huoli, että todella haluat sen olevan julkinen. Tämä on erinomainen tapa saada näkyvyyttä julkaisuillesi."
@@ -491,7 +491,7 @@ fi:
       what_do_tags_do_q: "Mitä tehtävä on tageilla julkisessa profiilissani?"
       whats_in_profile_a: "Nimesi, viisi tagia jotka olet valinnut kuvaamaan itseäsi ja kuvasi. Nämä tiedot löytyvät profiilisivusi yläosasta. Voit määrittää nämä tiedot niin todenmukaisiksi tai tuntemattoiksi kuin haluat. Profiilisivusi näyttää myös jokaisen julkisen julkaisusi, jonka olet tehnyt."
       whats_in_profile_q: "Mitä julkisessa profiilissani on?"
-      who_sees_profile_a: "Jokainen kirjautunut diaspora* käyttäjä ja kuka tahansa Internetistä voi nähdä sen. Jokaisessa profiilissa on suora URL johon voidaan linkittää ulkopuolisista sivuista. Myös hakukoneet voivat luetteloida sen."
+      who_sees_profile_a: "Jokainen kirjautunut detailbook* käyttäjä ja kuka tahansa Internetistä voi nähdä sen. Jokaisessa profiilissa on suora URL johon voidaan linkittää ulkopuolisista sivuista. Myös hakukoneet voivat luetteloida sen."
       who_sees_profile_q: "Kuka voi nähdä julkisen profiilini?"
       who_sees_updates_a: "Jokainen joka vierailee profiilisivullasi."
       who_sees_updates_q: "Kuka voi nähdä päivitykset julkiseen profiiliini?"
@@ -520,7 +520,7 @@ fi:
       see_old_posts_q: "Jos lisään jonkun johonkin omaan näkymääni, voivatko he nähdä vanhemmat julkaisut jotka olen julkaissut kyseiseen näkymään?"
       title: "Jakaminen"
     tags:
-      filter_tags_a: "Tämä toiminto ei ole vielä saatavilla Diasporassa, mutta joitakin %{third_party_tools} on kirjoitettu, joilla tämä voi olla mahdollista."
+      filter_tags_a: "Tämä toiminto ei ole vielä saatavilla Detailbook, mutta joitakin %{third_party_tools} on kirjoitettu, joilla tämä voi olla mahdollista."
       filter_tags_q: "Kuinka voin suodattaa/estää tietyt tagit omassa virrassani?"
       followed_tags_a: "Tagin etsimisen jälkeen voit klikata painiketta tagisivun yläosassa seurataksesi kyseistä tagia. Tagi ilmestyy sitten seurattujen tagien listaasi vasemmalla. Pääset kullekin tagisivulle klikkaamalla sitä listalta ja näet sitten julkaisut, jotka on merkitty kyseisellä tagilla. Klikkaa #Seuratut tagit nähdäksesi kaikki julkaisut, jotka on merkitty jollakin seuraamistasi tageista. "
       followed_tags_q: "Mitä ovat \"#Seuratut tagit\" ja kuinka seuraan tagia?"
@@ -559,16 +559,16 @@ fi:
     new:
       already_invited: "Seuraavat henkilöt eivät ole hyväksyneet kutsuasi:"
       aspect: "Näkymä"
-      check_out_diaspora: "Tule tutustumaan Diasporaan!"
+      check_out_diaspora: "Tule tutustumaan Detailbook!"
       codes_left:
         one: "Tällä koodilla on %{count} kutsu jäljellä."
         other: "Tällä koodilla on %{count} kutsua jäljellä."
         zero: "Tällä koodilla ei ole yhtään kutsua jäljellä."
       comma_separated_plz: "Voit syöttää useita eri sähköpostiosoitteita pilkuilla erotettuna."
       if_they_accept_info: "jos he hyväksyvät kutsun, heidät lisätään siihen näkymään, johon heidät kutsuit."
-      invite_someone_to_join: "Kutsu joku Diasporan käyttäjäksi!"
+      invite_someone_to_join: "Kutsu joku Detailbook käyttäjäksi!"
       language: "Kieli"
-      paste_link: "Jaa tämä linkki ystäviesi kanssa kutsuaksesi heidät diasporaan*, tai sähköpostita se heille suoraan."
+      paste_link: "Jaa tämä linkki ystäviesi kanssa kutsuaksesi heidät detailbook*, tai sähköpostita se heille suoraan."
       personal_message: "Henkilökohtainen viesti"
       resend: "Lähetä uudelleen"
       send_an_invitation: "Lähetä kutsu"
@@ -578,8 +578,8 @@ fi:
   layouts:
     application:
       back_to_top: "Takaisin ylös"
-      powered_by: "Palvelun tarjoaa Diaspora*"
-      public_feed: "Käyttäjän %{name} julkinen Diaspora-uutisvirta"
+      powered_by: "Palvelun tarjoaa Detailbook*"
+      public_feed: "Käyttäjän %{name} julkinen Detailbook-uutisvirta"
       source_package: "Lataa lähdekoodipaketti"
       toggle: "Mobiilisivusto päälle/pois"
       whats_new: "Uutta"
@@ -695,10 +695,10 @@ fi:
       two: "%{actors} started sharing with you."
       zero: "%{actors} on aloittanut jakamaan kanssasi."
   notifier:
-    a_limited_post_comment: "Rajoitetulle julkaisullesi on uusi kommentti Diasporassa."
+    a_limited_post_comment: "Rajoitetulle julkaisullesi on uusi kommentti Detailbook."
     a_post_you_shared: "julkaisu"
-    a_private_message: "Diasporassa on sinulle uusi yksityisviesti."
-    accept_invite: "Hyväksy sinun Diaspora* kutsusi!"
+    a_private_message: "Detailbook on sinulle uusi yksityisviesti."
+    accept_invite: "Hyväksy sinun Detailbook* kutsusi!"
     click_here: "Klikkaa tästä"
     comment_on_post:
       reply: "Vastaa tai katso käyttäjän %{name} viesti >"
@@ -714,7 +714,7 @@ fi:
 
           Terveisin,
 
-          Diaspora* sähköpostirobotti!
+          Detailbook* sähköpostirobotti!
       subject: "Henkilökohtaiset tietosi ovat valmiina ladattavaksi, %{name}"
     export_photos_email:
       body: |-
@@ -724,14 +724,14 @@ fi:
 
           Terveisin,
 
-          diaspora* sähköpostirobotti!
+          detailbook* sähköpostirobotti!
       subject: "Kuvatiedostot ovat valmiina ladattaviksi, %{name}"
     hello: "Hei %{name}!"
     invite:
       message: |-
           Hei!
 
-          Sinut on kutsuttu liittymään Diasporaan!
+          Sinut on kutsuttu liittymään Detailbook!
 
           Klikkaa tätä linkkiä aloittaaksesi
 
@@ -740,34 +740,34 @@ fi:
 
           Ystävällisesti,
 
-          Diasporan sähköpostirobotti!
+          Detailbook sähköpostirobotti!
 
           [1]: %{invite_url}
-    invited_you: "%{name} kutsui sinut Diasporaan*"
+    invited_you: "%{name} kutsui sinut Detailbook*"
     liked:
       liked: "%{name} tykkäsi kirjoituksestasi"
       view_post: "Näytä julkaisu >"
     mentioned:
       mentioned: "mainitsi sinut viestissään:"
-      subject: "%{name} on maininnut sinut Diaspora*:ssa"
+      subject: "%{name} on maininnut sinut Detailbook*:ssa"
     private_message:
       reply_to_or_view: "Lue tai osallistu keskusteluun >"
     remove_old_user:
       body: |-
           Hei,
 
-          Koska käyttäjätilisi %{pod_url}-podilla ei ole ollut aktiivinen %{after_days} päivään, oletamme, että et halua enää käyttää tiliäsi. Poistamme tämän Diaspora-podin tietokannasta tarpeettomia käyttäjätilejä, koska haluamme taata sen aktiivisille käyttäjille parhaan mahdollisen suorituskyvyn.
+          Koska käyttäjätilisi %{pod_url}-podilla ei ole ollut aktiivinen %{after_days} päivään, oletamme, että et halua enää käyttää tiliäsi. Poistamme tämän Detailbook-podin tietokannasta tarpeettomia käyttäjätilejä, koska haluamme taata sen aktiivisille käyttäjille parhaan mahdollisen suorituskyvyn.
 
-          Näkisimme sinut mielellämme osana Diaspora-yhteisöä, ja olet niin halutessasi tervetullut pitämään käyttäjätilisi elossa.
+          Näkisimme sinut mielellämme osana Detailbook-yhteisöä, ja olet niin halutessasi tervetullut pitämään käyttäjätilisi elossa.
 
-          Jos haluat pitää käyttäjätilisi toiminnassa, sinun tarvitsee vain kirjautua sisään tilillesi ennen päivämäärää %{remove_after}. Kun olet kirjautunut sisään, katsele vähän ympärillesi Diasporassa. Se on muuttunut paljon siitä kun viimeksi kävit siellä, ja uskomme että tulet pitämään tekemistämme parannuksista. Voit löytää kiinnostavaa sisältöä seuraamalla #tageja.
+          Jos haluat pitää käyttäjätilisi toiminnassa, sinun tarvitsee vain kirjautua sisään tilillesi ennen päivämäärää %{remove_after}. Kun olet kirjautunut sisään, katsele vähän ympärillesi Detailbook. Se on muuttunut paljon siitä kun viimeksi kävit siellä, ja uskomme että tulet pitämään tekemistämme parannuksista. Voit löytää kiinnostavaa sisältöä seuraamalla #tageja.
 
           Kirjaudu sisään tästä: %{login_url}. Jos olet unohtanut kirjautumistietosi, voit pyytää niitä uudelleen kyseisellä sivulla.
 
           Toivottavasti näemme uudelleen,
 
-          Diaspora-sähköpostirobotti!
-      subject: "Käyttämätön diaspora* käyttäjätilisi on merkitty poistettavaksi"
+          Detailbook-sähköpostirobotti!
+      subject: "Käyttämätön detailbook* käyttäjätilisi on merkitty poistettavaksi"
     report_email:
       body: |-
           Hei,
@@ -781,7 +781,7 @@ fi:
 
           Kiittäen,
 
-          diaspora* sähköpostirobotti!
+          detailbook* sähköpostirobotti!
 
           [1]: %{url}
       subject: "Uusi %{type} merkittiin loukkaavaksi"
@@ -792,11 +792,11 @@ fi:
       reshared: "%{name} jakoi julkaisusi uudelleen"
       view_post: "Näytä julkaisu >"
     single_admin:
-      admin: "Sinun Diaspora-ylläpitäjäsi"
-      subject: "Viesti Diaspora-käyttäjätilistäsi:"
+      admin: "Sinun Detailbook-ylläpitäjäsi"
+      subject: "Viesti Detailbook-käyttäjätilistäsi:"
     started_sharing:
       sharing: "on alkanut jakaa kanssasi!"
-      subject: "%{name} on alkanut jakaa kanssasi Diaspora*:ssa"
+      subject: "%{name} on alkanut jakaa kanssasi Detailbook*:ssa"
       view_profile: "Näytä käyttäjän %{name} profiiili"
     thanks: "Kiitos,"
     to_change_your_notification_settings: "muuttaaksesi ilmoitusasetuksia"
@@ -822,7 +822,7 @@ fi:
       no_one_found: "...ketään ei löytynyt."
       no_results: "Hei! Sinun tulisi etsiä jotakin."
       results_for: "Hakua %{search_term} vastaavat käyttäjät"
-      search_handle: "Löydät ystäväsi parhaiten käyttämällä heidän Diaspora-ID:itään (käyttäjänimi@pod.tld)."
+      search_handle: "Löydät ystäväsi parhaiten käyttämällä heidän Detailbook-ID:itään (käyttäjänimi@pod.tld)."
       searching: "etsitään, pieni hetki..."
       send_invite: "Ei edelleenkään mitään? Lähetä kutsu!"
     one: "1 henkilö"
@@ -916,12 +916,12 @@ fi:
   profile: "Profiili"
   profiles:
     edit:
-      allow_search: "Salli ihmisten etsiä sinua Diasporassa"
+      allow_search: "Salli ihmisten etsiä sinua Detailbook"
       edit_profile: "Muokkaa profiilia"
       first_name: "Etunimi"
       last_name: "Sukunimi"
       nsfw_check: "Merkitse kaikki jakamani sisältö NSFW:ksi"
-      nsfw_explanation: "NSFW ('not safe for work' - 'sopimatonta työpaikalle') on Diaspora*n itseohjautuva yhteisöstandardi sisällölle, joka on mahdollisesti sopimatonta katsottavaksi työpaikalla. Valitse tämä asetus, jos suunnittelet julkaisevasi sellaista materiaalia säännöllisesti, jotta kaikki jakamasi sisältö piilotetaan virrasta ja näytetään vain, jos kukin niin haluaa."
+      nsfw_explanation: "NSFW ('not safe for work' - 'sopimatonta työpaikalle') on Detailbook*n itseohjautuva yhteisöstandardi sisällölle, joka on mahdollisesti sopimatonta katsottavaksi työpaikalla. Valitse tämä asetus, jos suunnittelet julkaisevasi sellaista materiaalia säännöllisesti, jotta kaikki jakamasi sisältö piilotetaan virrasta ja näytetään vain, jos kukin niin haluaa."
       nsfw_explanation2: "Jos et halua käyttää tätä asetusta, ole hyvä ja lisää #nsfw-tagi julkaisuusi aina, kun haluat jakaa työpaikalle sopimatonta sisältöä."
       update_profile: "Päivitä profiili"
       your_bio: "Elämäkertasi"
@@ -943,9 +943,9 @@ fi:
     other: "%{count} reaktiota"
     zero: "Ei reaktioita"
   registrations:
-    closed: "Rekisteröityminen on suljettu tässä Diaspora-podissa."
+    closed: "Rekisteröityminen on suljettu tässä Detailbook-podissa."
     create:
-      success: "Olet liittynyt Diasporaan!"
+      success: "Olet liittynyt Detailbook!"
     edit:
       cancel_my_account: "Poista käyttäjätilini"
       edit: "Muokkaa %{name}"
@@ -988,7 +988,7 @@ fi:
   requests:
     create:
       sending: "Lähetetään"
-      sent: "Olet lähettänyt käyttäjälle %{name} pyynnön jakaa kanssasi. Hänen pitäisi nähdä se kirjautuessaan seuraavan kerran Diasporaan."
+      sent: "Olet lähettänyt käyttäjälle %{name} pyynnön jakaa kanssasi. Hänen pitäisi nähdä se kirjautuessaan seuraavan kerran Detailbook."
     destroy:
       error: "Valitse joku näkymä!"
       ignore: "Hylätty kontaktipyyntö."
@@ -1020,7 +1020,7 @@ fi:
   search: "Haku"
   services:
     create:
-      already_authorized: "Käyttäjä, jonka Diaspora-ID on %{diaspora_id}, on jo ottanut käyttöön kyseisen %{service_name}-käyttäjätilin."
+      already_authorized: "Käyttäjä, jonka Detailbook-ID on %{diaspora_id}, on jo ottanut käyttöön kyseisen %{service_name}-käyttäjätilin."
       failure: "Tunnistautuminen epäonnistui."
       read_only_access: "Käyttöikeus on vain-luku, ole hyvä ja yritä määrittää käyttöoikeutta myöhemmin uudelleen"
       success: "Tunnistautuminen onnistui."
@@ -1029,7 +1029,7 @@ fi:
     failure:
       error: "Palveluun yhdistämisessä tapahtui virhe"
     finder:
-      fetching_contacts: "Diaspora etsii %{service}-ystäviäsi. Katso uudelleen muutaman minuutin kuluttua."
+      fetching_contacts: "Detailbook etsii %{service}-ystäviäsi. Katso uudelleen muutaman minuutin kuluttua."
       no_friends: "Facebook-kavereita ei löytynyt."
       service_friends: "%{service}-kaverit"
     index:
@@ -1037,10 +1037,10 @@ fi:
       edit_services: "Muokkaa palveluita"
       logged_in_as: "Kirjauduttu käyttäjänä %{nickname}."
       really_disconnect: "Katkaistaanko yhteys palveluun %{service}?"
-      services_explanation: "Palveluihin yhdistäminen antaa sinulle mahdollisuuden julkaista Diasporaan lähettämäsi julkaisut myös niissä."
+      services_explanation: "Palveluihin yhdistäminen antaa sinulle mahdollisuuden julkaista Detailbook lähettämäsi julkaisut myös niissä."
     inviter:
       click_link_to_accept_invitation: "Paina tätä linkkiä hyväksyäksesi kutsun"
-      join_me_on_diaspora: "Liity seuraani Diasporaan*"
+      join_me_on_diaspora: "Liity seuraani Detailbook*"
     provider:
       facebook: "Facebook"
       tumblr: "Tumblr"
@@ -1048,7 +1048,7 @@ fi:
       wordpress: "WordPress"
     remote_friend:
       invite: "Kutsu"
-      not_on_diaspora: "Ei vielä Diasporassa"
+      not_on_diaspora: "Ei vielä Detailbook"
       resend: "Lähetä uudelleen"
   settings: "Asetukset"
   share_visibilites:
@@ -1058,11 +1058,11 @@ fi:
   shared:
     add_contact:
       add_new_contact: "Lisää uusi kontakti"
-      create_request: "Etsi Diaspora-ID:llä"
+      create_request: "Etsi Detailbook-ID:llä"
       diaspora_handle: "diaspora@pod.org"
-      enter_a_diaspora_username: "Anna Diaspora-käyttäjätunnus:"
+      enter_a_diaspora_username: "Anna Detailbook-käyttäjätunnus:"
       know_email: "Tiedätkö heidän sähköpostiosoitteitansa? Kutsu heidät!"
-      your_diaspora_username_is: "Diaspora-käyttäjätunnuksesi on: %{diaspora_handle}"
+      your_diaspora_username_is: "Detailbook-käyttäjätunnuksesi on: %{diaspora_handle}"
     aspect_dropdown:
       add_to_aspect: "Lisää kontakti"
       mobile_row_checked: "%{name} (poista)"
@@ -1084,7 +1084,7 @@ fi:
       invite_someone: "Kutsu joku"
       invite_your_friends: "Kutsu kavereitasi"
       invites: "Kutsut"
-      invites_closed: "Kutsut on toistaiseksi suljettu tällä Diaspora-palvelimella"
+      invites_closed: "Kutsut on toistaiseksi suljettu tällä Detailbook-palvelimella"
       share_this: "Jaa tämä linkki sähköpostilla, blogissa tai haluamassasi yhteisöpalvelussa!"
     notification:
       new: "Uusi %{type} henkilöltä %{from}"
@@ -1094,7 +1094,7 @@ fi:
       logged_in: "Kirjauduttu palveluun %{service}"
       manage: "Hallitse yhdistettyjä palveluita"
       new_user_welcome_message: "Käytä #hashtageja luokitellaksesi julkaisusi ja löytääksesi ihmisiä, jotka jakavat kiinnostuksen kohteesi. Kutsu upeita ihmisiä paikalle @Maininnoilla."
-      outside: "Julkiset julkaisut näkyvät Diasporan ulkopuolelle."
+      outside: "Julkiset julkaisut näkyvät Detailbook ulkopuolelle."
       share: "Jaa"
       title: "Yhdistä ulkoisia palveluita"
       visibility_dropdown: "Muuta tästä pudotusvalikosta julkaisusi näkyvyyttä. (Suosittelemme, että teet tästä ensimmäisestä julkaisustasi julkisen.)"
@@ -1244,7 +1244,7 @@ fi:
       email_not_confirmed: "Sähköpostiosoitetta ei voitu aktivoida. Oliko linkki väärä?"
     destroy:
       no_password: "Syötä nykyinen salasanasi sulkeaksesi tilisi."
-      success: "Tilisi on lukittu. Meiltä voi mennä 20 minuuttia tilisi sulkemiseen. Kiitos, kun kokeilit Diasporaa."
+      success: "Tilisi on lukittu. Meiltä voi mennä 20 minuuttia tilisi sulkemiseen. Kiitos, kun kokeilit Detailbook."
       wrong_password: "Syötetty salasana ei vastannut nykyistä salasanaasi."
     edit:
       also_commented: "joku kommentoi julkaisua, jota olet itse kommentoinut"
@@ -1260,10 +1260,10 @@ fi:
         if_you_want_this: "Jos todella haluat tämän tapahtuvan, kirjoita salasanasi alle ja napsauta 'Sulje käyttäjätili'"
         lock_username: "Käyttäjänimesi lukitaan. Et pysty luomaan uutta tiliä tälle podille samalla ID:llä."
         locked_out: "Sinut kirjataan ulos ja käyttäjätilisi lukitaan, kunnes tilisi on poistettu."
-        make_diaspora_better: "Näkisimme mielelläme sinun jäävän ja auttavan Diasporan parantamisessa lähtemisen sijaan. Jos kuitenkin haluat varmasti lähteä, käyttäjätilillesi suoritetaan seuraavat toimenpiteet:"
+        make_diaspora_better: "Näkisimme mielelläme sinun jäävän ja auttavan Detailbook parantamisessa lähtemisen sijaan. Jos kuitenkin haluat varmasti lähteä, käyttäjätilillesi suoritetaan seuraavat toimenpiteet:"
         mr_wiggles: "Herra Töpö on surullinen, kun lähdet"
         no_turning_back: "Tästä ei ole paluuta! Jos olet aivan varma, syötä salasanasi alle."
-        what_we_delete: "Poistamme kaikki julkaisusi ja profiilisi tiedot niin pian kuin se on mahdollista. Kommenttisi jäävät paikoilleen, mutta ne yhdistetään nimesi sijasta Diaspora-tunnukseesi."
+        what_we_delete: "Poistamme kaikki julkaisusi ja profiilisi tiedot niin pian kuin se on mahdollista. Kommenttisi jäävät paikoilleen, mutta ne yhdistetään nimesi sijasta Detailbook-tunnukseesi."
       close_account_text: "Sulje käyttäjätili"
       comment_on_post: "joku kommentoi julkaisuasi"
       current_password: "Nykyinen salasana"
@@ -1298,11 +1298,11 @@ fi:
       your_email_private: "Sähköpostiosoiteesi ei ole milloinkaan näkyvissä muille käyttäjille"
       your_handle: "Diaspora-tunnuksesi"
     getting_started:
-      awesome_take_me_to_diaspora: "Loistavaa! Mennään Diasporaan"
-      community_welcome: "Diaspora-yhteisö on iloinen saadessaan sinut mukaan!"
-      connect_to_facebook: "Voimme nopeuttaa asioita linkillä %{link} Diasporaan. Tämä noutaa nimesi ja valokuvasi ja mahdollistaa ristilähetyksen."
+      awesome_take_me_to_diaspora: "Loistavaa! Mennään Detailbook"
+      community_welcome: "Detailbook-yhteisö on iloinen saadessaan sinut mukaan!"
+      connect_to_facebook: "Voimme nopeuttaa asioita linkillä %{link} Detailbook. Tämä noutaa nimesi ja valokuvasi ja mahdollistaa ristilähetyksen."
       connect_to_facebook_link: "yhdistämällä Facebook-tilisi"
-      hashtag_explanation: "Hashtagien avulla voit keskustella ja seurata keskusteluja kiinnostuksen kohteistasi. Ne ovat myös hyvä keino löytää ihmisiä Diasporassa."
+      hashtag_explanation: "Hashtagien avulla voit keskustella ja seurata keskusteluja kiinnostuksen kohteistasi. Ne ovat myös hyvä keino löytää ihmisiä Detailbook."
       hashtag_suggestions: "Voit seurata tageja kuten #taide, #elokuvat, #gif jne."
       saved: "Tallennettu!"
       well_hello_there: "No, mutta hei!"

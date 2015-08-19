@@ -19,7 +19,7 @@ fy:
       updating: "fernije"
     index:
       diaspora_id:
-        content_1: "Dyn Diaspora ID is:"
+        content_1: "Dyn Detailbook ID is:"
       help:
         find_a_bug: "... in %{link} fine?"
         have_a_question: "... in %{link} hawwe?"
@@ -29,7 +29,7 @@ fy:
         title: "Wolkom Nije Brûkers"
       no_contacts: "Gjin kontakten"
       post_a_message: "stjoer in berjocht >>"
-      welcome_to_diaspora: "Wolkom by Diaspora, %{name}!"
+      welcome_to_diaspora: "Wolkom by Detailbook, %{name}!"
     new:
       create: "Oanmeitsje"
     seed:
@@ -84,7 +84,7 @@ fy:
   invitations:
     a_facebook_user: "In Facebook brûker"
     new:
-      invite_someone_to_join: "Immen útnoadigje foar Diaspora!"
+      invite_someone_to_join: "Immen útnoadigje foar Detailbook!"
       language: "Taal"
       personal_message: "Persoanlik berjocht"
       resend: "Opnij ferstjoere"
@@ -93,7 +93,7 @@ fy:
       to: "Oan"
   layouts:
     application:
-      powered_by: "MEA MOOGLIK MAKKE TROCH DIASPORA*"
+      powered_by: "MEA MOOGLIK MAKKE TROCH Detailbook*"
     header:
       admin: "behearder"
       blog: "bloch"

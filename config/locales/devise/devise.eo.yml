@@ -32,7 +32,7 @@ eo:
       inviter:
         accept_at: "ĉe %{url}, vi povas akcepti ĝin per la suba ligilo."
         has_invited_you: "%{name}"
-        have_invited_you: "%{names} invitis vin aniĝi je DIASPORA*"
+        have_invited_you: "%{names} invitis vin aniĝi je Detailbook*"
       reset_password_instructions:
         change: "Ŝanĝi mian pasvorton"
         ignore: "Se vi ne petis ĉi tion, bonvolu ignori ĉi tiun retpoŝton."

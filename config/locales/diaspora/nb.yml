@@ -90,7 +90,7 @@ nb:
       week: "Uke"
     user_entry:
       account_closed: "konto avsluttet"
-      diaspora_handle: "Diaspora handle"
+      diaspora_handle: "Detailbook handle"
       email: "e-post"
       guid: "GUID"
       id: "ID"
@@ -170,11 +170,11 @@ nb:
       updating: "oppdaterer"
     index:
       diaspora_id:
-        content_1: "diaspora* ID'en din er:"
-        content_2: "Gi det til noen, og de vil kunne finne deg på diaspora*."
-        heading: "diaspora* ID"
+        content_1: "detailbook* ID'en din er:"
+        content_2: "Gi det til noen, og de vil kunne finne deg på detailbook*."
+        heading: "detailbook* ID"
       donate: "Doner"
-      handle_explanation: "Dette er din diaspora* ID. Det fungerer som en e-post adresse, du kan gi denne ID'en til venner som vil kontakte deg."
+      handle_explanation: "Dette er din detailbook* ID. Det fungerer som en e-post adresse, du kan gi denne ID'en til venner som vil kontakte deg."
       help:
         any_problem: "Noen problemer?"
         contact_podmin: "Kontakt administratoren til din \"pod\"!"
@@ -184,7 +184,7 @@ nb:
         feature_suggestion: "... et %{link}-forslag?"
         find_a_bug: "... finn en %{link}?"
         have_a_question: "... et %{link}?"
-        here_to_help: "Diaspora-felleskapet er her!"
+        here_to_help: "Detailbook-felleskapet er her!"
         mail_podmin: "Podmin e-post"
         need_help: "Trenger du hjelp?"
         tag_bug: "#bug"
@@ -193,10 +193,10 @@ nb:
         tutorial_link_text: "Veiledninger"
         tutorials_and_wiki: "%{faq}, %{tutorial} og %{wiki}: Hjelp for dine første skritt"
       introduce_yourself: "Dette er stream-en din. Hopp inn og presenter deg selv."
-      keep_diaspora_running: "Bidra til kontinuerlig utvikling av diaspora* ved å gi en månedlig donasjon!"
+      keep_diaspora_running: "Bidra til kontinuerlig utvikling av detailbook* ved å gi en månedlig donasjon!"
       keep_pod_running: "Sørg for at %{pod} går kjapt ved å kjøpe kaffe-fiks til dem med en månedlig donasjon!"
       new_here:
-        follow: "Følg denne %{link} og ønsk nye brukere velkommen til diaspora*!"
+        follow: "Følg denne %{link} og ønsk nye brukere velkommen til detailbook*!"
         learn_more: "Lær mer"
         title: "Ønsk nye brukere velkommen"
       no_contacts: "Ingen kontakter"
@@ -204,10 +204,10 @@ nb:
       people_sharing_with_you: "Folk som deler med deg"
       post_a_message: "legg ut en melding >>"
       services:
-        content: "Du kan koble følgende tjenester til diaspora*:"
+        content: "Du kan koble følgende tjenester til detailbook*:"
         heading: "Koble til tjenester"
       unfollow_tag: "Slutt å følge #%{tag}"
-      welcome_to_diaspora: "Velkommen til Diaspora, %{name}!"
+      welcome_to_diaspora: "Velkommen til Detailbook, %{name}!"
     new:
       create: "Opprett"
       name: "Navn (bare synlig for deg)"
@@ -238,9 +238,9 @@ nb:
       failure: "Jeg klarte ikke å slutte å ignorere den brukeren. #evasion"
       success: "La oss se hva de har å si! #sihallo"
   bookmarklet:
-    explanation: "Post til diaspora* fra hvor som helst ved å bokmerke denne linken => %{link}"
-    heading: "Diaspora Bookmarklet"
-    post_something: "Post noe på diaspora*"
+    explanation: "Post til detailbook* fra hvor som helst ved å bokmerke denne linken => %{link}"
+    heading: "Detailbook Bookmarklet"
+    post_something: "Post noe på detailbook*"
     post_success: "Postet! Lukker!"
   cancel: "Avbryt"
   comments:
@@ -329,7 +329,7 @@ nb:
       close_account_q: "Hvordan sletter jeg frøet (kontoen) min?"
       data_other_podmins_a: "Når du har begynt å dele med noen på en annen pod, vil poster du deler med dem og en kopi av dine profildata lagres (midlertidig «cache»-minne) på deres pod, og være tilgjengelig for den pod-ens databaseadministrator. Når du sletter en post eller profildata slettes det fra din pod og eventuelle andre pod-er hvor det tidligere hadde vært lagret."
       data_other_podmins_q: "Kan administratorene på andre pods se informasjonen min?"
-      data_visible_to_podmin_a: "Kommunikasjon «mellom» pod-er er alltid kryptert (med SSL og diaspora* sin egen transportkryptering), men lagringen av data på pod-er er ikke kryptert. Om de hadde villet, kunne databaseadministratoren for din pod (vanligvis personen som driver pod-en) gått inn på alle dine profildata og alt det du poster (slik tilfellet er for de fleste nettsteder som lagrer brukerdata). Å drive din egen pod gir mer privathet ettersom du da kontrollerer tilgangen til databasen."
+      data_visible_to_podmin_a: "Kommunikasjon «mellom» pod-er er alltid kryptert (med SSL og detailbook* sin egen transportkryptering), men lagringen av data på pod-er er ikke kryptert. Om de hadde villet, kunne databaseadministratoren for din pod (vanligvis personen som driver pod-en) gått inn på alle dine profildata og alt det du poster (slik tilfellet er for de fleste nettsteder som lagrer brukerdata). Å drive din egen pod gir mer privathet ettersom du da kontrollerer tilgangen til databasen."
       data_visible_to_podmin_q: "Hvor mye av informasjonen min kan pod-administratoren min se?"
       download_data_a: "Ja. på bunnen av Profil-fanen i instillings-siden din er det to knapper for å laste ned dataen din."
       download_data_q: "Kan jeg laste ned en kopi av alle dataene jeg har i frøet (kontoen) min?"
@@ -356,19 +356,19 @@ nb:
       restrict_posts_i_see_a: "Ja. Klikk på Mine Aspekter i sidelinjen, og så klikk individuelle innlegg i listen for å velge dem. Du vil bare se innlegg fra personer i de valgte aspektene i stream-en din."
       restrict_posts_i_see_q: "Kan jeg begrense postene jeg ser til bare dem fra noen aspekter?"
       title: "Aspektene"
-      what_is_an_aspect_a: "Aspekter er måten du grupperer kontaktene dine på diaspora*. Et aspekt er en av ansiktene du viser til verden. Det kan være hvem du er på jobben, hvem du er for familien din, eller hvem du er for vennene dine i en klubb du er medlem av."
+      what_is_an_aspect_a: "Aspekter er måten du grupperer kontaktene dine på detailbook*. Et aspekt er en av ansiktene du viser til verden. Det kan være hvem du er på jobben, hvem du er for familien din, eller hvem du er for vennene dine i en klubb du er medlem av."
       what_is_an_aspect_q: "Hva er en aspekt?"
       who_sees_post_a: "Hvis du lager et begrenset innlegg vil det bare være synlig for de du har lagt inn i aspektet (eller disse aspektene, hvis det gjøres synlig for flere aspekter). Kontakter du har som ikke er i aspektet har ingen mulighet for å se innlegget med mindre du publiserte det som offentlig. Personene du ikke har plassert i et aspekt vil bare kunne se dine offentlige innlegg."
       who_sees_post_q: "Hvem ser hva jeg publiserer til et aspekt?"
-    foundation_website: "diaspora-stiftelsens nettside"
+    foundation_website: "detailbook-stiftelsens nettside"
     getting_help:
-      get_support_a_hashtag: "spør i en offentlig post på diaspora* med %{question}-hashtaggen"
+      get_support_a_hashtag: "spør i en offentlig post på detailbook* med %{question}-hashtaggen"
       get_support_a_irc: "bli med oss på %{irc} (live-chat)"
       get_support_a_tutorials: "sjekk våre %{tutorials}"
       get_support_a_website: "besøk vår %{link}"
       get_support_a_wiki: "søk på %{link}"
       get_support_q: "Hva hvis spørsmålet mitt ikke er besvart i denne FAQ'en? Hvor kan jeg ellers få support."
-      getting_started_a: "Nå var du heldig. Prøv %{tutorial_series} på nettstedet for prosjektet vårt. Det vil ta deg gjennom registreringsprosessen steg for steg og vise deg alle de grunnleggende tingene du trenger å vite om hvordan man bruker diaspora*."
+      getting_started_a: "Nå var du heldig. Prøv %{tutorial_series} på nettstedet for prosjektet vårt. Det vil ta deg gjennom registreringsprosessen steg for steg og vise deg alle de grunnleggende tingene du trenger å vite om hvordan man bruker detailbook*."
       getting_started_q: "Hjelp! Jeg trenger hjelp med å komme i gang!"
       title: "Få hjelp"
     getting_started_tutorial: "'Komme i gang' veiledninger"
@@ -396,27 +396,27 @@ nb:
     miscellaneous:
       back_to_top_a: "Ja. Etter å ha bladd deg nedover på en side, klikk på den grå pilen som dukker opp i hjørnet nede til høyre i vinduet på nettleseren din."
       back_to_top_q: "Fins der en rask måte å gå tilbake til toppen av siden etter at jeg har bladd meg nedover?"
-      diaspora_app_a: "Der er mange Android-apper i sine veldig tidlige utviklingsforløp. Mange er prosjekter som har vært forlatt for lenge siden, og som derfor ikke fungerer godt med dagens versjon av diaspora*. Ikke forvent mye av disse appene for øyeblikket. Den beste måten å få tilgang til diaspora* via et mobilt apparat er for tiden ved å gå via en nettleser, for vi har designet en mobilversjon av nettstedet, som skulle fungere godt på alle apparater. Der fins for tiden ingen app for iOS. Igjen, diaspora* skulle fungere godt via din nettleser."
-      diaspora_app_q: "Finnes en diaspora* app for Android eller iOS?"
+      diaspora_app_a: "Der er mange Android-apper i sine veldig tidlige utviklingsforløp. Mange er prosjekter som har vært forlatt for lenge siden, og som derfor ikke fungerer godt med dagens versjon av detailbook*. Ikke forvent mye av disse appene for øyeblikket. Den beste måten å få tilgang til detailbook* via et mobilt apparat er for tiden ved å gå via en nettleser, for vi har designet en mobilversjon av nettstedet, som skulle fungere godt på alle apparater. Der fins for tiden ingen app for iOS. Igjen, detailbook* skulle fungere godt via din nettleser."
+      diaspora_app_q: "Finnes en detailbook* app for Android eller iOS?"
       photo_albums_a: "Nei, ikke for tiden. Imidlertid kan du se en stream av deres opplastete bilder fra Photos-seksjonen i sidebar-en på profilsiden deres."
       photo_albums_q: "Finnes det foto eller video albumene?"
-      subscribe_feed_a: "Ja, men dette er fremdeles ikke en helt finpusset funksjon, og formateringen av resultatet er fremdeles temmelig røff. Hvis du likevel ønsker å prøve den, gå til noen profilside og klikk på feed-knappen i din nettleser, eller du kan kopiere profilens URL (dvs. https://joindiaspora.com/people/somenumber), og lime inn i en feed-leser. Den resulterende feed-adressen ser sånn ut: https://joindiaspora.com/public/username.atom diaspora* bruker Atom fremfor RSS."
+      subscribe_feed_a: "Ja, men dette er fremdeles ikke en helt finpusset funksjon, og formateringen av resultatet er fremdeles temmelig røff. Hvis du likevel ønsker å prøve den, gå til noen profilside og klikk på feed-knappen i din nettleser, eller du kan kopiere profilens URL (dvs. https://joindiaspora.com/people/somenumber), og lime inn i en feed-leser. Den resulterende feed-adressen ser sånn ut: https://joindiaspora.com/public/username.atom detailbook* bruker Atom fremfor RSS."
       subscribe_feed_q: "Kan jeg abonnere på noens offentlige innlegg med en feed-leser?"
       title: "Diverse"
     pods:
       find_people_a: "Inviter dine venner ved å bruke epostlinken i sidebar-en. Følg #tag-er for å oppdage andre som deler dien interesser, og legg de som poster ting som interesser deg til i et aspekt. Rop ut at du er #nyher i en offentlig post."
       find_people_q: "Jeg ble med en pod, hvordan kan jeg finne noen å dele med?"
       title: "Podden"
-      use_search_box_a: "Hvis du kjenner deres fulle diaspora* ID (f.eks. brukernavn@podnavn.org), kan du finne dem ved å søke etter den. Hvis du er på samme pod kan du søke etter bare brukernavnet deres. Et alternativ er å søke etter dem på deres profilnavn (navnet du ser på skjermen). Hvis et søk ikke virker første gangen, prøv det igjen."
+      use_search_box_a: "Hvis du kjenner deres fulle detailbook* ID (f.eks. brukernavn@podnavn.org), kan du finne dem ved å søke etter den. Hvis du er på samme pod kan du søke etter bare brukernavnet deres. Et alternativ er å søke etter dem på deres profilnavn (navnet du ser på skjermen). Hvis et søk ikke virker første gangen, prøv det igjen."
       use_search_box_q: "Hvordan bruker jeg søkeboksen for å finne bestemte personer?"
-      what_is_a_pod_a: "En pod er en server som kjører diaspora*-programvaren og som er tilknyttet diaspora*-nettverket. «Pod» er et metafor som på engelsk refererer til en del av planter, som inneholder frø, på den måten at en server inneholder et antall brukerkontoer. Der er mange forskjellige pod-er. Du kan legge til venner fra andre pod-er, og kommunisere med dem. (Du kan tenke på en diaspora*-pod som noe lignende en eposttilbyder: der fins offentlige pod-er, private pod-er, og med litt anstrengelse kan du til og med drive din egen)."
+      what_is_a_pod_a: "En pod er en server som kjører detailbook*-programvaren og som er tilknyttet detailbook*-nettverket. «Pod» er et metafor som på engelsk refererer til en del av planter, som inneholder frø, på den måten at en server inneholder et antall brukerkontoer. Der er mange forskjellige pod-er. Du kan legge til venner fra andre pod-er, og kommunisere med dem. (Du kan tenke på en detailbook*-pod som noe lignende en eposttilbyder: der fins offentlige pod-er, private pod-er, og med litt anstrengelse kan du til og med drive din egen)."
       what_is_a_pod_q: "Hva er en pod?"
     posts_and_posting:
       char_limit_services_a: "I det tilfellet er posten din begrenset til det laveste antallet tegn (140 når det gjelder Twitter, 1000 når det gjelder Tumblr), og antallet tegn du har igjen å bruke vises når den aktuelle tjenestens ikon markeres. Du kan fremdeles poste til disse tjenestene selv om posten din er lenger enn deres grense, men teksten blir avkortet på de tjenestene."
       char_limit_services_q: "Hva er tegngrensen for poster delt gjennom en tilkoblet tjeneste med et lavere tegnantall?"
       character_limit_a: "65 535 tegnene. Det er 65 395 flere tegn enn du får på Twitter! ;)"
       character_limit_q: "Hva er grensen for antall tegn for innlegg?"
-      embed_multimedia_a: "Du kan vanligvis rett og slett lime inn URL-en (f.eks. http://www.youtube.com/watch?v=nnnnnnnnnnn ) i posten din, og videoen eller lyden vil da bli bygget inn automatisk. Noen av nettstedene som støttes er: YouTube, Vimeo, SoundCloud, Flickr og noen flere. diaspora* bruker oEmbed til denne funksjonen. Støtte for nye nettsteder legges til hele tiden. Husk å alltid poste enkle, hele linker: ingen forkortete linker; ingen operatører etter den grunnleggende URL-en; og gi det litt tid før du laster inn siden på nytt etter postingen for å se forhåndsvisningen."
+      embed_multimedia_a: "Du kan vanligvis rett og slett lime inn URL-en (f.eks. http://www.youtube.com/watch?v=nnnnnnnnnnn ) i posten din, og videoen eller lyden vil da bli bygget inn automatisk. Noen av nettstedene som støttes er: YouTube, Vimeo, SoundCloud, Flickr og noen flere. detailbook* bruker oEmbed til denne funksjonen. Støtte for nye nettsteder legges til hele tiden. Husk å alltid poste enkle, hele linker: ingen forkortete linker; ingen operatører etter den grunnleggende URL-en; og gi det litt tid før du laster inn siden på nytt etter postingen for å se forhåndsvisningen."
       embed_multimedia_q: "Hvordan kan jeg legge inn en video, lyd eller annet multimedieinnhold i et innlegg?"
       format_text_a: "Ved å bruke et enkelt system som kalles %{markdown}. Du kan finne hele syntaksen for Markdown %{here}. Knappen for forhåndsvisning er veldig nyttig her, siden du får se hvordan meldingen kommer til å se ut før du deler den."
       format_text_q: "Hvordan kan jeg formatere teksten i mine innlegg (fet, kursiv, etc.)?"
@@ -438,14 +438,14 @@ nb:
       stream_full_of_posts_q: "Hvorfor er stream-en min full av poster fra folk jeg ikke kjenner og ikke deler med?"
       title: "Innlegg og lagring"
     private_posts:
-      can_comment_a: "Kun innloggete diaspora*-brukere du har plassert i det aspektet kan kommentere på eller like dine private poster."
+      can_comment_a: "Kun innloggete detailbook*-brukere du har plassert i det aspektet kan kommentere på eller like dine private poster."
       can_comment_q: "Hvem kan kommentere på eller liker min private innlegg?"
       can_reshare_a: "Ingen. Private poster kan ikke videredeles. Innloggete disapora*-brukere i det aspektet kan potensielt kopiere og lime det det inn, imidlertid."
       can_reshare_q: "Hvem kan videredele min private innlegg?"
       see_comment_a: "Kun folkene som den posten ble delt med (folkene som er i det aspektet den opprinnelige posteren valgte) kan se dens kommentarer og likere. "
       see_comment_q: "Når jeg kommentere eller liker en privat innlegg, som kan se det?"
       title: "Private innlegg"
-      who_sees_post_a: "Kun innloggede diaspora* brukere du har plassert i det aspektet kan se din private innlegg."
+      who_sees_post_a: "Kun innloggede detailbook* brukere du har plassert i det aspektet kan se din private innlegg."
       who_sees_post_q: "Når jeg poster en melding til et aspekt (dvs. en privat post), hvem kan se den?"
     private_profiles:
       title: "Private profiler"
@@ -456,13 +456,13 @@ nb:
       who_sees_updates_a: "Noen i aspektene ser endringer på din private profil. "
       who_sees_updates_q: "Hvem ser oppdateringer til private profilen min?"
     public_posts:
-      can_comment_reshare_like_a: "Enhver innloggede diaspora* bruker kan kommentere, videredele, eller liker din offentlige innlegg."
+      can_comment_reshare_like_a: "Enhver innloggede detailbook* bruker kan kommentere, videredele, eller liker din offentlige innlegg."
       can_comment_reshare_like_q: "Hvem kan kommentere, videredele, eller liker min offentlige innlegg?"
       deselect_aspect_posting_a: "Å fjerne valg av aspekter påvirker ikke en offentlig post. Den vil fremdeles vises i stream-en til alle dine kontakter. For å gjøre en post synlig kun for spesifikke aspekter, må du velge de aspektene fra knappen under publisereren."
       deselect_aspect_posting_q: "Hva skjer når jeg fjerner markeringen ett eller flere aspekter når jeg gjør en offentlig innlegg?"
       find_public_post_a: "Dine offentlige poster vil vises i stream-ene til hvem som helst som følger deg. Hvis du inkluderer #tag-er i din offentlige post vil hvem som helst som følger de tag-ene finne din post i sine stream-er. Hver offentlige post har også en spesifikk URL som hvem som helst kan se, til og med om de ikke er logget inn – dermed kan offentlige poster linkes til direkte fra Twitter, blogger, osv. Offentlige poster kan også indekseres av søkemotorer."
       find_public_post_q: "Hvordan kan andre mennesker finne offentlige innlegg min?"
-      see_comment_reshare_like_a: "En hvilken som helst innlogget diaspora*-bruker og hvem som helst på internett. Kommentarer, likere, og videredelinger av offentlige poster er også offentlige."
+      see_comment_reshare_like_a: "En hvilken som helst innlogget detailbook*-bruker og hvem som helst på internett. Kommentarer, likere, og videredelinger av offentlige poster er også offentlige."
       see_comment_reshare_like_q: "Når jeg kommentere, videredele, eller liker en offentlig innlegg, som kan se det?"
       title: "Offentlige innlegg"
       who_sees_post_a: "Enhver som bruker internett kan potensielt se en post du merker som offentlig, så vær sikker på at du virkelig ønsker å gjøre posten din offentlig. Det er en kjempefin måte å nå ut til verden på."
@@ -473,7 +473,7 @@ nb:
       what_do_tags_do_q: "Hva gjør taggene på offentlige profilen min?"
       whats_in_profile_a: "Navnet ditt, de fem tag-ene du valgte for å beskrive deg selv, og bildet ditt. Det er de greiene i øverste seksjon i siden for profilredigering. Du kan gjøre denne profilinformasjonen så identifiserbar eller anonym som du vil. Profilsiden din viser også eventuelle offentlige poster som du har laget."
       whats_in_profile_q: "Hva er i offentlige profilen min"
-      who_sees_profile_a: "Enhver innlogget diaspora*-bruker, og også resten av internett, kan se den. Hver profil har en direkte URL, så den kan linkes til direkte fra andre nettsteder. Den kan indekseres av søkemotorer."
+      who_sees_profile_a: "Enhver innlogget detailbook*-bruker, og også resten av internett, kan se den. Hver profil har en direkte URL, så den kan linkes til direkte fra andre nettsteder. Den kan indekseres av søkemotorer."
       who_sees_profile_q: "Hvem ser offentlige profilen min?"
       who_sees_updates_a: "Alle kan se endringer hvis de besøker profilen din."
       who_sees_updates_q: "Hvem ser oppdateringer til offentlige profilen min?"
@@ -502,7 +502,7 @@ nb:
       see_old_posts_q: "Når jeg legger noen til et aspekt, kan de se eldre poster som jeg allerede har postet til det aspektet?"
       title: "Deler"
     tags:
-      filter_tags_a: "Dette er så langt ikke ikke tilgjengelig gjennom diaspora* direkte, men noen %{third_party_tools} har blitt skrevet som kunne levere dette."
+      filter_tags_a: "Dette er så langt ikke ikke tilgjengelig gjennom detailbook* direkte, men noen %{third_party_tools} har blitt skrevet som kunne levere dette."
       filter_tags_q: "Hvordan kan jeg filtrere/ekskludere noen tag-er fra min stream?"
       followed_tags_a: "Etter å ha søkt opp en tag kan du klikke på knappen øverst i den tag-ens side for å «følge» den tag-en. Den vil da vises i din liste over fulgte tag-er til venstre. Å klikke på en av dine fulgte tag-er tar deg til den tag-ens side så du kan se nylige poster som inneholder den tag-en. Klikk på #Followed Tags for å se en stream med poster som inkluderer noen som helst av dine fulgte tag-er. "
       followed_tags_q: "Hva er «#Følges Tags» og hvordan kan jeg følge en kode?"
@@ -541,16 +541,16 @@ nb:
     new:
       already_invited: "Allerede innvitert"
       aspect: "Aspekt"
-      check_out_diaspora: "Sjekk ut diaspora*!"
+      check_out_diaspora: "Sjekk ut detailbook*!"
       codes_left:
         one: "En invitasjon er igjen med denne koden"
         other: "%{count} invitasjoner er igjen med denne koden"
         zero: "Ingen flere invitasjoner kan gjøres med denne koden"
       comma_separated_plz: "Du kan skrive inn flere e-post adresser adskilt med komma."
       if_they_accept_info: "Hvis de aksepterer, vil de bli lagt til i aspektet du valgte."
-      invite_someone_to_join: "Inviter noen til diaspora*!"
+      invite_someone_to_join: "Inviter noen til detailbook*!"
       language: "Språk"
-      paste_link: "Del denne lenken med vennene dine for å invitere dem til Diaspora* eller send e-post til dem med lenken direkte."
+      paste_link: "Del denne lenken med vennene dine for å invitere dem til Detailbook* eller send e-post til dem med lenken direkte."
       personal_message: "Personlig melding"
       resend: "Send på nytt"
       send_an_invitation: "Send en invitasjon"
@@ -560,8 +560,8 @@ nb:
   layouts:
     application:
       back_to_top: "Til toppen"
-      powered_by: "DREVET AV DIASPORA*"
-      public_feed: "Offentlig diaspora* feed for %{name}"
+      powered_by: "DREVET AV Detailbook*"
+      public_feed: "Offentlig detailbook* feed for %{name}"
       source_package: "Last ned kildekodepakken"
       toggle: "vis mobilsiden"
       whats_new: "hva er nytt?"
@@ -701,20 +701,20 @@ nb:
       zero: "%{actors} har begynt å dele med deg."
   notifier:
     a_post_you_shared: "en post"
-    accept_invite: "Godta Diaspora*-invitasjonen din!"
+    accept_invite: "Godta Detailbook*-invitasjonen din!"
     click_here: "klikk her"
     comment_on_post:
       reply: "Svar eller se %{name}'s innlegg >"
     confirm_email:
       click_link: "To activate your new e-mail address %{unconfirmed_email}, please click this link:"
       subject: "Please activate your new e-mail address %{unconfirmed_email}"
-    email_sent_by_diaspora: "Denne e-posten er sendt av Diaspora. Hvis du ikke vil motta flere e-poster som denne, "
+    email_sent_by_diaspora: "Denne e-posten er sendt av Detailbook. Hvis du ikke vil motta flere e-poster som denne, "
     hello: "Hei %{name}!"
     invite:
       message: |-
           Hei!
 
-          Du har blitt invitert til å bruke Diaspora*!
+          Du har blitt invitert til å bruke Detailbook*!
 
           Klikk på denne linken for å sette i gang
 
@@ -723,16 +723,16 @@ nb:
 
           Hjertelig hilsen,
 
-          Diaspora*s mail-robot!
+          Detailbook*s mail-robot!
 
           [1]: %{invite_url}
-    invited_you: "%{name} har invitert deg til diaspora*"
+    invited_you: "%{name} har invitert deg til detailbook*"
     liked:
       liked: "%{name} has just liked your post: "
       view_post: "Se innlegg >"
     mentioned:
       mentioned: "nevnte deg i et innlegg:"
-      subject: "%{name} har nevnt deg på diaspora*"
+      subject: "%{name} har nevnt deg på detailbook*"
     private_message:
       reply_to_or_view: "Svar eller se på denne samtalen >"
     report_email:
@@ -747,7 +747,7 @@ nb:
 
           Hilsen,
 
-          Diaspora* e-post robot!
+          Detailbook* e-post robot!
 
           [1]:%{url}
       subject: "En ny %{type} ble markert som støtende"
@@ -758,11 +758,11 @@ nb:
       reshared: "%{name} just reshared your post"
       view_post: "Se innlegg >"
     single_admin:
-      admin: "Din diaspora* administrator"
-      subject: "En melding om din diaspora* konto:"
+      admin: "Din detailbook* administrator"
+      subject: "En melding om din detailbook* konto:"
     started_sharing:
       sharing: "har begynt å dele med deg!"
-      subject: "%{name} har startet å dele med deg på diaspora*"
+      subject: "%{name} har startet å dele med deg på detailbook*"
       view_profile: "Se %{name}'s profil"
     thanks: "Takk,"
     to_change_your_notification_settings: "for å endre innstilliger for varsler"
@@ -788,7 +788,7 @@ nb:
       no_one_found: "... og ingen ble funnet."
       no_results: "Hei! Du må søke etter noe."
       results_for: "søkeresultater for"
-      search_handle: "Benytt diaspora* ID (brukernavn@pod.tid) for å finne dine venner."
+      search_handle: "Benytt detailbook* ID (brukernavn@pod.tid) for å finne dine venner."
       searching: "Søker. Vennligst vent ..."
       send_invite: "Finner fremdeles ikke de du søker? Send en invitasjon!"
     one: "1 person"
@@ -882,12 +882,12 @@ nb:
   profile: "Profil"
   profiles:
     edit:
-      allow_search: "Tillat folk å søke på deg i diaspora*"
+      allow_search: "Tillat folk å søke på deg i detailbook*"
       edit_profile: "Endre profil"
       first_name: "Fornavn"
       last_name: "Etternavn"
       nsfw_check: "Marker alt jeg deler som NSFW"
-      nsfw_explanation: "NSFW ('not safe for work') er diaspora*'s felleskaps standard for innhold som muligens ikke er passende å vise når man er f.eks på jobb. Hvis du ønsker å dele slikt materiale jevnlig, vennligsk velg denne opsjonen, slik at alt du deler ikke vises for personer som ikke ønsker å se det."
+      nsfw_explanation: "NSFW ('not safe for work') er detailbook*'s felleskaps standard for innhold som muligens ikke er passende å vise når man er f.eks på jobb. Hvis du ønsker å dele slikt materiale jevnlig, vennligsk velg denne opsjonen, slik at alt du deler ikke vises for personer som ikke ønsker å se det."
       nsfw_explanation2: "Hvis du ikke velger denne opsjonen, vennligst legg til #nsfw tag for hver gang du deler slikt materiale"
       update_profile: "Oppdater Profil"
       your_bio: "Om meg"
@@ -899,7 +899,7 @@ nb:
       your_private_profile: "Din private profil"
       your_public_profile: "Din offentlige profil"
       your_tags: "Deg: i 5 #tagger"
-      your_tags_placeholder: "f.eks. #diaspora #matlaging #skiskyting #musikk"
+      your_tags_placeholder: "f.eks. #detailbook #matlaging #skiskyting #musikk"
     update:
       failed: "Kunne ikke oppdatere profil"
       updated: "Profil oppdatert"
@@ -912,9 +912,9 @@ nb:
     two: "%{count} reaksjoner"
     zero: "0 reaksjoner"
   registrations:
-    closed: "Registreringer er stengt på denne diaspora* poden."
+    closed: "Registreringer er stengt på denne detailbook* poden."
     create:
-      success: "Du er nå med i diaspora*!"
+      success: "Du er nå med i detailbook*!"
     edit:
       cancel_my_account: "Avbryt kontoen min"
       edit: "Endre %{name}"
@@ -957,7 +957,7 @@ nb:
   requests:
     create:
       sending: "Sender ..."
-      sent: "Du har bedt om å dele med %{name}.  De burde se det neste gang de logger inn på diaspora*"
+      sent: "Du har bedt om å dele med %{name}.  De burde se det neste gang de logger inn på detailbook*"
     destroy:
       error: "Velg et aspekt først!"
       ignore: "Ignorerte venneforespørsel"
@@ -992,7 +992,7 @@ nb:
   search: "Søk"
   services:
     create:
-      already_authorized: "En bruker med diaspora id %{diaspora_id} har alllerede autorisert denne %{service_name} kontoen."
+      already_authorized: "En bruker med detailbook id %{diaspora_id} har alllerede autorisert denne %{service_name} kontoen."
       failure: "Autentisering gikk galt."
       read_only_access: "Tilgangsnivå er kun lesing, prøv igjen senere."
       success: "Autentisering vellykket."
@@ -1001,7 +1001,7 @@ nb:
     failure:
       error: "feil under tilkobling av tjenesten"
     finder:
-      fetching_contacts: "diaspora* finner dine %{service} venner, vær så snill og sjekk igjen om noen få minutter."
+      fetching_contacts: "detailbook* finner dine %{service} venner, vær så snill og sjekk igjen om noen få minutter."
       no_friends: "Ingen Facebook-venner ble funnet."
       service_friends: "%{service}-venner"
     index:
@@ -1009,13 +1009,13 @@ nb:
       edit_services: "Rediger tjenester"
       logged_in_as: "logget inn som"
       really_disconnect: "koble fra %{service}?"
-      services_explanation: "Ved å koble til andre sosiale tjenester, får du muligheten å publisere til disse tjenestene idet du poster til diaspora*."
+      services_explanation: "Ved å koble til andre sosiale tjenester, får du muligheten å publisere til disse tjenestene idet du poster til detailbook*."
     inviter:
       click_link_to_accept_invitation: "Klikk denne linken for å akseptere invitasjonen din"
-      join_me_on_diaspora: "Bli med meg på diaspora*"
+      join_me_on_diaspora: "Bli med meg på detailbook*"
     remote_friend:
       invite: "inviter"
-      not_on_diaspora: "Finnes ikke på diaspora* ennå."
+      not_on_diaspora: "Finnes ikke på detailbook* ennå."
       resend: "send på nytt"
   settings: "Innstillinger"
   share_visibilites:
@@ -1025,11 +1025,11 @@ nb:
   shared:
     add_contact:
       add_new_contact: "Legg til en ny kontakt"
-      create_request: "Finn etter diaspora* brukernavn"
-      diaspora_handle: "Diaspora handle"
-      enter_a_diaspora_username: "Skriv inn et Diaspora brukernavn:"
+      create_request: "Finn etter detailbook* brukernavn"
+      diaspora_handle: "Detailbook handle"
+      enter_a_diaspora_username: "Skriv inn et Detailbook brukernavn:"
       know_email: "Kan du epostadressen deres? Inviter dem!"
-      your_diaspora_username_is: "Ditt diaspora* brukernavn er: %{diaspora_handle}"
+      your_diaspora_username_is: "Ditt detailbook* brukernavn er: %{diaspora_handle}"
     aspect_dropdown:
       add_to_aspect: "Add to aspect"
       toggle:
@@ -1049,7 +1049,7 @@ nb:
       invite_someone: "Inviter noen"
       invite_your_friends: "Innviter vennene dine"
       invites: "Invitasjoner "
-      invites_closed: "Invitasjoner er foreløpig stengt på denne diaspora* poden"
+      invites_closed: "Invitasjoner er foreløpig stengt på denne detailbook* poden"
       share_this: "Del denne lenken via e-post, blogg eller ditt foretrukne sosiale nettverk!"
     notification:
       new: "Ny %{type} fra %{from}"
@@ -1059,7 +1059,7 @@ nb:
       logged_in: "innlogget på %{service}"
       manage: "Behandle tilkoblede tjenester"
       new_user_welcome_message: "Bruk #hashtags for å sette merkelapp på innleggene dine og finne folk som deler samme interessefelt. Rop ut til bra folk med @Mentions"
-      outside: "Offentlige meldinger vil være synlige for personer utenfor diaspora*."
+      outside: "Offentlige meldinger vil være synlige for personer utenfor detailbook*."
       share: "Del"
       title: "Du er i ferd med å poste et offentlig innlegg!"
       visibility_dropdown: "Bruk denne menyen for å endre publikum for ditt innlegg. (Vi foreslår at du gjør dette første innlegget offentlig.)\n"
@@ -1185,7 +1185,7 @@ nb:
       email_not_confirmed: "E-Mail could not be activated. Wrong link?"
     destroy:
       no_password: "Skriv inn ditt nåværende passord for å stenge din konto."
-      success: "Kontoen din har blitt stengt. Det kan ta oss opp til 20 minutter for å gjøre ferdig stengningen av din konto. Takk for at du prøvde diaspora*."
+      success: "Kontoen din har blitt stengt. Det kan ta oss opp til 20 minutter for å gjøre ferdig stengningen av din konto. Takk for at du prøvde detailbook*."
       wrong_password: "Passordet du skrev inn er ikke lik ditt nåværende passord."
     edit:
       also_commented: "noen andre har kommentert et innlegg du kommenterte på"
@@ -1201,10 +1201,10 @@ nb:
         if_you_want_this: "Om du virkelig ønsker dette så skriv inn passordet ditt under og klikk på 'Avslutt Konto'"
         lock_username: "Dette vil reservere brukernavnet ditt hvis du bestemmer deg for å registrere deg igjen."
         locked_out: "Du kommer til å bli avlogget og låst ute fra din konto"
-        make_diaspora_better: "Vi ønsker at du hjelper oss å gjøre Diaspora bedre, så det hadde vært fint om du hjalp oss i stedet for å forlate oss. Hvis du allikevel ønsker å forsvinne så vil vi gjerne at du skal få vite hva som skjer videre."
+        make_diaspora_better: "Vi ønsker at du hjelper oss å gjøre Detailbook bedre, så det hadde vært fint om du hjalp oss i stedet for å forlate oss. Hvis du allikevel ønsker å forsvinne så vil vi gjerne at du skal få vite hva som skjer videre."
         mr_wiggles: "Mr Wiggles blir lei seg om du forlater oss nå"
         no_turning_back: "På dette tidspunktet er det ingen vei tilbake."
-        what_we_delete: "Vi kommer til å slette dine tidligere innlegg og profildata så snart som mulig. Dine kommentarer vil fortsatt stå, men vil bli assosiert med din diaspora* ID istedet for ditt navn."
+        what_we_delete: "Vi kommer til å slette dine tidligere innlegg og profildata så snart som mulig. Dine kommentarer vil fortsatt stå, men vil bli assosiert med din detailbook* ID istedet for ditt navn."
       close_account_text: "Avslutt Konto"
       comment_on_post: "noen kommenterer på ditt innlegg"
       current_password: "Nåverende passord"
@@ -1227,13 +1227,13 @@ nb:
       started_sharing: "noen startet å dele med deg"
       stream_preferences: "Innstillinger for stream"
       your_email: "Din epost"
-      your_handle: "Ditt diaspora* brukernavn"
+      your_handle: "Ditt detailbook* brukernavn"
     getting_started:
-      awesome_take_me_to_diaspora: "Supert! Ta meg til Diaspora*"
-      community_welcome: "diaspora* felleskapet er glad for å ha deg med på laget!"
-      connect_to_facebook: "Vi kan gjøre dette litt kjappere ved hjelp av %{link} til diaspora*. Dette vil trekke ut ditt navn og foto og tillate krysslagring/oppdatering av innhold."
+      awesome_take_me_to_diaspora: "Supert! Ta meg til Detailbook*"
+      community_welcome: "detailbook* felleskapet er glad for å ha deg med på laget!"
+      connect_to_facebook: "Vi kan gjøre dette litt kjappere ved hjelp av %{link} til detailbook*. Dette vil trekke ut ditt navn og foto og tillate krysslagring/oppdatering av innhold."
       connect_to_facebook_link: "kobler opp til din Facebook konto"
-      hashtag_explanation: "Hastags lar deg beskrive og følge dine interesser. De er også en fin måte å finne nye folk i diaspora*."
+      hashtag_explanation: "Hastags lar deg beskrive og følge dine interesser. De er også en fin måte å finne nye folk i detailbook*."
       hashtag_suggestions: "Prøv å følge tags som #art, #movies, #gif, osv."
       saved: "Lagret!"
       well_hello_there: "Vel, hallo !"

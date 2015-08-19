@@ -32,7 +32,7 @@ vi:
       inviter:
         accept_at: "tại %{url}, bạn có thể chấp nhận nó qua đường dẫn bên dưới."
         has_invited_you: "%{name}"
-        have_invited_you: "%{names} đã mời bạn tham gia Diaspora"
+        have_invited_you: "%{names} đã mời bạn tham gia Detailbook"
       reset_password_instructions:
         change: "Đổi mật khẩu"
         ignore: "Nếu bạn không yêu cầu, hãy bỏ qua thư này."

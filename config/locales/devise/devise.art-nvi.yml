@@ -7,17 +7,17 @@
 art-nvi:
   devise:
     confirmations:
-      confirmed: "Ngeyä Diaspora lìlmatem. Nga fpxìlmäkim."
-      send_instructions: "Nga tayel sänumeti ikä Ikran lì'u teri nga leratem ngeyä Diaspora."
+      confirmed: "Ngeyä Detailbook lìlmatem. Nga fpxìlmäkim."
+      send_instructions: "Nga tayel sänumeti ikä Ikran lì'u teri nga leratem ngeyä Detailbook."
     failure:
       invalid: "Ke lu kangay tstxo fu ftemlì'u"
-      unauthenticated: "Ngal kin 'ivastengyem ayoeti fu fpxäkim ayoe fte salew Diasporaru."
-      unconfirmed: "Ngal kin stiveftxaw ngeyä Diasporati fte fpxäkim."
+      unauthenticated: "Ngal kin 'ivastengyem ayoeti fu fpxäkim ayoe fte salew Detailbook."
+      unconfirmed: "Ngal kin stiveftxaw ngeyä Detailbook fte fpxäkim."
     mailer:
       hello: "Kaltxì %{email}!"
       inviter:
         has_invited_you: "%{name}"
-        have_invited_you: "%{names} polawm ngati txo säpung Diasporaru"
+        have_invited_you: "%{names} polawm ngati txo säpung Detailbook"
       reset_password_instructions:
         change: "Latem oeyä ftemlì'u"
         someone_requested: "Tsengeäo lu fte nga tsun livatem ngeyä ftemlì'u talun tuteo pìmawm ayoe txo tìng fì'uti ngaur."
@@ -35,7 +35,7 @@ art-nvi:
     sessions:
       new:
         login: "Fpxäkim"
-        modern_browsers: "Diasporal nì'aw tung eltuti lefpom nariti asop"
+        modern_browsers: "Detailbook nì'aw tung eltuti lefpom nariti asop"
         password: "Ftemlì'u"
         remember_me: "Zerok oeti"
         sign_in: "Fpxäkim"

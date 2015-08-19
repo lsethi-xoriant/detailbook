@@ -140,11 +140,11 @@ nn:
       updating: "oppdaterer"
     index:
       diaspora_id:
-        content_1: "Diaspora-ID-en din er:"
-        content_2: "Gje han til kven som helst så kan dei finna deg på Diaspora."
-        heading: "Diaspora-ID"
+        content_1: "Detailbook-ID-en din er:"
+        content_2: "Gje han til kven som helst så kan dei finna deg på Detailbook."
+        heading: "Detailbook-ID"
       donate: "Doner"
-      handle_explanation: "Dette er Diaspora-ID-en din. Nett som ei e-postadresse kan du gje han til folk slik at dei kan nå deg."
+      handle_explanation: "Dette er Detailbook-ID-en din. Nett som ei e-postadresse kan du gje han til folk slik at dei kan nå deg."
       help:
         any_problem: "Har du eit problem?"
         contact_podmin: "Ta kontakt med administratoren (podminen) på poden din."
@@ -154,7 +154,7 @@ nn:
         feature_suggestion: "eit %{link}forslag?"
         find_a_bug: "funne ein %{link}?"
         have_a_question: "eit %{link}?"
-        here_to_help: "Diaspora-fellesskapen er her for deg!"
+        here_to_help: "Detailbook-fellesskapen er her for deg!"
         mail_podmin: "Podmin e-post"
         need_help: "Treng du hjelp?"
         tag_bug: "bug"
@@ -162,10 +162,10 @@ nn:
         tag_question: "spørsmål"
         tutorials_and_wiki: "%{faq}, %{tutorial} og %{wiki} er her for å hjelpe deg med dei første skritta."
       introduce_yourself: "Dette er straumen din.   Hiv deg med og introduser deg sjølv."
-      keep_diaspora_running: "Held utviklinga av Diaspora* rask med ei månadleg donasjon!"
+      keep_diaspora_running: "Held utviklinga av Detailbook* rask med ei månadleg donasjon!"
       keep_pod_running: "Held %{pod} på beina og spander kaffi på serverane med ein månadleg donasjon!"
       new_here:
-        follow: "Følg %{link} og sei velkomen til nye brukarar på Diaspora*!"
+        follow: "Følg %{link} og sei velkomen til nye brukarar på Detailbook*!"
         learn_more: "Lær meir"
         title: "Sei velkomen til nye brukarar"
       no_contacts: "Ingen kontaktar"
@@ -173,10 +173,10 @@ nn:
       people_sharing_with_you: "Folk som deler med deg"
       post_a_message: "skriv eit innlegg >>"
       services:
-        content: "Du kan kopla desse tenestene til Diaspora:"
+        content: "Du kan kopla desse tenestene til Detailbook:"
         heading: "Kopla tenester"
       unfollow_tag: "Slutt å følgja #%{tag}"
-      welcome_to_diaspora: "Velkomen til Diaspora, %{name}!"
+      welcome_to_diaspora: "Velkomen til Detailbook, %{name}!"
     new:
       create: "Lag"
       name: "Namn (berre du kan sjå det)"
@@ -207,7 +207,7 @@ nn:
       failure: "Denne brukaren er dømd til å ignorerast til evig tid. #evasion"
       success: "Det vert spanande å sjå kva h*n har å sei!"
   bookmarklet:
-    explanation: "Legg ut på Diaspora frå kor som helst ved å lagra %{link} som bokmerke."
+    explanation: "Legg ut på Detailbook frå kor som helst ved å lagra %{link} som bokmerke."
     heading: "Bookmarklet"
     post_something: "denne lenkja"
     post_success: "Sendt. Lukkar."
@@ -308,16 +308,16 @@ nn:
     new:
       already_invited: "Desse personane har ikkje godteke invitasjonen din:"
       aspect: "Aspekt"
-      check_out_diaspora: "Ta ein kikk på Diaspora!"
+      check_out_diaspora: "Ta ein kikk på Detailbook!"
       codes_left:
         one: "%{count} invitasjon igjen på denne koden"
         other: "%{count} invitasjonar igjen på denne koden"
         zero: "Ingen invitasjonar igjen på denne koden"
       comma_separated_plz: "Du kan skriva fleire e-postadresser om du skil dei med komma."
       if_they_accept_info: "om dei godtek, vil dei verta lagde til aspektet du inviterte dei til."
-      invite_someone_to_join: "Inviter nokon til å bli med Diaspora!"
+      invite_someone_to_join: "Inviter nokon til å bli med Detailbook!"
       language: "Språk"
-      paste_link: "Del denne lenkja med venene dine for å invitere dei til Diaspora* eller send dei lenkja direkte på epost."
+      paste_link: "Del denne lenkja med venene dine for å invitere dei til Detailbook* eller send dei lenkja direkte på epost."
       personal_message: "Personleg melding"
       resend: "Send på nytt"
       send_an_invitation: "Send ein invitasjon"
@@ -327,8 +327,8 @@ nn:
   layouts:
     application:
       back_to_top: "Attende til toppen"
-      powered_by: "DRIVEN AV DIASPORA*"
-      public_feed: "Offentleg Diaspora-straum for %{name}"
+      powered_by: "DRIVEN AV Detailbook*"
+      public_feed: "Offentleg Detailbook-straum for %{name}"
       source_package: "last ned kjeldekodepakka"
       toggle: "slå på mobilnettstad"
       whats_new: "kva er nytt?"
@@ -455,7 +455,7 @@ nn:
       zero: "%{actors} byrja å dela med deg."
   notifier:
     a_post_you_shared: "eit innlegg."
-    accept_invite: "Godta Diaspora*-invitasjonen din!"
+    accept_invite: "Godta Detailbook*-invitasjonen din!"
     click_here: "klikk her"
     comment_on_post:
       reply: "Svar på eller syn  %{name} sitt innlegg >"
@@ -468,7 +468,7 @@ nn:
       message: |-
           Hei!
 
-          Du er invitert til å bli med på Diaspora*!
+          Du er invitert til å bli med på Detailbook*!
 
           Klikk på denne lenkja for å sette i gang
 
@@ -477,27 +477,27 @@ nn:
 
           Kjærleik frå
 
-          Diaspora* sin epost-robot :)
+          Detailbook* sin epost-robot :)
 
           [1]: %{invite_url}
-    invited_you: "%{name} inviterte deg til Diaspora*"
+    invited_you: "%{name} inviterte deg til Detailbook*"
     liked:
       liked: "%{name} likte innlegget ditt"
       view_post: "Syn innlegget >"
     mentioned:
       mentioned: "nemnde deg i eit innlegg:"
-      subject: "%{name} har nemnt deg på Diaspora*"
+      subject: "%{name} har nemnt deg på Detailbook*"
     private_message:
       reply_to_or_view: "Svar på eller syn denne samtalen >"
     reshared:
       reshared: "%{name} har delt innlegget ditt"
       view_post: "Syn innlegget >"
     single_admin:
-      admin: "Diaspora-administratoren din"
-      subject: "Ei melding om Diaspora-kontoen din:"
+      admin: "Detailbook-administratoren din"
+      subject: "Ei melding om Detailbook-kontoen din:"
     started_sharing:
       sharing: "har byrja å dela med deg."
-      subject: "%{name} byrja å dela med deg på Diaspora*"
+      subject: "%{name} byrja å dela med deg på Detailbook*"
       view_profile: "Syn %{name} sin profil"
     thanks: "Takk,"
     to_change_your_notification_settings: "for å endra varslingsinnstillingane dine"
@@ -614,7 +614,7 @@ nn:
   profile: "Profil"
   profiles:
     edit:
-      allow_search: "Tillat at folk kan søkja etter deg i Diaspora"
+      allow_search: "Tillat at folk kan søkja etter deg i Detailbook"
       edit_profile: "Endra profilen"
       first_name: "Fornamn"
       last_name: "Etternamn"
@@ -638,9 +638,9 @@ nn:
     other: "%{count} reaksjonar"
     zero: "ingen reaksjonar"
   registrations:
-    closed: "Kan ikkje oppretta brukarar på denne Diaspora-poden."
+    closed: "Kan ikkje oppretta brukarar på denne Detailbook-poden."
     create:
-      success: "Du er vorten med i Diaspora."
+      success: "Du er vorten med i Detailbook."
     edit:
       cancel_my_account: "Avslutt kontoen min"
       edit: "Endra %{name}"
@@ -665,7 +665,7 @@ nn:
   requests:
     create:
       sending: "Sender"
-      sent: "Du bad om å dela med %{name}. Dei ser det neste gong dei loggar seg på Diaspora."
+      sent: "Du bad om å dela med %{name}. Dei ser det neste gong dei loggar seg på Detailbook."
     destroy:
       error: "Vel eit aspekt."
       ignore: "Ignorerte kontaktførespurnaden."
@@ -700,7 +700,7 @@ nn:
   search: "Søk"
   services:
     create:
-      already_authorized: "En brukar med Diaspora* ID %{diaspora_id} har allereie teke i bruk den %{service_name}kontoen."
+      already_authorized: "En brukar med Detailbook* ID %{diaspora_id} har allereie teke i bruk den %{service_name}kontoen."
       failure: "Feila autentisering"
       read_only_access: "Tilgangsnivå er \"berre les\", ver ven og autoriser igjen seinare"
       success: "Vellukka autentisering."
@@ -709,7 +709,7 @@ nn:
     failure:
       error: "klarte ikkje å kopla til tenesta"
     finder:
-      fetching_contacts: "Diaspora* hentar %{service}venene dine, kom attende om eit par minutt."
+      fetching_contacts: "Detailbook* hentar %{service}venene dine, kom attende om eit par minutt."
       no_friends: "Fann ingen Facebook-vener."
       service_friends: "%{service}-vener"
     index:
@@ -719,10 +719,10 @@ nn:
       really_disconnect: "kopla frå %{service}?"
     inviter:
       click_link_to_accept_invitation: "Godta invitasjonen ved å klikka på denne lenkja"
-      join_me_on_diaspora: "Ver med meg på DIASPORA*"
+      join_me_on_diaspora: "Ver med meg på Detailbook*"
     remote_friend:
       invite: "inviter"
-      not_on_diaspora: "Enno ikkje på Diaspora"
+      not_on_diaspora: "Enno ikkje på Detailbook"
       resend: "send på nytt"
   settings: "Innstillingar"
   share_visibilites:
@@ -732,11 +732,11 @@ nn:
   shared:
     add_contact:
       add_new_contact: "Legg til ein ny kontakt"
-      create_request: "Finn ved hjelp av Diaspora-id-en"
+      create_request: "Finn ved hjelp av Detailbook-id-en"
       diaspora_handle: "diaspora@pod.org"
-      enter_a_diaspora_username: "Skriv inn eit Diaspora-brukarnamn:"
+      enter_a_diaspora_username: "Skriv inn eit Detailbook-brukarnamn:"
       know_email: "Kjenner du epostadressene deira? Du burde invitera dei"
-      your_diaspora_username_is: "Diaspora-brukarnamnet ditt er: %{diaspora_handle}"
+      your_diaspora_username_is: "Detailbook-brukarnamnet ditt er: %{diaspora_handle}"
     aspect_dropdown:
       add_to_aspect: "Legg til kontakt"
       toggle:
@@ -759,7 +759,7 @@ nn:
       invite_someone: "Inviter nokon"
       invite_your_friends: "Inviter venene dine"
       invites: "Invitasjonar"
-      invites_closed: "Denne Diaspora-noden gjev for tida ikkje ut invitasjonar"
+      invites_closed: "Denne Detailbook-noden gjev for tida ikkje ut invitasjonar"
       share_this: "Del denne lenkja via e-post, bloggen din eller eit sosialt nettverk."
     notification:
       new: "Ny %{type} frå %{from}"
@@ -769,7 +769,7 @@ nn:
       logged_in: "logga på %{service}"
       manage: "handsama tilkopla tenester"
       new_user_welcome_message: "Nytt #tags for å klassifisere innlegga dine og for å finne folk med same interesser som deg.  Hev fram kule folk med @Nemningar"
-      outside: "Andre utanfor Diaspora vil kunna sjå dei offentlege meldingane."
+      outside: "Andre utanfor Detailbook vil kunna sjå dei offentlege meldingane."
       share: "Del"
       title: "Setja opp tilkopla tenester"
       visibility_dropdown: "Nytt denne rullegardinmenyen for å endra synlegheita til innlegga dine.  (Me foreslår at du gjer det første innlegget offentleg.)"
@@ -879,7 +879,7 @@ nn:
       email_not_confirmed: "Klarte ikkje å slå på bruk av e-post. Feil lenkje?"
     destroy:
       no_password: "Skriv inn den noverande passordet ditt for å lukke kontoen din."
-      success: "Kontoen din er stengd. Det kan ta 20 minutt før me er ferdig med å stenge kontoen heilt. Takk for at du prøvde ut Diaspora*"
+      success: "Kontoen din er stengd. Det kan ta 20 minutt før me er ferdig med å stenge kontoen heilt. Takk for at du prøvde ut Detailbook*"
       wrong_password: "Passordet du skreiv inn stemde ikkje med det noverande passordet ditt."
     edit:
       also_commented: "… nokon òg kommenterer kontakten din sitt innlegg?"
@@ -895,10 +895,10 @@ nn:
         if_you_want_this: "Om du verkeleg vil dette, skriv inn passordet ditt og klikk på 'Lukk konto'"
         lock_username: "Dette vil fryse brukarnamnet ditt om du vel å registrera deg igjen."
         locked_out: "Du vert logga ut og stengd ute frå kontoen din."
-        make_diaspora_better: "Me treng deg for å gjera Diaspora* betre, så om du kan hjelpe oss i staden for å forlate oss vert me veldig takksame. Om du faktisk vil forlate oss, så skal du vite kva som skjer."
+        make_diaspora_better: "Me treng deg for å gjera Detailbook* betre, så om du kan hjelpe oss i staden for å forlate oss vert me veldig takksame. Om du faktisk vil forlate oss, så skal du vite kva som skjer."
         mr_wiggles: "Kattepusen vert særs vonbråten om du gjer dette"
         no_turning_back: "Det er for tida inga veg attende."
-        what_we_delete: "Me slettar all infoen me har om deg og alle innlegga dine så fort som mogleg. Kommentarane dine vert ståande og lenka saman med Diaspora-ID-en din."
+        what_we_delete: "Me slettar all infoen me har om deg og alle innlegga dine så fort som mogleg. Kommentarane dine vert ståande og lenka saman med Detailbook-ID-en din."
       close_account_text: "Lukk konto"
       comment_on_post: "… nokon kommenterer innlegget ditt?"
       current_password: "Gjeldande passord"
@@ -920,13 +920,13 @@ nn:
       started_sharing: "… nokon byrjar å dela med deg?"
       stream_preferences: "Innstillingar for straumen"
       your_email: "E-posten din"
-      your_handle: "Diaspora-ID-en din"
+      your_handle: "Detailbook-ID-en din"
     getting_started:
-      awesome_take_me_to_diaspora: "Kult! Ta meg med til Diaspora*"
+      awesome_take_me_to_diaspora: "Kult! Ta meg med til Detailbook*"
       community_welcome: "Diaspora* sin fellesskap er glade for å ha deg ombord!"
-      connect_to_facebook: "Me kan få fart på sakane ved å %{link} til Diaspora. Dette vil hente namnet og profilbilete ditt derfrå og sette i gong kryss-posting."
+      connect_to_facebook: "Me kan få fart på sakane ved å %{link} til Detailbook. Dette vil hente namnet og profilbilete ditt derfrå og sette i gong kryss-posting."
       connect_to_facebook_link: "kopla til Facebook-kontoen din"
-      hashtag_explanation: "Grindmerke (#) gjer at du kan tala om og følgja interessene dine. Dei er òg ein fin måte å finna nye Diaspora-brukarar på."
+      hashtag_explanation: "Grindmerke (#) gjer at du kan tala om og følgja interessene dine. Dei er òg ein fin måte å finna nye Detailbook-brukarar på."
       hashtag_suggestions: "Prøv å følgje tags som #kunst, #film, #åtgaum, #katt, etc."
       saved: "Lagra!"
       well_hello_there: "Neimen, hei der!"

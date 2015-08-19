@@ -32,7 +32,7 @@ lt:
       inviter:
         accept_at: "priimti kvietimą galite paspaudę nuorodą žemiau %{url}"
         has_invited_you: ""
-        have_invited_you: "%{names} pakvietė Jus prisijungti prie Diaspora tinklapio"
+        have_invited_you: "%{names} pakvietė Jus prisijungti prie Detailbook tinklapio"
       reset_password_instructions:
         change: "Keisti slaptažodį"
         ignore: "Jei tu to neprašei, nekreipk dėmesio į šį laišką."

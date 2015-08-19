@@ -89,11 +89,11 @@ ka:
       updating: "ნახლდება"
     index:
       diaspora_id:
-        content_1: "თქვენი Diaspora-ს ID არის:"
-        content_2: "გაუზიარეთ ის ნებისმიერ ადამიანს და ის შეძლებს თქვენს პოვნას Diaspora-ზე."
-        heading: "Diaspora ID"
+        content_1: "თქვენი Detailbook-ს ID არის:"
+        content_2: "გაუზიარეთ ის ნებისმიერ ადამიანს და ის შეძლებს თქვენს პოვნას Detailbook-ზე."
+        heading: "Detailbook ID"
       donate: "ფულის შეწირვა"
-      handle_explanation: "This is your diaspora id. Like an email address, you can give this to people to reach you."
+      handle_explanation: "This is your detailbook id. Like an email address, you can give this to people to reach you."
       help:
         do_you: "თქვენ:"
         email_feedback: "%{link} თქვენი უკუკავშირი, თუ გსურთ"
@@ -246,8 +246,8 @@ ka:
   layouts:
     application:
       back_to_top: "დასაწყისში დაბრუნება"
-      powered_by: "POWERED BY DIASPORA*"
-      public_feed: "Public Diaspora Feed for %{name}"
+      powered_by: "POWERED BY Detailbook*"
+      public_feed: "Public Detailbook Feed for %{name}"
       toggle: "გახდი მობილური"
       whats_new: "რა არის ახალი?"
       your_aspects: "შენი ასპექტები"
@@ -608,7 +608,7 @@ ka:
   search: "ძებნა"
   services:
     create:
-      already_authorized: "A user with diaspora id %{diaspora_id} already authorized that %{service_name} account."
+      already_authorized: "A user with detailbook id %{diaspora_id} already authorized that %{service_name} account."
       failure: "აუტენტიფიკაცია ვერ მოხერხდა."
       success: "აუტენტიფიკაცია წარმატებით დასრულდა."
     destroy:
@@ -742,7 +742,7 @@ ka:
         dont_go: "ჰეი, გთხოვ არ წახვიდე!"
         if_you_want_this: "თუ მართლა გსურთ ამის გაკეთება, ჩაწერეთ თქვენი პაროლი ქვემოთ და დააწკაპუნეთ ღილაკს \"ანგარიშის დახურვა\""
         locked_out: "თქვენ გამოხვალთ და თქვენი ანგარიში დაიბლოკება"
-        what_we_delete: "We delete all of your posts, profile data, as soon as humanly possible. Your comments will hang around, but be associated with your Diaspora Handle."
+        what_we_delete: "We delete all of your posts, profile data, as soon as humanly possible. Your comments will hang around, but be associated with your Detailbook Handle."
       close_account_text: "ანგარიშის დახურვა"
       current_password: "მიმდინარე პაროლი"
       current_password_expl: "რომლითაც შემოდიხართ..."

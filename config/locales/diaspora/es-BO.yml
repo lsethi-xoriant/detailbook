@@ -77,13 +77,13 @@ es-BO:
       updating: "actualizando"
     index:
       donate: "Donar"
-      handle_explanation: "Esta es tu dirección de Diaspora. Como una dirección de correo electrónico, puedes dársela a la gente para que te encuentre."
+      handle_explanation: "Esta es tu dirección de Detailbook. Como una dirección de correo electrónico, puedes dársela a la gente para que te encuentre."
       no_contacts: "No hay contactos"
       no_tags: "+ Encuentra una etiqueta para seguir"
       people_sharing_with_you: "Personas que comparten contigo"
       post_a_message: "publica un mensaje >>"
       unfollow_tag: "Dejar de seguir #%{tag}"
-      welcome_to_diaspora: "Bienvenido a Diaspora, %{name}!"
+      welcome_to_diaspora: "Bienvenido a Detailbook, %{name}!"
     new:
       create: "Crear"
       name: "Nombre (solo es visible para tí)"

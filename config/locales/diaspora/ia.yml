@@ -75,7 +75,7 @@ ia:
       week: "Septimana"
     user_entry:
       account_closed: "conto claudite"
-      diaspora_handle: "Pseudonymo de Diaspora"
+      diaspora_handle: "Pseudonymo de Detailbook"
       email: "E-mail"
       guid: "GUID"
       id: "ID"
@@ -155,11 +155,11 @@ ia:
       updating: "actualisation in curso"
     index:
       diaspora_id:
-        content_1: "Tu ID de diaspora* es:"
-        content_2: "Da lo a alteres e illes potera trovar te in diaspora*."
-        heading: "ID de diaspora*"
+        content_1: "Tu ID de detailbook* es:"
+        content_2: "Da lo a alteres e illes potera trovar te in detailbook*."
+        heading: "ID de detailbook*"
       donate: "Donar"
-      handle_explanation: "Isto es tu ID de diaspora*. Como un adresse de e-mail, tu pote dar isto a alteres a fin que illes pote attinger te."
+      handle_explanation: "Isto es tu ID de detailbook*. Como un adresse de e-mail, tu pote dar isto a alteres a fin que illes pote attinger te."
       help:
         any_problem: "Problema?"
         contact_podmin: "Contacta le administrator de tu pod!"
@@ -169,7 +169,7 @@ ia:
         feature_suggestion: "... ha un suggestion de %{link}?"
         find_a_bug: "... ha trovate un %{link}?"
         have_a_question: "... ha un %{link}?"
-        here_to_help: "Le communitate de diaspora* es a tu disposition!"
+        here_to_help: "Le communitate de detailbook* es a tu disposition!"
         mail_podmin: "E-mail del \"podmin\""
         need_help: "Require adjuta?"
         tag_bug: "bug"
@@ -178,10 +178,10 @@ ia:
         tutorial_link_text: "Tutoriales"
         tutorials_and_wiki: "%{faq}, %{tutorial} & %{wiki}: Adjuta pro le prime passos."
       introduce_yourself: "Iste fluxo es le tue. Non hesita… presenta te!"
-      keep_diaspora_running: "Mantene le disveloppamento de diaspora* rapide con un donation mensual!"
+      keep_diaspora_running: "Mantene le disveloppamento de detailbook* rapide con un donation mensual!"
       keep_pod_running: "Adjuta al mantenentia e melioration de %{pod} (e al caffeination de su gerentes) con un donation mensual!"
       new_here:
-        follow: "Seque %{link} e saluta nove usatores in diaspora*!"
+        follow: "Seque %{link} e saluta nove usatores in detailbook*!"
         learn_more: "Leger plus"
         title: "Accolliger nove usatores"
       no_contacts: "Nulle contacto"
@@ -189,10 +189,10 @@ ia:
       people_sharing_with_you: "Personas qui divide con te"
       post_a_message: "publicar un message >>"
       services:
-        content: "Tu pote connecter le sequente servicios a diaspora*:"
+        content: "Tu pote connecter le sequente servicios a detailbook*:"
         heading: "Connecter servicios"
       unfollow_tag: "Cessar de sequer #%{tag}"
-      welcome_to_diaspora: "Benvenite a diaspora*, %{name}!"
+      welcome_to_diaspora: "Benvenite a detailbook*, %{name}!"
     new:
       create: "Crear"
       name: "Nomine (visibile solmente pro te)"
@@ -223,9 +223,9 @@ ia:
       failure: "Io non poteva cessar de ignorar iste usator.  #evasion"
       success: "Vamos vider lo que iste usator ha a dicer! #salutes"
   bookmarklet:
-    explanation: "Invia cosas a diaspora* ab ubique con iste ligamine: %{link}"
+    explanation: "Invia cosas a detailbook* ab ubique con iste ligamine: %{link}"
     heading: "Mini-marcapaginas"
-    post_something: "Inviar a diaspora*"
+    post_something: "Inviar a detailbook*"
     post_success: "Invio succedite! Claude…"
   cancel: "Cancellar"
   comments:
@@ -313,7 +313,7 @@ ia:
       close_account_q: "Como pote io deler mi conto?"
       data_other_podmins_a: "Un vice que tu divide cosas con un persona in un altere pod, omne articulos que tu divide con illa e un copia del datos de tu profilo es immagazinate (in cache) in le pod de illa, e es accessibile al administrator del base de datos de iste pod. Quando tu dele un entrata o datos de profilo, illo es delite de tu pod e de omne altere pods ubi illo es immagazinate."
       data_other_podmins_q: "Esque le administratores de altere pods pote vider mi information?"
-      data_visible_to_podmin_a: "Le communication *inter* pods es sempre cryptate (con SSL e le cryptation de transporto proprie de diaspora*), ma le immagazinage de datos in pods non es cryptate. Le administrator del base de datos de tu pod (generalmente le persona qui gere le pod) pote acceder a tote le datos de tu profilo e tote lo que tu invia (isto es le caso pro le majoritate del sitos web que immagazina datos de usator). Gerer tu proprie pod fornirea un melior protection del vita private perque tu haberea le controlo super le accesso al base de datos."
+      data_visible_to_podmin_a: "Le communication *inter* pods es sempre cryptate (con SSL e le cryptation de transporto proprie de detailbook*), ma le immagazinage de datos in pods non es cryptate. Le administrator del base de datos de tu pod (generalmente le persona qui gere le pod) pote acceder a tote le datos de tu profilo e tote lo que tu invia (isto es le caso pro le majoritate del sitos web que immagazina datos de usator). Gerer tu proprie pod fornirea un melior protection del vita private perque tu haberea le controlo super le accesso al base de datos."
       data_visible_to_podmin_q: "Quante information mie pote le administrator de mi pod vider?"
       download_data_a: "Si. Al fundo del scheda Conto in tu pagina de configuration il ha duo buttones pro discargar tu datos."
       download_data_q: "Pote io discargar un copia de tote le datos continite in mi conto?"
@@ -340,26 +340,26 @@ ia:
       restrict_posts_i_see_a: "Si. Clicca sur \"Mi aspectos\" in le barra lateral e postea clicca sur individual aspectos in le lista pro marcar o dismarcar los. Solmente le entratas scribite per personas in le aspectos marcate apparera in tu fluxo."
       restrict_posts_i_see_q: "Pote io limitar le entratas que io vide de sorta que solmente illos de certe aspectos es monstrate?"
       title: "Aspectos"
-      what_is_an_aspect_a: "Aspectos es le maniera de gruppar tu contactos in diaspora*. Cata aspecto es un del facies que tu monstra al mundo. Un aspecto poterea representar te a tu collegas, o a tu familia, o a tu amicos in un club de que tu es membro."
+      what_is_an_aspect_a: "Aspectos es le maniera de gruppar tu contactos in detailbook*. Cata aspecto es un del facies que tu monstra al mundo. Un aspecto poterea representar te a tu collegas, o a tu familia, o a tu amicos in un club de que tu es membro."
       what_is_an_aspect_q: "Que es un aspecto?"
       who_sees_post_a: "Si tu scribe un entrata limitate, illo essera visibile solmente al personas que tu ha mittite in ille aspecto (o in ille aspectos, si tu lo ha inviate a plure aspectos). Tu contactos que non es in le aspecto non potera vider le entrata si tu non lo ha rendite public. Solmente le entratas public es visibile a personas que tu non ha includite in un de tu aspectos."
       who_sees_post_q: "Quando io invia qualcosa a un aspecto, qui lo videra?"
     chat:
       add_contact_roster_a: "Primo tu debe activar le chat pro un del aspectos in le quales iste persona es presente. Pro facer isto, va al %{contacts_page}, selige le aspecto que tu vole e clicca sur le icone de chat pro activar le chat pro ille aspecto. %{toggle_privilege} Alternativemente, tu pote crear un aspecto special nominate 'Chat' e adder a ille aspecto le personas con qui tu vole chattar. Un vice que tu ha facite isto, aperi le interfacie de chat e selige le persona con qui tu vole chattar."
-      add_contact_roster_q: "Como pote io parlar in directo a qualcuno in diaspora*?"
+      add_contact_roster_q: "Como pote io parlar in directo a qualcuno in detailbook*?"
       contacts_page: "pagina de contactos"
       title: "Chat"
     faq: "FAQ"
-    foundation_website: "le sito web del fundation diaspora"
+    foundation_website: "le sito web del fundation detailbook"
     getting_help:
       get_support_a_faq: "Lege nostre pagina de %{faq} sur le wiki"
-      get_support_a_hashtag: "pone le question in un entrata public de diaspora* adjungente le etiquetta %{question}"
+      get_support_a_hashtag: "pone le question in un entrata public de detailbook* adjungente le etiquetta %{question}"
       get_support_a_irc: "veni a nos in %{irc} (conversation in directo)"
       get_support_a_tutorials: "lege nostre %{tutorials}"
       get_support_a_website: "visita nostre %{link}"
       get_support_a_wiki: "cerca in le %{link}"
       get_support_q: "E si le FAQ non ha un responsa a mi question, ubi pote io trovar adjuta?"
-      getting_started_a: "Fortunatemente, le %{tutorial_series} in nostre sito es a tu disposition. Illo te guidara passo post passo per le processo de inscription e te inseniara le aspectos fundamental de usar diaspora*."
+      getting_started_a: "Fortunatemente, le %{tutorial_series} in nostre sito es a tu disposition. Illo te guidara passo post passo per le processo de inscription e te inseniara le aspectos fundamental de usar detailbook*."
       getting_started_q: "Succurso! Io ha besonio de adjuta pro comenciar!"
       title: "Obtener adjuta"
     getting_started_tutorial: "Serie de tutoriales 'Prime passos'"
@@ -391,8 +391,8 @@ ia:
     miscellaneous:
       back_to_top_a: "Si. Post rolar a basso in un pagina, clicca sur le sagitta gris que appare in le angulo dextre al fundo de tu fenestra de navigator."
       back_to_top_q: "Ha il un maniera rapide de retornar al cyma del pagina post que io rola a basso?"
-      diaspora_app_a: "Il ha plure applicationes de Android in un stadio precoce de disveloppamento. Plures de iste projectos es abandonate e non functiona ben con le version actual de diaspora*. Non expecta troppo de iste apps in iste momento. Actualmente le melior maniera de acceder a diaspora* a partir de tu dispositivo mobile es per medio de un navigator web, perque nos ha designate un version mobile del sito que deberea functionar ben in tote le dispositivos. Actualmente il non ha un app pro iOS. De novo, diaspora* deberea functionar ben in tu navigator."
-      diaspora_app_q: "Ha il un app diaspora* pro Android o iOS?"
+      diaspora_app_a: "Il ha plure applicationes de Android in un stadio precoce de disveloppamento. Plures de iste projectos es abandonate e non functiona ben con le version actual de detailbook*. Non expecta troppo de iste apps in iste momento. Actualmente le melior maniera de acceder a detailbook* a partir de tu dispositivo mobile es per medio de un navigator web, perque nos ha designate un version mobile del sito que deberea functionar ben in tote le dispositivos. Actualmente il non ha un app pro iOS. De novo, detailbook* deberea functionar ben in tu navigator."
+      diaspora_app_q: "Ha il un app detailbook* pro Android o iOS?"
       photo_albums_a: "No, non in iste momento. Nonobstante, tu pote vider un fluxo de su imagines incargate a partir del section Photos in le barra lateral de lor pagina de profilo."
       photo_albums_q: "Ha il albumes de photos o videos?"
       subscribe_feed_a: "Si, ma iste functionalitate non es ancora polite e le formato del resultato es assatis crude. Si tu vole essayar lo in omne caso, va al pagina de profilo de un persona e clicca sur le button de syndication in tu navigator, o tu pote copiar le URL del profilo (p.ex. https://joindiaspora.com/people/alcunnumero) e collar lo in un lector de syndication. Le adresse de syndication resultante ha iste aspecto: https://joindiaspora.com/public/nominedeusator.atom (diaspora* usa Atom, non RSS)."
@@ -402,16 +402,16 @@ ia:
       find_people_a: "Invita tu amicos usante le ligamine de e-mail in le barra lateral. Seque #etiquettas pro discoperir personas con interesses commun al tues, e adde le personas qui invia cosas de tu interesse a un aspecto. Annuncia tu presentia in disaspora* in un entrata public con le etiquetta #newhere."
       find_people_q: "Io ha justo adherite a un pod, como pote io trovar gente con qui divider?"
       title: "Pods"
-      use_search_box_a: "Si tu cognosce su ID de diaspora* complete (p.ex. nominedeusator@nominedepod.org), tu pote trovar la per cercar lo. Si tu es in le mesme pod, tu pote cercar solmente su nomine de usator. Alternativemente tu pote cercar su nomine de profilo (le nomine que tu vide in le schermo). Si un recerca non functiona le prime vice, proba lo de novo."
+      use_search_box_a: "Si tu cognosce su ID de detailbook* complete (p.ex. nominedeusator@nominedepod.org), tu pote trovar la per cercar lo. Si tu es in le mesme pod, tu pote cercar solmente su nomine de usator. Alternativemente tu pote cercar su nomine de profilo (le nomine que tu vide in le schermo). Si un recerca non functiona le prime vice, proba lo de novo."
       use_search_box_q: "Como usar le quadro de recerca pro trovar un persona in particular?"
-      what_is_a_pod_a: "Un pod es un servitor que executa le software de diaspora* e que es connectite al rete de diaspora*. \"Pod\" (siliqua) es un metaphora que refere a siliquas in plantas que contine granas, como un servitor contine plure contos de usator. Il ha multe differente pods. Tu pote adder amicos de altere pods e communicar con illes. (Un pod de diaspora* es similar a un fornitor de e-mail: il ha pods public, pods private, e con alcun effortio tu pote mesmo gerer le tue.)"
+      what_is_a_pod_a: "Un pod es un servitor que executa le software de detailbook* e que es connectite al rete de detailbook*. \"Pod\" (siliqua) es un metaphora que refere a siliquas in plantas que contine granas, como un servitor contine plure contos de usator. Il ha multe differente pods. Tu pote adder amicos de altere pods e communicar con illes. (Un pod de detailbook* es similar a un fornitor de e-mail: il ha pods public, pods private, e con alcun effortio tu pote mesmo gerer le tue.)"
       what_is_a_pod_q: "Que es un pod?"
     posts_and_posting:
       char_limit_services_a: "In tal caso tu entrata essera limitate al numero de characteres minor (140 in le caso de Twitter; 1000 in le caso de Tumblr), e le numero de characteres que te resta es monstrate quando le icone de iste servicio es mittite in evidentia. Tu pote ancora inviar un entrata a iste servicios si illo excede le limite, ma le texto es truncate in iste servicios."
       char_limit_services_q: "Que es le limite de characteres pro entratas dividite per un servicio connectite con un numero de characteres minor?"
       character_limit_a: "65,535 characteres. Isto es 65,395 plus characteres de lo que on te permitte in Twitter! ;)"
       character_limit_q: "Que es le limite de characteres pro entratas?"
-      embed_multimedia_a: "Generalmente tu pote collar le URL (p.ex. http://www.youtube.com/watch?v=nnnnnnnnnnn ) in tu entrata e le video o audio essera incorporate automaticamente. Alcun sitos supportate pro isto es: YouTube, Vimeo, SoundCloud, Flickr e alcun alteres. diaspora* usa oEmbed pro iste function. Nos labora sempre a supportar nove sitos. Rememora de sempre inserer ligamines simple e complete: nulle ligamines abbreviate; nulle operatores post le URL de base; e permitte un poco de tempore pro vider le previsualisation ante que tu refresca le pagina post inviar."
+      embed_multimedia_a: "Generalmente tu pote collar le URL (p.ex. http://www.youtube.com/watch?v=nnnnnnnnnnn ) in tu entrata e le video o audio essera incorporate automaticamente. Alcun sitos supportate pro isto es: YouTube, Vimeo, SoundCloud, Flickr e alcun alteres. detailbook* usa oEmbed pro iste function. Nos labora sempre a supportar nove sitos. Rememora de sempre inserer ligamines simple e complete: nulle ligamines abbreviate; nulle operatores post le URL de base; e permitte un poco de tempore pro vider le previsualisation ante que tu refresca le pagina post inviar."
       embed_multimedia_q: "Como incorporar un video, audio o altere contento multimedial in un entrata?"
       format_text_a: "Per medio de un systema de marcation simplificate con le nomine %{markdown}. Le syntaxe complete de Markdown se trova %{here}. Le button de previsualisation es multo utile hic, permittente vider le aspecto de tu message ante que tu lo divulga."
       format_text_q: "Como pote io formatar le texto in mi entratas (grasse, italic, etc.)?"
@@ -451,13 +451,13 @@ ia:
       who_sees_updates_a: "Omne persona in tu aspectos vide le cambiamentos in tu profilo private. "
       who_sees_updates_q: "Qui vide le actualisationes in mi profilo private?"
     public_posts:
-      can_comment_reshare_like_a: "Omne usator qui ha aperite session in diaspora* pote commentar, repeter o appreciar tu entrata public."
+      can_comment_reshare_like_a: "Omne usator qui ha aperite session in detailbook* pote commentar, repeter o appreciar tu entrata public."
       can_comment_reshare_like_q: "Qui pote commentar, repeter o appreciar mi entrata public?"
       deselect_aspect_posting_a: "Dismarcar aspectos non ha effecto sur un entrata public. Illo apparera como sempre in le fluxos de tote tu contactos. Pro render un entrata visibile solmente pro aspectos visibile, tu debe seliger iste aspectos ab le button sub le publicator."
       deselect_aspect_posting_q: "Que eveni quando io dismarca un o plus aspectos quando io face un entrata public?"
       find_public_post_a: "Tu entratas public apparera in le fluxos de omnes qui te seque. Si tu include #etiquettas in tu message public, omnes qui seque iste etiquettas trovara tu entrata in lor fluxos. Cata entrata public anque ha un adresse URL specific al qual omnes pote acceder, mesmo sin aperir session; assi, es possibile mitter ligamines a entratas public directemente in Twitter, blogs, etc. Le entratas public pote anque esser includite in le indices del motores de recerca del web."
       find_public_post_q: "Como pote altere personas trovar mi entrata public?"
-      see_comment_reshare_like_a: "Omne usator de diaspora* e omne alteres connectite a internet. Le commentos, appreciationes e repetitiones de entratas public es etiam public."
+      see_comment_reshare_like_a: "Omne usator de detailbook* e omne alteres connectite a internet. Le commentos, appreciationes e repetitiones de entratas public es etiam public."
       see_comment_reshare_like_q: "Quando io commenta, repete o apprecia un entrata public, qui pote vider lo?"
       title: "Entratas public"
       who_sees_post_a: "Omne usator de internet pote vider un entrata que tu marca como public, dunque, sia secur que tu vole vermente que tu message es public. Isto es un optime modo de attinger tote le mundo."
@@ -497,7 +497,7 @@ ia:
       see_old_posts_q: "Quando io adde un persona a un aspecto, pote ille vider le ancian entratas que io ha jam inviate a ille aspecto?"
       title: "Divider"
     tags:
-      filter_tags_a: "Iste functionalitate non es ancora disponibile directemente de diaspora*, ma alcun %{third_party_tools} ha essite scribite que pote fornir lo."
+      filter_tags_a: "Iste functionalitate non es ancora disponibile directemente de detailbook*, ma alcun %{third_party_tools} ha essite scribite que pote fornir lo."
       filter_tags_q: "Como pote io filtrar/excluder alcun etiquettas de mi fluxo?"
       followed_tags_a: "Post cercar un etiquetta tu pote cliccar sur le button al cyma del pagina del etiquetta pro \"sequer\" ille etiquetta. Illo apparera in le lista de etiquettas sequite al sinistra. Un clic sur un de tu etiquettas sequite te porta al pagina de ille etiquetta, de sorta que tu pote vider le entrata recente que contine ille etiquetta. Clicca sur \"#etiquettas sequite\" pro vider un fluxo de entratas que include qualcunque etiquetta que tu seque. "
       followed_tags_q: "Que es \"etiquettas #sequite\" e como seque io un etiquetta?"
@@ -536,12 +536,12 @@ ia:
     new:
       already_invited: "Le sequente personas non ha acceptate tu invitation:"
       aspect: "Aspecto"
-      check_out_diaspora: "Discoperi diaspora*!"
+      check_out_diaspora: "Discoperi detailbook*!"
       comma_separated_plz: "Tu pote entrar plure adresses de e-mail separante los per commas."
       if_they_accept_info: "si iste persona accepta, illa essera addite al aspecto in le qual tu la invitava."
-      invite_someone_to_join: "Invita qualcuno a unir se a diaspora*!"
+      invite_someone_to_join: "Invita qualcuno a unir se a detailbook*!"
       language: "Lingua"
-      paste_link: "Divide iste ligamine con tu amicos pro invitar les a diaspora*, o invia le ligamine directemente a illes per e-mail."
+      paste_link: "Divide iste ligamine con tu amicos pro invitar les a detailbook*, o invia le ligamine directemente a illes per e-mail."
       personal_message: "Message personal"
       resend: "Reinviar"
       send_an_invitation: "Inviar un invitation"
@@ -551,8 +551,8 @@ ia:
   layouts:
     application:
       back_to_top: "Retornar al cyma"
-      powered_by: "Actionate per diaspora*"
-      public_feed: "Fluxo public de diaspora* pro %{name}"
+      powered_by: "Actionate per detailbook*"
+      public_feed: "Fluxo public de detailbook* pro %{name}"
       source_package: "discargar le pacchetto con le codice-fonte"
       toggle: "(dis)activar mobile"
       whats_new: "que es nove?"
@@ -625,10 +625,10 @@ ia:
       other: "%{actors} ha comenciate a divider cosas con te."
       zero: "%{actors} ha comenciate a divider cosas con te."
   notifier:
-    a_limited_post_comment: "Il ha un nove commento pro te sur un entrata limitate in diaspora*."
+    a_limited_post_comment: "Il ha un nove commento pro te sur un entrata limitate in detailbook*."
     a_post_you_shared: "un entrata."
-    a_private_message: "Il ha un nove message private pro te in diaspora*."
-    accept_invite: "Accepta tu invitation a diaspora*!"
+    a_private_message: "Il ha un nove message private pro te in detailbook*."
+    accept_invite: "Accepta tu invitation a detailbook*!"
     click_here: "clicca hic"
     comment_on_post:
       reply: "Responde o lege le message de %{name} >"
@@ -644,7 +644,7 @@ ia:
 
           Amicalmente,
 
-          Le robot messagero de diaspora*!
+          Le robot messagero de detailbook*!
       subject: "Datos personal de %{name} preste pro discargamento"
     export_failure_email:
       body: |-
@@ -655,7 +655,7 @@ ia:
 
           Amicalmente,
 
-          Le robot messagero de diaspora*!
+          Le robot messagero de detailbook*!
       subject: "Problema con datos personal de %{name}"
     export_photos_email:
       body: |-
@@ -665,7 +665,7 @@ ia:
 
           Amicalmente,
 
-          Le robot messagero de diaspora*!      
+          Le robot messagero de detailbook*!      
       subject: "Photos de %{name} preste pro discargar"
     export_photos_failure_email:
       body: |-
@@ -676,14 +676,14 @@ ia:
 
           Con regret,
 
-          Le robot messagero de diaspora*!       
+          Le robot messagero de detailbook*!       
       subject: "Problema con photos de %{name}"
     hello: "Salute %{name}!"
     invite:
       message: |-
           Hallo,
 
-          Tu ha essite invitate a unir te a diaspora*!
+          Tu ha essite invitate a unir te a detailbook*!
 
           Clicca sur iste ligamine pro comenciar:
 
@@ -692,34 +692,34 @@ ia:
 
           Cordialmente,
 
-          Le messagero robotic de diaspora*
+          Le messagero robotic de detailbook*
 
           [1]: %{invite_url}
-    invited_you: "%{name} te ha invitate a diaspora*"
+    invited_you: "%{name} te ha invitate a detailbook*"
     liked:
       liked: "%{name} apprecia tu entrata"
       view_post: "Vider entrata >"
     mentioned:
       mentioned: "te mentionava in un message:"
-      subject: "%{name} te ha mentionate in diaspora*"
+      subject: "%{name} te ha mentionate in detailbook*"
     private_message:
       reply_to_or_view: "Responde o lege iste conversation >"
     remove_old_user:
       body: |-
           Salute,
 
-          A causa de inactivitate in tu conto de diaspora* a %{pod_url}, nos regretta de informar te que le systema ha marcate iste conto pro elimination. Isto occurre automaticamente post un periodo de inactivitate de plus de %{after_days} dies.
+          A causa de inactivitate in tu conto de detailbook* a %{pod_url}, nos regretta de informar te que le systema ha marcate iste conto pro elimination. Isto occurre automaticamente post un periodo de inactivitate de plus de %{after_days} dies.
 
           Tu pote evitar le perdita de iste conto per aperir session ante le %{remove_after}, in le qual caso le elimination essera automaticamente cancellate.
 
-          Isto es pro assecurar que nostre usatores active pote efficacemente utilisar le ressources de iste servitor de diaspora*. Gratias pro tu comprension.
+          Isto es pro assecurar que nostre usatores active pote efficacemente utilisar le ressources de iste servitor de detailbook*. Gratias pro tu comprension.
 
           Si tu vole retener tu conto, aperi session hic: %{login_url}
 
           Sperante de vider te de novo,
 
-          Le robot de e-mail de diaspora*
-      subject: "Tu conto de diaspora* ha essite marcate pro elimination a causa de inactivitate"
+          Le robot de e-mail de detailbook*
+      subject: "Tu conto de detailbook* ha essite marcate pro elimination a causa de inactivitate"
     report_email:
       body: |-
           Salute,
@@ -733,7 +733,7 @@ ia:
 
           Cordialmente,
 
-          Le messagero robotic de diaspora*
+          Le messagero robotic de detailbook*
 
           [1]: %{url}
       subject: "Un nove %{type} ha essite marcate como offensive"
@@ -744,11 +744,11 @@ ia:
       reshared: "%{name} ha repetite tu entrata"
       view_post: "Vider entrata >"
     single_admin:
-      admin: "Le tue administrator de diaspora*"
-      subject: "Un message concernente tu conto de diaspora*:"
+      admin: "Le tue administrator de detailbook*"
+      subject: "Un message concernente tu conto de detailbook*:"
     started_sharing:
       sharing: "ha comenciate a divider con te!"
-      subject: "%{name} comenciava a divider cosas con te in diaspora*"
+      subject: "%{name} comenciava a divider cosas con te in detailbook*"
       view_profile: "Vider le profilo de %{name}"
     thanks: "Gratias,"
     to_change_your_notification_settings: "pro cambiar tu configuration de notificationes"
@@ -774,7 +774,7 @@ ia:
       no_one_found: "…e nemo ha essite trovate."
       no_results: "Un momento! Tu debe cercar qualcosa."
       results_for: "Usatores correspondente a %{search_term}"
-      search_handle: "Usa lor ID de diaspora* (p.ex. nominedeusator@pod.tld) pro cercar tu amicos."
+      search_handle: "Usa lor ID de detailbook* (p.ex. nominedeusator@pod.tld) pro cercar tu amicos."
       searching: "recerca in curso, un momento per favor..."
       send_invite: "Ancora nihil? Invia un invitation!"
     one: "1 persona"
@@ -864,7 +864,7 @@ ia:
   profile: "Profilo"
   profiles:
     edit:
-      allow_search: "Permitter que on te cerca in diaspora*"
+      allow_search: "Permitter que on te cerca in detailbook*"
       edit_profile: "Modificar profilo"
       first_name: "Prenomine"
       last_name: "Nomine de familia"
@@ -887,9 +887,9 @@ ia:
       updated: "Profilo actualisate"
   public: "Public"
   registrations:
-    closed: "Le creation de contos es claudite in iste pod de diaspora*."
+    closed: "Le creation de contos es claudite in iste pod de detailbook*."
     create:
-      success: "Tu ha adherite a diaspora*!"
+      success: "Tu ha adherite a detailbook*!"
     edit:
       cancel_my_account: "Cancellar mi conto"
       edit: "Modificar %{name}"
@@ -932,7 +932,7 @@ ia:
   requests:
     create:
       sending: "Invio in curso"
-      sent: "Tu ha demandate de divider con %{name}. Iste persona lo videra le proxime vice que illa aperira session in diaspora*."
+      sent: "Tu ha demandate de divider con %{name}. Iste persona lo videra le proxime vice que illa aperira session in detailbook*."
     destroy:
       error: "Per favor selige un aspecto!"
       ignore: "Demanda de contacto ignorate."
@@ -955,7 +955,7 @@ ia:
   search: "Cercar"
   services:
     create:
-      already_authorized: "Un usator con le ID de Diaspora \"%{diaspora_id}\" ha jam autorisate iste conto de %{service_name}."
+      already_authorized: "Un usator con le ID de Detailbook \"%{diaspora_id}\" ha jam autorisate iste conto de %{service_name}."
       failure: "Authentication fallite."
       read_only_access: "Le nivello de accesso es lectura solmente. Per favor proba de authenticar de novo plus tarde."
       success: "Authentication succedite."
@@ -964,7 +964,7 @@ ia:
     failure:
       error: "un error occurreva durante le connexion a iste servicio"
     finder:
-      fetching_contacts: "diaspora* obtene presentemente tu amicos de %{service}. Per favor reveni in alcun pauc minutas."
+      fetching_contacts: "detailbook* obtene presentemente tu amicos de %{service}. Per favor reveni in alcun pauc minutas."
       no_friends: "Nulle amico de Facebook trovate."
       service_friends: "Amicos de %{service}"
     index:
@@ -972,13 +972,13 @@ ia:
       edit_services: "Modificar servicios"
       logged_in_as: "identificate como"
       really_disconnect: "disconnecter %{service}?"
-      services_explanation: "Le connexion a servicios da le possibilitate de publicar tu messages anque in illos si tu los scribe in diaspora*."
+      services_explanation: "Le connexion a servicios da le possibilitate de publicar tu messages anque in illos si tu los scribe in detailbook*."
     inviter:
       click_link_to_accept_invitation: "Seque iste ligamine pro acceptar tu invitation"
-      join_me_on_diaspora: "Veni con me in diaspora*"
+      join_me_on_diaspora: "Veni con me in detailbook*"
     remote_friend:
       invite: "invitar"
-      not_on_diaspora: "Non ancora in diaspora*"
+      not_on_diaspora: "Non ancora in detailbook*"
       resend: "reinviar"
   settings: "Configuration"
   share_visibilites:
@@ -988,11 +988,11 @@ ia:
   shared:
     add_contact:
       add_new_contact: "Adder un nove contacto"
-      create_request: "Cercar per ID de diaspora*"
+      create_request: "Cercar per ID de detailbook*"
       diaspora_handle: "diaspora@pod.org"
-      enter_a_diaspora_username: "Entra un nomine de usator de diaspora*:"
+      enter_a_diaspora_username: "Entra un nomine de usator de detailbook*:"
       know_email: "Si tu cognosce su adresse de e-mail, tu deberea invitar le/la."
-      your_diaspora_username_is: "Tu nomine de usator de diaspora* es: %{diaspora_handle}"
+      your_diaspora_username_is: "Tu nomine de usator de detailbook* es: %{diaspora_handle}"
     aspect_dropdown:
       add_to_aspect: "Adder contacto"
     contact_list:
@@ -1008,7 +1008,7 @@ ia:
       invite_someone: "Invitar un persona"
       invite_your_friends: "Invitar tu amicos"
       invites: "Invitationes"
-      invites_closed: "Le invitationes es actualmente claudite pro iste pod de diaspora*."
+      invites_closed: "Le invitationes es actualmente claudite pro iste pod de detailbook*."
       share_this: "Divide iste ligamine per e-mail, blog o rete social!"
     notification:
       new: "Nove %{type} de %{from}"
@@ -1018,7 +1018,7 @@ ia:
       logged_in: "identificate in %{service}"
       manage: "Gerer servicios connectite"
       new_user_welcome_message: "Usa #etiquettas pro classificar tu messages e trovar personas con interesses in commun. Commenda personas extraordinari con @Mentiones."
-      outside: "Le messages public essera visibile pro altere personas foras de diaspora*."
+      outside: "Le messages public essera visibile pro altere personas foras de detailbook*."
       share: "Divider"
       title: "Connecter altere servicios"
       visibility_dropdown: "Iste menu disrolante es pro cambiar le visibilitate de tu message. (Nos suggere que tu rende iste prime message public.)"
@@ -1156,7 +1156,7 @@ ia:
       email_not_confirmed: "Le adresse de e-mail non poteva esser activate. Ligamine incorrecte?"
     destroy:
       no_password: "Per favor entra tu contrasigno actual pro clauder tu conto."
-      success: "Tu conto ha essite blocate. Le clausura definitive de tu conto pote durar 20 minutas. Gratias pro haber essayate diaspora*."
+      success: "Tu conto ha essite blocate. Le clausura definitive de tu conto pote durar 20 minutas. Gratias pro haber essayate detailbook*."
       wrong_password: "Le contrasigno entrate non corresponde a tu contrasigno actual."
     edit:
       also_commented: "un persona commenta un entrata que tu ha commentate"
@@ -1172,10 +1172,10 @@ ia:
         if_you_want_this: "Si tu vermente vole facer isto, entra hic infra tu contrasigno e clicca sur 'Clauder conto'."
         lock_username: "Isto reserva tu nomine de usator in caso que tu decide de re-crear tu conto."
         locked_out: "Tu session essera claudite e tu essera excludite de tu conto."
-        make_diaspora_better: "Nos ha besonio de adjuta pro meliorar diaspora*, dunque, per favor contribue in loco de quitar. Si tu vermente vole quitar, nos vole informar te de lo que evenira."
+        make_diaspora_better: "Nos ha besonio de adjuta pro meliorar detailbook*, dunque, per favor contribue in loco de quitar. Si tu vermente vole quitar, nos vole informar te de lo que evenira."
         mr_wiggles: "Sr. Wiggles essera triste de vider te partir"
         no_turning_back: "Tu ha arrivate al puncto de non retorno."
-        what_we_delete: "Nos va deler, le plus tosto possibile, tote le entratas e datos de profilo pertinente a te. Tu commentos remanera, ma essera associate con tu ID de diaspora* in loco de tu nomine."
+        what_we_delete: "Nos va deler, le plus tosto possibile, tote le entratas e datos de profilo pertinente a te. Tu commentos remanera, ma essera associate con tu ID de detailbook* in loco de tu nomine."
       close_account_text: "Clauder conto"
       comment_on_post: "un persona commenta un entrata tue"
       current_password: "Contrasigno actual"
@@ -1207,13 +1207,13 @@ ia:
       started_sharing: "un persona comencia a divider cosas con te"
       stream_preferences: "Preferentias de fluxo"
       your_email: "Tu adresse de e-mail"
-      your_handle: "Tu ID de diaspora*"
+      your_handle: "Tu ID de detailbook*"
     getting_started:
-      awesome_take_me_to_diaspora: "Superbe! Conduce me a diaspora*"
-      community_welcome: "Le communitate de diaspora* es felice de accolliger te!"
-      connect_to_facebook: "Nos pote accelerar le cosas un poco per %{link} a diaspora*. Isto insere automaticamente tu nomine e photo, e permitte inviar entratas a ambe sitos."
+      awesome_take_me_to_diaspora: "Superbe! Conduce me a detailbook*"
+      community_welcome: "Le communitate de detailbook* es felice de accolliger te!"
+      connect_to_facebook: "Nos pote accelerar le cosas un poco per %{link} a detailbook*. Isto insere automaticamente tu nomine e photo, e permitte inviar entratas a ambe sitos."
       connect_to_facebook_link: "connecter tu conto de Facebook"
-      hashtag_explanation: "Le #etiquettas permitte discuter e sequer tu interesses. Illos anque es un bon maniera de trovar nove personas in diaspora*."
+      hashtag_explanation: "Le #etiquettas permitte discuter e sequer tu interesses. Illos anque es un bon maniera de trovar nove personas in detailbook*."
       hashtag_suggestions: "Tenta sequer etiquettas como #arte, #films, #gif, etc."
       saved: "Salveguardate!"
       well_hello_there: "Salutationes a te!"

@@ -86,24 +86,24 @@ en_pirate:
     index:
       diaspora_id:
         content_1: "Ye ship name be:"
-        content_2: "Give it to anyone 'n they'll be able to find ye on diaspora*. Yargh."
-        heading: "diaspora* ID"
+        content_2: "Give it to anyone 'n they'll be able to find ye on detailbook*. Yargh."
+        heading: "detailbook* ID"
       donate: "Give some dubloons!"
-      handle_explanation: "This is yer diaspora id. Like a ship name, ye can give this to mates to reach ye."
+      handle_explanation: "This is yer detailbook id. Like a ship name, ye can give this to mates to reach ye."
       help:
         do_you: "Do ye:"
         email_feedback: "%{link} yer feedback, if ye prefer"
         feature_suggestion: "... do ye have a %{link} suggestion?"
         find_a_bug: "... ye find a %{link}?"
         have_a_question: "do ye have a %{link}?"
-        here_to_help: "Diaspora community is here to help!"
+        here_to_help: "Detailbook community is here to help!"
         need_help: "S.O.S."
         tag_bug: "blunder"
         tag_feature: "addition"
         tag_question: "wanna know somethin'!"
       introduce_yourself: "This be yer sea. Make yerself acquainted ye bucko."
       new_here:
-        follow: "Follow %{link} 'n welcome new mateys 't diaspora*!"
+        follow: "Follow %{link} 'n welcome new mateys 't detailbook*!"
         learn_more: "Learn more matey"
         title: "Welcome New Buccaneers"
       no_contacts: "No mateys"
@@ -111,10 +111,10 @@ en_pirate:
       people_sharing_with_you: "Buccaneers sharin' with ye"
       post_a_message: "send a letter"
       services:
-        content: "Ye can connect the following services to diaspora*:"
+        content: "Ye can connect the following services to detailbook*:"
         heading: "Connect ye services"
       unfollow_tag: "Stop followin' #%{tag}"
-      welcome_to_diaspora: "Welcome to diaspora*, %{name}. Ye old seadog!"
+      welcome_to_diaspora: "Welcome to detailbook*, %{name}. Ye old seadog!"
     new:
       create: "Forge"
       name: "Name"
@@ -144,7 +144,7 @@ en_pirate:
     destroy:
       failure: "Couldnt stop ignorin' that scallywag."
   bookmarklet:
-    explanation: "Post to diaspora* from anywhere by marking this link on yer map => %{link}"
+    explanation: "Post to detailbook* from anywhere by marking this link on yer map => %{link}"
     heading: "Mark on ye map"
     post_something: "Post 't d*"
     post_success: "Sent! Closing!"
@@ -219,9 +219,9 @@ en_pirate:
     new:
       already_invited: "The following landblubbers have not accepted yer invitation:"
       aspect: "Crew"
-      check_out_diaspora: "Avast ye! Check out diaspora*! ARRR!!"
+      check_out_diaspora: "Avast ye! Check out detailbook*! ARRR!!"
       if_they_accept_info: "if they accept, they will be added to the crew ye invited them."
-      invite_someone_to_join: "Invite a bucko t' diaspora*!"
+      invite_someone_to_join: "Invite a bucko t' detailbook*!"
       language: "What do ye speak?"
       personal_message: "Personal letter"
       send_an_invitation: "Send n' invitation"
@@ -229,8 +229,8 @@ en_pirate:
   layouts:
     application:
       back_to_top: "Back to crow's nest"
-      powered_by: "This ship be POWERED BY diaspora*"
-      public_feed: "Sea-wide diaspora* feed for %{name}"
+      powered_by: "This ship be POWERED BY detailbook*"
+      public_feed: "Sea-wide detailbook* feed for %{name}"
       toggle: "toggl' mobile site"
       whats_new: "what be new?"
       your_aspects: "yer crews"
@@ -377,18 +377,18 @@ en_pirate:
       view_post: "Read post >"
     mentioned:
       mentioned: "mention'd ye in a post:"
-      subject: "%{name} has mention'd ye on diaspora*"
+      subject: "%{name} has mention'd ye on detailbook*"
     private_message:
       reply_to_or_view: "Reply 't or read this conversation >"
     reshared:
       reshared: "%{name} just reshare'd yer post"
       view_post: "Read post >"
     single_admin:
-      admin: "Yer diaspora* cap'n"
-      subject: "A message about yer diaspora* account:"
+      admin: "Yer detailbook* cap'n"
+      subject: "A message about yer detailbook* account:"
     started_sharing:
       sharing: "has start'd sharin' with ye!"
-      subject: "%{name} started sharin' with ye on diaspora*"
+      subject: "%{name} started sharin' with ye on detailbook*"
       view_profile: "Look at %{name}'s ship"
     to_change_your_notification_settings: "t' change yer notification settin's"
   nsfw: "Not safe for lad's or lasses'"
@@ -477,7 +477,7 @@ en_pirate:
   profile: "Ye duffle"
   profiles:
     edit:
-      allow_search: "Allow fer scallywags to search fer ye within diaspora*"
+      allow_search: "Allow fer scallywags to search fer ye within detailbook*"
       your_bio: "Ye story"
       your_birthday: "Yer day o' birth"
       your_gender: "Lad, lass, or something else?"
@@ -501,7 +501,7 @@ en_pirate:
   registrations:
     closed: "Signups be closed on this ship!"
     create:
-      success: "Ye've joined diaspora*! YARGH!"
+      success: "Ye've joined detailbook*! YARGH!"
     edit:
       cancel_my_account: "Walk the plank"
       leave_blank: "(leave blank if ye dont want 't change it)"
@@ -513,7 +513,7 @@ en_pirate:
   requests:
     create:
       sending: "Sendin'"
-      sent: "Ye've asked 't share with %{name}.  They should be able 't see it next time they come aboard diaspora*."
+      sent: "Ye've asked 't share with %{name}.  They should be able 't see it next time they come aboard detailbook*."
     destroy:
       error: "Select a crew!"
       ignore: "The brig."
@@ -547,7 +547,7 @@ en_pirate:
     failure:
       error: "there be an error connectin' that service"
     finder:
-      fetching_contacts: "diaspora* is populatin' yer %{service} mates, come back in a bit mate."
+      fetching_contacts: "detailbook* is populatin' yer %{service} mates, come back in a bit mate."
       no_friends: "Couldnt find any Facebook mateys."
       service_friends: "%{service} Mateys"
     inviter:
@@ -572,7 +572,7 @@ en_pirate:
     public_explain:
       logged_in: "on deck at %{service}"
       new_user_welcome_message: "Use #hashtags t' classify yer posts n' find mateys.  Call out mateys with @Mentions"
-      outside: "Sea-wide messages will be available fer others outside of diaspora* t' see."
+      outside: "Sea-wide messages will be available fer others outside of detailbook* t' see."
       visibility_dropdown: "Use this dropdown t' change the visibility of yer post.  (It's good idear ye make this first one sea-wide.)"
     publisher:
       all_contacts: "all mateys"
@@ -640,12 +640,12 @@ en_pirate:
       auto_follow_back: "Automatically follow back if someone follows ye"
       close_account:
         dont_go: "Yo Ho HO! No need t' walk the plank!"
-        make_diaspora_better: "We want ye t' make diaspora* better arr, so ye should help before ye walk the plank and feed the fishes. If ye do want t' walk, we want ye t' be savvy on what happens next ye old seadog arrr."
+        make_diaspora_better: "We want ye t' make detailbook* better arr, so ye should help before ye walk the plank and feed the fishes. If ye do want t' walk, we want ye t' be savvy on what happens next ye old seadog arrr."
         mr_wiggles: "Mr Wiggles will be sad t' see ye go mate."
-        what_we_delete: "We scuttle all of yer posts, profile data, as soon as humanly possible. Yer comments will hang around, but be associated with yer Diaspora Handle."
+        what_we_delete: "We scuttle all of yer posts, profile data, as soon as humanly possible. Yer comments will hang around, but be associated with yer Detailbook Handle."
       download_photos: "download ye portraits"
       show_community_spotlight: "Show Community Spotlight in sea"
       stream_preferences: "Sea settin's"
       your_email: "Yer email"
-      your_handle: "Yer diaspora id"
+      your_handle: "Yer detailbook id"
   welcome: "Ahoy, matey!"

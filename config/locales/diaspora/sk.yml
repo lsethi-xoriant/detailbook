@@ -353,7 +353,7 @@ sk:
       what_is_a_mention_a: "Zmienka je odkaz na niečiu stránku s profilom, ktorý sa objaví v príspevku. Keď niekoho spomeniete, dostane oznam, ktorý upriami jeho pozornosť na príspevok."
       what_is_a_mention_q: "Čo je to \"zmienka\"?"
     miscellaneous:
-      diaspora_app_q: "Existuje aplikácia diaspora* pre Android alebo iOS?"
+      diaspora_app_q: "Existuje aplikácia detailbook* pre Android alebo iOS?"
       title: "Rôzne"
     pods:
       title: "Servery"
@@ -434,7 +434,7 @@ sk:
   layouts:
     application:
       back_to_top: "Späť nahor"
-      powered_by: "Prevádzkuje Diaspora*"
+      powered_by: "Prevádzkuje Detailbook*"
       public_feed: "%{name} &ndash; verejný kanál diaspory*"
       source_package: "stiahnuť balík so zdrojovým kódom"
       toggle: "Prepnúť (na) mobilnú verziu"
@@ -824,7 +824,7 @@ sk:
     failure:
       error: "pri pripájaní k službe nastala chyba"
     finder:
-      fetching_contacts: "diaspora* pridáva údaje o tvojich priateľoch zo siete %{service}, prosím, vráť sa sem  o niekoľko minút."
+      fetching_contacts: "detailbook* pridáva údaje o tvojich priateľoch zo siete %{service}, prosím, vráť sa sem  o niekoľko minút."
       no_friends: "Žiadni priatelia z Facebooku sa nenašli."
       service_friends: "Priatelia zo siete %{service}"
     index:

@@ -152,11 +152,11 @@ sl:
       updating: "posodabljanje"
     index:
       diaspora_id:
-        content_1: "Vaš Diaspora ID je:"
-        content_2: "Svoj Diaspora ID delite z drugimi, da vas bodo lahko našli."
-        heading: "Diaspora ID"
+        content_1: "Vaš Detailbook ID je:"
+        content_2: "Svoj Detailbook ID delite z drugimi, da vas bodo lahko našli."
+        heading: "Detailbook ID"
       donate: "Prispevajte"
-      handle_explanation: "To je vaš Diaspora ID. Uporabite ga lahko, da drugi stopijo v stik z vami, podobno kot vaš e-naslov."
+      handle_explanation: "To je vaš Detailbook ID. Uporabite ga lahko, da drugi stopijo v stik z vami, podobno kot vaš e-naslov."
       help:
         any_problem: "Imate problem?"
         contact_podmin: "Kontaktirajte administratorja vašega pod-a!"
@@ -166,7 +166,7 @@ sl:
         feature_suggestion: "... imate predlog(%{link})?"
         find_a_bug: "... ste našli hrošča(%{link})?"
         have_a_question: "... imate vprašanje(%{link})?"
-        here_to_help: "Skupnost Diaspora je tukaj!"
+        here_to_help: "Skupnost Detailbook je tukaj!"
         mail_podmin: "Elektronski naslov podmin-a"
         need_help: "Potrebujete pomoč?"
         tag_bug: "bug"
@@ -328,7 +328,7 @@ sl:
         zero: "S to kodo ni več vabil na razpolago"
       comma_separated_plz: "Vnesete lahko več e-naslovov ločenih z vejico."
       if_they_accept_info: "v kolikor sprejmejo vaše povabilo, bodo samodejno dodani vidikom v katere ste jih povabili."
-      invite_someone_to_join: "Povabite nekoga v omrežje Diaspora!"
+      invite_someone_to_join: "Povabite nekoga v omrežje Detailbook!"
       language: "Jezik"
       paste_link: "Delite to povezavo s svojimi prijatelji in jih povabite v Diasporo*. Lahko jim pa tudi direktno pošljete povezavo po e-pošti."
       personal_message: "Osebno sporočilo"
@@ -340,7 +340,7 @@ sl:
   layouts:
     application:
       back_to_top: "Na vrh"
-      powered_by: "STRAN POGANJA DIASPORA*"
+      powered_by: "STRAN POGANJA Detailbook*"
       public_feed: "Javni vir Diaspore za %{name}"
       source_package: "prenesi paket izvorne kode"
       toggle: "preklop mobilne strani"
@@ -491,7 +491,7 @@ sl:
 
           z ljubeznijo,
 
-          e-poštni robot Diaspora*!
+          e-poštni robot Detailbook*!
 
           [1]: %{invite_url}
     invited_you: "Oseba %{name} vas je povabila v Diasporo*"
@@ -508,7 +508,7 @@ sl:
       view_post: "Poglej objavo >"
     single_admin:
       admin: "Vaš administrator Diaspore"
-      subject: "Sporočilo o vašem Diaspora računu:"
+      subject: "Sporočilo o vašem Detailbook računu:"
     started_sharing:
       sharing: "je začel deliti z vami!"
       subject: "%{name} je začel deliti z vami na Diaspori*"
@@ -658,7 +658,7 @@ sl:
   registrations:
     closed: "Za ta Pod Diaspore registracije trenutno niso mogoče."
     create:
-      success: "Pridružili ste se v omrežje Diaspora!"
+      success: "Pridružili ste se v omrežje Detailbook!"
     edit:
       cancel_my_account: "Prekliči moj uporabniški račun"
       edit: "Uredi %{name}"
@@ -721,7 +721,7 @@ sl:
   search: "Najdi"
   services:
     create:
-      already_authorized: "Uporabnik z diaspora id %{diaspora_id} je že dovolil ta %{service_name} račun."
+      already_authorized: "Uporabnik z detailbook id %{diaspora_id} je že dovolil ta %{service_name} račun."
       failure: "Preverjanje istovetnosti ni uspelo."
       success: "Preverjanje istovetnosti je uspelo."
     destroy:
@@ -729,7 +729,7 @@ sl:
     failure:
       error: "pri povezovanju s storitvijo je prišlo do napake"
     finder:
-      fetching_contacts: "Diaspora pridobiva vaše prijatelje iz storitve %{service}. Prosimo počakajte nekaj minut."
+      fetching_contacts: "Detailbook pridobiva vaše prijatelje iz storitve %{service}. Prosimo počakajte nekaj minut."
       no_friends: "Noben prijatelj s Facebook-a ni bil najden."
       service_friends: "%{service} Prijatelji"
     index:
@@ -752,11 +752,11 @@ sl:
   shared:
     add_contact:
       add_new_contact: "Dodaj nov stik"
-      create_request: "Poišči po Diaspora ID"
+      create_request: "Poišči po Detailbook ID"
       diaspora_handle: "diaspora@pod.org"
-      enter_a_diaspora_username: "Vpišite uporabniško ime Diaspora:"
+      enter_a_diaspora_username: "Vpišite uporabniško ime Detailbook:"
       know_email: "Ali poznate njihove naslove e-naslove? Povabite jih"
-      your_diaspora_username_is: "Vaše uporabniško ime Diaspora je:  %{diaspora_handle}"
+      your_diaspora_username_is: "Vaše uporabniško ime Detailbook je:  %{diaspora_handle}"
     aspect_dropdown:
       add_to_aspect: "Dodaj stik"
       toggle:
@@ -920,7 +920,7 @@ sl:
         make_diaspora_better: "Želimo, da nam pomagate narediti Diasporo boljšo, zato nam raje pomagajte, kot pa da odidete. Če želite oditi, želimo vedeti kaj se bo zgodilo za tem."
         mr_wiggles: "Gospod Wiggles bo žalosten, če boste odšli"
         no_turning_back: "Trenutno ni poti nazaj."
-        what_we_delete: "Kolikor mogoče hitro bomo izbrisali vse vaše objave in podatke profila. Vaša mnenja bodo ostala in bila povezani z vašim Diaspora ID."
+        what_we_delete: "Kolikor mogoče hitro bomo izbrisali vse vaše objave in podatke profila. Vaša mnenja bodo ostala in bila povezani z vašim Detailbook ID."
       close_account_text: "Zapri račun"
       comment_on_post: "... nekdo napiše mnenje o vaši objavi?"
       current_password: "Trenutno geslo"
@@ -942,10 +942,10 @@ sl:
       started_sharing: "... nekdo začne deliti z vami?"
       stream_preferences: "Nastavitve toka"
       your_email: "Vaš e-naslov"
-      your_handle: "Vaš Diaspora ID"
+      your_handle: "Vaš Detailbook ID"
     getting_started:
       awesome_take_me_to_diaspora: "Popelji me v Diasporo*"
-      community_welcome: "Skupnost Diaspora je vesela, da vas ima na krovu!"
+      community_welcome: "Skupnost Detailbook je vesela, da vas ima na krovu!"
       connect_to_facebook: "Stvari lahko malo pospešimo s %{link} z diasporo*. Uvozili vam bom vaše ime z fotografijo ter omogočili hkratno objavljanje na diaspori* in Facebook-u."
       connect_to_facebook_link: "povezavo vašega računa Facebook"
       hashtag_explanation: "Oznake vam omogočajo, da govorite in sledite vašim interesom. So tudi dober način za iskanje novih ljudi na Diaspori."

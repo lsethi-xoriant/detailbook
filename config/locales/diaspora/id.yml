@@ -70,7 +70,7 @@ id:
     contacts_visible: "Kontak di aspek ini dapat saling melihat."
     create:
       failure: "Aspek gagal dibuat."
-      success: "Klik pada tanda plus di sisi kiri untuk memberitahu Diaspora siapa yang dapat melihat aspek baru Anda."
+      success: "Klik pada tanda plus di sisi kiri untuk memberitahu Detailbook siapa yang dapat melihat aspek baru Anda."
     destroy:
       failure: "%{name} tidak terisi dan tidak dapat dihapus."
       success: "%{name} berhasil dihapus."
@@ -85,25 +85,25 @@ id:
       updating: "Memperbarui"
     index:
       diaspora_id:
-        content_1: "ID diaspora* anda:"
-        content_2: "Berikan ke semua orang dan mereka akan dapat menemukanmu di diaspora*"
-        heading: "ID diaspora*"
+        content_1: "ID detailbook* anda:"
+        content_2: "Berikan ke semua orang dan mereka akan dapat menemukanmu di detailbook*"
+        heading: "ID detailbook*"
       donate: "Donasi"
-      handle_explanation: "This is your diaspora handle.  Like an email address, you can give this to people to reach you."
+      handle_explanation: "This is your detailbook handle.  Like an email address, you can give this to people to reach you."
       help:
         do_you: "Apakah kamu:"
         email_feedback: "%{link} timbal balik, jika anda ingin"
         feature_suggestion: "... punya %{link} anjuran?"
         find_a_bug: ".... menemukan %{link}"
         have_a_question: "... punya %{link}"
-        here_to_help: "Diaspora community is here to help!"
+        here_to_help: "Detailbook community is here to help!"
         need_help: "Butuh bantuan?"
         tag_bug: "#bug"
         tag_feature: "#feature"
         tag_question: "#question"
       introduce_yourself: "Ini merupakan aliran anda.  Ikutan dan kenalkan diri anda"
       new_here:
-        follow: "Ikuti %{link} dan selamat datang di diaspora*!"
+        follow: "Ikuti %{link} dan selamat datang di detailbook*!"
         learn_more: "Pelajari"
         title: "Selamat Datang Pengguna Baru"
       no_contacts: "Tak ada kontak"
@@ -111,10 +111,10 @@ id:
       people_sharing_with_you: "Orang orang yang berbagi dengan anda"
       post_a_message: "Kirim pesan"
       services:
-        content: "Anda dapat menyambungkan layanan berikut ke diaspora*:"
+        content: "Anda dapat menyambungkan layanan berikut ke detailbook*:"
         heading: "Sambungkan Layanan"
       unfollow_tag: "Berhenti mengikuti #%{tag}"
-      welcome_to_diaspora: "Selamat datang di diaspora*, %{name}"
+      welcome_to_diaspora: "Selamat datang di detailbook*, %{name}"
     new:
       create: "Buat"
       name: "Name"
@@ -139,8 +139,8 @@ id:
   back: "Kembali"
   bookmarklet:
     explanation: "%{link} from anywhere by bookmarking this link."
-    heading: "Diaspora Bookmarklet"
-    post_something: "Kirimkan ke diaspora*"
+    heading: "Detailbook Bookmarklet"
+    post_something: "Kirimkan ke detailbook*"
     post_success: "Terkirim! Menutup!"
   cancel: "Batal"
   comments:
@@ -229,9 +229,9 @@ id:
     new:
       already_invited: "Already invited"
       aspect: "Aspek"
-      check_out_diaspora: "Lihat diaspora*!"
+      check_out_diaspora: "Lihat detailbook*!"
       if_they_accept_info: "Jika mereka menerima, mereka akan ditambahkan ke Aspek yang kamu undang."
-      invite_someone_to_join: "Undang seseorang untuk bergabung di Diaspora!"
+      invite_someone_to_join: "Undang seseorang untuk bergabung di Detailbook!"
       language: "Bahasa"
       personal_message: "Pesan pribadi"
       resend: "Kirim ulang"
@@ -241,7 +241,7 @@ id:
   layouts:
     application:
       back_to_top: "Kembali ke atas"
-      powered_by: "DIDUKUNG OLEH diaspora*"
+      powered_by: "DIDUKUNG OLEH detailbook*"
       toggle: "toggle mobile site"
       whats_new: "apa yang baru?"
       your_aspects: "Aspekmu"
@@ -395,18 +395,18 @@ id:
       view_post: "Lihat kiriman >"
     mentioned:
       mentioned: "menyebut anda di kiriman:"
-      subject: "%{name} menyebutmu di diaspora*"
+      subject: "%{name} menyebutmu di detailbook*"
     private_message:
       reply_to_or_view: "Balas atau lihat pembicaraan ini >"
     reshared:
       reshared: "%{name} just reshared your post"
       view_post: "Lihat kiriman >"
     single_admin:
-      admin: "Administrator diaspora* mu"
-      subject: "A message from your Diaspora administrator:"
+      admin: "Administrator detailbook* mu"
+      subject: "A message from your Detailbook administrator:"
     started_sharing:
       sharing: "mulai berbagi denganmu!"
-      subject: "%{name} has started sharing with you on Diaspora*"
+      subject: "%{name} has started sharing with you on Detailbook*"
       view_profile: "Lihat profil %{name}"
     thanks: "Terimakasih,"
     to_change_your_notification_settings: "untuk mengganti pengaturan pemberitahuan"
@@ -511,7 +511,7 @@ id:
   profiles:
     edit:
       your_tags: "You: in 5 #tags"
-      your_tags_placeholder: "i.e. #diaspora #ironing #kittens #music"
+      your_tags_placeholder: "i.e. #detailbook #ironing #kittens #music"
   public: "Umum"
   reactions:
     few: "%{count} reactions"
@@ -522,7 +522,7 @@ id:
     zero: "0 reactions"
   registrations:
     create:
-      success: "Anda telah bergabung dengan Diaspora!"
+      success: "Anda telah bergabung dengan Detailbook!"
     new:
       create_my_account: "Create my account"
       enter_email: "Enter an e-mail"
@@ -565,8 +565,8 @@ id:
   settings: "Pengaturan"
   shared:
     add_contact:
-      create_request: "Find by Diaspora handle"
-      diaspora_handle: "Diaspora handle"
+      create_request: "Find by Detailbook handle"
+      diaspora_handle: "Detailbook handle"
     aspect_dropdown:
       add_to_aspect: "Add to aspect"
       toggle:
@@ -579,7 +579,7 @@ id:
     invitations:
       by_email: "by Email"
       invitations_left: "(%{count} left)"
-      invites_closed: "Invites are currently closed on this Diaspora seed"
+      invites_closed: "Invites are currently closed on this Detailbook seed"
     notification:
       new: "%{type} baru dari %{from}"
     public_explain:
@@ -634,12 +634,12 @@ id:
       change_language: "Change Language"
       change_password: "Change Password"
       close_account:
-        what_we_delete: "We delete all of your posts, profile data, as soon as humanly possible. Your comments will hang around, but be associated with your Diaspora Handle."
+        what_we_delete: "We delete all of your posts, profile data, as soon as humanly possible. Your comments will hang around, but be associated with your Detailbook Handle."
       download_photos: "Unduh foto-fotoku"
       email_awaiting_confirmation: "We have sent you an activation link to %{unconfirmed_email}. Till you follow this link and activate the new address, we will continue to use your original address %{email}."
       new_password: "New Password"
       receive_email_notifications: "Receive email notificaions?"
-      your_handle: "Your diaspora handle"
+      your_handle: "Your detailbook handle"
     update:
       email_notifications_changed: "Language Change Failed"
       language_changed: "Language Changed"

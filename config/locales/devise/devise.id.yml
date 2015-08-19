@@ -32,7 +32,7 @@ id:
       inviter:
         accept_at: "di %{url}, anda dapat menerimanya melalui link (tautan) di bawah ini."
         has_invited_you: "%{name}"
-        have_invited_you: "%{names} telah mengundang anda untuk bergabung di Diaspora"
+        have_invited_you: "%{names} telah mengundang anda untuk bergabung di Detailbook"
       reset_password_instructions:
         change: "Ubah kata sandi saya"
         ignore: "Tolong abaikan e-mail ini jika anda tidak memintanya."

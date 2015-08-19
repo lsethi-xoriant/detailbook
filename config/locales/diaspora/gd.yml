@@ -51,9 +51,9 @@ gd:
       updating: "ag ùrachadh"
     index:
       diaspora_id:
-        content_1: "'S e seo an ID diaspora* agad:"
-        content_2: "Ma bheireas tu do chuideigin e, faodaidh iad gad lorg air diaspora*."
-        heading: "ID diaspora*"
+        content_1: "'S e seo an ID detailbook* agad:"
+        content_2: "Ma bheireas tu do chuideigin e, faodaidh iad gad lorg air detailbook*."
+        heading: "ID detailbook*"
       help:
         email_link: "Post-d"
         feature_suggestion: "... a bheil thu airson %{link} a mholadh?"
@@ -63,9 +63,9 @@ gd:
         tag_feature: "comharra"
         tag_question: "ceist"
       services:
-        content: "Faodaidh tu ceangal a dhèanamh eadar diaspora* agus na sèirbheisean na leanas."
+        content: "Faodaidh tu ceangal a dhèanamh eadar detailbook* agus na sèirbheisean na leanas."
         heading: "Dèan ceangal ri Sèirbheis"
-      welcome_to_diaspora: "Fàilte gu diaspora*, a %{name}!"
+      welcome_to_diaspora: "Fàilte gu detailbook*, a %{name}!"
     new:
       create: "Dèan"
     seed:
@@ -132,7 +132,7 @@ gd:
       to: "Gu"
   layouts:
     application:
-      powered_by: "a' ruith air diaspora*"
+      powered_by: "a' ruith air detailbook*"
       whats_new: "dè tha dol?"
     header:
       admin: "riaghladh"
@@ -162,7 +162,7 @@ gd:
       message: |-
             Halo!
 
-          Fhuair thu cuireadh gus gabhail ann an diaspora*!
+          Fhuair thu cuireadh gus gabhail ann an detailbook*!
 
           Cliog air a' cheangal seo airson tòiseachadh
 
@@ -171,7 +171,7 @@ gd:
 
           Dùrachdan,
 
-          An robot diaspora!
+          An robot detailbook!
 
           [1]: %{invite_url}
     liked:
@@ -179,7 +179,7 @@ gd:
       view_post: "Seall air a' bhrath >"
     mentioned:
       mentioned: "air iomradh a thoirt ort ann am brath:"
-      subject: "Thug %{name} iomradh ort air diaspora*"
+      subject: "Thug %{name} iomradh ort air detailbook*"
     private_message:
       reply_to_or_view: "Seall air a' bhrath seo no cuir freagairt ris >"
     reshared:
@@ -227,7 +227,7 @@ gd:
   profile: "Profaidhl"
   profiles:
     edit:
-      allow_search: "Am faod daoine rannsachadh air do shon air diaspora*"
+      allow_search: "Am faod daoine rannsachadh air do shon air detailbook*"
       edit_profile: "Deasaich profaidhl"
       first_name: "D' ainm-baistidh"
       last_name: "Do sloinneadh"
@@ -291,7 +291,7 @@ gd:
       edit_account: "Deasaich cunntas"
       following: "Roghainnean sgaoilidh"
       your_email: "Do phost-d"
-      your_handle: "ID diaspora* agad"
+      your_handle: "ID detailbook* agad"
     privacy_settings:
       title: "Roghainnean Prìobhaideachd"
   welcome: "Fàilte!"
