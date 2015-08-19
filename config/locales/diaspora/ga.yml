@@ -41,7 +41,7 @@ ga:
       updating: "nuashonrú"
     index:
       diaspora_id:
-        heading: "ID Diaspora"
+        heading: "ID Detailbook"
       help:
         email_link: "Ríomhphoist"
         need_help: "Cabhair?"

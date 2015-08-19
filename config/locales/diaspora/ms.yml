@@ -85,25 +85,25 @@ ms:
       updating: "mengemas kini"
     index:
       diaspora_id:
-        content_1: "ID Diaspora anda adalah:"
-        content_2: "Beri kepada sesiapa dan mereka akan dapat mencari anda di Diaspora."
-        heading: "ID Diaspora"
+        content_1: "ID Detailbook anda adalah:"
+        content_2: "Beri kepada sesiapa dan mereka akan dapat mencari anda di Detailbook."
+        heading: "ID Detailbook"
       donate: "Derma"
-      handle_explanation: "Ini adalah diaspora id anda. Seperti alamat e-mel, anda boleh memberikan orang-orang ini untuk mencapai anda."
+      handle_explanation: "Ini adalah detailbook id anda. Seperti alamat e-mel, anda boleh memberikan orang-orang ini untuk mencapai anda."
       help:
         do_you: "Adakah anda:"
         email_feedback: "%{link} maklumbalas anda, jika anda inginkan"
         feature_suggestion: "... punyai %{link} cadangan?"
         find_a_bug: "... mencari %{link}?"
         have_a_question: "... punyai %{link}?"
-        here_to_help: "Komuniti diaspora* disini!"
+        here_to_help: "Komuniti detailbook* disini!"
         need_help: "Perlukan Bantuan?"
         tag_bug: "#bug"
         tag_feature: "#feature"
         tag_question: "#question"
       introduce_yourself: "Ini adalah aliran anda. Sertai dan kenalkan diri anda."
       new_here:
-        follow: "Ikuti %{link} dan selamat datang pengguna baru ke diaspora *!"
+        follow: "Ikuti %{link} dan selamat datang pengguna baru ke detailbook *!"
         learn_more: "Ketahui lebih lanjut"
         title: "Alukan Pengguna Baru"
       no_contacts: "Tiada kenalan"
@@ -111,10 +111,10 @@ ms:
       people_sharing_with_you: "Orang berkongsi dengan anda"
       post_a_message: "hantar mesej"
       services:
-        content: "Anda boleh menyambung perkhidmatan berikut kepada diaspora*:"
+        content: "Anda boleh menyambung perkhidmatan berikut kepada detailbook*:"
         heading: "Khidmat Perhubungan"
       unfollow_tag: "berhenti mengikut #%{tag}"
-      welcome_to_diaspora: "Selamat datang ke Diaspora, %{name}!"
+      welcome_to_diaspora: "Selamat datang ke Detailbook, %{name}!"
     new:
       create: "Cipta"
       name: "Nama (hanya boleh dilihat oleh anda)"
@@ -138,9 +138,9 @@ ms:
     zero: "no aspects"
   back: "Undur"
   bookmarklet:
-    explanation: "Pos kepada diaspora * dari mana-mana sahaja dengan bookmark link ini => %{link}."
+    explanation: "Pos kepada detailbook * dari mana-mana sahaja dengan bookmark link ini => %{link}."
     heading: "Bookmarklet"
-    post_something: "Pos kepada diaspora*"
+    post_something: "Pos kepada detailbook*"
     post_success: "Telah Di Pos! Tutup!"
   cancel: "Batal"
   comments:
@@ -214,7 +214,7 @@ ms:
       already_invited: "Orang-orang yang berikut tidak menerima jemputan anda:"
       aspect: "Aspek"
       if_they_accept_info: "jika mereka menerima, mereka akan dimasukkan ke dalam aspek awak telah menjemput mereka."
-      invite_someone_to_join: "Menjemput seseorang untuk menyertai Diaspora!"
+      invite_someone_to_join: "Menjemput seseorang untuk menyertai Detailbook!"
       language: "Bahasa"
       personal_message: "Mesej peribadi"
       resend: "Hantar semula"
@@ -223,7 +223,7 @@ ms:
       to: "Kepada"
   layouts:
     application:
-      powered_by: "DI KUASA OLEH DIASPORA*"
+      powered_by: "DI KUASA OLEH Detailbook*"
   likes:
     likes:
       people_dislike_this:
@@ -456,6 +456,6 @@ ms:
   users:
     edit:
       close_account:
-        what_we_delete: "We delete all of your posts, profile data, as soon as humanly possible. Your comments will hang around, but be associated with your Diaspora Handle."
-      your_handle: "Your diaspora id"
+        what_we_delete: "We delete all of your posts, profile data, as soon as humanly possible. Your comments will hang around, but be associated with your Detailbook Handle."
+      your_handle: "Your detailbook id"
   welcome: "Selamat datang!"

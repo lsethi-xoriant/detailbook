@@ -15,7 +15,7 @@ fy:
       hello: "Guoi %{email}!"
       inviter:
         has_invited_you: "%{name}"
-        have_invited_you: "%{names} ha dy útnoadige om jin oan te slute by Diaspora"
+        have_invited_you: "%{names} ha dy útnoadige om jin oan te slute by Detailbook"
       reset_password_instructions:
         change: "Feroarje myn wachtwurd"
       welcome: "Wolkom %{email}!"

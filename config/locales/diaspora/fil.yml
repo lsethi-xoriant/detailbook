@@ -71,9 +71,9 @@ fil:
       make_aspect_list_visible: "make crew list visible?"
       remove_aspect: "Fire this crew"
     index:
-      handle_explanation: "This is your diaspora id. Like an email address, you can give this to people to reach you."
+      handle_explanation: "This is your detailbook id. Like an email address, you can give this to people to reach you."
       help:
-        here_to_help: "Diaspora community is here to help!"
+        here_to_help: "Detailbook community is here to help!"
         tag_bug: "#bug"
         tag_feature: "#feature"
         tag_question: "#question"
@@ -349,8 +349,8 @@ fil:
   users:
     edit:
       close_account:
-        what_we_delete: "We delete all of your posts, profile data, as soon as humanly possible. Your comments will hang around, but be associated with your Diaspora Handle."
-      your_handle: "Your diaspora id"
+        what_we_delete: "We delete all of your posts, profile data, as soon as humanly possible. Your comments will hang around, but be associated with your Detailbook Handle."
+      your_handle: "Your detailbook id"
   webfinger:
     fetch_failed: "hindi nakuha ang webfinger profile para sa %{profile_url}"
     hcard_fetch_failed: "nagkaroon ng problema sa pagkuha ng hcard ni %{account}"

@@ -206,8 +206,8 @@ sr:
       your_account_awaits: "Ваш налог чека!"
     new:
       already_invited: "Сљедеће особе нису прихватиле вашу позивницу:"
-      check_out_diaspora: "Провјери diaspora*!"
-      invite_someone_to_join: "Позовите некога да се придружи diaspora*!"
+      check_out_diaspora: "Провјери detailbook*!"
+      invite_someone_to_join: "Позовите некога да се придружи detailbook*!"
       language: "Језик"
       personal_message: "Лична порука"
       resend: "Пошаљи поново"
@@ -217,7 +217,7 @@ sr:
   layouts:
     application:
       back_to_top: "Назад на врх"
-      powered_by: "Покреће diaspora*"
+      powered_by: "Покреће detailbook*"
       toggle: "Мобилна верзија"
       whats_new: "Ново"
     header:
@@ -252,8 +252,8 @@ sr:
     reshared:
       view_post: "Погледајте објаву"
     single_admin:
-      admin: "Ваш diaspora* администратор"
-      subject: "Порука о вашем diaspora* налогу:"
+      admin: "Ваш detailbook* администратор"
+      subject: "Порука о вашем detailbook* налогу:"
     started_sharing:
       sharing: "дели са вама!"
     thanks: "Хвала,"
@@ -332,7 +332,7 @@ sr:
   profile: "Профил"
   profiles:
     edit:
-      allow_search: "Дозволите особама да вас траже унутар diaspora*"
+      allow_search: "Дозволите особама да вас траже унутар detailbook*"
       edit_profile: "Уреди профил"
       first_name: "Име"
       last_name: "Презиме"
@@ -351,9 +351,9 @@ sr:
       updated: "Ажурирај профил"
   public: "Јавно"
   registrations:
-    closed: "Регистрације су затворене за овај diaspora* под"
+    closed: "Регистрације су затворене за овај detailbook* под"
     create:
-      success: "Придружили сте се diaspora*"
+      success: "Придружили сте се detailbook*"
     edit:
       cancel_my_account: "Поништи мој налог"
       leave_blank: "(оставите празно ако не желите да промените)"
@@ -397,18 +397,18 @@ sr:
       logged_in_as: "Пријављен као"
     inviter:
       click_link_to_accept_invitation: "Следи ову везу да прихватиш своју позивницу"
-      join_me_on_diaspora: "Придружи ми се на diaspora*"
+      join_me_on_diaspora: "Придружи ми се на detailbook*"
     remote_friend:
       invite: "Позови"
-      not_on_diaspora: "Није још на diaspora*"
+      not_on_diaspora: "Није још на detailbook*"
       resend: "Пошаљи поново"
   settings: "Подешавања"
   shared:
     add_contact:
       add_new_contact: "Додај нови контакт"
-      create_request: "Пронађи помоћу diaspora* ID"
+      create_request: "Пронађи помоћу detailbook* ID"
       diaspora_handle: "diaspora@pod.org"
-      enter_a_diaspora_username: "Унеси diaspora* корисничко име:"
+      enter_a_diaspora_username: "Унеси detailbook* корисничко име:"
       know_email: "Знате њихову email адресу? Требали бисте их позвати"
     aspect_dropdown:
       add_to_aspect: "Додај контакт"
@@ -421,9 +421,9 @@ sr:
       invite_someone: "Позовите некога"
       invite_your_friends: "Позовите пријатеље"
       invites: "Захтеви"
-      invites_closed: "Захтеви су тренутно затворени за овај diaspora под"
+      invites_closed: "Захтеви су тренутно затворени за овај detailbook под"
     public_explain:
-      outside: "Јавне поруке биће видљиве ван diaspora*."
+      outside: "Јавне поруке биће видљиве ван detailbook*."
       share: "Подели"
       title: "Уреди повезане сервисе"
       visibility_dropdown: "Користите овај падајући мени како бисте променили видљивост вашег поста.  (Предлажемо да први буде јаван.)"
@@ -489,5 +489,5 @@ sr:
       edit_account: "Уреди налог"
       new_password: "Нова лозинка"
       your_email: "Ваш email"
-      your_handle: "Ваш diaspora* ID"
+      your_handle: "Ваш detailbook* ID"
   welcome: "Добородошли!"

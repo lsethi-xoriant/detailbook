@@ -170,7 +170,7 @@ en_valspeak:
       updating: "makin like... newer..."
     index:
       diaspora_id:
-        content_1: "ur diaspora* id is:"
+        content_1: "ur detailbook* id is:"
         content_2: "give it 2 ne1, except for creepers, n theyll b able to like... find u.."
         heading: "ur like... id"
       donate: "give like... free money"
@@ -184,7 +184,7 @@ en_valspeak:
         feature_suggestion: "... do u like... have a %{link} suggestion?"
         find_a_bug: "... find a like... %{link}?"
         have_a_question: "... have a like... %{link}?"
-        here_to_help: "diaspora ppl r here... yay!"
+        here_to_help: "detailbook ppl r here... yay!"
         mail_podmin: "the email for the ppl who like... run this bitch"
         need_help: "so like, wat?"
         tag_bug: "OMG, i like... have an issue!"
@@ -196,9 +196,9 @@ en_valspeak:
       keep_diaspora_running: "Keep d* from suckin wit a monthly donation! :D<3"
       keep_pod_running: "So like, keep %{pod} from bein all slow n stupid by like... donatin monthly n stuff! <3(:"
       new_here:
-        follow: "follow %{link} n like ... welcome new ppl 2 diaspora*!"
+        follow: "follow %{link} n like ... welcome new ppl 2 detailbook*!"
         learn_more: "like... learn moar n stuff..."
-        title: "dude! u should like, totally whalecum the new diaspora ppl. its a blast like... yeah.."
+        title: "dude! u should like, totally whalecum the new detailbook ppl. its a blast like... yeah.."
       no_contacts: "No BFFs :("
       no_tags: "+ Find a tag 2 like... follow n junk"
       people_sharing_with_you: "ppl sharin wit u"
@@ -207,7 +207,7 @@ en_valspeak:
         content: "U can like... connect the followin things 2 d*:"
         heading: "connect like... other stuff.."
       unfollow_tag: "Stop creepin on ppl who like... post stuff usin %{tag}"
-      welcome_to_diaspora: "OMG HEY! Like, welcome to diaspora*, %{name}. its pretty bitchin' n has electrolytes(;"
+      welcome_to_diaspora: "OMG HEY! Like, welcome to detailbook*, %{name}. its pretty bitchin' n has electrolytes(;"
     new:
       create: "Make like.. a new aspect"
       name: "Name (only like... u can c it)"
@@ -560,7 +560,7 @@ en_valspeak:
   layouts:
     application:
       back_to_top: "Go back 2 the top"
-      powered_by: "this site is like... powered by diaspora*... far out!!"
+      powered_by: "this site is like... powered by detailbook*... far out!!"
       public_feed: "the feed for %{name} that like... every1 can c n stuff"
       source_package: "dl code n stuff.."
       toggle: "make like... phone friendly..."
@@ -681,7 +681,7 @@ en_valspeak:
       message: |-
           Ohai!
 
-          U have like... been invited 2 join diaspora*!
+          U have like... been invited 2 join detailbook*!
 
           Click this link thingy 2 like.. get started
 
@@ -974,7 +974,7 @@ en_valspeak:
       services_explanation: "Connectin 2 servies gives u like... the ability 2 post ur posties 2 them as u write them in d*! :p"
     inviter:
       click_link_to_accept_invitation: "so like... follow this link 2 like... accept ur invite"
-      join_me_on_diaspora: "Chill wit me on diaspora*!"
+      join_me_on_diaspora: "Chill wit me on detailbook*!"
     remote_friend:
       invite: "invite!!"
       not_on_diaspora: "Not yet on d* :("

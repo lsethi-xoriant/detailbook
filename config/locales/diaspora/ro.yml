@@ -84,24 +84,24 @@ ro:
       updating: "actualizare"
     index:
       diaspora_id:
-        content_1: "ID-ul tău pe diaspora* este:"
-        content_2: "Transmite-l tuturor și ei vor putea să te găsească pe diaspora*."
-        heading: "ID-ul tău pe diaspora*"
+        content_1: "ID-ul tău pe detailbook* este:"
+        content_2: "Transmite-l tuturor și ei vor putea să te găsească pe detailbook*."
+        heading: "ID-ul tău pe detailbook*"
       donate: "Donează"
-      handle_explanation: "This is your diaspora handle.  Like an email address, you can give this to people to reach you."
+      handle_explanation: "This is your detailbook handle.  Like an email address, you can give this to people to reach you."
       help:
         do_you: "Tu:"
         email_feedback: "%{link} feedback-ul tău, dacă preferi."
         feature_suggestion: "ai o sugestie de %{link}?"
         find_a_bug: "... cauţi un %{link}?"
         have_a_question: "... ai un %{link}?"
-        here_to_help: "Diaspora community is here to help!"
+        here_to_help: "Detailbook community is here to help!"
         need_help: "Ai nevoie de ajutor?"
         tag_bug: "bug"
         tag_question: "întrebare"
       introduce_yourself: "Acesta este fluxul tău. Fă-ți prezentarea."
       new_here:
-        follow: "Urmează legătura %{link} si urează-le bun venit noilor utilizatori in comunitatea Diaspora"
+        follow: "Urmează legătura %{link} si urează-le bun venit noilor utilizatori in comunitatea Detailbook"
         learn_more: "Află mai multe"
         title: "Bun venit noilor utilizatori"
       no_contacts: "Niciun contact"
@@ -109,10 +109,10 @@ ro:
       people_sharing_with_you: "Cunoscuți care partajează cu tine"
       post_a_message: "publicaţi un mesaj >>"
       services:
-        content: "Te poți conecta la următoarele servicii pe Diaspora"
+        content: "Te poți conecta la următoarele servicii pe Detailbook"
         heading: "Conectează servciii"
       unfollow_tag: "Nu mai urma #%{tag}"
-      welcome_to_diaspora: "%{name}, bine ai venit in comunitatea Diaspora!"
+      welcome_to_diaspora: "%{name}, bine ai venit in comunitatea Detailbook!"
     new:
       create: "Crează"
       name: "Nume (vizibil doar pentru tine)"
@@ -137,7 +137,7 @@ ro:
   back: "Înapoi"
   bookmarklet:
     explanation: "%{link} from anywhere by bookmarking this link."
-    post_something: "Publică ceva pe diaspora*"
+    post_something: "Publică ceva pe detailbook*"
     post_success: "Publicat! Inchidere!"
   cancel: "Anulează"
   comments:
@@ -236,7 +236,7 @@ ro:
       already_invited: "Deja invitat "
       aspect: "Aspect"
       if_they_accept_info: "în cazul în care acceptă, vor fi adăugate la aspectul la care le-ai invitat."
-      invite_someone_to_join: "Invită pe cineva pe Diaspora!"
+      invite_someone_to_join: "Invită pe cineva pe Detailbook!"
       language: "Limbă"
       personal_message: "Mesaj personal"
       resend: "Mai trimite odata"
@@ -395,16 +395,16 @@ ro:
     mentioned:
       limited_post: "Ai fost menționat într-o postare limitata"
       mentioned: "te-a menţionat într-o publicaţie:"
-      subject: "%{name} te-a menţionat pe diaspora*"
+      subject: "%{name} te-a menţionat pe detailbook*"
     private_message:
       reply_to_or_view: "Răspunde sau citeşte această conversaţie >"
     reshared:
       view_post: "Vezi articolul >"
     single_admin:
-      admin: "Administratorul  local de Diaspora"
+      admin: "Administratorul  local de Detailbook"
     started_sharing:
       sharing: "a inceput sa comunice cu tine!"
-      subject: "%{name} has started sharing with you on Diaspora*"
+      subject: "%{name} has started sharing with you on Detailbook*"
       view_profile: "Vezi profilul lui %{name}"
     thanks: "Mulţumim,"
     to_change_your_notification_settings: "pentru a schimba setăriile notificărilor"
@@ -514,7 +514,7 @@ ro:
   profile: "Profil"
   profiles:
     edit:
-      allow_search: "Permiteti sa fiti gasit prin cautarea pe Diaspora"
+      allow_search: "Permiteti sa fiti gasit prin cautarea pe Detailbook"
       edit_profile: "Editează profil"
       first_name: "Prenumele"
       last_name: "Numele de familie"
@@ -539,9 +539,9 @@ ro:
     two: "%{count} reactions"
     zero: "0 reactions"
   registrations:
-    closed: "Ȋnscrierile sunt ȋnchise pe acest pod Diaspora."
+    closed: "Ȋnscrierile sunt ȋnchise pe acest pod Detailbook."
     create:
-      success: "Bun venit pe Diaspora!"
+      success: "Bun venit pe Detailbook!"
     edit:
       cancel_my_account: "Anulează contul meu"
       edit: "Editează %{name}"
@@ -604,18 +604,18 @@ ro:
       really_disconnect: "desconectează %{service}?"
     inviter:
       click_link_to_accept_invitation: "Click pe acest link pentru a accepta invitaţia"
-      join_me_on_diaspora: "Alătură-mi-te pe Diaspora*"
+      join_me_on_diaspora: "Alătură-mi-te pe Detailbook*"
     remote_friend:
       invite: "invită"
-      not_on_diaspora: "Deocamdată nu este pe diaspora*"
+      not_on_diaspora: "Deocamdată nu este pe detailbook*"
       resend: "mai trimite odata"
   settings: "Setări"
   shared:
     add_contact:
       add_new_contact: "Adaugă un nou contact"
-      create_request: "Find by Diaspora handle"
-      enter_a_diaspora_username: "Introduceţi numele de utilizator Diaspora :"
-      your_diaspora_username_is: "Numele tău de utilizator Diaspora este: %{diaspora_handle}"
+      create_request: "Find by Detailbook handle"
+      enter_a_diaspora_username: "Introduceţi numele de utilizator Detailbook :"
+      your_diaspora_username_is: "Numele tău de utilizator Detailbook este: %{diaspora_handle}"
     aspect_dropdown:
       add_to_aspect: "Adaugă la contacte"
     contact_list:
@@ -630,14 +630,14 @@ ro:
       invite_someone: "Invită pe cineva"
       invite_your_friends: "Invită-ţi prietenii"
       invites: "Invitaţii "
-      invites_closed: "Invites are currently closed on this Diaspora seed"
+      invites_closed: "Invites are currently closed on this Detailbook seed"
     notification:
       new: "O noua %{type} de la %{from}"
     public_explain:
       atom_feed: "Afișare feed RSS și Atom"
       logged_in: "autentificat pe %{service}"
       manage: "gestionează serviciile la care eşti conectat"
-      outside: "Mesajele publice vor fi disponibile pentru cei ce nu fac parte din Diaspora."
+      outside: "Mesajele publice vor fi disponibile pentru cei ce nu fac parte din Detailbook."
       share: "Distribuie"
       title: "Sunteţi pe cale de a publica un mesaj public!"
     publisher:
@@ -734,7 +734,7 @@ ro:
       character_minimum_expl: "trebuie să conţină cel puţin şase simboluri"
       close_account:
         dont_go: "Te rog, nu pleca!"
-        what_we_delete: "We delete all of your posts, profile data, as soon as humanly possible. Your comments will hang around, but be associated with your Diaspora Handle."
+        what_we_delete: "We delete all of your posts, profile data, as soon as humanly possible. Your comments will hang around, but be associated with your Detailbook Handle."
       close_account_text: "Închide cont"
       comment_on_post: "...cineva comenteaza pe o publicatie proprie?"
       current_password: "Parola curentă"
@@ -751,7 +751,7 @@ ro:
       show_community_spotlight: "Afişează Actualităţile Comunităţii în flux?"
       stream_preferences: "Preferințe flux"
       your_email: "E-mailul tău"
-      your_handle: "Identificatorul tău pe Diaspora"
+      your_handle: "Identificatorul tău pe Detailbook"
     getting_started:
       saved: "Salvat!"
       well_hello_there: "Bun venit"

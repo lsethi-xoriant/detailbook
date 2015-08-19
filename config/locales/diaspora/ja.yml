@@ -266,7 +266,7 @@ ja:
   layouts:
     application:
       back_to_top: "トップに戻る"
-      powered_by: "POWERED BY DIASPORA*"
+      powered_by: "POWERED BY Detailbook*"
       public_feed: "%{name}さんの公開ダイアスポラフィード"
       source_package: "ソースコードのパッケージをダウンロードする"
       toggle: "携帯サイトを切替える"
@@ -438,7 +438,7 @@ ja:
       subject: "ダイアスポラ＊アカウントの重要なお知らせ："
     started_sharing:
       sharing: "あなたへの共有を開始しています!"
-      subject: "%{name} has started sharing with you on Diaspora*"
+      subject: "%{name} has started sharing with you on Detailbook*"
       view_profile: "%{name}さんのプロフィールを見る"
     thanks: "ありがとうございます。"
     to_change_your_notification_settings: "通知設定を変更します"
@@ -567,7 +567,7 @@ ja:
       your_private_profile: "非公開プロフィール"
       your_public_profile: "公開プロフィール"
       your_tags: "自分を表す５つの#タグ"
-      your_tags_placeholder: "例：#diaspora #kaji #nyanko #ongaku"
+      your_tags_placeholder: "例：#detailbook #kaji #nyanko #ongaku"
     update:
       failed: "プロフィール更新に失敗しました"
       updated: "プロフィールを更新しました"
@@ -801,7 +801,7 @@ ja:
       character_minimum_expl: "少なくとも6字以上でなければいけません。"
       close_account:
         lock_username: "ユーザー名はロックされます。このポッド上で、同じIDのアカウントを作ることはできません。"
-        what_we_delete: "We delete all of your posts, profile data, as soon as humanly possible. Your comments will hang around, but be associated with your Diaspora Handle."
+        what_we_delete: "We delete all of your posts, profile data, as soon as humanly possible. Your comments will hang around, but be associated with your Detailbook Handle."
       close_account_text: "アカウントを削除する"
       comment_on_post: "自分の投稿にコメントがあったとき"
       current_password: "現在のパスワード"

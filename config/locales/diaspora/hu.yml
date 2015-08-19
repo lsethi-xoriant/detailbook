@@ -160,11 +160,11 @@ hu:
       updating: "frissítés"
     index:
       diaspora_id:
-        content_1: "A te diaspora* azonosítód:"
-        content_2: "Add meg bárkinek és ez alapján meg tud találni a diaspora*-n."
-        heading: "diaspora* azonosító"
+        content_1: "A te detailbook* azonosítód:"
+        content_2: "Add meg bárkinek és ez alapján meg tud találni a detailbook*-n."
+        heading: "detailbook* azonosító"
       donate: "Adományozás"
-      handle_explanation: "Ez a Te diaspora* azonosítód. Megadhatod elérhetőségként, mint egy email címet."
+      handle_explanation: "Ez a Te detailbook* azonosítód. Megadhatod elérhetőségként, mint egy email címet."
       help:
         any_problem: "Gondod támadt?"
         contact_podmin: "Vedd fel a kapcsolatot a kiszolgálód karbantartójával!"
@@ -174,7 +174,7 @@ hu:
         feature_suggestion: "...felötlött benned egy fejlesztési %{link}?"
         find_a_bug: "...feltűnt egy %{link}?"
         have_a_question: "...eszedbe jutott egy %{link}?"
-        here_to_help: "A diaspora* közösség megérkezett!"
+        here_to_help: "A detailbook* közösség megérkezett!"
         mail_podmin: "Karbantartó címe"
         need_help: "Segítségre van szükséged?"
         tag_bug: "hiba"
@@ -183,10 +183,10 @@ hu:
         tutorial_link_text: "Útmutatók"
         tutorials_and_wiki: "A kezdő lépéseidben segíthet még a %{faq}, az %{tutorial} és a %{wiki}"
       introduce_yourself: "Ez a te Hírfolyamod. Kezdd is el gyorsan egy bemutatkozással!"
-      keep_diaspora_running: "Támogasd a diaspora* gyorsabb fejlesztését havi adományoddal!"
+      keep_diaspora_running: "Támogasd a detailbook* gyorsabb fejlesztését havi adományoddal!"
       keep_pod_running: "Hogy gyors maradhasson ez a kiszolgáló (%{pod}), adományozz havonta egy kis kávéra valót a szervereknek ;)"
       new_here:
-        follow: "Kövesd az %{link} címkét és üdvözöld az új Diaspora* felhasználókat!"
+        follow: "Kövesd az %{link} címkét és üdvözöld az új Detailbook* felhasználókat!"
         learn_more: "Tudj meg többet"
         title: "Sziasztok új felhasználók"
       no_contacts: "Nincs ismerős"
@@ -197,7 +197,7 @@ hu:
         content: "A következő szolgáltatásokhoz tudsz kapcsolódni:"
         heading: "szolgáltatások összekapcsolása"
       unfollow_tag: "Követés leállítása #%{tag}"
-      welcome_to_diaspora: "Üdv a diaspora* közösségi oldalon, %{name}!"
+      welcome_to_diaspora: "Üdv a detailbook* közösségi oldalon, %{name}!"
     new:
       create: "Létrehoz"
       name: "Név"
@@ -228,9 +228,9 @@ hu:
       failure: "Nem tudtam kikapcsolni annak a felhasználónak a figyelmen kívül hagyását. #elkerülés"
       success: "Lássuk mit akarnak mondani! #sayhello"
   bookmarklet:
-    explanation: "Küldj bejegyzést a diaspora*-ra bárhonnan, csak mentsd el könyvjelzőként a következő hivatkozást => %{link}."
+    explanation: "Küldj bejegyzést a detailbook*-ra bárhonnan, csak mentsd el könyvjelzőként a következő hivatkozást => %{link}."
     heading: "Könyvjelző"
-    post_something: "Üzenj a diaspora*-ra"
+    post_something: "Üzenj a detailbook*-ra"
     post_success: "Elküldve! Bezárás!"
   cancel: "Mégsem"
   comments:
@@ -340,10 +340,10 @@ hu:
       restrict_posts_i_see_a: "Igen. Kattints a \"csoportjaim\" feliratra a bal oldalsávon és válaszd ki azokat a csoportokat, amelyeket megjeleníteni vagy elrejteni szeretnél. Csak a kijelölt csoportokhoz tartozó személyek bejegyzései fognak látszódni a hírfolyamodban."
       restrict_posts_i_see_q: "Korlátozhatom a megjelenítendő bejegyzéseket csak bizonyos csoportokból származóakra?"
       title: "Csoportok"
-      what_is_an_aspect_a: "A csoport (vagy eredetileg \"aspektus\") az a mód, ahogy a kapcsolataidat rendszerezed a diaspora-n. Különböző arcaidat, oldalaidat különbözőképpen mutathatod meg például a munkatársaid, a családod, netán meghatározott közösséghez tartozó barátaid számára."
+      what_is_an_aspect_a: "A csoport (vagy eredetileg \"aspektus\") az a mód, ahogy a kapcsolataidat rendszerezed a detailbook-n. Különböző arcaidat, oldalaidat különbözőképpen mutathatod meg például a munkatársaid, a családod, netán meghatározott közösséghez tartozó barátaid számára."
       what_is_an_aspect_q: "Mit jelent a \"csoport\"?"
       who_sees_post_q: "Amikor bejegyzést írok egy csoportba, ki láthatja azt?"
-    foundation_website: "a diaspora* alapítvány honlapja"
+    foundation_website: "a detailbook* alapítvány honlapja"
     getting_help:
       get_support_a_hashtag: "kérdezz magyarul a közösségi hálón, nyilvános bejegyzésben a %{question} címke használatával"
       get_support_a_irc: "Kapcsolódj %{irc}-en (élő csevegés)"
@@ -351,7 +351,7 @@ hu:
       get_support_a_website: "látogasd meg a %{link} honlapját"
       get_support_a_wiki: "kutass a %{link} adattárunkban"
       get_support_q: "Mit tegyek, ha a kérdésemre itt nem találok választ? Hol kaphatok még felvilágosítást?"
-      getting_started_a: "Szerencséd van. Tekintsd át a %{tutorial_series} című angol nyelvű bemutató oldalunkat. Lépésről lépésre végigvezet a feliratkozási eljáráson és megtanítja mindazokat az alapvető dolgokat, amiket tudnod kell a Diaspora* használatához."
+      getting_started_a: "Szerencséd van. Tekintsd át a %{tutorial_series} című angol nyelvű bemutató oldalunkat. Lépésről lépésre végigvezet a feliratkozási eljáráson és megtanítja mindazokat az alapvető dolgokat, amiket tudnod kell a Detailbook* használatához."
       getting_started_q: "Húha! A kezdéshez elkélne némi alapvető segítség!"
       title: "Források a tájékozódáshoz"
     getting_started_tutorial: "'Kezdő lépések'"
@@ -370,8 +370,8 @@ hu:
     miscellaneous:
       back_to_top_a: "Igen. Miután legörgeted az oldalt, kattints a böngészőablak jobb alsó sarkában megjelenő szürke nyílra."
       back_to_top_q: "Van gyors módja annak, hogy visszajussak az oldal elejére miután lejjebb görgettem?"
-      diaspora_app_a: "Számos Android alkalmazás van a korai fejlesztés állapotában. Ezek közül többen régóta magára hagyott projektek, így nem működnek jól a Diaspora legújabb változatával. Ne várj túl sokat ezektől az alkalmazásoktól jelenleg. Pillanatnyilag a Diaspora-hoz való hozzáférés legjobb módja, ha a mobil böngésződön keresztül próbálsz csatlakozni, mivel erre optimalizáltuk a rendszert. Aktuálisan nincs iOS alkalmazásunk. Röviden szólva: a Diaspora legjobban a böngésződön keresztül fog működni."
-      diaspora_app_q: "Létezik Diaspora* alkalmazás Android vagy iOS rendszerre?"
+      diaspora_app_a: "Számos Android alkalmazás van a korai fejlesztés állapotában. Ezek közül többen régóta magára hagyott projektek, így nem működnek jól a Detailbook legújabb változatával. Ne várj túl sokat ezektől az alkalmazásoktól jelenleg. Pillanatnyilag a Detailbook-hoz való hozzáférés legjobb módja, ha a mobil böngésződön keresztül próbálsz csatlakozni, mivel erre optimalizáltuk a rendszert. Aktuálisan nincs iOS alkalmazásunk. Röviden szólva: a Detailbook legjobban a böngésződön keresztül fog működni."
+      diaspora_app_q: "Létezik Detailbook* alkalmazás Android vagy iOS rendszerre?"
       photo_albums_a: "Jelenleg nem. Mindazonáltal a feltöltött képek folyamát megtekintheted az adatlapok oldalsávjának fényképek részlegén."
       photo_albums_q: "Támogatottak a kép- vagy videó gyűjtemények?"
       subscribe_feed_q: "Feliratkozhatok valakinek a nyilvános bejegyzéseire hírfolyam (RSS) olvasóval?"
@@ -397,9 +397,9 @@ hu:
       stream_full_of_posts_li3: "Végül olyan nyilvános bejegyzések, melyek az úgymond \"figyelem középpontjában\" álló, vagyis a közösség által javasolt népszerű tagoktól származnak. Az ilyen bejegyzések bármikor elrejthetőek, ha azt a beállításainkban kikapcsoljuk (fiók fül - \"A figyelem középpontjában szereplő tartalmak megjelenítése a hírfolyamban\")."
       stream_full_of_posts_q: "Miért van tele a hírfolyamom olyan emberek bejegyzéseivel, akiket nem ismerek és nem is osztok meg velük semmit?"
     private_posts:
-      can_comment_a: "Csak azok a bejelentkezett diaspora* felhasználók tehetik meg ezt, akiket az érintett csoportba helyeztél."
+      can_comment_a: "Csak azok a bejelentkezett detailbook* felhasználók tehetik meg ezt, akiket az érintett csoportba helyeztél."
       can_comment_q: "Ki nyilváníthatja ki tetszését a magánjellegű bejegyzéseimre és ki szólhat hozzájuk?"
-      can_reshare_a: "Senki. A magánbejegyzések nem oszthatóak újra. Az érintett csoportba tartozó, bejelentkezett diaspora* felhasználók jóllehet megtehetik, hogy kézzel kimásolják és máshová beillesztik az adott tartalmat."
+      can_reshare_a: "Senki. A magánbejegyzések nem oszthatóak újra. Az érintett csoportba tartozó, bejelentkezett detailbook* felhasználók jóllehet megtehetik, hogy kézzel kimásolják és máshová beillesztik az adott tartalmat."
       can_reshare_q: "Ki oszthatja újra a magánbejegyzéseimet?"
       see_comment_a: "Csak azok az emberek láthatják a hozzászólásokat és tetszésnyilvánításokat, akik szerepeltek a tartalmat eredetileg megosztó felhasználó általa kiválasztott csoportjaiban. "
       see_comment_q: "Ki láthatja azt, ha hozzászólok egy bejegyzéshez vagy tetszést nyilvánítok?"
@@ -441,7 +441,7 @@ hu:
       see_old_posts_q: "Ha hozzáadok valakit egy csoporthoz, láthatja a régebbi bejegyzéseimet, melyeket ebbe a csoportba küldtem?"
       title: "Megosztás"
     tags:
-      filter_tags_a: "Ez a lehetőség közvetlenül még nem hozzáférhető a diaspora-n keresztül, de %{third_party_tools} segítségével részben megvalósítható."
+      filter_tags_a: "Ez a lehetőség közvetlenül még nem hozzáférhető a detailbook-n keresztül, de %{third_party_tools} segítségével részben megvalósítható."
       filter_tags_q: "Hogyan szűrhetek vagy zárhatok ki címkéket a hírfolyamomból?"
       followed_tags_q: "Mik azok a \"#követett címkék\" és hogyan követhetek címkéket?"
       people_tag_page_q: "Kik a bal oldali sávban látható személyek az egyes címkék oldalain?"
@@ -475,15 +475,15 @@ hu:
     new:
       already_invited: "A következő személy nem fogadta el a meghívásod:"
       aspect: "Csoport"
-      check_out_diaspora: "Próbáld ki a diaspora*-t!"
+      check_out_diaspora: "Próbáld ki a detailbook*-t!"
       codes_left:
         other: "%{count} meghívó maradt még ezen a kódon"
         zero: "Nem maradt több meghívó ezen a kódon"
       comma_separated_plz: "Megadhatsz több e-mail címet is vesszővel elválasztva."
       if_they_accept_info: "Ha elfogadják felkérésed, akkor belekerülnek abba a csoportba amelyikbe meghívtad őket."
-      invite_someone_to_join: "Hívj meg valakit, hogy csatlakozzon a diaspora*-hoz!"
+      invite_someone_to_join: "Hívj meg valakit, hogy csatlakozzon a detailbook*-hoz!"
       language: "Nyelv"
-      paste_link: "Ha szeretnéd meghívni a barátaidat a Diaspora-ra, oszd meg velük ezt a hivatkozást vagy küldd el nekik közvetlenül levélben."
+      paste_link: "Ha szeretnéd meghívni a barátaidat a Detailbook-ra, oszd meg velük ezt a hivatkozást vagy küldd el nekik közvetlenül levélben."
       personal_message: "Személyes üzenet"
       resend: "Újraküld"
       send_an_invitation: "Küldj egy meghívót"
@@ -493,8 +493,8 @@ hu:
   layouts:
     application:
       back_to_top: "Vissza az elejére"
-      powered_by: "diaspora* - fordította adamex & danielwine"
-      public_feed: "%{name} nyilvános diaspora* hírfolyama"
+      powered_by: "detailbook* - fordította adamex & danielwine"
+      public_feed: "%{name} nyilvános detailbook* hírfolyama"
       source_package: "forráskódcsomag letöltése"
       toggle: "mobil változat"
       whats_new: "Mik az újdonságok?"
@@ -612,7 +612,7 @@ hu:
       zero: "%{actors} mostantól megoszt veled."
   notifier:
     a_post_you_shared: "egy bejegyzés."
-    accept_invite: "Fogadd el a diaspora* meghívódat!"
+    accept_invite: "Fogadd el a detailbook* meghívódat!"
     click_here: "kattints ide"
     comment_on_post:
       reply: "Válaszolok vagy megnézem %{name} bejegyzését >"
@@ -628,7 +628,7 @@ hu:
 
           Üdv,
 
-          A diaspora* üzenetküldő automatája.
+          A detailbook* üzenetküldő automatája.
       subject: "A képeid letölthetőek, %{name}"
     export_photos_failure_email:
       body: |-
@@ -638,14 +638,14 @@ hu:
 
           Elnézésedet kérjük,
 
-          A diaspora* üzenetküldő automatája.
+          A detailbook* üzenetküldő automatája.
       subject: "Gond adódott a képeiddel kapcsolatban, %{name}"
     hello: "Szia %{name}!"
     invite:
       message: |-
           Üdv!
 
-          Meghívtak, hogy csatlakozz a diaspora* közösséghez!
+          Meghívtak, hogy csatlakozz a detailbook* közösséghez!
 
           Kattints ide a kezdéshez:
 
@@ -654,16 +654,16 @@ hu:
 
           minden jót:
 
-          a diaspora* levélküldő automatája
+          a detailbook* levélküldő automatája
 
           [1]: %{invite_url}
-    invited_you: "%{name} meghívott a Diaspora-ra"
+    invited_you: "%{name} meghívott a Detailbook-ra"
     liked:
       liked: "%{name} kedveli a bejegyzésedet"
       view_post: "Bejegyzés megtekintése >"
     mentioned:
       mentioned: "megemlített téged egy bejegyzésében:"
-      subject: "%{name} megemlített téged a Diaspora* közösségi oldalon."
+      subject: "%{name} megemlített téged a Detailbook* közösségi oldalon."
     private_message:
       reply_to_or_view: "Beszélgetés folytatása vagy megtekintése >"
     report_email:
@@ -679,7 +679,7 @@ hu:
 
           minden jót:
 
-          a diaspora* levélküldő automatája
+          a detailbook* levélküldő automatája
 
           [1]: %{url}             
       subject: "Új %{type} lett sértő tartalomként megjelölve"
@@ -690,8 +690,8 @@ hu:
       reshared: "%{name} épp újraosztotta a bejegyzésedet."
       view_post: "Bejegyzés megtekintése >"
     single_admin:
-      admin: "A Te diaspora* rendszergazdád"
-      subject: "Üzenet a diaspora* rendszergazdától:"
+      admin: "A Te detailbook* rendszergazdád"
+      subject: "Üzenet a detailbook* rendszergazdától:"
     started_sharing:
       sharing: "mostantól ismerősöd!"
       subject: "%{name} elkezdett megosztani veled"
@@ -720,7 +720,7 @@ hu:
       no_one_found: "...és nem találni senkit."
       no_results: "Hé! Valamit keresned kell."
       results_for: "A keresési szűrőnek (%{search_term}) megfelelt felhasználók"
-      search_handle: "Hogy biztosan megtaláld a barátaidat, használd a diaspora azonosítójukat (felhasználónév@pod.tld)."
+      search_handle: "Hogy biztosan megtaláld a barátaidat, használd a detailbook azonosítójukat (felhasználónév@pod.tld)."
       searching: "keresés folyamatban, légy türelmes..."
       send_invite: "Még mindig semmi? Küldj meghívót!"
     one: "1 személy"
@@ -817,12 +817,12 @@ hu:
   profile: "Adatlap"
   profiles:
     edit:
-      allow_search: "megtalálható legyek a diaspora* keresőben"
+      allow_search: "megtalálható legyek a detailbook* keresőben"
       edit_profile: "Adatlap szerkesztése"
       first_name: "Keresztnév"
       last_name: "Vezetéknév"
       nsfw_check: "Minden megosztásom megjelölése NSFW tartalomként"
-      nsfw_explanation: "Az NSFW (munkahelyen nem illő tartalom) a diaspora* közösségének saját szabványa azokra a tartalmakra vonatkozólag, melyek nem illdomosak munkahelyen történő megtekintésre. Ha ilyen jellegű anyagot gyakran szeretnél küldeni, kérlek jelöld be ezt a lehetőséget, hogy csak azok a személyek láthassák, akik úgy döntöttek, szeretnék ha megjelenne a hírfolyamukban hasonló tartalom."
+      nsfw_explanation: "Az NSFW (munkahelyen nem illő tartalom) a detailbook* közösségének saját szabványa azokra a tartalmakra vonatkozólag, melyek nem illdomosak munkahelyen történő megtekintésre. Ha ilyen jellegű anyagot gyakran szeretnél küldeni, kérlek jelöld be ezt a lehetőséget, hogy csak azok a személyek láthassák, akik úgy döntöttek, szeretnék ha megjelenne a hírfolyamukban hasonló tartalom."
       nsfw_explanation2: "Ha nem választod ezt a lehetőséget, kérünk, hogy minden ilyen típusú tartalmadat bejegyzésenként külön jelöld meg az #nsfw címkével."
       update_profile: "Adatlap frissítése"
       your_bio: "Írj pár sort magadról"
@@ -843,9 +843,9 @@ hu:
     other: "%{count} visszajelzés"
     zero: "nincs visszajelzés"
   registrations:
-    closed: "A feliratkozási lehetőség zárolva van ezen a diaspora* kiszolgálón."
+    closed: "A feliratkozási lehetőség zárolva van ezen a detailbook* kiszolgálón."
     create:
-      success: "Csatlakoztál a diaspora* közösségi oldalra!"
+      success: "Csatlakoztál a detailbook* közösségi oldalra!"
     edit:
       cancel_my_account: "Fiókom törlése"
       edit: "%{name} szerkesztése"
@@ -935,7 +935,7 @@ hu:
     failure:
       error: "Hiba történt a szolgáltatáshoz való kapcsolódás során"
     finder:
-      fetching_contacts: "A diaspora* keresi a %{service} ismerőseidet, nézz vissza néhány perc múlva."
+      fetching_contacts: "A detailbook* keresi a %{service} ismerőseidet, nézz vissza néhány perc múlva."
       no_friends: "Nincs Facebook ismerősöd"
       service_friends: "%{service} ismerősök"
     index:
@@ -943,13 +943,13 @@ hu:
       edit_services: "Szolgáltatások szerkesztése"
       logged_in_as: "- bejelentkeztél ezen a néven:"
       really_disconnect: "Megszakítod a kapcsolatot ezzel: %{service}?"
-      services_explanation: "Ha kapcsolódsz más szolgáltatásokhoz, lehetőséged lesz bejegyzéseket küldeni a felületükre, amint azokat a diaspora* rendszerén belül megírod."
+      services_explanation: "Ha kapcsolódsz más szolgáltatásokhoz, lehetőséged lesz bejegyzéseket küldeni a felületükre, amint azokat a detailbook* rendszerén belül megírod."
     inviter:
       click_link_to_accept_invitation: "Kattints a linkre, hogy elfogadd a meghívást."
-      join_me_on_diaspora: "Találkozzunk a DIASPORA*-n"
+      join_me_on_diaspora: "Találkozzunk a Detailbook*-n"
     remote_friend:
       invite: "meghív"
-      not_on_diaspora: "Még nincs diaspora* fiókja"
+      not_on_diaspora: "Még nincs detailbook* fiókja"
       resend: "újraküld"
   settings: "Beállítások"
   share_visibilites:
@@ -961,9 +961,9 @@ hu:
       add_new_contact: "Új ismerős"
       create_request: "Keresés diaspora* azonosító alapján"
       diaspora_handle: "diaspora@pod.org"
-      enter_a_diaspora_username: "diaspora* felhasználónév:"
+      enter_a_diaspora_username: "detailbook* felhasználónév:"
       know_email: "Tudod az e-mail címüket? Hívd meg őket!"
-      your_diaspora_username_is: "diaspora* felhasználóneved: %{diaspora_handle}"
+      your_diaspora_username_is: "detailbook* felhasználóneved: %{diaspora_handle}"
     aspect_dropdown:
       add_to_aspect: "Ismerős hozzáadása"
       toggle:
@@ -986,7 +986,7 @@ hu:
       invite_someone: "Hívj meg valakit"
       invite_your_friends: "Hívd meg a barátaidat"
       invites: "Meghívók"
-      invites_closed: "A meghívás jelenleg szünetel erre a diaspora* kiszolgálóra."
+      invites_closed: "A meghívás jelenleg szünetel erre a detailbook* kiszolgálóra."
       share_this: "Oszd meg ezt a hivatkozást levélben, blogon vagy közösségi hálón!"
     notification:
       new: "Új %{type} %{from}-tól/től"
@@ -998,7 +998,7 @@ hu:
       new_user_welcome_message: |-
           Használj kettőskeresztet(#), hogy felcímkézd a bejegyzésedet. Címkék alapján találhatsz veled azonos érdeklődésű embereket.
           A kukac(@) jellel pedig személyeket említhetsz meg a bejegyzésedben.
-      outside: "A nyilvános üzeneteket a diaspora*-n kívüli személyek is láthatják."
+      outside: "A nyilvános üzeneteket a detailbook*-n kívüli személyek is láthatják."
       share: "Ossz meg valamit!"
       title: "Kapcsolódó szolgáltatások beállítása"
       visibility_dropdown: "Használd ezt a legördülő menüt, hogy módosítsd a bejegyzésed láthatóságát."
@@ -1129,7 +1129,7 @@ hu:
       email_not_confirmed: "Email cím aktiválása sikertelen. Rossz a link?"
     destroy:
       no_password: "Add meg a jelszavad, hogy megszüntesd a fiókod."
-      success: "A fiókodat lezártuk. Húsz percbe is beletelhet, mire befejezzük a fiókod törlését. Köszönjük, hogy kipróbáltad a diaspora* közösségi oldalt."
+      success: "A fiókodat lezártuk. Húsz percbe is beletelhet, mire befejezzük a fiókod törlését. Köszönjük, hogy kipróbáltad a detailbook* közösségi oldalt."
       wrong_password: "A megadott jelszó nem felel meg."
     edit:
       also_commented: "más is hozzászólt az ismerősöd bejegyzéséhez?"
@@ -1145,10 +1145,10 @@ hu:
         if_you_want_this: "Ha tényleg ezt akarod, írd be a jelszavad a lenti mezőbe és kattints a \"Fiók törlése\" gombra."
         lock_username: "A felhasználóneved foglalt marad. Nem lesz lehetőséged ezen a kiszolgálón új fiókot létrehozni ugyanezzel a névvel."
         locked_out: "Ki fogunk léptetni és kizárunk a fiókodból, amíg végleg el nem távolítjuk."
-        make_diaspora_better: "Azt szeretnénk, ha segítenél, hogy jobbá tehessük a diaspora*-t. A távozásod helyett ezért szívesebben vennénk, ha közreműködnél. Ám ha úgy döntesz, hogy elhagyod az oldalt, a következő fog történni:"
+        make_diaspora_better: "Azt szeretnénk, ha segítenél, hogy jobbá tehessük a detailbook*-t. A távozásod helyett ezért szívesebben vennénk, ha közreműködnél. Ám ha úgy döntesz, hogy elhagyod az oldalt, a következő fog történni:"
         mr_wiggles: "Vuk szomorú lesz, ha távozni lát."
         no_turning_back: "Nincs visszaút! Ha teljesen biztos vagy benne, add meg a jelszavadat a lenti mezőben."
-        what_we_delete: "Töröljük az összes bejegyzésedet és adatodat amint tudjuk. A mások bejegyzéseihez írt hozzászólásaid megmaradnak, de a neved helyett csak a diaspora* azonosítód lesz látható mellettük."
+        what_we_delete: "Töröljük az összes bejegyzésedet és adatodat amint tudjuk. A mások bejegyzéseihez írt hozzászólásaid megmaradnak, de a neved helyett csak a detailbook* azonosítód lesz látható mellettük."
       close_account_text: "Fiók törlése"
       comment_on_post: "valaki hozzászólt egy bejegyzésedhez?"
       current_password: "Jelenlegi jelszó"
@@ -1174,11 +1174,11 @@ hu:
       started_sharing: "valaki elkezd megosztani veled?"
       stream_preferences: "Hírfolyam tulajdonságai"
       your_email: "E-mail címed"
-      your_handle: "diaspora* azonosítód"
+      your_handle: "detailbook* azonosítód"
     getting_started:
-      awesome_take_me_to_diaspora: "Remek! Irány a Diaspora*"
-      community_welcome: "A diaspora* közösség üdvözöl a fedélzeten!"
-      connect_to_facebook: "Felgyorsíthatod egy kicsit a dolgokat, ha %{link} a diaspora*-val. Ezzel a lépéssel engedélyezed a közös bejegyzéseket, illetve nálunk is megjelenik ottani neved és fényképed."
+      awesome_take_me_to_diaspora: "Remek! Irány a Detailbook*"
+      community_welcome: "A detailbook* közösség üdvözöl a fedélzeten!"
+      connect_to_facebook: "Felgyorsíthatod egy kicsit a dolgokat, ha %{link} a detailbook*-val. Ezzel a lépéssel engedélyezed a közös bejegyzéseket, illetve nálunk is megjelenik ottani neved és fényképed."
       connect_to_facebook_link: "összekapcsolod Facebook fiókodat"
       hashtag_explanation: "A #címkék segítenek egy bizonyos téma megtalálásában és ezáltal akár új kapcsolatokra is szert tehetsz."
       hashtag_suggestions: "Kövess pár téged érdeklő címkét. Például: #művészet, #fényképezés, #webdesign, #filozófia"

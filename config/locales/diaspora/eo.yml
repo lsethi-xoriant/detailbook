@@ -45,7 +45,7 @@ eo:
     admin_bar:
       correlations: "Korelacio"
       pages: "Paĝoj"
-      pod_stats: "Statistiko de 'pod' (Diaspora-servilo)"
+      pod_stats: "Statistiko de 'pod' (Detailbook-servilo)"
       user_search: "Serĉo de uzanto"
       weekly_user_stats: "Semajna statistiko de uzanto"
     correlations:
@@ -133,11 +133,11 @@ eo:
       updating: "ĝisdatigado"
     index:
       diaspora_id:
-        content_1: "Via DIASPORA* uzantnomo estas:"
-        content_2: "Donu ĝin al iu ajn, kaj tiu povos trovi vin ĉe DIASPORA*."
-        heading: "DIASPORA* uzantnomo"
+        content_1: "Via Detailbook* uzantnomo estas:"
+        content_2: "Donu ĝin al iu ajn, kaj tiu povos trovi vin ĉe Detailbook*."
+        heading: "Detailbook* uzantnomo"
       donate: "Donaci"
-      handle_explanation: "Tiu ĉi estas via DIASPORA*-uzantnomo. Vi povas doni ĝin al aliaj homoj same kiel retpoŝtan adreson, por ke ili vin kontaktu."
+      handle_explanation: "Tiu ĉi estas via Detailbook*-uzantnomo. Vi povas doni ĝin al aliaj homoj same kiel retpoŝtan adreson, por ke ili vin kontaktu."
       help:
         any_problem: "Ĉu iu problemo?"
         do_you: "Ĉu vi:"
@@ -146,17 +146,17 @@ eo:
         feature_suggestion: "... havas %{link} proponon?"
         find_a_bug: "... trovis %{link}n?"
         have_a_question: "... havas %{link}n?"
-        here_to_help: "Jen la DIASPORA* komunumo!"
+        here_to_help: "Jen la Detailbook* komunumo!"
         need_help: "Ĉu Vi Bezonas Helpon?"
         tag_bug: "cimo"
         tag_feature: "trajtpeto"
         tag_question: "demando"
         tutorials_and_wiki: "%{faq}, %{tutorial} kaj %{wiki}: helpoj por via unuaj paŝoj."
       introduce_yourself: "Tio estas via torento. Ensaltu kaj prezentu vin mem."
-      keep_diaspora_running: "Tenu la DIASPORA-evoluadon rapida per monata donacado!"
+      keep_diaspora_running: "Tenu la Detailbook-evoluadon rapida per monata donacado!"
       keep_pod_running: "Helpu al %{pod} rapide funkcii kaj aĉeti por niaj servistoj ilian \"kaforiparon\" per ĉiumonata donacado!"
       new_here:
-        follow: "Sekvu %{link} kaj bonvenigu novajn uzantojn al Diaspora*!"
+        follow: "Sekvu %{link} kaj bonvenigu novajn uzantojn al Detailbook*!"
         learn_more: "Lerni pli"
         title: "Bonvenigu novajn uzantojn"
       no_contacts: "neniuj kontaktoj"
@@ -164,10 +164,10 @@ eo:
       people_sharing_with_you: "Homoj, kiuj konigas al vi"
       post_a_message: "Afiŝu mesaĝon »"
       services:
-        content: "Vi povas konekti la postajn servojn kun DIASPORA*:"
+        content: "Vi povas konekti la postajn servojn kun Detailbook*:"
         heading: "Konekti Servojn"
       unfollow_tag: "Ne plu abonas #%{tag}."
-      welcome_to_diaspora: "Bonvenon al Diaspora, %{name}!"
+      welcome_to_diaspora: "Bonvenon al Detailbook, %{name}!"
     new:
       create: "Krei"
       name: "Nomo (nur videblas de vi)"
@@ -198,9 +198,9 @@ eo:
       failure: "Mi ne povis ĉesi ignori tiun uzanton. #evasion"
       success: "Ni vidu kion ili emas diri! #sayhello"
   bookmarklet:
-    explanation: "Vi povas afiŝi en DIASPORA* de ĉie ajn per paĝosigno montranta al %{link}."
+    explanation: "Vi povas afiŝi en Detailbook* de ĉie ajn per paĝosigno montranta al %{link}."
     heading: "Legosigneto"
-    post_something: "Afiŝi ion en DIASPORA*"
+    post_something: "Afiŝi ion en Detailbook*"
     post_success: "Afiŝita! Fermanta!"
   cancel: "Nuligi"
   comments:
@@ -274,7 +274,7 @@ eo:
   fill_me_out: "Plenumigu min"
   find_people: "Trovi homojn aŭ #etikedojn"
   help:
-    foundation_website: "Retejo de Fondaĵo Diaspora"
+    foundation_website: "Retejo de Fondaĵo Detailbook"
     getting_help:
       get_support_a_website: "vizitu nian %{link}"
     here: "ĉi tie"
@@ -302,16 +302,16 @@ eo:
     new:
       already_invited: "Tiuj homoj ankoraŭ ne akceptis vian inviton:"
       aspect: "Aspekto"
-      check_out_diaspora: "Esploru en DIASPORA!"
+      check_out_diaspora: "Esploru en Detailbook!"
       codes_left:
         one: "%{count} invito restas por tiu ĉi kodo"
         other: "%{count} invitoj restas por tiu ĉi kodo"
         zero: "%{count} invitoj restas por tiu ĉi kodo"
       comma_separated_plz: "Vi povas enmeti plurajn retpoŝtadresojn disigitajn per komoj."
       if_they_accept_info: "se tiu akceptos, tiu aldoniĝos al la aspekto, en kiun vi invitis tiun."
-      invite_someone_to_join: "Invitu iun aniĝi al DIASPORA*!"
+      invite_someone_to_join: "Invitu iun aniĝi al Detailbook*!"
       language: "Lingvo"
-      paste_link: "Konigu ĉi tiun ligon kun viaj amikoj por inviti ilin al DIASPORA* aŭ rekte retmesaĝu al ili la ligon."
+      paste_link: "Konigu ĉi tiun ligon kun viaj amikoj por inviti ilin al Detailbook* aŭ rekte retmesaĝu al ili la ligon."
       personal_message: "Persona mesaĝo"
       resend: "Resendi"
       send_an_invitation: "Sendu inviton"
@@ -321,8 +321,8 @@ eo:
   layouts:
     application:
       back_to_top: "Reen al la supro"
-      powered_by: "FUNKCIAS PER DIASPORA*"
-      public_feed: "Publika DIASPORA* Afiŝostrio de %{name}"
+      powered_by: "FUNKCIAS PER Detailbook*"
+      public_feed: "Publika Detailbook* Afiŝostrio de %{name}"
       source_package: "elŝutu la pakaĵon kun la fontkodo"
       toggle: "ŝalti inter tiu kaj poŝtelefona versio"
       whats_new: "kio estas nova?"
@@ -441,7 +441,7 @@ eo:
       zero: "%{actors} komencis konigi al vi."
   notifier:
     a_post_you_shared: "afiŝo."
-    accept_invite: "Akceptu vian DIASPORA*-inviton!"
+    accept_invite: "Akceptu vian Detailbook*-inviton!"
     click_here: "klaku tie ĉi"
     comment_on_post:
       reply: "Respondi aŭ vidi afiŝon de %{name} >"
@@ -454,7 +454,7 @@ eo:
       message: |-
           Saluton!
 
-          Vi estas invitita por aliĝi al DIASPORA*!
+          Vi estas invitita por aliĝi al Detailbook*!
 
           Klaku al tiu ĉi ligilo por komenci
 
@@ -463,27 +463,27 @@ eo:
 
           Amike
 
-          la retmesaĝa aŭtomato de DIASPORA*
+          la retmesaĝa aŭtomato de Detailbook*
 
           [1]: %{invite_url}
-    invited_you: "%{name} invitis vin al DIASPORA*"
+    invited_you: "%{name} invitis vin al Detailbook*"
     liked:
       liked: "%{name} ŝatas vian afiŝon"
       view_post: "Vidi afiŝon >"
     mentioned:
       mentioned: "menciis vin en afiŝo:"
-      subject: "%{name} menciis vin ĉe DIASPORA*"
+      subject: "%{name} menciis vin ĉe Detailbook*"
     private_message:
       reply_to_or_view: "Respondi al aŭ vidi tiun ĉi interparoladon >"
     reshared:
       reshared: "%{name} rekonigis vian afiŝon."
       view_post: "Vidu afiŝon >"
     single_admin:
-      admin: "Via DIASPORA* administranto"
-      subject: "Mesaĝo pri via DIASPORA* konto:"
+      admin: "Via Detailbook* administranto"
+      subject: "Mesaĝo pri via Detailbook* konto:"
     started_sharing:
       sharing: "komencis konigi al vi!"
-      subject: "%{name} komencis konigi al vi ĉe DIASPORA*"
+      subject: "%{name} komencis konigi al vi ĉe Detailbook*"
       view_profile: "Vidi la profilon de %{name}"
     thanks: "Dankon,"
     to_change_your_notification_settings: "ŝanĝi viajn sciigajn agordojn"
@@ -603,7 +603,7 @@ eo:
   profile: "Profilo"
   profiles:
     edit:
-      allow_search: "Permesu al homoj serĉi vin ene de DIASPORA*"
+      allow_search: "Permesu al homoj serĉi vin ene de Detailbook*"
       edit_profile: "Redakti profilon"
       first_name: "Persona nomo"
       last_name: "Familinomo"
@@ -627,9 +627,9 @@ eo:
     other: "%{count} reagoj"
     zero: "0 reagoj"
   registrations:
-    closed: "Registrado estas fermita ĉe tiu ĉi DIASPORA* 'pod' (servilo)."
+    closed: "Registrado estas fermita ĉe tiu ĉi Detailbook* 'pod' (servilo)."
     create:
-      success: "Vi aniĝis al DIASPORA*!"
+      success: "Vi aniĝis al Detailbook*!"
     edit:
       cancel_my_account: "Forviŝi mian konton"
       edit: "Redakti je %{name}"
@@ -654,7 +654,7 @@ eo:
   requests:
     create:
       sending: "Sendanta"
-      sent: "Vi petis konigi al %{name}. Via peto al ili videblos ĉe ilia venonta ensaluto en DIASPORA*."
+      sent: "Vi petis konigi al %{name}. Via peto al ili videblos ĉe ilia venonta ensaluto en Detailbook*."
     destroy:
       error: "Bonvolu elekti aspekton!"
       ignore: "Ignoris kontaktan peton."
@@ -692,7 +692,7 @@ eo:
   search: "Serĉi"
   services:
     create:
-      already_authorized: "Uzanto kun la Diaspora-uzantnomo %{diaspora_id} jam permesis tiun %{service_name} konton."
+      already_authorized: "Uzanto kun la Detailbook-uzantnomo %{diaspora_id} jam permesis tiun %{service_name} konton."
       failure: "Identeco-kontrolo malsukcesis."
       success: "Identeco-kontrolo sukcesis."
     destroy:
@@ -700,7 +700,7 @@ eo:
     failure:
       error: "estis eraro, kiam ni provis konekti tiun servon"
     finder:
-      fetching_contacts: "Diaspora estas okupita akcepti viajn %{service} amikojn, bv. reveni post kelkaj minutoj."
+      fetching_contacts: "Detailbook estas okupita akcepti viajn %{service} amikojn, bv. reveni post kelkaj minutoj."
       no_friends: "Neniuj Facebook amikoj trovitaj."
       service_friends: "%{service} Amikoj"
     index:
@@ -710,10 +710,10 @@ eo:
       really_disconnect: "ĉu vi volas malkonekti %{service}?"
     inviter:
       click_link_to_accept_invitation: "Sekvu tiun ligilon por akcepti vian inviton"
-      join_me_on_diaspora: "Renkontu min ĉe DIASPORA*"
+      join_me_on_diaspora: "Renkontu min ĉe Detailbook*"
     remote_friend:
       invite: "inviti"
-      not_on_diaspora: "Ne jam ĉe DIASPORA*"
+      not_on_diaspora: "Ne jam ĉe Detailbook*"
       resend: "resendi"
   settings: "Agordoj"
   share_visibilites:
@@ -723,11 +723,11 @@ eo:
   shared:
     add_contact:
       add_new_contact: "Aldoni novan kontakton"
-      create_request: "Trovi per DIASPORA* uzantnomo"
+      create_request: "Trovi per Detailbook* uzantnomo"
       diaspora_handle: "diaspora@pod.org"
-      enter_a_diaspora_username: "Enmetu DIASPORA* uzantnomon:"
+      enter_a_diaspora_username: "Enmetu Detailbook* uzantnomon:"
       know_email: "Ĉu vi scias iliajn retpoŝtadresojn? Vi devus inviti ilin"
-      your_diaspora_username_is: "Via DIASPORA* uzantnomo estas: %{diaspora_handle}"
+      your_diaspora_username_is: "Via Detailbook* uzantnomo estas: %{diaspora_handle}"
     aspect_dropdown:
       add_to_aspect: "Aldoni kontakton"
       toggle:
@@ -750,7 +750,7 @@ eo:
       invite_someone: "Inviti iun"
       invite_your_friends: "Invitu viajn amikojn"
       invites: "Invitoj"
-      invites_closed: "Invitoj aktuale ne eblas ĉe tiu ĉi DIASPORA* 'pod' (servilo)"
+      invites_closed: "Invitoj aktuale ne eblas ĉe tiu ĉi Detailbook* 'pod' (servilo)"
       share_this: "Konigi tiun ĉi ligilon per retmesaĝo, reta taglibro aŭ via ŝatata socia reto!"
     notification:
       new: "Nova %{type} de %{from}"
@@ -760,7 +760,7 @@ eo:
       logged_in: "ensalutinta al %{service}"
       manage: "administri ligitajn servojn"
       new_user_welcome_message: "Uzu #kradoetikedojn por klasifiki viajn afiŝojn kaj por trovi homojn, kiuj havas kun vi komunajn interesojn. Atentigu pri imponaj homoj per @mencio."
-      outside: "Publikaj afiŝoj estos videblaj al aliaj, kiuj estas ekster DIASPORA*."
+      outside: "Publikaj afiŝoj estos videblaj al aliaj, kiuj estas ekster Detailbook*."
       share: "Dividi"
       title: "Agordi ligitajn servojn"
       visibility_dropdown: "Uzu tiun falmenuon por ŝanĝi videblecon de via afiŝo. (Ni sugestas, ke vi igu publika tiun unuan afiŝon.)"
@@ -874,7 +874,7 @@ eo:
       email_not_confirmed: "Retpoŝtadreso ne povis aktiviĝi. Ĉu malĝusta ligilo?"
     destroy:
       no_password: "Bonvolu entajpi vian nunan pasvorton por fermi vian konton."
-      success: "Via konto ŝlosiĝis. Povas daŭri 20 minutojn ĝis kiam via konto fine estos fermita. Dankon por elprovi Diaspora-n."
+      success: "Via konto ŝlosiĝis. Povas daŭri 20 minutojn ĝis kiam via konto fine estos fermita. Dankon por elprovi Detailbook-n."
       wrong_password: "La entajpita pasvorto ne kongruis kun la nuna pasvorto."
     edit:
       also_commented: "...iu ankaŭ komentis pri la afiŝo de via kontakto?"
@@ -890,10 +890,10 @@ eo:
         if_you_want_this: "Se vi vere volas tion ĉi, tajpu vian kodvorton sube kaj klaku al 'Close Account'/'Fermi konton'"
         lock_username: "Tio ĉi baros vian uzantonomon kaze ke vi decidas reensaluti."
         locked_out: "Vi elsalutos kaj estos barita de via konto."
-        make_diaspora_better: "Ni deziras helpi al vi plibonigi DIASPORA-on, do vi prefere helpu al ni anstataŭ ol foriri. Se vi vere deziras foriri, ni volas informi vin, kio sekve okazas."
+        make_diaspora_better: "Ni deziras helpi al vi plibonigi Detailbook-on, do vi prefere helpu al ni anstataŭ ol foriri. Se vi vere deziras foriri, ni volas informi vin, kio sekve okazas."
         mr_wiggles: "S-ro Wiggles estos malĝoja vidante vin foriri"
         no_turning_back: "Aktuale ne eblas reiri."
-        what_we_delete: "Ni forviŝos ĉiujn viajn mesaĝojn kaj la profilo-datumojn tiel rapide kiel eblas homece. Viaj komentoj restos, sed estos asociitaj kun via Diaspora-uzantnomo."
+        what_we_delete: "Ni forviŝos ĉiujn viajn mesaĝojn kaj la profilo-datumojn tiel rapide kiel eblas homece. Viaj komentoj restos, sed estos asociitaj kun via Detailbook-uzantnomo."
       close_account_text: "Fermi konton"
       comment_on_post: "...iu komentas pri via afiŝo?"
       current_password: "Nuna pasvorto"
@@ -915,11 +915,11 @@ eo:
       started_sharing: "...iu komencis konigi al vi?"
       stream_preferences: "Torentaj agordoj"
       your_email: "Via retpoŝtadreso"
-      your_handle: "Via DIASPORA*-uzantnomo"
+      your_handle: "Via Detailbook*-uzantnomo"
     getting_started:
-      awesome_take_me_to_diaspora: "Brile! Gvidu min al Diaspora*"
-      community_welcome: "La komunumo de DIASPORA* feliĉas, ke vi aniĝis!"
-      hashtag_explanation: "Etikedoj permesas al vi priparoli kaj aboni viajn interesojn. Ili estas ankaŭ bona metodo por trovi novajn homojn ĉe DIASPORA*."
+      awesome_take_me_to_diaspora: "Brile! Gvidu min al Detailbook*"
+      community_welcome: "La komunumo de Detailbook* feliĉas, ke vi aniĝis!"
+      hashtag_explanation: "Etikedoj permesas al vi priparoli kaj aboni viajn interesojn. Ili estas ankaŭ bona metodo por trovi novajn homojn ĉe Detailbook*."
       hashtag_suggestions: "Provu sekvi etikedojn kiel #arto, #filmoj, #gif, ktp."
       saved: "Konservita!"
       well_hello_there: "Bone, saluton al vi tie!"

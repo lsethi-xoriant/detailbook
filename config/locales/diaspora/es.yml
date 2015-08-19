@@ -90,7 +90,7 @@ es:
       week: "Semana"
     user_entry:
       account_closed: "cuenta cerrada"
-      diaspora_handle: "Administrar Diaspora"
+      diaspora_handle: "Administrar Detailbook"
       email: "Correo Electrónico"
       guid: "GUID"
       id: "identificador"
@@ -178,11 +178,11 @@ es:
       updating: "Actualizando"
     index:
       diaspora_id:
-        content_1: "Tu ID de Diaspora* es:"
-        content_2: "Compártela con quien quieras y podrán encontrarte en Diaspora*."
-        heading: "ID de Diaspora*"
+        content_1: "Tu ID de Detailbook* es:"
+        content_2: "Compártela con quien quieras y podrán encontrarte en Detailbook*."
+        heading: "ID de Detailbook*"
       donate: "Donar"
-      handle_explanation: "Éste es tu ID de Diaspora*. Como una dirección de correo electrónico, puedes dársela a la gente para que te encuentre."
+      handle_explanation: "Éste es tu ID de Detailbook*. Como una dirección de correo electrónico, puedes dársela a la gente para que te encuentre."
       help:
         any_problem: "¿Algún problema?"
         contact_podmin: "¡Contacta con el administrador de tu pod!"
@@ -192,7 +192,7 @@ es:
         feature_suggestion: "... tienes alguna %{link} sugerencia?"
         find_a_bug: "... encuentras algún %{link}?"
         have_a_question: "... tienes %{link}?"
-        here_to_help: "¡La comunidad Diaspora* está aquí!"
+        here_to_help: "¡La comunidad Detailbook* está aquí!"
         mail_podmin: "Correo del administrador"
         need_help: "¿Necesitas ayuda?"
         tag_bug: "error"
@@ -201,10 +201,10 @@ es:
         tutorial_link_text: "Tutoriales"
         tutorials_and_wiki: "%{faq}, %{tutorial} y %{wiki}: Ayuda para dar tus primeros pasos."
       introduce_yourself: "Ésta es tu página principal.  Adelante, preséntate..."
-      keep_diaspora_running: "¡Haz que el desarrollo de Diaspora vaya más rápido con una donación mensual!"
+      keep_diaspora_running: "¡Haz que el desarrollo de Detailbook vaya más rápido con una donación mensual!"
       keep_pod_running: "Haz que %{pod} vaya más rápido, ¡invita a café a nuestros servidores con una donación mensual!"
       new_here:
-        follow: "¡Sigue %{link} y da la bienvenida a los nuevos miembros de Diaspora*!"
+        follow: "¡Sigue %{link} y da la bienvenida a los nuevos miembros de Detailbook*!"
         learn_more: "Más información"
         title: "Bienvenidos nuevos usuarios"
       no_contacts: "No hay contactos"
@@ -212,10 +212,10 @@ es:
       people_sharing_with_you: "Personas que comparten contigo"
       post_a_message: "Publica un mensaje >>"
       services:
-        content: "Puedes conectar los siguientes servicios a Diaspora:"
+        content: "Puedes conectar los siguientes servicios a Detailbook:"
         heading: "Conectar servicios"
       unfollow_tag: "Dejar de seguir a #%{tag}"
-      welcome_to_diaspora: "¡Bienvenido a Diaspora*, %{name}!"
+      welcome_to_diaspora: "¡Bienvenido a Detailbook*, %{name}!"
     new:
       create: "Crear"
       name: "Nombre (sólo tu lo puedes ver)"
@@ -246,9 +246,9 @@ es:
       failure: "No podría dejar de ignorar a esa persona.  #evasion"
       success: "¡Vamos a ver qué tiene que decir! #sayhello"
   bookmarklet:
-    explanation: "Publica en Diaspora* desde cualquier página agregando a tus marcadores este enlace => %{link}."
+    explanation: "Publica en Detailbook* desde cualquier página agregando a tus marcadores este enlace => %{link}."
     heading: "Marcador"
-    post_something: "Publica en Diaspora*"
+    post_something: "Publica en Detailbook*"
     post_success: "¡Publicado! ¡Cerrando!"
   cancel: "Cancelar"
   comments:
@@ -342,7 +342,7 @@ es:
       close_account_q: "¿Cómo puedo borrar mi semilla (cuenta)?"
       data_other_podmins_a: "Cuando esté compartiendo con un contacto alojado en otro servidor (vaina), cualquier publicación que compartas con ese contacto, así como, una copia de tu perfil, se guardara en ese servidor, estando esta información accesible para el administrador de la base de datos de ese servidor. Cuando borre una publicación o un dato de perfil, esta información será borrada tanto de su servidor como de cuaquier otro en el esté alojada."
       data_other_podmins_q: "¿Pueden los administradores de otros pods (vainas) ver mi información?"
-      data_visible_to_podmin_a: "La comunicación entre \"pods\" (vainas) siempre está cifrada (usando tanto SSL como el cifrado propio que utiliza diaspora*), pero el almacenamiento de datos en los \"pods\" no está cifrado. Si quisiera, la persona que administra la base de datos en tu \"pod\" (generalmente la persona que dirige la vaina) podría acceder tanto a todos los datos de su perfil como a sus publicaciones (este es el caso de la mayoría de los sitios web que almacenan datos de sus usuarios). Poner en marcha su propio \"pod\" proporciona una mayor privacidad al poder usted controlar el nivel de acceso a la base de datos."
+      data_visible_to_podmin_a: "La comunicación entre \"pods\" (vainas) siempre está cifrada (usando tanto SSL como el cifrado propio que utiliza detailbook*), pero el almacenamiento de datos en los \"pods\" no está cifrado. Si quisiera, la persona que administra la base de datos en tu \"pod\" (generalmente la persona que dirige la vaina) podría acceder tanto a todos los datos de su perfil como a sus publicaciones (este es el caso de la mayoría de los sitios web que almacenan datos de sus usuarios). Poner en marcha su propio \"pod\" proporciona una mayor privacidad al poder usted controlar el nivel de acceso a la base de datos."
       data_visible_to_podmin_q: "¿Qué parte de mi información puede ver el administrador de mi pod (vaina)?"
       download_data_a: "Sí. En la parte inferior de la página de configuración de su Cuenta hay dos botones para la descarga de sus datos."
       download_data_q: "¿Puedo descargar un copia de todo los datos contenidos en mi semilla (cuenta)?"
@@ -369,26 +369,26 @@ es:
       restrict_posts_i_see_a: "Sí. Pinche en \"Mis Aspectos\" en la barra lateral, allí podrá marcar o desmarcar cada uno de los aspectos de la lista para incluirlos o no. Sólo las publicaciones de las personas en los aspectos seleccionados aparecerán en su entrada."
       restrict_posts_i_see_q: "¿Puedo restringir las publicaciones que veo a las de los aspectos que yo escoja?"
       title: "Aspectos"
-      what_is_an_aspect_a: "Los aspectos son la forma en que agrupas tus contactos en diaspora*. Un aspecto es una faceta que le muestras al mundo. Puede ser quien eres al trabajo, quien eres con tu familia, o quien eres con tus amigos, en el club que pertenezcas."
+      what_is_an_aspect_a: "Los aspectos son la forma en que agrupas tus contactos en detailbook*. Un aspecto es una faceta que le muestras al mundo. Puede ser quien eres al trabajo, quien eres con tu familia, o quien eres con tus amigos, en el club que pertenezcas."
       what_is_an_aspect_q: "¿Qué es un aspecto?"
       who_sees_post_a: "Si haces una publicación limitada, solo será visible para las personas que hayas puesto en ese especto (o los aspectos, si está hecho para múltiples aspectos). Los contactos que tengas que no estén en el aspecto, no tienen forma de ver la publicación, a menos que la hayas hecho pública. Solo las publicaciones públicas serán visibles alguna vez por alguien que no hayas incluido en alguno de tus aspectos."
       who_sees_post_q: "Cuando publico en un aspecto, ¿Quienes pueden verlo?"
     chat:
       add_contact_roster_a: "En primer lugar, necesitas activar el chat para uno de los aspectos en los que está esa persona. Para hacerlo, ve a la %{contacts_page}, selecciona el aspecto que quieras y pulsa sobre el icono del chat para activar el chat en ese aspecto. %{toggle_privilege} Si lo prefieres, podrías crear un aspecto especial llamado \"Chat\" y añadir a la persona con la que quieras chatear en ese aspecto. Ona vez que hayas hecho esto, abre la ventana de chat y selecciona la persona con la que quieras hablar."
-      add_contact_roster_q: "¿Cómo puedo chatear con alguien en Diaspora*?"
+      add_contact_roster_q: "¿Cómo puedo chatear con alguien en Detailbook*?"
       contacts_page: "página de contactos"
       title: "Chat"
     faq: "Preguntas Más Frecuentes"
-    foundation_website: "página web de la fundación Diaspora*"
+    foundation_website: "página web de la fundación Detailbook*"
     getting_help:
       get_support_a_faq: "Lee nuestra página %{faq} en la wiki"
-      get_support_a_hashtag: "pregunta en una publicación pública en diaspora* usando el hashtag %{question}"
+      get_support_a_hashtag: "pregunta en una publicación pública en detailbook* usando el hashtag %{question}"
       get_support_a_irc: "únete a nosotros en %{irc} (Chat en vivo)"
       get_support_a_tutorials: "Consulta nuestros %{tutorials}"
       get_support_a_website: "Visítanos en %{link}"
       get_support_a_wiki: "Busca %{link}"
       get_support_q: "¿Y si mi pregunta no está contestada en este FAQ? ¿Dónde más puedo obtener ayuda?"
-      getting_started_a: "Estás de suerte. Prueba los %{tutorial_series} en la web del proyecto. Te llevara paso a paso por el proceso de registro, y te enseñara todas las cosas básicas que necesitas saber para usar diaspora*."
+      getting_started_a: "Estás de suerte. Prueba los %{tutorial_series} en la web del proyecto. Te llevara paso a paso por el proceso de registro, y te enseñara todas las cosas básicas que necesitas saber para usar detailbook*."
       getting_started_q: "¡Ayuda! ¡Necesito conocer lo básico para empezar!"
       title: "Obteniendo ayuda"
     getting_started_tutorial: "Tutoriales de la serie 'Empezando'"
@@ -420,27 +420,27 @@ es:
     miscellaneous:
       back_to_top_a: "Sí. Después de haberse desplazado hacia abajo en la página, haga click en la flecha gris que aparece en la esquina inferior derecha de la ventana de su navegador."
       back_to_top_q: "¿Existe una manera rápida de regresar a la parte superior de la página después de haberme desplazado hacia abajo?"
-      diaspora_app_a: "Existen muchas aplicaciones para Android en una etapa temprana de desarrollo. Muchos son proyectos hace tiempo abandonados y no funcionan bien con la versión actual de diaspora*. No esperes demasiado de estas aplicaciones por el momento. Actualmente la mejor manera de acceder a diaspora* desde tu dispositivo móvil es a través de tu navegador, porque hemos diseñado una versión móvil de este sitio que debería funcionar correctamente en todos los teléfonos. No existe actualmente una aplicación para iOS. Nuevamente, diaspora* debería funcionar bien a través de tu navegador."
-      diaspora_app_q: "¿Existe una aplicación diaspora* para Android o iOS?"
+      diaspora_app_a: "Existen muchas aplicaciones para Android en una etapa temprana de desarrollo. Muchos son proyectos hace tiempo abandonados y no funcionan bien con la versión actual de detailbook*. No esperes demasiado de estas aplicaciones por el momento. Actualmente la mejor manera de acceder a detailbook* desde tu dispositivo móvil es a través de tu navegador, porque hemos diseñado una versión móvil de este sitio que debería funcionar correctamente en todos los teléfonos. No existe actualmente una aplicación para iOS. Nuevamente, detailbook* debería funcionar bien a través de tu navegador."
+      diaspora_app_q: "¿Existe una aplicación detailbook* para Android o iOS?"
       photo_albums_a: "No, no actualmente. De todas formas puedes ver un flujo de sus fotos subidas desde la sección de Fotos en la barra lateral de su pagina de perfil."
       photo_albums_q: "¿Hay álbumes de fotos o videos?"
-      subscribe_feed_a: "Sí, pero esto aún no es una funcionalidad completamente pulida y el formateo de los resultados es todavia un poco tosco. Si deseas probarlo de todas maneras, ve hacia alguna página de perfil y has click en el botón feed de tu navegador, o puedes copiar la URL del perfil (ej.: https://joindiaspora.com/people/somenumber), y pegarla dentro del lector de feed. La dirección que resulta de esto es parecida a: https//joindiaspora.com/public/username.atom – Diaspora* usa Atom en lugar de RSS."
+      subscribe_feed_a: "Sí, pero esto aún no es una funcionalidad completamente pulida y el formateo de los resultados es todavia un poco tosco. Si deseas probarlo de todas maneras, ve hacia alguna página de perfil y has click en el botón feed de tu navegador, o puedes copiar la URL del perfil (ej.: https://joindiaspora.com/people/somenumber), y pegarla dentro del lector de feed. La dirección que resulta de esto es parecida a: https//joindiaspora.com/public/username.atom – Detailbook* usa Atom en lugar de RSS."
       subscribe_feed_q: "¿Puedo suscribirme a las publicaciones públicas de alguien usando un lector de feeds?"
       title: "Miscelánea"
     pods:
       find_people_a: "Invita a tus amigos usando el enlace de e-mail en la barra lateral. Sigue los #tags para descubrir a otros amigos que compartan tus intereses, y agrega aquellos que publican cosas que te interesen en algún aspecto. Dí que eres #nuevoaquí o #newhere en un post público."
       find_people_q: "Me acabo de unir a una vaina, ¿Cómo puedo encontrar a gente con la que compartir?"
       title: "Vainas (Servidores)"
-      use_search_box_a: "Si conoces su ID de diaspora* completo (ej. nombreusuario@nombrevaina.org) puedes encontrales al buscar desde ahí. Si estas en su mismo pod, puedes buscarle por su nombre de usuario. Una alternativa es buscar por su nombre de perfil (el nombre que ves en la pantalla). Si una búsqueda no funciona a la primera, inténtalo denuevo."
+      use_search_box_a: "Si conoces su ID de detailbook* completo (ej. nombreusuario@nombrevaina.org) puedes encontrales al buscar desde ahí. Si estas en su mismo pod, puedes buscarle por su nombre de usuario. Una alternativa es buscar por su nombre de perfil (el nombre que ves en la pantalla). Si una búsqueda no funciona a la primera, inténtalo denuevo."
       use_search_box_q: "Como uso la caja de búsqueda para encontrar individuos particulares?"
-      what_is_a_pod_a: "Una vaina es un servidor ejecutanto el software diaspora* y conectado a la red diaspora*. \"Vaina\" es una metafora refiriendose a las vainas (pod en ingles) en las plantas que contienen semillas, en la forma en que un servidor contiene un número de cuentas de usuario. Hay muchos pods diferentes. Puedes agregar amigos de otros pods y comunicarte con ellos. (Puedes pensar en las vainas de diaspora* como un proveedor de e-mail: hay vainas publicas, privadas, y con algún esfuerzo puedes incluso ejecutar la tuya)."
+      what_is_a_pod_a: "Una vaina es un servidor ejecutanto el software detailbook* y conectado a la red detailbook*. \"Vaina\" es una metafora refiriendose a las vainas (pod en ingles) en las plantas que contienen semillas, en la forma en que un servidor contiene un número de cuentas de usuario. Hay muchos pods diferentes. Puedes agregar amigos de otros pods y comunicarte con ellos. (Puedes pensar en las vainas de detailbook* como un proveedor de e-mail: hay vainas publicas, privadas, y con algún esfuerzo puedes incluso ejecutar la tuya)."
       what_is_a_pod_q: "¿Qué es una vaina?"
     posts_and_posting:
       char_limit_services_a: "En esos casos tu publicación está limitada al menor número de caracteres (140 en el caso de Twitter; 1000 en el caso de Tumblr), y el número de caracteres que tienes restantes para usar es mostrado cuando el icono del servicio esta resaltado. Puedes aún así publicar para esos servicios si tu publicación sobrepasa el límite, pero el texto sera truncado para aquellos."
       char_limit_services_q: "¿Cual es el límite de caracteres para publicaciones compartidas a traves de un servicio con un conteo menor de caracteres?"
       character_limit_a: "65.535 caracteres. ¡Eso son 65.395 caracteres más de los que permite Twitter! ;)"
       character_limit_q: "¿Cuál es el límites de caracteres en una publicación?"
-      embed_multimedia_a: "Puedes usualmente copiar la URL (ej. http://www.youtube.com/watch?v=nnnnnnnnnnn ) en tu publicación y el vídeo o audio sera incrustado automáticamente. Algunos sitios que son soportados son YouTube, Vimeo, SoundCloud, Flickr y unos cuantos más. Diaspora* usa oEmbed para esa funcionalidad. Estamos soportando nuevos sitios todo el tiempo. Recuerda siempre incluir enlaces simples, completos, no acortados; sin operadores después de la URL de base; y dale un poco de tiempo antes de refrescar la pagina después de publicar para ver la previsualización."
+      embed_multimedia_a: "Puedes usualmente copiar la URL (ej. http://www.youtube.com/watch?v=nnnnnnnnnnn ) en tu publicación y el vídeo o audio sera incrustado automáticamente. Algunos sitios que son soportados son YouTube, Vimeo, SoundCloud, Flickr y unos cuantos más. Detailbook* usa oEmbed para esa funcionalidad. Estamos soportando nuevos sitios todo el tiempo. Recuerda siempre incluir enlaces simples, completos, no acortados; sin operadores después de la URL de base; y dale un poco de tiempo antes de refrescar la pagina después de publicar para ver la previsualización."
       embed_multimedia_q: "¿Como incrusto un video, audio, o otro contenido multimedia en una publicación?"
       format_text_a: "Al usar un sistema simplificado llamado %{markdown}. Puedes encontrar la sintaxis completa de marcado %{here}. El boton de previsualización es realmente útil aquí, ya que puedes ver como tu mensage se verá antes de que lo compartas."
       format_text_q: "¿Cómo puedo formatear el texto en mis publicaciones (negrita, italica, etc.)?"
@@ -470,14 +470,14 @@ es:
       stream_full_of_posts_q: "¿Por qué mi flujo esta lleno de publicaciones de personas que no conozco y con las cuales no comparto?"
       title: "Sobre publicaciones y publicar"
     private_posts:
-      can_comment_a: "Solo los usuarios conectados a diaspora* que hayas alojado en ese aspecto podrán comentar o poner me gusta en tu publicación privada."
+      can_comment_a: "Solo los usuarios conectados a detailbook* que hayas alojado en ese aspecto podrán comentar o poner me gusta en tu publicación privada."
       can_comment_q: "¿Quién puede comentar o poner me gusta en mi publicación privada?"
-      can_reshare_a: "Nadie. Las publicaciones privadas no se pueden compartir. Los usuarios conectados a diaspora* con acceso a ese aspecto, como mucho, pueden copiarlas y pegarlas."
+      can_reshare_a: "Nadie. Las publicaciones privadas no se pueden compartir. Los usuarios conectados a detailbook* con acceso a ese aspecto, como mucho, pueden copiarlas y pegarlas."
       can_reshare_q: "¿Quién puede compartir mi publicación privada?"
       see_comment_a: "Sólo la gente con la que se ha compartido esa publicación (las personas que están en los aspectos seleccionadas por el usuario que publicó la entrada) puede ver esos \"me gusta\" y comentarios. "
       see_comment_q: "¿Cuando comento en, o hago \"me gusta\", a una publicación privada, quién puede verlo?"
       title: "Publicaciones privadas"
-      who_sees_post_a: "Sólo los conectados a diaspora* que hayas alojado en ese aspecto podrán ver tu publicación privada."
+      who_sees_post_a: "Sólo los conectados a detailbook* que hayas alojado en ese aspecto podrán ver tu publicación privada."
       who_sees_post_q: "¿Cuando publico un mensage a un aspecto (ej., una publicación privada), quién puede verla?"
     private_profiles:
       title: "Perfil privado"
@@ -488,13 +488,13 @@ es:
       who_sees_updates_a: "Cualquier contacto de tus aspectos podrá ver los cambios o actualizaciones de tu perfil privado. "
       who_sees_updates_q: "¿Quién puede ver las actualizaciones de mi perfil privado?"
     public_posts:
-      can_comment_reshare_like_a: "Cualquier usuario de diaspora* conectado puede comentar, compartir o marcar como \"Me gusta\" tus publicaciones públicas."
+      can_comment_reshare_like_a: "Cualquier usuario de detailbook* conectado puede comentar, compartir o marcar como \"Me gusta\" tus publicaciones públicas."
       can_comment_reshare_like_q: "¿Quién puede comentar, volver a compartir o hacer \"Me gusta\" en mis publicaciones públicas?"
       deselect_aspect_posting_a: "El deseleccionar aspectos no afecta una publicación pública. Está aún aparecerá en la entrada de todos tus contactos. Para hacer una publicación visible solo a aspectos específicos, necesitas seleccionar esos aspectos desde el botón bajo el editor de la publicación."
       deselect_aspect_posting_q: "¿Qué sucede cuando deselecciono uno o más aspectos al momento de hacer una publicación pública?"
       find_public_post_a: "Tus publicaciones publicas aparecerán en las entradas de todos aquellos que te sigan. Si incluyes #etiquetas (#tag) en tus publicaciones públicas, cualquiera que siga esas etiquetas podrá ver tu publicación en sus entradas. Cualquier publicación pública también tiene una URL especifica que cualquiera puede ver, incluso si no han iniciado sesión, por lo que pueden ser enlazadas directamente desde Twitter, blogs, etcétera. Las publicaciones públicas también pueden ser indexadas por los motores de búsqueda."
       find_public_post_q: "¿Cómo pueden los demás usuarios encontrar mis publicaciones públicas?"
-      see_comment_reshare_like_a: "Cualquier usuario de diaspora* conectado y cualquier persona en Internet. Tanto los comentarios como las acciones de los \"Me gusta\" y \"Compartir\" de una publicación pública son también públicos."
+      see_comment_reshare_like_a: "Cualquier usuario de detailbook* conectado y cualquier persona en Internet. Tanto los comentarios como las acciones de los \"Me gusta\" y \"Compartir\" de una publicación pública son también públicos."
       see_comment_reshare_like_q: "Cuando comento, comparto o hago \"Me gusta\" en una publicación pública, ¿quién puede verlo?"
       title: "Publicaciones públicas"
       who_sees_post_a: "Cualquiera que use Internet puede potencialmente ver una publicación que marques como pública, así que pregúntate si realmente quieres que tu publicación sea pública. Es una buena forma de hacerse escuchar en todo el mundo."
@@ -505,7 +505,7 @@ es:
       what_do_tags_do_q: "¿Qué hacen las etiquetas de mi perfil público?"
       whats_in_profile_a: "Tu nombre, las cinco etiquetas que elijas para describirte a ti mismo, y tu foto. Están en la sección superior de la pagina de edición de perfil. Tú puedes hacer que esta información de perfil sea identificable o anónima. Tú pagina de perfil también muestra cualquier publicación pública que hayas hecho."
       whats_in_profile_q: "¿Que hay en mi perfil público?"
-      who_sees_profile_a: "Cualquier usuario de diaspora* conectado, así como la inmensidad de internet, puede verlo. Cada perfil tiene una URL directa, así que puede ser enlazado directamente desde sitios externos y puede ser indexado por los motores de búsqueda."
+      who_sees_profile_a: "Cualquier usuario de detailbook* conectado, así como la inmensidad de internet, puede verlo. Cada perfil tiene una URL directa, así que puede ser enlazado directamente desde sitios externos y puede ser indexado por los motores de búsqueda."
       who_sees_profile_q: "¿Quién puede ver mi perfil público?"
       who_sees_updates_a: "Cualquier persona puede ver los cambios si visitan tu página de perfil."
       who_sees_updates_q: "¿Quién puede ver las actualizaciones de mi perfil público?"
@@ -537,7 +537,7 @@ es:
       sharing_notification_q: "¿Cómo sé que alguien ha empezado a compartir conmigo?"
       title: "Compartir"
     tags:
-      filter_tags_a: "Esta opción aún no está disponible directamente mediante diaspora*, pero algunos %{third_party_tools} han escrito algo que podría proveerlo."
+      filter_tags_a: "Esta opción aún no está disponible directamente mediante detailbook*, pero algunos %{third_party_tools} han escrito algo que podría proveerlo."
       filter_tags_q: "¿Como puedo filtrar/excluir algunas etiquetas de mi entrada?"
       followed_tags_a: "Después de buscar una etiqueta puedes hacer click en el botón \"seguir\" en la parte superior de la pagina de etiqueta para seguirla. Entonces aparecerá en tu lista de etiquetas seguidas a la izquierda. Al hacer click en una de las etiquetas seguidas te re-dirigirá a la pagina de esa etiqueta para que puedas ver las publicaciones mas recientes que contengan esa etiqueta. Haz click en la etiqueta #Tags en el panel lateral izquierdo de tu flujo para ver las publicaciones de todas tus etiquetas seguidas. "
       followed_tags_q: "¿Qué son las \"Etiquetas que #Sigues\" y cómo hago para seguir una etiqueta?"
@@ -576,16 +576,16 @@ es:
     new:
       already_invited: "La siguiente persona no ha aceptado tu invitación:"
       aspect: "Aspecto"
-      check_out_diaspora: "¡Echa un vistazo a Diaspora!"
+      check_out_diaspora: "¡Echa un vistazo a Detailbook!"
       codes_left:
         one: "Queda %{count} invitación para este código"
         other: "Quedan %{count} invitaciones para este código"
         zero: "No quedan invitaciones para este código"
       comma_separated_plz: "Puedes introducir múltiples direcciones de correo electrónico separadas por comas."
       if_they_accept_info: "Si acepta, se añadirá al aspecto seleccionado."
-      invite_someone_to_join: "¡Invita a alguien a unirse a Diaspora*!"
+      invite_someone_to_join: "¡Invita a alguien a unirse a Detailbook*!"
       language: "Idioma"
-      paste_link: "¡Comparte este enlace con tus amigos para invitarles a diaspora*, o envíaselo directamente por correo electrónico!"
+      paste_link: "¡Comparte este enlace con tus amigos para invitarles a detailbook*, o envíaselo directamente por correo electrónico!"
       personal_message: "Mensaje personal"
       resend: "Reenviar"
       send_an_invitation: "Enviar una invitación"
@@ -595,7 +595,7 @@ es:
   layouts:
     application:
       back_to_top: "Volver arriba"
-      powered_by: "Impulsado por Diaspora*"
+      powered_by: "Impulsado por Detailbook*"
       public_feed: "Canal público de %{name} "
       source_package: "Descargar el paquete del código fuente"
       toggle: "Cambiar a interfaz móvil"
@@ -703,10 +703,10 @@ es:
       other: "%{actors} ha empezado a compartir contigo."
       zero: "%{actors} ha empezado a compartir contigo."
   notifier:
-    a_limited_post_comment: "Hay un nuevo comentario en una publicación limitada en diaspora* para que lo consultes."
+    a_limited_post_comment: "Hay un nuevo comentario en una publicación limitada en detailbook* para que lo consultes."
     a_post_you_shared: "una publicación."
-    a_private_message: "Hay un nuevo mensaje privado en diaspora* para que lo consultes."
-    accept_invite: "¡Acepta tu invitación a diaspora*!"
+    a_private_message: "Hay un nuevo mensaje privado en detailbook* para que lo consultes."
+    accept_invite: "¡Acepta tu invitación a detailbook*!"
     also_commented:
       limited_subject: "Hay un nuevo comentario en una publicación que comentaste"
     click_here: "Pulsa aquí"
@@ -725,7 +725,7 @@ es:
 
           Saludos,
 
-          El robot email de diaspora*
+          El robot email de detailbook*
       subject: "Tus datos personales están listos para descargar, %{name}"
     export_failure_email:
       body: |-
@@ -736,7 +736,7 @@ es:
 
           Saludos
 
-          El robot email de diaspora*
+          El robot email de detailbook*
       subject: "Lo sentimos, hubo un problema con tus datos, %{name}"
     export_photos_email:
       body: |-
@@ -746,7 +746,7 @@ es:
 
           Saludos,
 
-          El robot email de Diaspora*
+          El robot email de Detailbook*
       subject: "Tus fotografías están listas para descargar, %{name}"
     export_photos_failure_email:
       body: |-
@@ -757,14 +757,14 @@ es:
 
           Disculpas,
 
-          El robot email de Diaspora*
+          El robot email de Detailbook*
       subject: "Ha ocurrido un problema con tus fotografías, %{name}"
     hello: "¡Hola %{name}!"
     invite:
       message: |-
           ¡Hola!
 
-          ¡Has recibido una invitación para unirte a diaspora*!
+          ¡Has recibido una invitación para unirte a detailbook*!
 
           Sigue este enlace para comenzar
 
@@ -773,10 +773,10 @@ es:
 
           Saludos,
 
-          ¡El generador de correo automático de Diaspora*!
+          ¡El generador de correo automático de Detailbook*!
 
           [1]: %{invite_url}
-    invited_you: "¡%{name} te ha invitado a diaspora*!"
+    invited_you: "¡%{name} te ha invitado a detailbook*!"
     liked:
       liked: "A %{name} le gustó tu publicación"
       limited_post: "A %{name} le gustó tu publicación privada"
@@ -784,25 +784,25 @@ es:
     mentioned:
       limited_post: "Se te mencionó en un post privado."
       mentioned: "te mencionó en una publicación:"
-      subject: "%{name} te mencionó en diaspora*"
+      subject: "%{name} te mencionó en detailbook*"
     private_message:
       reply_to_or_view: "Responder o ver esta conversación >"
     remove_old_user:
       body: |-
           Hola,
 
-          Parece que no quieres seguir usando tu cuenta en el pod %{pod_url}, ya que no la has usado en los últimos %{after_days} días. Para asegurar que nuestros usuarios activos obtienen el mejor rendimiento de nuestro pod diaspora*, nos gustaría elminar cuentas no utilizadas en nuestra base de datos.
+          Parece que no quieres seguir usando tu cuenta en el pod %{pod_url}, ya que no la has usado en los últimos %{after_days} días. Para asegurar que nuestros usuarios activos obtienen el mejor rendimiento de nuestro pod detailbook*, nos gustaría elminar cuentas no utilizadas en nuestra base de datos.
 
-          Nos encantaría que formaras parte de la comunidad diaspora*, y eres bienvenido si quieres seguir manteniendo tu cuenta.
+          Nos encantaría que formaras parte de la comunidad detailbook*, y eres bienvenido si quieres seguir manteniendo tu cuenta.
 
-          Si quieres mantener la cuenta activa, todo lo que necesitas es iniciar sesión antes de %{remove_after}. Cuando inicies sesión, toma un tiempo para echar un vistazo a diaspora*. Ha cambiado mucho desde la última vez que entraste, y pensamos que te gustarán los cambios que hemos implementado. Sigue algunos #tags para encontrar contenido que te guste.
+          Si quieres mantener la cuenta activa, todo lo que necesitas es iniciar sesión antes de %{remove_after}. Cuando inicies sesión, toma un tiempo para echar un vistazo a detailbook*. Ha cambiado mucho desde la última vez que entraste, y pensamos que te gustarán los cambios que hemos implementado. Sigue algunos #tags para encontrar contenido que te guste.
 
           Inicia sesión aquí %{login_url}. Si has olvidado tus credenciales de inicio de sesión, puedes utilizar el enlace para recordarlas.
 
           Esperamos verte de nuevo,
 
-          El robot de correos de Diaspora*
-      subject: "Tu cuenta de Diaspora* ha sido marcada para eliminación debido a la inactividad."
+          El robot de correos de Detailbook*
+      subject: "Tu cuenta de Detailbook* ha sido marcada para eliminación debido a la inactividad."
     report_email:
       body: |-
           Hola,
@@ -816,7 +816,7 @@ es:
 
           Saludos,
 
-          El robot de correo electrónico de Diaspora*
+          El robot de correo electrónico de Detailbook*
 
           [1]: %{url}
       subject: "Un nuevo %{type} se marcó como ofensivo"
@@ -827,11 +827,11 @@ es:
       reshared: "%{name} compartió tu publicación"
       view_post: "Ver publicación >"
     single_admin:
-      admin: "Tu administrador Diaspora*"
-      subject: "Un mensaje sobre tu cuenta Diaspora*:"
+      admin: "Tu administrador Detailbook*"
+      subject: "Un mensaje sobre tu cuenta Detailbook*:"
     started_sharing:
       sharing: "ha empezado a compartir contigo!"
-      subject: "%{name} ha empezado a compartir contigo en diaspora*"
+      subject: "%{name} ha empezado a compartir contigo en detailbook*"
       view_profile: "Ver el perfil de %{name}"
     thanks: "Gracias,"
     to_change_your_notification_settings: "para cambiar tus ajustes de notificación"
@@ -857,7 +857,7 @@ es:
       no_one_found: "...y nadie fue encontrado."
       no_results: "¡Eh! Tienes que buscar algo."
       results_for: "Usuarios que coinciden con %{search_term}"
-      search_handle: "Utiliza su ID de Diaspora* (usuario@pod.tld) para estar seguro de que encontrarás a tus amigos."
+      search_handle: "Utiliza su ID de Detailbook* (usuario@pod.tld) para estar seguro de que encontrarás a tus amigos."
       searching: "buscando, por favor sé paciente…"
       send_invite: "¿Todavía nadie? ¡Envía una invitación!"
     one: "1 persona"
@@ -951,12 +951,12 @@ es:
   profile: "Perfil"
   profiles:
     edit:
-      allow_search: "Permitir que la gente te busque dentro de Diaspora*"
+      allow_search: "Permitir que la gente te busque dentro de Detailbook*"
       edit_profile: "Editar perfil"
       first_name: "Nombre"
       last_name: "Apellidos"
       nsfw_check: "Marcar todo lo que comparto como NSFW ('no es seguro para el trabajo)."
-      nsfw_explanation: "\"No es seguro para el trabajo\" (NSFW-'not safe for work') es un estándar de la comunidad de diaspora autónomo para el contenido que puede no ser adecuado para ver mientras estas trabajando. Si planeas compartir este material con frecuencia, por favor marca esta opción para que todo lo que compartas esté escondido para las personas comunes a menos que ellos elijan verlas."
+      nsfw_explanation: "\"No es seguro para el trabajo\" (NSFW-'not safe for work') es un estándar de la comunidad de detailbook autónomo para el contenido que puede no ser adecuado para ver mientras estas trabajando. Si planeas compartir este material con frecuencia, por favor marca esta opción para que todo lo que compartas esté escondido para las personas comunes a menos que ellos elijan verlas."
       nsfw_explanation2: "Si eliges no marcar esta opción, por favor agrega la etiqueta #nsfw cada vez que compartas un material de este tipo."
       update_profile: "Actualizar perfil"
       your_bio: "Biografía"
@@ -978,9 +978,9 @@ es:
     other: "%{count} reacciones"
     zero: "Sin reacciones"
   registrations:
-    closed: "Los registros están cerrados en este servidor de Diaspora."
+    closed: "Los registros están cerrados en este servidor de Detailbook."
     create:
-      success: "¡Te has unido a Diaspora*!"
+      success: "¡Te has unido a Detailbook*!"
     edit:
       cancel_my_account: "Cancelar mi cuenta"
       edit: "Editar %{name}"
@@ -1023,7 +1023,7 @@ es:
   requests:
     create:
       sending: "Enviando"
-      sent: "Quieres compartir con %{name}?. Será visible la próxima vez que entre/n en Diaspora*."
+      sent: "Quieres compartir con %{name}?. Será visible la próxima vez que entre/n en Detailbook*."
     destroy:
       error: "¡Selecciona un aspecto!"
       ignore: "Solicitud de contacto ignorada."
@@ -1055,7 +1055,7 @@ es:
   search: "Buscar"
   services:
     create:
-      already_authorized: "Una persona con la identidad Diaspora %{diaspora_id} ya registró esa cuenta de %{service_name}."
+      already_authorized: "Una persona con la identidad Detailbook %{diaspora_id} ya registró esa cuenta de %{service_name}."
       failure: "Error de acceso."
       read_only_access: "El nivel de acceso es \"solo lectura\", por favor intente autorizar de nuevo más tarde."
       success: "Autenticación correcta."
@@ -1064,7 +1064,7 @@ es:
     failure:
       error: "Hubo un error conectando a ese servicio"
     finder:
-      fetching_contacts: "Diaspora está trasladando tus contactos de %{service}; vuelve a intentarlo en unos minutos."
+      fetching_contacts: "Detailbook está trasladando tus contactos de %{service}; vuelve a intentarlo en unos minutos."
       no_friends: "No se han encontrados contactos en Facebook."
       service_friends: "Contactos de %{service}"
     index:
@@ -1075,10 +1075,10 @@ es:
       no_services_available: "No hay servicios disponibles en este pod."
       not_logged_in: "Usuario no identificado."
       really_disconnect: "¿Desconectar %{service}?"
-      services_explanation: "Conectar con servicios te da la posibilidad de publicar tus mensajes en ellos a medida que los escribes en diaspora."
+      services_explanation: "Conectar con servicios te da la posibilidad de publicar tus mensajes en ellos a medida que los escribes en detailbook."
     inviter:
       click_link_to_accept_invitation: "Sigue este enlace para aceptar tu invitación"
-      join_me_on_diaspora: "Nos vemos en diaspora*."
+      join_me_on_diaspora: "Nos vemos en detailbook*."
     provider:
       facebook: "Facebook"
       tumblr: "Tumblr"
@@ -1086,7 +1086,7 @@ es:
       wordpress: "WordPress"
     remote_friend:
       invite: "Invitar"
-      not_on_diaspora: "Aún no está en Diaspora"
+      not_on_diaspora: "Aún no está en Detailbook"
       resend: "Reenviar"
   settings: "Ajustes"
   share_visibilites:
@@ -1096,11 +1096,11 @@ es:
   shared:
     add_contact:
       add_new_contact: "Añade un nuevo contacto"
-      create_request: "Encontrar por el ID de Diaspora*"
+      create_request: "Encontrar por el ID de Detailbook*"
       diaspora_handle: "diaspora@pod.org"
-      enter_a_diaspora_username: "Introduce un nombre de usuario de Diaspora*:"
+      enter_a_diaspora_username: "Introduce un nombre de usuario de Detailbook*:"
       know_email: "¿Conoces sus direcciones de correo? Podrías invitarles"
-      your_diaspora_username_is: "Tu nombre de usuario Diaspora* es: %{diaspora_handle}"
+      your_diaspora_username_is: "Tu nombre de usuario Detailbook* es: %{diaspora_handle}"
     aspect_dropdown:
       add_to_aspect: "Añadir contacto"
       mobile_row_checked: "%{name} (eliminar)"
@@ -1122,7 +1122,7 @@ es:
       invite_someone: "Invita a alguien"
       invite_your_friends: "Invita a tus contactos"
       invites: "Invitaciones"
-      invites_closed: "Las invitaciones en este servidor diaspora* están cerradas actualmente"
+      invites_closed: "Las invitaciones en este servidor detailbook* están cerradas actualmente"
       share_this: "¡Comparte este enlace a través de correo electrónico, blog o tu red social favorita!"
     notification:
       new: "Nuevo %{type} de %{from}"
@@ -1132,7 +1132,7 @@ es:
       logged_in: "Conectado a %{service}"
       manage: "Gestionar servicios conectados"
       new_user_welcome_message: "Utiliza #etiquetas para clasificar tus publicaciones y encontrar gente que comparta tus intereses. Llama a gente asombrosa usando las @Menciones"
-      outside: "Los mensajes públicos podrán ser vistos por otros fuera de Diaspora*."
+      outside: "Los mensajes públicos podrán ser vistos por otros fuera de Detailbook*."
       share: "Comparte"
       title: "Configurar los servicios conectados"
       visibility_dropdown: "Usa este menú desplegable para cambiar la visibilidad de tu publicación. (Sugerimos hacerlo público la primera vez.)"
@@ -1283,7 +1283,7 @@ es:
       email_not_confirmed: "El correo no pudo ser activado. ¿Enlace erróneo?"
     destroy:
       no_password: "Por favor, introduce tu contraseña actual para cerrar tu cuenta."
-      success: "Tu cuenta ha sido bloqueda. Llevará unos 20 minutos terminar de cerrar tu cuenta. Gracias por probar Diaspora*."
+      success: "Tu cuenta ha sido bloqueda. Llevará unos 20 minutos terminar de cerrar tu cuenta. Gracias por probar Detailbook*."
       wrong_password: "La contraseña introducida no coincide con la contraseña actual."
     edit:
       also_commented: "alguien comenta en una publicación que has comentado"
@@ -1299,10 +1299,10 @@ es:
         if_you_want_this: "Si de verdad quieres hacerlo, teclea tu contraseña debajo y haz click en 'Eliminar Cuenta'"
         lock_username: "Se bloqueará tu nombre de usuario. No podrás crear una nueva cuenta en este pod con el mismo ID."
         locked_out: "Serás desconectado y tu cuenta bloqueada hasta que se haya borrado."
-        make_diaspora_better: "Nos gustaría que te quedaras con nosotros y nos ayudaras a hacer de diaspora* un sitio mejor en lugar de dejarnos.. Si quieres irte, queremos que sepas lo que sucede a continuación:"
+        make_diaspora_better: "Nos gustaría que te quedaras con nosotros y nos ayudaras a hacer de detailbook* un sitio mejor en lugar de dejarnos.. Si quieres irte, queremos que sepas lo que sucede a continuación:"
         mr_wiggles: "El Tío la Vara estará triste si te vas"
         no_turning_back: "No hay vuelta atrás!. Si estás totalmente seguro, entra tu contraseña a continuación."
-        what_we_delete: "Eliminaremos todas tus publicaciones y datos del perfil, tan pronto como sea posible. Tus comentarios seguirán en línea, pero asociados a tu dirección Diaspora* en lugar de a tu nombre."
+        what_we_delete: "Eliminaremos todas tus publicaciones y datos del perfil, tan pronto como sea posible. Tus comentarios seguirán en línea, pero asociados a tu dirección Detailbook* en lugar de a tu nombre."
       close_account_text: "Eliminar cuenta"
       comment_on_post: "...alguien comentó en tu publicación"
       current_password: "Contraseña actual"
@@ -1335,13 +1335,13 @@ es:
       stream_preferences: "Preferencias de la portada"
       your_email: "Tu correo"
       your_email_private: "Tu email nunca será visible para otros usuarios"
-      your_handle: "Tu ID de Diaspora*"
+      your_handle: "Tu ID de Detailbook*"
     getting_started:
-      awesome_take_me_to_diaspora: "¡Increíble! Llévame a diaspora*"
-      community_welcome: "¡La comunidad de Diaspora está feliz de tenerte a bordo!"
-      connect_to_facebook: "Podemos acelerar un poquito las cosas al %{link} a Diaspora. Esto permitirá usar tu mismo nombre y foto, además de habilitar la publicación cruzada."
+      awesome_take_me_to_diaspora: "¡Increíble! Llévame a detailbook*"
+      community_welcome: "¡La comunidad de Detailbook está feliz de tenerte a bordo!"
+      connect_to_facebook: "Podemos acelerar un poquito las cosas al %{link} a Detailbook. Esto permitirá usar tu mismo nombre y foto, además de habilitar la publicación cruzada."
       connect_to_facebook_link: "Conectando tu cuenta de Facebook"
-      hashtag_explanation: "Las etiquetas te permiten hablar sobre tus intereses así como seguirlos. Además es una forma genial de encontrar gente nueva en Diaspora. "
+      hashtag_explanation: "Las etiquetas te permiten hablar sobre tus intereses así como seguirlos. Además es una forma genial de encontrar gente nueva en Detailbook. "
       hashtag_suggestions: "Prueba a seguir etiquetas como #arte, #cine, #activismo, #libros, etc."
       saved: "¡Guardado!"
       well_hello_there: "Bueno, ¿qué tal?"

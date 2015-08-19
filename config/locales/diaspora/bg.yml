@@ -81,11 +81,11 @@ bg:
       updating: "обновяване"
     index:
       diaspora_id:
-        content_1: "Вашият адрес в Diaspora е:"
-        content_2: "Споделете го с който и да е и той ще Ви намери в Diaspora."
-        heading: "Адрес в Diaspora"
+        content_1: "Вашият адрес в Detailbook е:"
+        content_2: "Споделете го с който и да е и той ще Ви намери в Detailbook."
+        heading: "Адрес в Detailbook"
       donate: "Дарете"
-      handle_explanation: "Това е вашият адрес в Diaspora. Наподобява адрес на ел. поща - давате го на хора, за да се свържат с вас."
+      handle_explanation: "Това е вашият адрес в Detailbook. Наподобява адрес на ел. поща - давате го на хора, за да се свържат с вас."
       help:
         do_you: "Вие:"
         email_feedback: "Ако предпочитате изпратете отзив по %{link}."
@@ -99,7 +99,7 @@ bg:
         tag_question: "въпрос"
       introduce_yourself: "Това е вашият поток.  Включете се и се представете."
       new_here:
-        follow: "Следете %{link} и приветствайте новите потребители на Diaspora*!"
+        follow: "Следете %{link} и приветствайте новите потребители на Detailbook*!"
         learn_more: "Научете повече"
         title: "Поздравете новодошлите"
       no_contacts: "Няма контакти"
@@ -107,10 +107,10 @@ bg:
       people_sharing_with_you: "Хора споделящи с вас"
       post_a_message: "публикуване на съобщение >>"
       services:
-        content: "Можете да свържете следните услуги към Diaspora:"
+        content: "Можете да свържете следните услуги към Detailbook:"
         heading: "Свързване към услуги"
       unfollow_tag: "Прекратяване следенето на #%{tag}"
-      welcome_to_diaspora: "Добре дошли в Diaspora, %{name}!"
+      welcome_to_diaspora: "Добре дошли в Detailbook, %{name}!"
     new:
       create: "Създаване"
       name: "Име (видимо е само за вас)"
@@ -141,8 +141,8 @@ bg:
       failure: "Игнорирането на потребителя не бе прекратено.  #evasion"
       success: "Какво ли ще кажат! #sayhello"
   bookmarklet:
-    explanation: "Публикувайте в Diaspora от където и да е, запаметявайки %{link} като отметка."
-    post_something: "Публикуване в Diaspora"
+    explanation: "Публикувайте в Detailbook от където и да е, запаметявайки %{link} като отметка."
+    post_something: "Публикуване в Detailbook"
     post_success: "Публикувано!"
   cancel: "Отказ"
   comments:
@@ -230,7 +230,7 @@ bg:
       already_invited: "Следните хора не са потвърдили поканата ви:"
       aspect: "Аспект"
       if_they_accept_info: "ако приемат поканата ще бъдат добавени към аспекта в който сте ги поканили."
-      invite_someone_to_join: "Поканете някой в Diaspora!"
+      invite_someone_to_join: "Поканете някой в Detailbook!"
       language: "Език за поканата"
       personal_message: "Лично съобщение"
       resend: "Повторно изпращане"
@@ -240,8 +240,8 @@ bg:
   layouts:
     application:
       back_to_top: "Нагоре"
-      powered_by: "Благодарение на DIASPORA*"
-      public_feed: "Публична емисия от Diaspora за %{name}"
+      powered_by: "Благодарение на Detailbook*"
+      public_feed: "Публична емисия от Detailbook за %{name}"
       toggle: "вкл./изкл. на мобилния изглед"
       whats_new: "какво ново?"
       your_aspects: "вашите аспекти"
@@ -361,25 +361,25 @@ bg:
     confirm_email:
       click_link: "За да активирате новия адрес (%{unconfirmed_email}) кликнете върху следната връзка:"
       subject: "Моля, акивирайте новия адрес на ел. си поща (%{unconfirmed_email})"
-    email_sent_by_diaspora: "Ел. писмо е изпратено от Diaspora.  Ако вече не желаете да получавате подобни писма,"
+    email_sent_by_diaspora: "Ел. писмо е изпратено от Detailbook.  Ако вече не желаете да получавате подобни писма,"
     hello: "Здравейте %{name}!"
     liked:
       liked: "%{name} хареса вашата публикация"
       view_post: "Преглед на публикацията >"
     mentioned:
       mentioned: "Ви спомена в публикация:"
-      subject: "%{name} Ви спомена в Diaspora*"
+      subject: "%{name} Ви спомена в Detailbook*"
     private_message:
       reply_to_or_view: "Отговорете или прегледайте разговора >"
     reshared:
       reshared: "%{name} сподели Ваша публикация"
       view_post: "Преглеждане >"
     single_admin:
-      admin: "Вашият администратор на Diaspora"
-      subject: "Съобщение относно акаунта ви в Diaspora:"
+      admin: "Вашият администратор на Detailbook"
+      subject: "Съобщение относно акаунта ви в Detailbook:"
     started_sharing:
       sharing: "започна да споделя с Вас!"
-      subject: "%{name} започна да споделя с Вас в Diaspora*"
+      subject: "%{name} започна да споделя с Вас в Detailbook*"
       view_profile: "Прегледайте профила на %{name}"
     thanks: "Благодаря,"
     to_change_your_notification_settings: "за да промените настройките за известяване"
@@ -487,7 +487,7 @@ bg:
   profile: "Профил"
   profiles:
     edit:
-      allow_search: "Разрешете търсенето в Diaspora за Вас"
+      allow_search: "Разрешете търсенето в Detailbook за Вас"
       edit_profile: "Настройки на профила"
       first_name: "Собствено име"
       last_name: "Фамилно име"
@@ -501,7 +501,7 @@ bg:
       your_private_profile: "Вашият личен профил"
       your_public_profile: "Вашият публичен профил"
       your_tags: "Опишете се с до 5 #думи (марки)"
-      your_tags_placeholder: "например: #България #diaspora #фитнес #музика #котки"
+      your_tags_placeholder: "например: #България #detailbook #фитнес #музика #котки"
     update:
       failed: "Профилът не бе обновен"
       updated: "Профилът е обновен"
@@ -514,9 +514,9 @@ bg:
     two: "%{count} отзива"
     zero: "0 отзива"
   registrations:
-    closed: "Нови регистрации не са възможни на този pod на Diaspora."
+    closed: "Нови регистрации не са възможни на този pod на Detailbook."
     create:
-      success: "Вие се присъединихте към Diaspora!"
+      success: "Вие се присъединихте към Detailbook!"
     edit:
       leave_blank: "(оставете празно ако не желаете да го променяте)"
       password_to_confirm: "(за да бъдат потвърдени промените е необходима текущата Ви парола)"
@@ -533,7 +533,7 @@ bg:
   requests:
     create:
       sending: "Изпращане"
-      sent: "Изпратили сте покана до %{name} за да започнете да споделяте - щом се впишат в Diaspora ще видят поканата."
+      sent: "Изпратили сте покана до %{name} за да започнете да споделяте - щом се впишат в Detailbook ще видят поканата."
     destroy:
       error: "Моля, изберете аспект!"
       success: "Сега споделяте."
@@ -569,7 +569,7 @@ bg:
   search: "Търсене"
   services:
     create:
-      already_authorized: "Потребител с адрес в Diaspora %{diaspora_id} вече е удостоверил акаунта %{service_name}."
+      already_authorized: "Потребител с адрес в Detailbooka %{diaspora_id} вече е удостоверил акаунта %{service_name}."
       failure: "Удостоверяването не бе успешно."
       success: "Удостоверяването приключи успешно."
     destroy:
@@ -577,7 +577,7 @@ bg:
     failure:
       error: "възникна грешка при свързването с услугата"
     finder:
-      fetching_contacts: "Diaspora копира приятелите ви от %{service}. Моля, пробвайте отново след няколко минути."
+      fetching_contacts: "Detailbook копира приятелите ви от %{service}. Моля, пробвайте отново след няколко минути."
       no_friends: "Няма намерени приятели от Facebook."
       service_friends: "Приятели от %{service}"
     index:
@@ -587,10 +587,10 @@ bg:
       really_disconnect: "Наистина ли желаете свързаността с %{service} да бъде изключена?"
     inviter:
       click_link_to_accept_invitation: "Кликнете върху връзката, за да приемете поканата"
-      join_me_on_diaspora: "Присъединете се към мен в DIASPORA*"
+      join_me_on_diaspora: "Присъединете се към мен в Detailbook*"
     remote_friend:
       invite: "покани"
-      not_on_diaspora: "Все още не е в Diaspora"
+      not_on_diaspora: "Все още не е в Detailbook"
       resend: "повторно изпращане"
   settings: "Настройки"
   share_visibilites:
@@ -600,10 +600,10 @@ bg:
   shared:
     add_contact:
       add_new_contact: "Добавяне на контакт"
-      create_request: "Търси по адрес в Diaspora"
-      enter_a_diaspora_username: "Въведете потребителско име от Diaspora:"
+      create_request: "Търси по адрес в Detailbook"
+      enter_a_diaspora_username: "Въведете потребителско име от Detailbook:"
       know_email: "Знаете адресите на ел. им поща? Трябва да ги поканите"
-      your_diaspora_username_is: "Вашето потребителско име в Diaspora е %{diaspora_handle}"
+      your_diaspora_username_is: "Вашето потребителско име в Detailbook е %{diaspora_handle}"
     aspect_dropdown:
       add_to_aspect: "Добавяне в аспект"
       toggle:
@@ -626,7 +626,7 @@ bg:
       invite_someone: "Поканете някого"
       invite_your_friends: "Поканете приятелите си"
       invites: "Покани"
-      invites_closed: "Издаването на покани за този pod на Diaspora за момента е прекратено"
+      invites_closed: "Издаването на покани за този pod на Detailbook за момента е прекратено"
     notification:
       new: "Ново %{type} от %{from}"
     public_explain:
@@ -634,7 +634,7 @@ bg:
       logged_in: "вписани сте в %{service}"
       manage: "управление на свързаните услуги"
       new_user_welcome_message: "Ползвайте диез марките (#име–на-марката), за да изясните/посочите темата на публикациите си и за намиране на хора споделящи Вашите интереси. Call out awesome people with @Mentions"
-      outside: "Публичните съобщения ще са видими и за хора извън Diaspora."
+      outside: "Публичните съобщения ще са видими и за хора извън Detailbook."
       share: "Споделете нещо"
       title: "Настройване на свързаните услуги"
       visibility_dropdown: "Ползвайте падащото меню, за да промените видимостта на публикацията. (Препоръчително е да направите първата си публикация публична.)"
@@ -742,7 +742,7 @@ bg:
       email_not_confirmed: "Ел. поща не може да бъде активирана. Грешна връзка?"
     destroy:
       no_password: "Моля, въведете паролата си, за да бъде затворен акаунта."
-      success: "Акаунтът Ви е заключен.  Затварянето на акаунт изисква около 20 минути.  Благодарим Ви, че пробвахте Diaspora."
+      success: "Акаунтът Ви е заключен.  Затварянето на акаунт изисква около 20 минути.  Благодарим Ви, че пробвахте Detailbook."
       wrong_password: "Въведената парола не съвпада с текущата парола на акаунта."
     edit:
       also_commented: "...някой коментира публикация на Ваш контакт?"
@@ -755,10 +755,10 @@ bg:
         if_you_want_this: "Ако наистина го желаете въведете паролата си, по-долу и натиснете \"Затваряне на акаунта\""
         lock_username: "потребителско ви име се \"заключва\" - ако пожелаете да се върнете отново"
         locked_out: "автоматично ще бъдете отписани, а акаунтът - \"заключен\""
-        make_diaspora_better: "Надяваме се да ни помогнете в усилията ни да направим услугата Diaspora по-добра. Ако наистина желаете да напуснете ето какво се случва при напускане:"
+        make_diaspora_better: "Надяваме се да ни помогнете в усилията ни да направим услугата Detailbook по-добра. Ако наистина желаете да напуснете ето какво се случва при напускане:"
         mr_wiggles: "И г-н Wiggles ще се натъжи много"
         no_turning_back: "За момента действието е необратимо!"
-        what_we_delete: "изтриват се всички ваши публикации и данни от профила (възможно най-бързо). Вашите коментари ще останат наоколо, но ще бъдат асоциирани с адреса Ви в Diaspora."
+        what_we_delete: "изтриват се всички ваши публикации и данни от профила (възможно най-бързо). Вашите коментари ще останат наоколо, но ще бъдат асоциирани с адреса Ви в Detailbook."
       close_account_text: "Затваряне на акаунта"
       comment_on_post: "...някой коментира Ваша публикация?"
       current_password: "Текуща парола"
@@ -778,12 +778,12 @@ bg:
       started_sharing: "...някой започне да споделя с Вас?"
       stream_preferences: "Предпочитания за потока"
       your_email: "Вашата ел. поща"
-      your_handle: "Вашият адрес в Diaspora"
+      your_handle: "Вашият адрес в Detailbook"
     getting_started:
-      awesome_take_me_to_diaspora: "Към Diaspora*"
-      community_welcome: "Общността около Diaspora с радост Ви приветства на борда!"
-      hashtag_explanation: "Диез марките (#име–на-марката) ви позволяват да коментирате и следите интересни за вас теми.  Улесняват и откриване на хора със сходни интереси в Diaspora."
-      hashtag_suggestions: "Пробвайте да следвате няколко марки като #България #diaspora #фитнес и др."
+      awesome_take_me_to_diaspora: "Към Detailbook*"
+      community_welcome: "Общността около Detailbook с радост Ви приветства на борда!"
+      hashtag_explanation: "Диез марките (#име–на-марката) ви позволяват да коментирате и следите интересни за вас теми.  Улесняват и откриване на хора със сходни интереси в Detailbook."
+      hashtag_suggestions: "Пробвайте да следвате няколко марки като #България #detailbook #фитнес и др."
       saved: "Записано!"
       well_hello_there: "Здравейте!"
       what_are_you_in_to: "От какво се интересувате?"
@@ -804,7 +804,7 @@ bg:
       settings_updated: "Настройките са обновени"
       unconfirmed_email_changed: "Ел. поща е променена. Необходимо е да я активирате."
       unconfirmed_email_not_changed: "Ел. поща не бе променена"
-  welcome: "Привет от Diaspora,"
+  welcome: "Привет от Detailbook,"
   will_paginate:
     next_label: "следваща &raquo;"
     previous_label: "&laquo; предишна"

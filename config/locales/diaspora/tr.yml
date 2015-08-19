@@ -76,7 +76,7 @@ tr:
         zero: "%{count} kişi"
       week: "Hafta"
     user_entry:
-      diaspora_handle: "diaspora* kaydı"
+      diaspora_handle: "detailbook* kaydı"
       guid: "GUID"
       id: "kimlik"
       ? "no"
@@ -145,11 +145,11 @@ tr:
       updating: "güncelleniyor"
     index:
       diaspora_id:
-        content_1: "Diaspora ID'niz:"
-        content_2: "Diaspora'da sizi bulabilmelerini istediğiniz kişilere verebilirsiniz."
-        heading: "Diaspora ID (Diaspora Kimliği)"
+        content_1: "Detailbook ID'niz:"
+        content_2: "Detailbook'da sizi bulabilmelerini istediğiniz kişilere verebilirsiniz."
+        heading: "Detailbook ID (Detailbook Kimliği)"
       donate: "Bağış yap"
-      handle_explanation: "Bu Diaspora kimliğindir. Bir e-posta adresi gibi, bunu insanlara sana ulaşması için verebilirsin."
+      handle_explanation: "Bu Detailbook kimliğindir. Bir e-posta adresi gibi, bunu insanlara sana ulaşması için verebilirsin."
       help:
         any_problem: "Bir sorun var mı?"
         contact_podmin: "Podunuzun yöneticisiyle ilişkiye geçin!"
@@ -159,7 +159,7 @@ tr:
         feature_suggestion: "... bir %{link} önerin var mı?"
         find_a_bug: "... bulduğun %{link} mı var?"
         have_a_question: "... bir %{link} mu sormak istiyorsun?"
-        here_to_help: "Diaspora topluluğu burada!"
+        here_to_help: "Detailbook topluluğu burada!"
         mail_podmin: "Podmin e-postası"
         need_help: "Yardıma mı ihtiyacın var?"
         tag_bug: "hata"
@@ -168,10 +168,10 @@ tr:
         tutorial_link_text: "Öğreticiler"
         tutorials_and_wiki: "%{tutorial} & %{wiki}: İlk adımlarınız için yardım."
       introduce_yourself: "Bu sizin akışınızdır. Atla ve kendini tanıt."
-      keep_diaspora_running: "Diaspora'nın gelişmesini aylık bir bağışınızla hızlandırın."
+      keep_diaspora_running: "Detailbook'nın gelişmesini aylık bir bağışınızla hızlandırın."
       keep_pod_running: "%{pod}u hızlı çalıştırmaya devam edin ve sunucularına aylık bir bağışla kahve ikram edin."
       new_here:
-        follow: "%{link} bağlantısını tıkla ve yeni diaspora* kullanıcılarıyla tanış!"
+        follow: "%{link} bağlantısını tıkla ve yeni detailbook* kullanıcılarıyla tanış!"
         learn_more: "Daha fazla bilgi"
         title: "Yeni Kişilerle Tanış"
       no_contacts: "Kişi yok"
@@ -179,10 +179,10 @@ tr:
       people_sharing_with_you: "Seninle paylaşımda bulunanlar"
       post_a_message: "mesaj gönder >>"
       services:
-        content: "Diaspora'ya aşağıdaki hizmetleri bağlayabilirsin:"
+        content: "Detailbook'ya aşağıdaki hizmetleri bağlayabilirsin:"
         heading: "Servisleri ilişkilendir"
       unfollow_tag: "#%{tag}'i takip etmeyi bırak"
-      welcome_to_diaspora: "Diaspora'ya Hoş Geldin, %{name}!"
+      welcome_to_diaspora: "Detailbook'ya Hoş Geldin, %{name}!"
     new:
       create: "Oluştur:"
       name: "İsim (sadece siz görebilirsiniz)"
@@ -213,9 +213,9 @@ tr:
       failure: "Bu kullanıcıyı görmezden gelmeyi kaldıramadım.  #evasion"
       success: "Bakalım ne diyecekler! #sayhello"
   bookmarklet:
-    explanation: "Diaspora'ya istediğin her yerden gönderi yapmak için %{link} bağlantısını yer imlerine ekle."
-    heading: "Diaspora yer işareti"
-    post_something: "Diaspora için bir şey gönder"
+    explanation: "Detailbook'ya istediğin her yerden gönderi yapmak için %{link} bağlantısını yer imlerine ekle."
+    heading: "Detailbook yer işareti"
+    post_something: "Detailbook için bir şey gönder"
     post_success: "Gönderildi! Kapatılıyor!"
   cancel: "İptal Et"
   comments:
@@ -300,7 +300,7 @@ tr:
       close_account_q: "Tohumumu(hesabımı) nasıl silerim?"
       data_other_podmins_a: "Bir kez başka bir poddaki biriyle paylaştıktan sonra, onunla paylaştığınız gönderiler ve profil verinizin bir kopyası o podda da saklanır, ve haliyle o podun veri tabanı yöneticisi de ona erişebilir. Bir gönderi ya da profil verisini sildiğinizde diğer podlardan da kendiliğinden silinirler."
       data_other_podmins_q: "Diğer podların yöneticileri bilgimi görebiliyor mu?"
-      data_visible_to_podmin_a: "Podlar *arası* iletişim her zaman SSL ve diaspora*nın kendi aktarım şifresi ile şifrelenir, ancak pod içinde saklı olan veri şifresizdir. İsterse, podunuzun veri tabanı yöneticisi (genelde podu çalıştıran kişi uğraşır) tüm profil verinize ve (kullanıcı verilerini saklayan diğer sitelerde de olduğu gibi) tüm gönderilerinize erişebilir. Kendi podunuzu çalıştırmak daha fazla mahremiyet sağlar çünkü o zaman veri tabanı erişimini de siz denetlersiniz."
+      data_visible_to_podmin_a: "Podlar *arası* iletişim her zaman SSL ve detailbook*nın kendi aktarım şifresi ile şifrelenir, ancak pod içinde saklı olan veri şifresizdir. İsterse, podunuzun veri tabanı yöneticisi (genelde podu çalıştıran kişi uğraşır) tüm profil verinize ve (kullanıcı verilerini saklayan diğer sitelerde de olduğu gibi) tüm gönderilerinize erişebilir. Kendi podunuzu çalıştırmak daha fazla mahremiyet sağlar çünkü o zaman veri tabanı erişimini de siz denetlersiniz."
       data_visible_to_podmin_q: "Pod yöneticisi ne kadar bilgime erişebiliyor?"
       download_data_a: "Evet. Hesap sekmesinde veriyi indirmek için iki düğme var."
       download_data_q: "Tohumum(hesabım)daki tüm veriyi indirebilir miyim?"
@@ -320,19 +320,19 @@ tr:
       restrict_posts_i_see_a: "Evet. Kenar çubuğundaki Bakışlarım'a tıklayın ve seçiminizi değiştirmek için ilgili bakışlara tıklayın. Yalnızca seçili bakışlardan gelen gönderiler size görünür olacak."
       restrict_posts_i_see_q: "Gördüğüm gönderileri sadece belli bakışlara  kısıtlayabilir miyim?"
       title: "Bakışlar"
-      what_is_an_aspect_a: "Bakışlar diaspora* da kişileri gruplamanın bir yolu, dünyaya gösterdiğiniz yüzlerden biridir. Çalıştığınızdaki bakış açınız, ailenize karşı, çevrenizdeki kişilere karşı gösterdiğiniz farklı farklı olabilir."
+      what_is_an_aspect_a: "Bakışlar detailbook* da kişileri gruplamanın bir yolu, dünyaya gösterdiğiniz yüzlerden biridir. Çalıştığınızdaki bakış açınız, ailenize karşı, çevrenizdeki kişilere karşı gösterdiğiniz farklı farklı olabilir."
       what_is_an_aspect_q: "Bakış nedir?"
       who_sees_post_a: "Sınırlı gönderi yaparsanız, yalnızca o bakış(lar)a koyduğunuz kişilere görünür olacaktır. Bunun dışındakiler, gönderinizi açmadığınız sürece hiçbir şekilde onu göremeyeceklerdir. Yalnızca genel gönderiler hiçbir bakışa koymadığınız kişilere açıktır."
       who_sees_post_q: "Bir bakışa gönderdiğimde onu kimler görür?"
-    foundation_website: "diaspora vakfı web sitesi"
+    foundation_website: "detailbook vakfı web sitesi"
     getting_help:
-      get_support_a_hashtag: "%{question} etiketini kullanarak diaspora* üzerinde açık bir gönderiyle sorun"
+      get_support_a_hashtag: "%{question} etiketini kullanarak detailbook* üzerinde açık bir gönderiyle sorun"
       get_support_a_irc: "bize %{irc} kanalında katılın (Canlı sohbet)"
       get_support_a_tutorials: "%{tutorials} belgelerimizi deneyin"
       get_support_a_website: "%{link} bağlantımıza bakın"
       get_support_a_wiki: "%{link} arayın"
       get_support_q: "Eğer sorum SSS'da yanıtlanmamışsa ne yapayım? Daha başka nereden destek alabilirim?"
-      getting_started_a: "Şanslısınız. Proje sayfalarımızdaki %{tutorial_series} deneyin. Böylece adım adım kayıt sürecini tamamlayacak ve diaspora* hakkındaki tüm temel bilgileri öğreneceksiniz."
+      getting_started_a: "Şanslısınız. Proje sayfalarımızdaki %{tutorial_series} deneyin. Böylece adım adım kayıt sürecini tamamlayacak ve detailbook* hakkındaki tüm temel bilgileri öğreneceksiniz."
       getting_started_q: "İmdat! Başlamak için bana biraz temel yardım gerekiyor!"
       title: "Yardım almak"
     getting_started_tutorial: "'Başlangıç' öğretim dizisi"
@@ -360,14 +360,14 @@ tr:
       find_people_a: "Kenar çubuğundaki e-mektup bağlantısına tıklayın. İlgi alanlarınızı paylaşan kişileri #etiketler ile takip edin, ve onlardan ilgilendiğiniz şeyler gönderenleri bir bakışa ekleyin. Genel bir gönderide #buradayeniyim diye bağırın."
       find_people_q: "Poda henüz katıldım, paylaşacak birilerine nasıl ulaşacağım?"
       title: "Podlar"
-      use_search_box_a: "Eğer tam diaspora* kimliğini (yani, kullaniciadi@pod) biliyorsanız, o kimlikle aratabilirsiniz. Aynı podda iseniz sadece kullanıcı adı ile de aratabilirsiniz. Bir diğer seçenek de (ekranda görünen) profil adı ile aratmaktır. Eğer ilkinde işe yaramazsa, tekrar deneyin."
+      use_search_box_a: "Eğer tam detailbook* kimliğini (yani, kullaniciadi@pod) biliyorsanız, o kimlikle aratabilirsiniz. Aynı podda iseniz sadece kullanıcı adı ile de aratabilirsiniz. Bir diğer seçenek de (ekranda görünen) profil adı ile aratmaktır. Eğer ilkinde işe yaramazsa, tekrar deneyin."
       use_search_box_q: "Birisini arama kutusu aracılığıyla nasıl bulabilirim?"
-      what_is_a_pod_a: "Pod diaspora* yazılımını çalıştıran ve diaspora* ağına bağlı bir sunucudur. Bitkilerin tohum saplarının uçlarına, sunucuların kullanıcı sayısı açısından, benzediği için bu ad verilmiştir. Bir çok pod vardır. Diğer podlardan arkadaşlar ekleyebilir ve onlarla haberleşebilirsiniz. (diasora*yı bir e-mektup sağlayıcısına benzetebilirsiniz: Açık podlar, özel podlar, hatta biraz çaba ile kendiniz bile bir pod açabilirsiniz)."
+      what_is_a_pod_a: "Pod detailbook* yazılımını çalıştıran ve detailbook* ağına bağlı bir sunucudur. Bitkilerin tohum saplarının uçlarına, sunucuların kullanıcı sayısı açısından, benzediği için bu ad verilmiştir. Bir çok pod vardır. Diğer podlardan arkadaşlar ekleyebilir ve onlarla haberleşebilirsiniz. (diasora*yı bir e-mektup sağlayıcısına benzetebilirsiniz: Açık podlar, özel podlar, hatta biraz çaba ile kendiniz bile bir pod açabilirsiniz)."
       what_is_a_pod_q: "Pod nedir?"
     posts_and_posting:
       character_limit_a: "65,535 karakter. Yani, Twitter'da izin verilenden 65,395 daha fazla karakter! ;)"
       character_limit_q: "En fazla kaç karakter gönderebilirim?"
-      embed_multimedia_a: "Genelde URL'yi yapıştırmanız gömme işleminin gerçekleşmesi için yeterli olur: YouTube, Vimeo, SoundCloud, Flickr ve birkaç site daha desteklenir. diaspora* bunu oEmbed yardımıyla gerçekleştirir. Her an yeni sitelere açığız. Basit göndermeyi unutmayın: tam bağlantılar:kısaltma servisler kulllanmayın; temel URL'den sonra ?#&!= kullanmayın; ve önizlemeyi görebilmek için bir süre bekleyin."
+      embed_multimedia_a: "Genelde URL'yi yapıştırmanız gömme işleminin gerçekleşmesi için yeterli olur: YouTube, Vimeo, SoundCloud, Flickr ve birkaç site daha desteklenir. detailbook* bunu oEmbed yardımıyla gerçekleştirir. Her an yeni sitelere açığız. Basit göndermeyi unutmayın: tam bağlantılar:kısaltma servisler kulllanmayın; temel URL'den sonra ?#&!= kullanmayın; ve önizlemeyi görebilmek için bir süre bekleyin."
       embed_multimedia_q: "Bir gönderiye video, ses ya da başka bir içerik nasıl eklerim?"
       format_text_a: "%{markdown} sistemini kullanarak. Tüm Markdown sözdizimine %{here} erişebilirsiniz. Önizleme düğmesinin yardımı dokunur, böylece paylaşmadan önce nasıl görüneceğine bakabilirsiniz."
       format_text_q: "Gönderilerimi nasıl biçimlendirebilirim(kalın, İtalik, vs.)?"
@@ -382,9 +382,9 @@ tr:
       stream_full_of_posts_li2: "İzlediğiniz etiketleri içeren genel gönderiler. Bunları kaldırmak için, ilgili etiketi izlemeyi bırakın."
       title: "Gönderiler"
     private_posts:
-      can_comment_a: "Yalnızca belirttiğiniz bakış içindeki diaspora* kullanıcıları gönderinizi beğenebilir ya da yorum yazabilir."
+      can_comment_a: "Yalnızca belirttiğiniz bakış içindeki detailbook* kullanıcıları gönderinizi beğenebilir ya da yorum yazabilir."
       can_comment_q: "Özel gönderimi kim beğenebilir ya da ona yorum yazabilir?"
-      can_reshare_a: "Hiç kimse. Özel gönderiler yeniden paylaşılamaz, ancak diaspora* nın kopyala-yapıştır koruması yoktur."
+      can_reshare_a: "Hiç kimse. Özel gönderiler yeniden paylaşılamaz, ancak detailbook* nın kopyala-yapıştır koruması yoktur."
       can_reshare_q: "Özel gönderimi kim paylaşabilir?"
       title: "Özel gönderiler"
     private_profiles:
@@ -398,7 +398,7 @@ tr:
       whats_in_profile_a: "Adınız, kendinizi tanımladığınız beş etiket, fotoğrafınız. Profili düzenleme sayfasının üstündeki şeyler. Profil bilgilerini tanımlanabilir ya da anonim olarak tanımlayabilirsiniz. Profil sayfası ayrıca tüm genel gönderilerinizi gösterir."
       whats_in_profile_q: "Genel profilimin içinde ne var"
     resharing_posts:
-      reshare_public_post_aspects_a: "Hayır, onları yeniden paylaştığınızda kendiliğinden genel gönderi olarak paylaşılırlar. Belirli bakışlarla paylaşmak için, kopyala-yapıştır yöntemini kullanabilirsiniz. diaspora* nın kopyala-yapıştır koruması yoktur."
+      reshare_public_post_aspects_a: "Hayır, onları yeniden paylaştığınızda kendiliğinden genel gönderi olarak paylaşılırlar. Belirli bakışlarla paylaşmak için, kopyala-yapıştır yöntemini kullanabilirsiniz. detailbook* nın kopyala-yapıştır koruması yoktur."
       reshare_public_post_aspects_q: "Genel bir gönderiyi belli bakışlarla yeniden paylaşabilir miyim?"
       title: "Gönderileri yeniden paylaşmak"
     sharing:
@@ -435,15 +435,15 @@ tr:
     new:
       already_invited: "Aşağıdaki kişiler davetinizi kabul etmedi:"
       aspect: "Yön"
-      check_out_diaspora: "Diaspora'yı deneyin!"
+      check_out_diaspora: "Detailbook'yı deneyin!"
       codes_left:
         other: "Bu kodda %{count} davetiye kaldı"
         zero: "Bu kodda hiç davetiye kalmadı"
       comma_separated_plz: ""
       if_they_accept_info: "kabul ederseler, yönünüze eklenecekler."
-      invite_someone_to_join: "Diaspora'ya birilerini davet et!"
+      invite_someone_to_join: "Detailbook'ya birilerini davet et!"
       language: "Dil"
-      paste_link: "Arkadaşlarınızı Diaspora*'ya davet etmek için bu bağlantıyı paylaşın, ya da bağlantıyı onlara direk eposta olarak atın."
+      paste_link: "Arkadaşlarınızı Detailbook*'ya davet etmek için bu bağlantıyı paylaşın, ya da bağlantıyı onlara direk eposta olarak atın."
       personal_message: "Kişisel mesaj"
       resend: "Tekrar gönder"
       send_an_invitation: "Bir davet yolla"
@@ -453,8 +453,8 @@ tr:
   layouts:
     application:
       back_to_top: "Sayfa başına dön"
-      powered_by: "GELİŞTİREN: DIASPORA*"
-      public_feed: "%{name} için Genel Diaspora* Beslemesi"
+      powered_by: "GELİŞTİREN: Detailbook*"
+      public_feed: "%{name} için Genel Detailbook* Beslemesi"
       source_package: "kaynak kodu paketini indir"
       toggle: "mobil site"
       whats_new: "neler yeni?"
@@ -555,7 +555,7 @@ tr:
       zero: "%{actors} sizinle paylaşıma başladı."
   notifier:
     a_post_you_shared: "gönderi"
-    accept_invite: "Diaspora* davetini kabul et!"
+    accept_invite: "Detailbook* davetini kabul et!"
     click_here: "buraya"
     comment_on_post:
       reply: "Yanıtla ya da %{name} gönderisini görüntüle >"
@@ -570,7 +570,7 @@ tr:
       message: |-
           Merhaba!
 
-          Diaspora*'ya davet edildiniz!
+          Detailbook*'ya davet edildiniz!
 
           Başlamak için bu kısayolu tıklayınız
 
@@ -579,16 +579,16 @@ tr:
 
           Sevgilerle,
 
-          Diaspora* e-posta robotu!
+          Detailbook* e-posta robotu!
 
           [1]: %{invite_url}
-    invited_you: "%{name} sizi Diaspora*'ya davet etti."
+    invited_you: "%{name} sizi Detailbook*'ya davet etti."
     liked:
       liked: "%{name} gönderini iğneledi."
       view_post: "Gönderiyi görüntüle >"
     mentioned:
       mentioned: "gönderisinde senden bahsetti:"
-      subject: "%{name} sana Diaspora*'da özel mesaj gönderdi "
+      subject: "%{name} sana Detailbook*'da özel mesaj gönderdi "
     private_message:
       reply_to_or_view: "Yanıtla ya da konuşmayı görüntüle >"
     report_email:
@@ -603,18 +603,18 @@ tr:
 
           Saygılar,
 
-          diaspora* elektronik mektup robotu
+          detailbook* elektronik mektup robotu
 
           [1]: %{url}
     reshared:
       reshared: "%{name} gönderini tekrar paylaştı"
       view_post: "Gönderiyi görüntüle>"
     single_admin:
-      admin: "Diaspora yönetici"
-      subject: "Diaspora hesabı hakkında bir mesaj:"
+      admin: "Detailbook yönetici"
+      subject: "Detailbook hesabı hakkında bir mesaj:"
     started_sharing:
       sharing: "sizinle paylaşıma başladı!"
-      subject: "%{name} Diaspora*'da seninle paylaşıma başladı"
+      subject: "%{name} Detailbook*'da seninle paylaşıma başladı"
       view_profile: "%{name} kişisinin profilini görüntüle"
     thanks: "Teşekkürler,"
     to_change_your_notification_settings: "tıklayarak bildirim ayarlarınızı değiştirebilirsiniz"
@@ -639,7 +639,7 @@ tr:
       no_one_found: "...ve hiç kimse bulunamadı."
       no_results: "Hey! Bir şeyi araman lazım."
       results_for: "arama sonuçları"
-      search_handle: "Arkadaşlarınızı bulmak için kullaniciadi@pod biçimindeki diaspora* kimliklerini kullanın."
+      search_handle: "Arkadaşlarınızı bulmak için kullaniciadi@pod biçimindeki detailbook* kimliklerini kullanın."
       searching: "aranıyor, biraz sabırlı olun..."
       send_invite: "Hâlâ mı bir şey yok? Birilerini davet edin!"
     one: "1 kişi"
@@ -732,12 +732,12 @@ tr:
   profile: "Profil"
   profiles:
     edit:
-      allow_search: "Diaspora aramaları ile bulunmana izin ver"
+      allow_search: "Detailbook aramaları ile bulunmana izin ver"
       edit_profile: "Profil düzenle"
       first_name: "Ad"
       last_name: "Soyad"
       nsfw_check: "Paylaştığım herşeyi İ2GD olarak işaretle"
-      nsfw_explanation: "İ2GD('iş için güvenli değil') diaspora* nın çalışma esnasında görüntülenmesi sakıncalı olabilecek içerik için özdenetimli topluluk standardıdır. Böyle şeyleri sık paylaşacaksanız bunu işaretleyin böylece gerçekten bunu görmek istemeyenler akışlarından bunları gizleyebilsinler."
+      nsfw_explanation: "İ2GD('iş için güvenli değil') detailbook* nın çalışma esnasında görüntülenmesi sakıncalı olabilecek içerik için özdenetimli topluluk standardıdır. Böyle şeyleri sık paylaşacaksanız bunu işaretleyin böylece gerçekten bunu görmek istemeyenler akışlarından bunları gizleyebilsinler."
       nsfw_explanation2: "Eğer bu seçeneği tercih etmediyseniz lütfen bu tür malzemeyi her paylaştığınızda #nsfw etiketini ekleyin."
       update_profile: "Profili Güncelle"
       your_bio: "Hakkında"
@@ -749,7 +749,7 @@ tr:
       your_private_profile: "Özel profil"
       your_public_profile: "Genel profil"
       your_tags: "Kendini 5 kelime ile anlat"
-      your_tags_placeholder: "#diaspora #ironing #kittens #music gibi"
+      your_tags_placeholder: "#detailbook #ironing #kittens #music gibi"
     update:
       failed: "Profil güncellemesi başarısız"
       updated: "Profil güncellendi"
@@ -758,9 +758,9 @@ tr:
     other: "%{count} tepki"
     zero: "tepki yok"
   registrations:
-    closed: "Üyelik bu Diaspora'da kapandı."
+    closed: "Üyelik bu Detailbook'da kapandı."
     create:
-      success: "Diasporaya katıldınız!"
+      success: "Detailbookya katıldınız!"
     edit:
       cancel_my_account: "Hesabımı iptal et"
       edit: "Düzenle %{name}"
@@ -788,7 +788,7 @@ tr:
   requests:
     create:
       sending: "Gönderiliyor..."
-      sent: "%{name} ile paylaşmak istedin. Diaspora'ya tekrar bağlandığında görecektir."
+      sent: "%{name} ile paylaşmak istedin. Detailbook'ya tekrar bağlandığında görecektir."
     destroy:
       error: "Lütfen bir yön seçiniz!"
       ignore: "Arkadaş isteğini reddettin."
@@ -822,7 +822,7 @@ tr:
   search: "Ara"
   services:
     create:
-      already_authorized: "%{diaspora_id} diaspora kimliği bulunan bir kullanıcı zaten %{service_name} hesabına izin verdi."
+      already_authorized: "%{diaspora_id} detailbook kimliği bulunan bir kullanıcı zaten %{service_name} hesabına izin verdi."
       failure: "Kimlik doğrulama başarısız oldu."
       read_only_access: "Erişim düzeyi sadece okumaya izin veriyor, lütfen daha sonra tekrar onaylanmayı deneyin."
       success: "Doğrulama başarılı."
@@ -831,7 +831,7 @@ tr:
     failure:
       error: "hizmete bağlanırken hata oluştu"
     finder:
-      fetching_contacts: "Diaspora %{service} arkadaşlarını dolduruyor, lütfen birkaç dakika sonra tekrar bak."
+      fetching_contacts: "Detailbook %{service} arkadaşlarını dolduruyor, lütfen birkaç dakika sonra tekrar bak."
       no_friends: "Hiç Facebook arkadaşı bulunamadı."
       service_friends: "%{service} Arkadaşları"
     index:
@@ -839,13 +839,13 @@ tr:
       edit_services: "Servisleri düzenle"
       logged_in_as: "olarak bağlandınız"
       really_disconnect: "%{service} ile bağlantı kesilsin mi?"
-      services_explanation: "Hizmetlere bağlanmak, gönderilerinizi Diaspora'da yazdığınız sırada yayınlama olanağı verir."
+      services_explanation: "Hizmetlere bağlanmak, gönderilerinizi Detailbook'da yazdığınız sırada yayınlama olanağı verir."
     inviter:
       click_link_to_accept_invitation: "Daveti kabul etmek bu bağlantıya tıklayın"
-      join_me_on_diaspora: "Benimle diaspora*'da buluş"
+      join_me_on_diaspora: "Benimle detailbook*'da buluş"
     remote_friend:
       invite: "davet et"
-      not_on_diaspora: "Henüz Diaspora'da değil"
+      not_on_diaspora: "Henüz Detailbook'da değil"
       resend: "tekrar gönder"
   settings: "Ayarlar"
   share_visibilites:
@@ -855,7 +855,7 @@ tr:
   shared:
     add_contact:
       add_new_contact: "Yeni kişi ekle"
-      create_request: "Diaspora ID ile bul"
+      create_request: "Detailbook ID ile bul"
       diaspora_handle: "diaspora@pod.org"
       enter_a_diaspora_username: "Diaspora kullanıcı adınızı giriniz:"
       know_email: "E-posta adresini biliyor musun? O zaman onu davet et"
@@ -878,7 +878,7 @@ tr:
       invite_someone: "Birisini davet et"
       invite_your_friends: "Arkadaşlarını davet et"
       invites: "Davetiyeler"
-      invites_closed: "Bu Diaspora'da davet kapalı görünüyor"
+      invites_closed: "Bu Detailbook'da davet kapalı görünüyor"
       share_this: "Bu e-posta yoluyla bağlantı, blog ya da favori sosyal ağını paylaş!"
     notification:
       new: "%{from}'den yeni %{type}"
@@ -888,7 +888,7 @@ tr:
       logged_in: "%{service} servisine bağlandınız."
       manage: "bağlı servisleri yönetin"
       new_user_welcome_message: "#hashtag ile gönderilerinizi sınıflandırabilir veya ilgi alanlarını paylaşan kişileri bulabilirsiniz. @Bahset kişiler ile iletişim kurmak için harika bir yoldur."
-      outside: "Genel mesajlar, Diaspora dışından da görünür."
+      outside: "Genel mesajlar, Detailbook dışından da görünür."
       share: "Paylaş"
       title: "Bağlı hizmetler"
       visibility_dropdown: "Açılan menüden gönderinizin görünürlüğünü değiştirebilirsiniz. (İlk olarak Genel yapmanızı öneririz.)"
@@ -1009,7 +1009,7 @@ tr:
       email_not_confirmed: "E-posta doğrulanamadı. Yanlış bağlantı olabilir mi?"
     destroy:
       no_password: "Hesabını kapatmak için lütfen güncel parolanı gir."
-      success: "Hesabın kilitlendi.  Hesabını kapatmamızın tamamlanması 20 dakika alabilir.  Diaspora'yı denediğin için teşekkür ederiz."
+      success: "Hesabın kilitlendi.  Hesabını kapatmamızın tamamlanması 20 dakika alabilir.  Detailbook'yı denediğin için teşekkür ederiz."
       wrong_password: "Girilen parola güncel parola ile uyumsuz."
     edit:
       also_commented: "...birisi gönderime yorum yazdığında?"
@@ -1025,10 +1025,10 @@ tr:
         if_you_want_this: "Bunu yapmak istediğinden eminsen, aşağıda parolanı gir ve 'Hesabı Kapat' düğmesini tıkla"
         lock_username: "Bu, geri gelmek istersen bulunması için kullanıcı ismini kilitleyecektir."
         locked_out: "Oturumdan çıkacak ve hesabına tekrar giriş yapamayacaksın."
-        make_diaspora_better: "Diaspora'yı daha da iyi yapmamıza yardım etmeni isteriz, dolayısıyla hesabı kapatmak yerine bize yardımcı olmanı tercih ederiz. Hesabı gerçekten kapatmak istiyorsan, bundan sonra olacakları dikkatine sunarız."
+        make_diaspora_better: "Detailbook'yı daha da iyi yapmamıza yardım etmeni isteriz, dolayısıyla hesabı kapatmak yerine bize yardımcı olmanı tercih ederiz. Hesabı gerçekten kapatmak istiyorsan, bundan sonra olacakları dikkatine sunarız."
         mr_wiggles: "Ayrılırsan bay Wiggles üzülecek"
         no_turning_back: "Şu anda, geri almak mümkün değildir."
-        what_we_delete: "Tüm gönderilerini ve profil verilerini mümkün olduğu kadar çabuk sileceğiz. Yorumların kalacak ve Diaspora kimliğin ile ilişik olacaktır."
+        what_we_delete: "Tüm gönderilerini ve profil verilerini mümkün olduğu kadar çabuk sileceğiz. Yorumların kalacak ve Detailbook kimliğin ile ilişik olacaktır."
       close_account_text: "Hesabı Kapat"
       comment_on_post: "...birisi gönderine yorum yazdığında?"
       current_password: "Mevcut parola"
@@ -1053,13 +1053,13 @@ tr:
       started_sharing: "...birisi benimle birşey paylaştığında?"
       stream_preferences: "Akış Tercihleri"
       your_email: "E-posta"
-      your_handle: "Diaspora kimliğin"
+      your_handle: "Detailbook kimliğin"
     getting_started:
-      awesome_take_me_to_diaspora: "Harika! Diaspora* Git"
-      community_welcome: "Diaspora topluluğunda seni aramızda görmekten mutluyuz!"
-      connect_to_facebook: "İşleri Diasporaya bir %{link}le hızlandırabiliriz. Bu adınızı ve fotoğrafınızı kullanacak ve çapraz gönderilere olanak tanıyacaktır."
+      awesome_take_me_to_diaspora: "Harika! Detailbook* Git"
+      community_welcome: "Detailbook topluluğunda seni aramızda görmekten mutluyuz!"
+      connect_to_facebook: "İşleri Detailbookya bir %{link}le hızlandırabiliriz. Bu adınızı ve fotoğrafınızı kullanacak ve çapraz gönderilere olanak tanıyacaktır."
       connect_to_facebook_link: "Facebook hesabınıza bağlanmak"
-      hashtag_explanation: "Etiketler, hakkında konuşmak ve ilgi alanlarını takip etmenize izin verir. Ayrıca yeni insanları Diaspora üzerinde bulmak için harika bir yoldur."
+      hashtag_explanation: "Etiketler, hakkında konuşmak ve ilgi alanlarını takip etmenize izin verir. Ayrıca yeni insanları Detailbook üzerinde bulmak için harika bir yoldur."
       hashtag_suggestions: "Sevdiğiniz etiketleri takip etmeyi deneyin #resim, #film, #gif, vb."
       saved: "Kaydedildi!"
       well_hello_there: "Merhaba!"

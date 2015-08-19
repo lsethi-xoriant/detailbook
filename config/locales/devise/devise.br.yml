@@ -33,7 +33,7 @@ br:
       inviter:
         accept_at: "e %{url}, gallout a rit e zegemer dre al liamm a-is."
         has_invited_you: "%{name}"
-        have_invited_you: "Pedet oc'h bet gant %{names} da lakaat hoc'h anv e Diaspora."
+        have_invited_you: "Pedet oc'h bet gant %{names} da lakaat hoc'h anv e Detailbook."
       reset_password_instructions:
         change: "Cheñch ma ger-tremen"
         ignore: "Ma n'eo ket bet goulennet an dra-se ganeoc'h, na rit ket van ouzh ar postel-mañ."

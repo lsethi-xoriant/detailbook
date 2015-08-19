@@ -33,7 +33,7 @@ is:
       inviter:
         accept_at: "á %{url}. Þú getur þegið boðið með því að fylgja hlekknum hér fyrir neðan."
         has_invited_you: "%{name}"
-        have_invited_you: "%{names} hafa boðið þér að vera með í Diaspora*"
+        have_invited_you: "%{names} hafa boðið þér að vera með í Detailbook*"
       reset_password_instructions:
         change: "Breyta lykilorðinu mínu"
         ignore: "Ef þú baðst ekki um þetta, vinsamlegast gefðu þessum tölvupósti þá engan gaum."

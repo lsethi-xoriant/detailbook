@@ -32,8 +32,8 @@ es-AR:
       hello: "¡Hola %{email}!"
       inviter:
         accept_at: "en %{url}, podes aceptarlo desde el link  de abajo "
-        has_invited_you: "%{name} te ha invitado a unirte a Diaspora"
-        have_invited_you: "%{names} te han invitado a unirte a diaspora*"
+        has_invited_you: "%{name} te ha invitado a unirte a Detailbook"
+        have_invited_you: "%{names} te han invitado a unirte a detailbook*"
       reset_password_instructions:
         change: "Cambiar mi contraseña"
         ignore: "Si vos no hiciste la solicitud, por favor ignorá este correo."

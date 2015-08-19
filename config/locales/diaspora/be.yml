@@ -76,24 +76,24 @@ be:
       updating: "абнаўляю ..."
     index:
       diaspora_id:
-        content_1: "твой Diaspora ID:"
-        heading: "Diaspora ID"
+        content_1: "твой Detailbook ID:"
+        heading: "Detailbook ID"
       donate: "падзяка"
-      handle_explanation: "Гэта твой Diaspora ID. Як і адрас электроннай пошты, ты можаш даць яго людзям, каб яны маглі з табой звязацца."
+      handle_explanation: "Гэта твой Detailbook ID. Як і адрас электроннай пошты, ты можаш даць яго людзям, каб яны маглі з табой звязацца."
       help:
         do_you: "Гэта тычыцца:"
-        here_to_help: "Супольнасці Diaspora тут!"
+        here_to_help: "Супольнасці Detailbook тут!"
         need_help: "дапамога патрэбна?"
         tag_bug: "памылка"
         tag_question: "пытанне"
       new_here:
-        follow: "Сачы за %{link} і вітай новых карыстальнікаў diaspora*!"
+        follow: "Сачы за %{link} і вітай новых карыстальнікаў detailbook*!"
         learn_more: "паказаць больш"
         title: "Прывітанне, Новы Ўдзельнік!(чалавек)"
       no_contacts: "намя кантактаў"
       post_a_message: "напісаць паведамленне >>"
       unfollow_tag: "больш не сачыць за #%{tag}"
-      welcome_to_diaspora: "Вітаем ў Diaspora, %{name}!"
+      welcome_to_diaspora: "Вітаем ў Detailbook, %{name}!"
     new:
       create: "Стварыць"
       name: "імя (бачна толькі табе)"
@@ -140,7 +140,7 @@ be:
   hide: "Схаваць"
   invitations:
     new:
-      invite_someone_to_join: "запрасі каго-небудзь да Diaspora!"
+      invite_someone_to_join: "запрасі каго-небудзь да Detailbooka!"
       language: "мова"
   layouts:
     header:

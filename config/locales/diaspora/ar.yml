@@ -281,7 +281,7 @@ ar:
   layouts:
     application:
       back_to_top: "الذهاب إلى الاعلى"
-      powered_by: "بدعم DIASPORA*"
+      powered_by: "بدعم Detailbook*"
       public_feed: "ملقم دياسبرا العام لـ %{name}"
       source_package: "نزّل حزمة الشِّفرة المصدريّة"
       toggle: "حَوِّل لموقع الهواتف المحمولة"
@@ -704,7 +704,7 @@ ar:
       really_disconnect: "قطع إتصال %{service}?"
     inviter:
       click_link_to_accept_invitation: "إتبع هذا الرابط لقبول دعوتك"
-      join_me_on_diaspora: "انضم معى إلي  DIASPORA*"
+      join_me_on_diaspora: "انضم معى إلي  Detailbook*"
     remote_friend:
       invite: "دعوة"
       not_on_diaspora: "ليس بعد على دياسبرا"

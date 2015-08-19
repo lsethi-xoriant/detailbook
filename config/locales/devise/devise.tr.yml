@@ -32,7 +32,7 @@ tr:
       inviter:
         accept_at: "%{url}, aşağıdaki bağlantıya tıklayarak bunu kabul edebilirsiniz."
         has_invited_you: "%{name}"
-        have_invited_you: "%{names} Diaspora'ya katılmanız için davet edildiniz"
+        have_invited_you: "%{names} Detailbook katılmanız için davet edildiniz"
       reset_password_instructions:
         change: "Parolamı değiştir"
         ignore: "Eğer bunu siz talep etmediyseniz, lütfen bu e-postayı yoksayın."

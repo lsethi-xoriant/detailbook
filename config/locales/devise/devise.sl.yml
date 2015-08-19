@@ -32,7 +32,7 @@ sl:
       inviter:
         accept_at: "na %{url}, sprejmete lahko preko spodnje povezave."
         has_invited_you: "%{name}"
-        have_invited_you: "%{names} so vas povabili v omrežje Diaspora"
+        have_invited_you: "%{names} so vas povabili v omrežje Detailbook"
       reset_password_instructions:
         change: "Spremeni geslo"
         ignore: "V kolikor tega niste zahtevali, ne upoštevajte tega sporočila."

@@ -32,7 +32,7 @@ zh-CN:
       inviter:
         accept_at: "在 %{url}， 您可以通过以下链接接受"
         has_invited_you: "%{name}"
-        have_invited_you: "%{names} 邀请您加入 Diaspora"
+        have_invited_you: "%{names} 邀请您加入 Detailbook"
       reset_password_instructions:
         change: "重置密码"
         ignore: "如果您并没有请求重置密码, 请忽略这封信件。"

@@ -30,9 +30,9 @@ pa:
       make_aspect_list_visible: "make aspect list visible to others in aspect"
       rename: "ਨਾਂ-ਬਦਲੋ"
     index:
-      handle_explanation: "This is your diaspora handle. Like an email address, you can give this to people to reach you."
+      handle_explanation: "This is your detailbook handle. Like an email address, you can give this to people to reach you."
       help:
-        here_to_help: "Diaspora community is here to help!"
+        here_to_help: "Detailbook community is here to help!"
         tag_bug: "#bug"
         tag_feature: "#feature"
         tag_question: "#question"
@@ -53,7 +53,7 @@ pa:
   back: "ਪਿੱਛੇ"
   bookmarklet:
     explanation: "%{link} from anywhere by bookmarking this link."
-    heading: "Diaspora Bookmarklet"
+    heading: "Detailbook Bookmarklet"
   cancel: "ਰੱਦ ਕਰੋ"
   comments:
     new_comment:
@@ -219,7 +219,7 @@ pa:
     reshared:
       reshared: "%{name} just reshared your post"
     started_sharing:
-      subject: "%{name} has started sharing with you on Diaspora*"
+      subject: "%{name} has started sharing with you on Detailbook*"
   ok: "ਠੀਕ ਹੈ"
   or: "ਜਾਂ"
   password: "ਪਾਸਵਰਡ"
@@ -249,7 +249,7 @@ pa:
   profiles:
     edit:
       your_tags: "You: in 5 #tags"
-      your_tags_placeholder: "i.e. #diaspora #ironing #kittens #music"
+      your_tags_placeholder: "i.e. #detailbook #ironing #kittens #music"
   reactions:
     few: "%{count} reactions"
     many: "%{count} reactions"
@@ -308,7 +308,7 @@ pa:
       resend: "ਮੁੜ-ਭੇਜੋ"
   shared:
     add_contact:
-      create_request: "Find by Diaspora handle"
+      create_request: "Find by Detailbook handle"
       diaspora_handle: "diaspora@handle.org"
     aspect_dropdown:
       add_to_aspect: "Add to aspect"
@@ -376,11 +376,11 @@ pa:
       change_language: "Change Language"
       change_password: "Change Password"
       close_account:
-        what_we_delete: "We delete all of your posts, profile data, as soon as humanly possible. Your comments will hang around, but be associated with your Diaspora Handle."
+        what_we_delete: "We delete all of your posts, profile data, as soon as humanly possible. Your comments will hang around, but be associated with your Detailbook Handle."
       email_awaiting_confirmation: "We have sent you an activation link to %{unconfirmed_email}. Till you follow this link and activate the new address, we will continue to use your original address %{email}."
       new_password: "New Password"
       receive_email_notifications: "Receive email notificaions?"
-      your_handle: "Your diaspora handle"
+      your_handle: "Your detailbook handle"
     update:
       language_changed: "ਭਾਸ਼ਾ ਬਦਲੀ ਗਈ"
       language_not_changed: "Language Change Failed"

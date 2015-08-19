@@ -32,7 +32,7 @@ es-CL:
       inviter:
         accept_at: "en %{url}, puedes aceptar en el enlace inferior."
         has_invited_you: "%{name}"
-        have_invited_you: "%{names} te ha invitado a unirte a Diaspora*"
+        have_invited_you: "%{names} te ha invitado a unirte a Detailbook*"
       reset_password_instructions:
         change: "Cambiar mi contraseña"
         ignore: "Si no has solicitado esto, por favor, ignora este correo."

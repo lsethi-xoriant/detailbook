@@ -33,7 +33,7 @@ uk:
       inviter:
         accept_at: "на %{url}, ви можете прийняти його за посиланням нижче."
         has_invited_you: "%{name}"
-        have_invited_you: "%{names} запрошує вас приєднатися до Діаспори*"
+        have_invited_you: "%{names} запрошує вас приєднатися до Detailbook*"
       reset_password_instructions:
         change: "Змінити пароль"
         ignore: "Якщо ви не здійснювали запит, проігноруйте цей лист."

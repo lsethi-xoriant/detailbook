@@ -149,11 +149,11 @@ nds:
       updating: "Opfrischen"
     index:
       diaspora_id:
-        content_1: "Diene diaspora*-ID is:"
-        content_2: "Geev ehr to annere Lüü, dormit se di op diaspora* finnen künnt."
-        heading: "diaspora*-ID"
+        content_1: "Diene detailbook*-ID is:"
+        content_2: "Geev ehr to annere Lüü, dormit se di op detailbook* finnen künnt."
+        heading: "detailbook*-ID"
       donate: "Spennen"
-      handle_explanation: "Dit is diene diaspora*-ID. Wie eene E-Mail-Adress kannst du ehr an annere Lüü geven, dormit se di erreichen künnt."
+      handle_explanation: "Dit is diene detailbook*-ID. Wie eene E-Mail-Adress kannst du ehr an annere Lüü geven, dormit se di erreichen künnt."
       help:
         any_problem: "Irgendwelche Probleme?"
         do_you: "Hest du:"
@@ -162,7 +162,7 @@ nds:
         feature_suggestion: "... een Vörslag för eene nee’e %{link}?"
         find_a_bug: "... een %{link} funnen?"
         have_a_question: "... eene %{link}?"
-        here_to_help: "De diaspora*-Gemeenschaft is för di dor!"
+        here_to_help: "De detailbook*-Gemeenschaft is för di dor!"
         need_help: "Brukst du Hülp?"
         tag_bug: "Fehler"
         tag_feature: "Funktion"
@@ -171,7 +171,7 @@ nds:
         tutorials_and_wiki: "%{faq}, %{tutorial} un %{wiki}: Hülp för diene eersten Schritte"
       introduce_yourself: "Dit is dien Stream.  Leg los un stell di vör."
       new_here:
-        follow: "Folg %{link} un begrööt nee’e Benutters op diaspora*!"
+        follow: "Folg %{link} un begrööt nee’e Benutters op detailbook*!"
         learn_more: "Mehr rutkriegen"
         title: "Begrööt nee’e Benutters"
       no_contacts: "Keene Kontakte"
@@ -179,10 +179,10 @@ nds:
       people_sharing_with_you: "Lüü de mit di deelt"
       post_a_message: "Verfat een Bidrag >>"
       services:
-        content: "Du kanns disse Deenste mit diaspora* verbinnen:"
+        content: "Du kanns disse Deenste mit detailbook* verbinnen:"
         heading: "Verbinn Deenste"
       unfollow_tag: "Ophören, #%{tag} to folgen"
-      welcome_to_diaspora: "Willkomen to diaspora*, %{name}!"
+      welcome_to_diaspora: "Willkomen to detailbook*, %{name}!"
     new:
       create: "Anleggen"
       name: "Naam (nur för di sichtbor)"
@@ -214,7 +214,7 @@ nds:
   bookmarklet:
     explanation: "Verfat nee’e Bidräg von öberall, indem du dissen Link to diene Leseteken dortodeist => %{link}"
     heading: "Leseteken."
-    post_something: "Schriev wat in diaspora*"
+    post_something: "Schriev wat in detailbook*"
     post_success: "Verfat! Mok to!"
   cancel: "afbreken"
   comments:
@@ -303,13 +303,13 @@ nds:
       what_is_an_aspect_q: "Wat is een Aspekt?"
       who_sees_post_q: "Wer sütt dat, wenn ik wat an bestimmte Aspekte verfat?"
     getting_help:
-      get_support_a_hashtag: "froog in een opentlichen Bidrag op diaspora* mit den %{question} Hashtag"
+      get_support_a_hashtag: "froog in een opentlichen Bidrag op detailbook* mit den %{question} Hashtag"
       get_support_a_irc: "komm to us in den %{irc} (Echttied-Tippsnack)"
       get_support_a_tutorials: "bekiek unsere %{tutorials}"
       get_support_a_website: "bekiek unsere %{link}"
       get_support_a_wiki: "sök in dat %{link}"
       get_support_q: "Wat, wenn de FAQ miene Froog nich beantwoord? Wo kann ik noch Hülp kriegen?"
-      getting_started_a: "Du hest Glück. Probeer de %{tutorial_series} op unsere Projektsiet ut. De warrd die Schritt för Schritt dörch de Registreerung föhren un die all de grundlegenden Saaken bibringen, de du öber dat Bruken von diaspora* weten muss."
+      getting_started_a: "Du hest Glück. Probeer de %{tutorial_series} op unsere Projektsiet ut. De warrd die Schritt för Schritt dörch de Registreerung föhren un die all de grundlegenden Saaken bibringen, de du öber dat Bruken von detailbook* weten muss."
       getting_started_q: "Hülp! Ik bruk een beten grundlegende Hülp, üm lostoleggen!"
       title: "Krieg Hülp"
     here: "hier"
@@ -379,16 +379,16 @@ nds:
     new:
       already_invited: "Disse Lüü hebbt diene Inladung nich annommen:"
       aspect: "Aspekt"
-      check_out_diaspora: "Bekiek mal diaspora*!"
+      check_out_diaspora: "Bekiek mal detailbook*!"
       codes_left:
         one: "Eene Inladung op dissen Code öber"
         other: "%{count} Inladungen op dissen Code öber"
         zero: "Keene Inladungen op dissen Code öber"
       comma_separated_plz: "Du kanns mehrere E-Mail-Adressen dörch Kommas trennt ingeben."
       if_they_accept_info: "wenn se annehmt, warrd se von sülbst to den Aspekt dortodoon, in den du jüm inlad hest."
-      invite_someone_to_join: "Lad eenen to diaspora* in!"
+      invite_someone_to_join: "Lad eenen to detailbook* in!"
       language: "Sprook"
-      paste_link: "Deel dissen Link mit diene Frünnen oder schick jüm direkt een Nettbreef dormit, üm jüm to diaspora* intoladen."
+      paste_link: "Deel dissen Link mit diene Frünnen oder schick jüm direkt een Nettbreef dormit, üm jüm to detailbook* intoladen."
       personal_message: "Persönliche Naricht"
       resend: "Nochmool schicken"
       send_an_invitation: "Eene Inladung schicken"
@@ -398,8 +398,8 @@ nds:
   layouts:
     application:
       back_to_top: "Trüch no boben"
-      powered_by: "Andreven von diaspora*"
-      public_feed: "Opentliche diaspora*-Feed för %{name}"
+      powered_by: "Andreven von detailbook*"
+      public_feed: "Opentliche detailbook*-Feed för %{name}"
       source_package: "lad dat Quellcodepaket rünner"
       toggle: "Mobile Ansicht ümschalten"
       whats_new: "Wat gift dat Nee’es?"
@@ -496,7 +496,7 @@ nds:
       zero: "Keener hett anfungen, mit di to deelen"
   notifier:
     a_post_you_shared: "een Bidrag."
-    accept_invite: "Nimm diene diaspora*-Inladung an!"
+    accept_invite: "Nimm diene detailbook*-Inladung an!"
     click_here: "klick hier"
     comment_on_post:
       reply: "%{name}s Bidrag antwoorden or ankieken >"
@@ -509,7 +509,7 @@ nds:
       message: |-
           Hallo!
 
-          Du bist inlad worrn, op diaspora* to kommen!
+          Du bist inlad worrn, op detailbook* to kommen!
 
           Klick op dissen Link, üm antofangen
 
@@ -518,27 +518,27 @@ nds:
 
           Alles Leeve,
 
-          De E-Mail-Roboter von diaspora*!
+          De E-Mail-Roboter von detailbook*!
 
           [1]: %{invite_url}
-    invited_you: "%{name} hett di to diaspora* inlad."
+    invited_you: "%{name} hett di to detailbook* inlad."
     liked:
       liked: "%{name} mag dien Bidrag"
       view_post: "Bidrag ankieken >"
     mentioned:
       mentioned: "hett di in een Bidrag erwähnt:"
-      subject: "%{name} hett di op diaspora* erwähnt"
+      subject: "%{name} hett di op detailbook* erwähnt"
     private_message:
       reply_to_or_view: "Dissen Snack antwoorden or ankieken >"
     reshared:
       reshared: "%{name} hett dien Bidrag wiederseggt"
       view_post: "Bidrag ankieken >"
     single_admin:
-      admin: "Dien diaspora*-Administrater"
-      subject: "Eene Naricht öber dien diaspora*-Konto:"
+      admin: "Dien detailbook*-Administrater"
+      subject: "Eene Naricht öber dien detailbook*-Konto:"
     started_sharing:
       sharing: "hett anfungen, mit di to deelen!"
-      subject: "%{name} hett anfungen, mit di op diaspora* to deelen"
+      subject: "%{name} hett anfungen, mit di op detailbook* to deelen"
       view_profile: "%{name}s Profil ankieken"
     thanks: "Danke,"
     to_change_your_notification_settings: "üm diene Benarichtigungsinstellungen to ännern"
@@ -655,7 +655,7 @@ nds:
   profile: "Profil"
   profiles:
     edit:
-      allow_search: "Lüü erlauben, op diaspora* no di to söken"
+      allow_search: "Lüü erlauben, op detailbook* no di to söken"
       edit_profile: "Profil ännern"
       first_name: "Vörnaam"
       last_name: "Nonaam"
@@ -679,9 +679,9 @@ nds:
     other: "%{count} Reaktionen"
     zero: "Keene Reaktionen"
   registrations:
-    closed: "Registrerungen sind op dissen diaspora*-Pod sloten."
+    closed: "Registrerungen sind op dissen detailbook*-Pod sloten."
     create:
-      success: "Du bist nu bi diaspora*!"
+      success: "Du bist nu bi detailbook*!"
     edit:
       cancel_my_account: "Slut mien Konto"
       edit: "%{name} ännern"
@@ -710,7 +710,7 @@ nds:
   requests:
     create:
       sending: "Schick"
-      sent: "Du hest beden, mit %{name} to deelen.  He schull dat seihn, wenn he sik dat neegste Mol bi diaspora* anmellt."
+      sent: "Du hest beden, mit %{name} to deelen.  He schull dat seihn, wenn he sik dat neegste Mol bi detailbook* anmellt."
     destroy:
       error: "Bidde wähl een Aspekt ut!"
       ignore: "Ignorerte Kontaktanfroogen."
@@ -742,7 +742,7 @@ nds:
   search: "Söken"
   services:
     create:
-      already_authorized: "Een Bruker mit de diaspora-ID %{diaspora_id} hett dit %{service_name}-Konto schon autoriseert."
+      already_authorized: "Een Bruker mit de detailbook-ID %{diaspora_id} hett dit %{service_name}-Konto schon autoriseert."
       failure: "Authentifizeeren fehlslaan."
       success: "Authentifizeeren erfolgriek."
     destroy:
@@ -750,7 +750,7 @@ nds:
     failure:
       error: "dat geev een Fehler bin Verbinnen mit den Deenst"
     finder:
-      fetching_contacts: "diaspora* lad diene Frünnen von %{service} graad in, bidde kiek in een poor Minuten noch mol trüch."
+      fetching_contacts: "detailbook* lad diene Frünnen von %{service} graad in, bidde kiek in een poor Minuten noch mol trüch."
       no_friends: "Keene Facebook-Frünnen funnen."
       service_friends: "%{service}-Frünnen"
     index:
@@ -760,10 +760,10 @@ nds:
       really_disconnect: "Verbinnung to %{service} trennen?"
     inviter:
       click_link_to_accept_invitation: "Folg dissen Link, üm diene Inladung to akzepteren"
-      join_me_on_diaspora: "Komm to mi op diaspora*"
+      join_me_on_diaspora: "Komm to mi op detailbook*"
     remote_friend:
       invite: "inladen"
-      not_on_diaspora: "Noch nich op diaspora*"
+      not_on_diaspora: "Noch nich op detailbook*"
       resend: "nochmol schicken"
   settings: "Instellungen"
   share_visibilites:
@@ -773,11 +773,11 @@ nds:
   shared:
     add_contact:
       add_new_contact: "Een nee’en Kontakt sluten"
-      create_request: "Anhand von de diaspora*-ID finnen"
+      create_request: "Anhand von de detailbook*-ID finnen"
       diaspora_handle: "diaspora@pod.org"
-      enter_a_diaspora_username: "Geev een diaspora*-Benutternaam in:"
+      enter_a_diaspora_username: "Geev een detailbook*-Benutternaam in:"
       know_email: "Du kennst jümmer E-Mail-Adress? Du schust jüm inladen"
-      your_diaspora_username_is: "Dien diaspora*-Benutternaam is: %{diaspora_handle}"
+      your_diaspora_username_is: "Dien detailbook*-Benutternaam is: %{diaspora_handle}"
     aspect_dropdown:
       add_to_aspect: "Kontakt sluten"
       toggle:
@@ -797,7 +797,7 @@ nds:
       invite_someone: "Lad wen in"
       invite_your_friends: "Lad dien Frünnen in"
       invites: "Inladungen"
-      invites_closed: "Inladungen sind op dissen diaspora*-Pod graad sloten"
+      invites_closed: "Inladungen sind op dissen detailbook*-Pod graad sloten"
       share_this: "Deel dissen Link öber E-Mail, dien Blog oder soziale Nettwaark!"
     notification:
       new: "Nee’e %{type} von %{from}"
@@ -912,7 +912,7 @@ nds:
       email_not_confirmed: "Kunn E-Mail-Adress nich in gang setten. Falsche Link?"
     destroy:
       no_password: "Bidde geev dien jetziges Passwoort in, üm dien Konto to sluten."
-      success: "Dien Konto is sparrt worrn. Wi brukt bit to 20 Minuten, üm dien Konto vullständig to sluten. Danke, dat du diaspora* utprobeert hest."
+      success: "Dien Konto is sparrt worrn. Wi brukt bit to 20 Minuten, üm dien Konto vullständig to sluten. Danke, dat du detailbook* utprobeert hest."
       wrong_password: "Dat ingebene Passwoort het dien jetziges Passwoort nich entsproken."
     edit:
       also_commented: "wen een Bidrag kommenteert, den du ok kommenteert hest"
@@ -928,10 +928,10 @@ nds:
         if_you_want_this: "Wenn du wirklich wist, dat dat passeert, geev dien Passwoort ünnen in un klick op „Konto sluten“"
         lock_username: "Dien Brukernaam ward sparrt. Du warst op dissen Pod keen nee'es Konto mit de sülbe ID anleggen künnen."
         locked_out: "Du warst afmellt warden un ut dien Konto utsparrt warn, bit dat löscht worn is."
-        make_diaspora_better: "Wi deen dat good finnen, wenn du bliffst un uns hülpst, diaspora* beter to moken, statt wegtogohn. Wenn du aber wirklich weggohn wist, ward dat hier as neegstes passeern:"
+        make_diaspora_better: "Wi deen dat good finnen, wenn du bliffst un uns hülpst, detailbook* beter to moken, statt wegtogohn. Wenn du aber wirklich weggohn wist, ward dat hier as neegstes passeern:"
         mr_wiggles: "Herrn Wiggles warrd trurig ween, di gahn to seihn."
         no_turning_back: "Dat gift keen Trüch! Wenn du di wirklich seker bist, geev ünnen dien Passwoort in."
-        what_we_delete: "Wi warrd all diene Bidräg un Profildaten so schnell, as dat man geiht, löschen. Diene Kommentare op de Bidräg von annere Lüü ward immer noch to seen ween, aber se ward mit diene diaspora*-ID statt mit dien Naam verknüppt."
+        what_we_delete: "Wi warrd all diene Bidräg un Profildaten so schnell, as dat man geiht, löschen. Diene Kommentare op de Bidräg von annere Lüü ward immer noch to seen ween, aber se ward mit diene detailbook*-ID statt mit dien Naam verknüppt."
       close_account_text: "Konto sluten"
       comment_on_post: "wen dien Bidrag kommenteert"
       current_password: "Jetziges Passwoort"
@@ -954,9 +954,9 @@ nds:
       your_email: "Diene E-Mail-Adress"
       your_handle: "Diene diaspora*-ID"
     getting_started:
-      awesome_take_me_to_diaspora: "Toll! Bring mi to diaspora*"
-      community_welcome: "De Gemeenschaft von diaspora* freit sik, di an Boord to hebben!"
-      hashtag_explanation: "Mit Hashtags kannst du öber diene Interessen snacken und jüm folgen.  Se sind ok eene tolle Mööglichkeit, üm nee'e Lüü op diaspora* kennen to lernen."
+      awesome_take_me_to_diaspora: "Toll! Bring mi to detailbook*"
+      community_welcome: "De Gemeenschaft von detailbook* freit sik, di an Boord to hebben!"
+      hashtag_explanation: "Mit Hashtags kannst du öber diene Interessen snacken und jüm folgen.  Se sind ok eene tolle Mööglichkeit, üm nee'e Lüü op detailbook* kennen to lernen."
       hashtag_suggestions: "Versök mol, Tags wie #Kunst, #Filme, #gif oder so to folgen"
       saved: "Spiekert!"
       well_hello_there: "Naja, hallo erstmool!"

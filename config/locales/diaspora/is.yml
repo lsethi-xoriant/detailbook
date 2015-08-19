@@ -95,7 +95,7 @@ is:
       updating: "uppfæri"
     index:
       diaspora_id:
-        content_1: "Diaspora*-auðkennið þitt er:"
+        content_1: "Detailbook*-auðkennið þitt er:"
         heading: "Díaspora* auðkenni"
       donate: "Styrkja"
       handle_explanation: "Þetta er auðkennið þitt hjá Díaspora*. Eins og með venjulegt netfang, geturðu gefið fólki það svo þau geti haft samband við þig."
@@ -106,13 +106,13 @@ is:
         feature_suggestion: "... ert með %{link} uppástungu?"
         find_a_bug: "... fannst %{link}?"
         have_a_question: "... ert með %{link}?"
-        here_to_help: "Diaspora*-félagarnir eru hér til að hjálpa!"
+        here_to_help: "Detailbook*-félagarnir eru hér til að hjálpa!"
         need_help: "Vantar aðstoð?"
         tag_bug: "#bug"
         tag_feature: "#feature"
         tag_question: "#question"
       new_here:
-        follow: "Fylgstu með %{link} og bjóddu nýja notendur velkomna á Diaspora*!"
+        follow: "Fylgstu með %{link} og bjóddu nýja notendur velkomna á Detailbook*!"
         learn_more: "Vita meira"
         title: "Bjóða Nýja Notendur Velkomna"
       no_contacts: "Engir tengiliðir"
@@ -122,7 +122,7 @@ is:
       services:
         heading: "Tengja Þjónustur"
       unfollow_tag: "Hætta að fylgjast með #%{tag}"
-      welcome_to_diaspora: "Velkomin í Diaspora* %{name}!"
+      welcome_to_diaspora: "Velkomin í Detailbook* %{name}!"
     new:
       create: "Búa til"
       name: "Nafn (sýnilegt þér einum)"
@@ -147,8 +147,8 @@ is:
   back: "Til baka"
   bookmarklet:
     explanation: "%{link} from anywhere by bookmarking this link."
-    heading: "Diaspora Bookmarklet"
-    post_something: "Senda á Diaspora*"
+    heading: "Detailbook Bookmarklet"
+    post_something: "Senda á Detailbook*"
     post_success: "Sent! Loka!"
   cancel: "Hætta við"
   comments:
@@ -215,7 +215,7 @@ is:
   find_people: "Finna fólk eða #merki"
   help:
     account_and_data_management:
-      data_visible_to_podmin_a: "Samskipti milli belgja eru ávalt dulkóðuð (með SSL sem og dulkóðun frá diaspora*), en gögnin á belgnum eru ekki dulkóðuð á miðlaranum.  Kerfisstjórinn á belgnum sem þú ert hýstur á (oftast sá sem rekur belginn) gæti komist í allar þínar upplýsingar á belgnum, sem og öll seyti sem þú hefur sent (sambærilegt við flestar aðrar vefsíður sem vista gögn um þig).  Ef þú keyrir þinn egin belg hefur þú betir stjórn á gögnunum þínum."
+      data_visible_to_podmin_a: "Samskipti milli belgja eru ávalt dulkóðuð (með SSL sem og dulkóðun frá detailbook*), en gögnin á belgnum eru ekki dulkóðuð á miðlaranum.  Kerfisstjórinn á belgnum sem þú ert hýstur á (oftast sá sem rekur belginn) gæti komist í allar þínar upplýsingar á belgnum, sem og öll seyti sem þú hefur sent (sambærilegt við flestar aðrar vefsíður sem vista gögn um þig).  Ef þú keyrir þinn egin belg hefur þú betir stjórn á gögnunum þínum."
     aspects:
       person_multiple_aspects_a: "Já.  Farðu á síðuna með tengiliðum þínum og smelltu á Mínir tengiliðir.  Þú getur notað valmyndina til hægri til að bæta tengilið (eða taka úr) eins mörgum sýnum og þú vilt.  Þú getur einnig bætt þeim við nýja sýn með því að ýta á Velja Sýn takkan á upplýsingasíðu viðkomandi.  Einnig getur þú haldið músini fyrir ofan nafn þeirra þar sem nafn þeirra birtist á straumnum þínum og birtist þá lítill val gluggi.  Þar getur þú breytt í hvaða sýnum viðkomandi er."
       post_multiple_aspects_a: "Já.  Þegar þú getur notað 'sýn' takkan til að velja og hafna hvaða sýn skeytið sem þú ert að skrifa birtist í.  Skeytið mun vera sýnilegt í öllum þeim sýnum sem þú hefur valið.  Þú getur einnig valið í hvaða sýn skilaboðin birtast á hliðarslánni.  Þegar þú sendir skilaboðin munu þær sýnir sem þú hefur valið vistast og vera valdar þegar þú skrifar næst skilaboð."
@@ -224,12 +224,12 @@ is:
     here: "hér"
     irc: "IRC spjallrás"
     miscellaneous:
-      diaspora_app_a: "Það er til nokkur Android forrit sem eru enn i þróun.  Sum eru löngu yfirgefin og virka því ekki vel með núverandi útgáfu af diaspora*.  Ekki búast við of mikklu af þessum forritum eins og stendur.  Það er einfaldlega best að nota diaspora* beint á vafranum í símanum þar sem hannað hefur verið viðmót sem ætti að hennta flestum tækjum.  Eins og er eru engin forrit fyrir diaspora* á iOS, en enn og aftur virkar diaspora* vel í vafranum."
-      diaspora_app_q: "Er til diaspora* app fyrir Android eða iOS?"
+      diaspora_app_a: "Það er til nokkur Android forrit sem eru enn i þróun.  Sum eru löngu yfirgefin og virka því ekki vel með núverandi útgáfu af detailbook*.  Ekki búast við of mikklu af þessum forritum eins og stendur.  Það er einfaldlega best að nota detailbook* beint á vafranum í símanum þar sem hannað hefur verið viðmót sem ætti að hennta flestum tækjum.  Eins og er eru engin forrit fyrir detailbook* á iOS, en enn og aftur virkar detailbook* vel í vafranum."
+      diaspora_app_q: "Er til detailbook* app fyrir Android eða iOS?"
     pods:
-      what_is_a_pod_a: "Belgur er miðlari sem keyrir diaspora* hugbúnaðinn og er tengdur diaspora* netinu.  \"Belgur\" er samlíking við fræbelgi á plöntum sem innihalda fræ á sama átt og miðlarinn hýsir marga notendur.  Það eru margir belgir til.  Þú getur bætt við vinum á öðrum belgjum og átt í samskiptum við þá.  (Þú getur hugsað belg á svipaðan hátt og tölvupóstþjón: það eru margir opnir belgir sem og lokaðir belgir , þú getur meira að segja hýst þinn eginn belg)."
+      what_is_a_pod_a: "Belgur er miðlari sem keyrir detailbook* hugbúnaðinn og er tengdur detailbook* netinu.  \"Belgur\" er samlíking við fræbelgi á plöntum sem innihalda fræ á sama átt og miðlarinn hýsir marga notendur.  Það eru margir belgir til.  Þú getur bætt við vinum á öðrum belgjum og átt í samskiptum við þá.  (Þú getur hugsað belg á svipaðan hátt og tölvupóstþjón: það eru margir opnir belgir sem og lokaðir belgir , þú getur meira að segja hýst þinn eginn belg)."
     posts_and_posting:
-      embed_multimedia_a: "Oftast er hægt að setja URLið (t.d. http://www.youtube.com/watch?v=nnnnnnnnnnn) beint inn í skilaboðin og myndin eða myndbandið verður fellt sjálfkrafa inn í skeytið.  Við styðjum meðal annars. YouTube, Vimeo, SoundCloud, Flickr ásamt nokkrum öðrum.  diaspora* notar oEmbed til að framkvæma innfellinguna sem gerir það að verkum að nýjar þjónustur eru stöðugt að bætast í hópinn.  Mundu að setja alltaf inn fulla slóð inn, ekki stytta hana né bæta aftan við sem og að smá stund getur tekið áður en innfellingin er verður sýnileg."
+      embed_multimedia_a: "Oftast er hægt að setja URLið (t.d. http://www.youtube.com/watch?v=nnnnnnnnnnn) beint inn í skilaboðin og myndin eða myndbandið verður fellt sjálfkrafa inn í skeytið.  Við styðjum meðal annars. YouTube, Vimeo, SoundCloud, Flickr ásamt nokkrum öðrum.  detailbook* notar oEmbed til að framkvæma innfellinguna sem gerir það að verkum að nýjar þjónustur eru stöðugt að bætast í hópinn.  Mundu að setja alltaf inn fulla slóð inn, ekki stytta hana né bæta aftan við sem og að smá stund getur tekið áður en innfellingin er verður sýnileg."
     private_profiles:
       whats_in_profile_a: "Ferilskráin, staðsetning, kyn og fæðingardagur.  Þetta eru allt hlutir sem eru neðst á Síðunni Þinni.  Þú ræður hvort þú setur upplýsingar þar inn.  Eingöngu einstaklingar sem þú hefur bætt í eina af þínum sýnum, og eru skráðir inn, geta séð þessar upplýsingar.  Þegar þeir fara á síðuna þína geta þeir séð þau skeyti sem þú hefur deilt með öllum, sem og þau skeyti sem þú hefur valið að deila með sýnum sem þeir eru í."
   hide: "Fela"
@@ -249,7 +249,7 @@ is:
       if_they_accept_info: "ef þau þiggja boðið, verður þeim bætt við þá ásýnd sem þú bauðst þeim á."
       invite_someone_to_join: "Bjóddu einhverjum að tengjast Díaspora*!"
       language: "Tungumál"
-      paste_link: "Deildu þessum tengil með vinum þínum til þess að bjóða þeim á diaspora*, eða sendu þeim tengilinn beint í gegnum tölvupóst."
+      paste_link: "Deildu þessum tengil með vinum þínum til þess að bjóða þeim á detailbook*, eða sendu þeim tengilinn beint í gegnum tölvupóst."
       personal_message: "Persónuleg skilaboð"
       resend: "Endursenda"
       send_an_invitation: "Sendu boðsmiða"
@@ -387,7 +387,7 @@ is:
       message: |-
           Halló!
 
-          Þér hefur verið boðið að vera með á Diaspora*!
+          Þér hefur verið boðið að vera með á Detailbook*!
 
           Smelltu á þennan tengil til að hefjast handa
 
@@ -396,20 +396,20 @@ is:
 
           Bestu kveðjur,
 
-          Diaspora* póst-róbótinn!
+          Detailbook* póst-róbótinn!
 
           [1]: %{invite_url}
     liked:
       liked: "%{name} has just liked your post: "
     mentioned:
       mentioned: "gat þín í pósti:"
-      subject: "%{name} hefur getið þín á Diaspora*"
+      subject: "%{name} hefur getið þín á Detailbook*"
     reshared:
       reshared: "%{name} just reshared your post"
     single_admin:
-      subject: "Skilaboð um notandastillingar þínar í Diaspora*:"
+      subject: "Skilaboð um notandastillingar þínar í Detailbook*:"
     started_sharing:
-      subject: "%{name} hefur byrjað að deila með þér á Diaspora*"
+      subject: "%{name} hefur byrjað að deila með þér á Detailbook*"
     thanks: "Takk,"
   nsfw: "NSFW (Ekki við hæfi allra)"
   ok: "Í lagi"
@@ -516,7 +516,7 @@ is:
       your_name: "Nafn þitt"
       your_photo: "Mynd þín"
       your_tags: "You: in 5 #tags"
-      your_tags_placeholder: "i.e. #diaspora #ironing #kittens #music"
+      your_tags_placeholder: "i.e. #detailbook #ironing #kittens #music"
     update:
       failed: "Ekki tókst að uppfæra síðuna mína"
       updated: "Síðan mín uppfærð"
@@ -526,9 +526,9 @@ is:
     other: "%{count} viðbrögð"
     zero: "0 viðbrögð"
   registrations:
-    closed: "Lokað er fyrir innskráningar á þessum Diaspora* pod."
+    closed: "Lokað er fyrir innskráningar á þessum Detailbook* pod."
     create:
-      success: "Nú hefurðu tengst Diaspora*!"
+      success: "Nú hefurðu tengst Detailbook*!"
     edit:
       cancel_my_account: "Aflýsa mínum notandastillingum"
       edit: "Breyta %{name}"
@@ -598,9 +598,9 @@ is:
     add_contact:
       create_request: "Leita eftir Díaspora* auðkenni"
       diaspora_handle: "diaspora@handle.org"
-      enter_a_diaspora_username: "Settu inn notandanafn hjá Diaspora*:"
+      enter_a_diaspora_username: "Settu inn notandanafn hjá Detailbook*:"
       know_email: "Veistu netföngin þeirra? Þú ættir að senda þeim boðsmiða"
-      your_diaspora_username_is: "Notandanafn þitt hjá Diaspora* er: %{diaspora_handle}"
+      your_diaspora_username_is: "Notandanafn þitt hjá Detailbook* er: %{diaspora_handle}"
     aspect_dropdown:
       add_to_aspect: "Add to aspect"
       toggle:
@@ -620,7 +620,7 @@ is:
     notification:
       new: "Nýtt %{type} frá %{from}"
     public_explain:
-      outside: "Almennt aðgengileg skilaboð verða sýnileg öðrum utan Diaspora."
+      outside: "Almennt aðgengileg skilaboð verða sýnileg öðrum utan Detailbook."
       title: "Þú ert að fara að setja þetta á almannafæri!"
     publisher:
       all: "allt"
@@ -680,7 +680,7 @@ is:
       change_language: "Breyta um tungumál"
       change_password: "Breyta lykilorði"
       close_account:
-        what_we_delete: "We delete all of your posts, profile data, as soon as humanly possible. Your comments will hang around, but be associated with your Diaspora Handle."
+        what_we_delete: "We delete all of your posts, profile data, as soon as humanly possible. Your comments will hang around, but be associated with your Detailbook Handle."
       current_password: "Núverandi lykilorð"
       edit_account: "Breyta notandastillingum"
       email_awaiting_confirmation: "We have sent you an activation link to %{unconfirmed_email}. Till you follow this link and activate the new address, we will continue to use your original address %{email}."

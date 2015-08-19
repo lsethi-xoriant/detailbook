@@ -60,11 +60,11 @@ mk:
       updating: "ажурирање"
     index:
       donate: "Донирај"
-      handle_explanation: "Ова е вашето diaspora корисничко име. Исто како е-маил адреса, можете да го давате на луѓе за да се сврзат со вас."
+      handle_explanation: "Ова е вашето detailbook корисничко име. Исто како е-маил адреса, можете да го давате на луѓе за да се сврзат со вас."
       help:
         do_you: "Дали"
         have_a_question: "...има %{link}"
-        here_to_help: "Diaspora community is here to help!"
+        here_to_help: "Detailbook community is here to help!"
         need_help: "Помош?"
         tag_bug: "#bug"
         tag_feature: "#feature"
@@ -92,7 +92,7 @@ mk:
   back: "Назад"
   bookmarklet:
     explanation: "%{link} from anywhere by bookmarking this link."
-    heading: "Diaspora Bookmarklet"
+    heading: "Detailbook Bookmarklet"
   cancel: "Откажи"
   comments:
     new_comment:
@@ -164,7 +164,7 @@ mk:
       accept_your_invitation: "Прифатија поканата"
     new:
       already_invited: "Already invited"
-      invite_someone_to_join: "Поканете некој да се придружи на Diaspora!"
+      invite_someone_to_join: "Поканете некој да се придружи на Detailbook!"
       language: "Јазик"
       personal_message: "Лична порака"
       send_an_invitation: "Испрати покана"
@@ -314,9 +314,9 @@ mk:
     reshared:
       reshared: "%{name} just reshared your post"
     single_admin:
-      subject: "A message from your Diaspora administrator:"
+      subject: "A message from your Detailbook administrator:"
     started_sharing:
-      subject: "%{name} has started sharing with you on Diaspora*"
+      subject: "%{name} has started sharing with you on Detailbook*"
   nsfw: "За возрасни"
   ok: "ОК"
   or: "или"
@@ -387,7 +387,7 @@ mk:
   profiles:
     edit:
       your_tags: "You: in 5 #tags"
-      your_tags_placeholder: "i.e. #diaspora #ironing #kittens #music"
+      your_tags_placeholder: "i.e. #detailbook #ironing #kittens #music"
   public: "Јавно"
   reactions:
     few: "%{count} reactions"
@@ -399,7 +399,7 @@ mk:
   registrations:
     closed: "Регистрирањето е затворено."
     create:
-      success: "Вие и се придруживте на Diaspora!"
+      success: "Вие и се придруживте на Detailbook!"
     edit:
       cancel_my_account: "Откажи ја мојата корисничка сметка"
       edit: "Уреди %{name}"
@@ -455,10 +455,10 @@ mk:
   settings: "Подесувања"
   shared:
     add_contact:
-      create_request: "Најди според Diaspora корисничко име"
-      diaspora_handle: "Diaspora корисничко име"
-      enter_a_diaspora_username: "Внеси Diaspora корисничко име:"
-      your_diaspora_username_is: "Вашето Diaspora корисничко име е: %{diaspora_handle}"
+      create_request: "Најди според Detailbook корисничко име"
+      diaspora_handle: "Detailbook корисничко име"
+      enter_a_diaspora_username: "Внеси Detailbook корисничко име:"
+      your_diaspora_username_is: "Вашето Detailbook корисничко име е: %{diaspora_handle}"
     aspect_dropdown:
       add_to_aspect: "Add to aspect"
       toggle:
@@ -473,13 +473,13 @@ mk:
       dont_have_now: "Моментално немате права, но повеќе покани ќе дојдат наскоро!"
       invitations_left: "(%{count} лево)"
       invite_someone: "Покани некој"
-      invites_closed: "Invites are currently closed on this Diaspora seed"
+      invites_closed: "Invites are currently closed on this Detailbook seed"
     notification:
       new: "Нов %{type} од %{from}"
     public_explain:
       logged_in: "најавен во %{service}"
       manage: "менаџирај ги поврзаните сервиси"
-      outside: "Јавните пораки ќе бидат достапни за сите кои се надвор од Diaspora."
+      outside: "Јавните пораки ќе бидат достапни за сите кои се надвор од Detailbook."
       title: "На пат сте да испратите јавна порака!"
     publisher:
       all: "сите"
@@ -538,14 +538,14 @@ mk:
       change_language: "Промени јазик"
       change_password: "Промени лозинка"
       close_account:
-        what_we_delete: "We delete all of your posts, profile data, as soon as humanly possible. Your comments will hang around, but be associated with your Diaspora Handle."
+        what_we_delete: "We delete all of your posts, profile data, as soon as humanly possible. Your comments will hang around, but be associated with your Detailbook Handle."
       download_photos: "симни ги моите слики"
       email_awaiting_confirmation: "We have sent you an activation link to %{unconfirmed_email}. Till you follow this link and activate the new address, we will continue to use your original address %{email}."
       export_data: "Изнеси податоци"
       new_password: "Нова лозинка"
       receive_email_notifications: "Receive email notificaions?"
       your_email: "Вашиот е-маил"
-      your_handle: "Вашето diaspora корисничко име"
+      your_handle: "Вашето detailbook корисничко име"
     public:
       does_not_exist: "Корисникот %{username} не постои!"
     update:

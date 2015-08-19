@@ -5,13 +5,13 @@
 
 
 art-nvi:
-  _applications: "Lapo aydiaspora"
+  _applications: "Lapo Detailbook"
   _comments: "Aysäplltxevi"
   _contacts: "Eylan"
   _home: "Kelutral"
   _photos: "ayrel"
   _services: "Hìte'e"
-  account: "Ngeyä Diaspora"
+  account: "Ngeyä Detailbook"
   activerecord:
     errors:
       models:
@@ -28,15 +28,15 @@ art-nvi:
     helper:
       unknown_person: "tute astxong"
   are_you_sure: "Nga lu law srak?"
-  are_you_sure_delete_account: "Nga lu law tsnì new tspivang ngeyä Diasporati srak? fìkem ke laytem mawkrr!"
+  are_you_sure_delete_account: "Nga lu law tsnì new tspivang ngeyä Detailbook srak? fìkem ke laytem mawkrr!"
   aspects:
     destroy:
       success: "%{name}l 'ìlmaku fìtsengeta."
     index:
       diaspora_id:
-        content_1: "Ngeyä Diaspora Tstxo lu:"
+        content_1: "Ngeyä Detailbook Tstxo lu:"
         content_2: "Fpe' fì'u"
-        heading: "Diaspora Tstxo"
+        heading: "Detailbook Tstxo"
       donate: "Tìng"
       help:
         feature_suggestion: "... %{link} tìmok srak?"
@@ -48,13 +48,13 @@ art-nvi:
         tag_question: "tìpawn"
       introduce_yourself: "Fì'u lu ngeyä payfya. Nga mäpuwìntxu."
       new_here:
-        follow: "Sutx %{link}it ulte zola'u nìprrte' sute amip ne Diaspora*!"
+        follow: "Sutx %{link}it ulte zola'u nìprrte' sute amip ne Detailbook*!"
         learn_more: "nume nì'ul"
         title: "Zola'u nìprrte' ma sute amip"
       no_contacts: "Kea 'eylan"
       post_a_message: "plltxe 'upxareit >>"
       unfollow_tag: "Ke serutx #%{tag}"
-      welcome_to_diaspora: "Zola'u nìprrte' ne Diaspora ma %{name}!"
+      welcome_to_diaspora: "Zola'u nìprrte' ne Detailbook ma %{name}!"
     new:
       create: "Ngop"
     seed:
@@ -114,7 +114,7 @@ art-nvi:
       and: "ulte"
   notifier:
     single_admin:
-      subject: "'Upxare teri ngeyä Diaspora:"
+      subject: "'Upxare teri ngeyä Detailbook:"
   ok: "Tam"
   or: "fu"
   password: "Ftemlì'u"
@@ -215,10 +215,10 @@ art-nvi:
       change_language: "latem lì'fyati"
       change_password: "Latem ngeyä ftemlì'u"
       character_minimum_expl: "zene livu to pukap ngim"
-      close_account_text: "'aku diasporati"
+      close_account_text: "'aku detailbook"
       current_password: "Lefkrr ftemlì'u"
       current_password_expl: "nga fpxäkìm fìftemlì'uhu..."
-      edit_account: "Latem ngeyä Diaspora"
+      edit_account: "Latem ngeyä Detailbook"
       new_password: "Ftemlì'u amip"
       your_email: "Ngeyä Ikran lì'u"
     getting_started:

@@ -33,7 +33,7 @@ ro:
       inviter:
         accept_at: "la adresa %{url}, poţi accepta prin folosirea legăturii de mai jos."
         has_invited_you: "%{name}"
-        have_invited_you: "%{names} te-au invitat să te alături comunităţii Diaspora"
+        have_invited_you: "%{names} te-au invitat să te alături comunităţii Detailbook"
       reset_password_instructions:
         change: "Schimbă-mi parola"
         ignore: "Dacă nu aţi facut aceasta petiţie, vă rugăm să ignoraţi acest e-mail."

@@ -81,7 +81,7 @@ en_shaw:
       donate: "𐑛𐑴𐑯𐑱𐑑"
       handle_explanation: "𐑞𐑦𐑕 𐑦𐑟 𐑿𐑼 ·𐑛𐑦𐑨𐑕𐑐𐑹𐑩 𐑲𐑛𐑧𐑯𐑑𐑦𐑓𐑦𐑒𐑱𐑖𐑩𐑯. 𐑤𐑲𐑒 𐑩𐑯 𐑦-𐑥𐑱𐑤 𐑨𐑛𐑮𐑧𐑕, 𐑿 𐑒𐑨𐑯 𐑜𐑦𐑝 𐑞𐑦𐑕 𐑑 𐑐𐑰𐑐𐑩𐑤 𐑑 𐑮𐑰𐑗 𐑿."
       help:
-        here_to_help: "Diaspora community is here to help!"
+        here_to_help: "Detailbook community is here to help!"
         tag_bug: "#bug"
         tag_feature: "#feature"
         tag_question: "#question"
@@ -472,7 +472,7 @@ en_shaw:
       your_private_profile: "𐑿𐑼 𐑐𐑮𐑲𐑝𐑩𐑑 𐑐𐑮𐑴𐑓𐑲𐑤"
       your_public_profile: "𐑿𐑼 𐑐𐑳𐑚𐑤𐑦𐑒 𐑐𐑮𐑴𐑓𐑲𐑤"
       your_tags: "𐑛𐑦𐑕𐑒𐑮𐑲𐑚 𐑿𐑼𐑕𐑧𐑤𐑓 𐑦𐑯 5 𐑢𐑻𐑛𐑟"
-      your_tags_placeholder: "𐑤𐑲𐑒 #diaspora #ironing #kittens #music #newyork"
+      your_tags_placeholder: "𐑤𐑲𐑒 #detailbook #ironing #kittens #music #newyork"
     update:
       failed: "𐑓𐑱𐑤𐑛 𐑑 𐑳𐑐𐑛𐑱𐑑 𐑐𐑮𐑴𐑓𐑲𐑤"
       updated: "𐑐𐑮𐑴𐑓𐑲𐑤 𐑳𐑐𐑛𐑱𐑑𐑩𐑛"
@@ -672,7 +672,7 @@ en_shaw:
       change_language: "𐑗𐑱𐑯𐑡 𐑤𐑱𐑙𐑜𐑢𐑩𐑡"
       change_password: "𐑗𐑱𐑯𐑡 𐑐𐑨𐑕𐑢𐑼𐑛"
       close_account:
-        what_we_delete: "We delete all of your posts, profile data, as soon as humanly possible. Your comments will hang around, but be associated with your Diaspora Handle."
+        what_we_delete: "We delete all of your posts, profile data, as soon as humanly possible. Your comments will hang around, but be associated with your Detailbook Handle."
       comment_on_post: "...𐑕𐑳𐑥𐑢𐑩𐑯 𐑒𐑪𐑥𐑩𐑯𐑑𐑕 𐑪𐑯 𐑿𐑼 𐑐𐑴𐑕𐑑?"
       current_password: "𐑒𐑻𐑩𐑯𐑑 𐑐𐑨𐑕𐑢𐑼𐑛"
       download_photos: "𐑛𐑬𐑯𐑤𐑴𐑛 𐑥𐑲 𐑓𐑴𐑑𐑴𐑟"

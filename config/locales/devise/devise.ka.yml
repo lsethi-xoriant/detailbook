@@ -32,7 +32,7 @@ ka:
       inviter:
         accept_at: "%{url}, თქვენ შეგიძლიათ დაეთანხმოთ ქვემოთ მოცემული ბმულის გამოყენებით."
         has_invited_you: "%{name}"
-        have_invited_you: "მომხმარებელმა %{names} მოგიწვიათ რათა შეურთდეთ Diaspora-ს"
+        have_invited_you: "მომხმარებელმა %{names} მოგიწვიათ რათა შეურთდეთ Detailbook-ს"
       reset_password_instructions:
         change: "ჩემი პაროლის შეცვლა"
         ignore: "თუ თქვენ ეს არ მოგითხოვიათ, გთხოვთ ყურადღება არ მიაქციოთ ამ ელ-ფოსტას."
