@@ -32,6 +32,7 @@ a { color : $link-blue  }
 
 .avatar {
   border-radius: 4px;
+  float: right;
 
   &.micro {
     height: 20px;

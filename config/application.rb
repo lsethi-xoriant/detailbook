@@ -112,5 +112,8 @@ module Diaspora
       host:     AppConfig.pod_uri.authority
     }
     config.action_mailer.asset_host = AppConfig.pod_uri.to_s
+
+    # Controller generator
+    config.app_generators.scaffold_controller :responders_controller
   end
 end
