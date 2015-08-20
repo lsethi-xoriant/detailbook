@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150607143809) do
+ActiveRecord::Schema.define(version: 20150820092439) do
 
   create_table "account_deletions", force: :cascade do |t|
     t.string   "diaspora_handle", limit: 255
@@ -136,6 +136,34 @@ ActiveRecord::Schema.define(version: 20150607143809) do
   end
 
   add_index "conversations", ["author_id"], name: "conversations_author_id_fk", using: :btree
+
+  create_table "detailbooks", force: :cascade do |t|
+    t.string   "name",         limit: 255
+    t.string   "lastname",     limit: 255
+    t.date     "birthday"
+    t.string   "city",         limit: 255
+    t.string   "country",      limit: 255
+    t.string   "gender",       limit: 255
+    t.text     "course",       limit: 65535
+    t.text     "university",   limit: 65535
+    t.text     "graduation",   limit: 65535
+    t.text     "skills",       limit: 65535
+    t.text     "experience",   limit: 65535
+    t.integer  "points",       limit: 4,     default: 0
+    t.integer  "business",     limit: 4
+    t.text     "link",         limit: 65535
+    t.integer  "employees",    limit: 4
+    t.text     "industry",     limit: 65535
+    t.text     "applications", limit: 65535
+    t.integer  "phone",        limit: 4
+    t.datetime "created_at",                             null: false
+    t.datetime "updated_at",                             null: false
+    t.text     "message",      limit: 65535
+    t.text     "post",         limit: 65535
+    t.text     "video",        limit: 65535
+    t.text     "audio",        limit: 65535
+    t.text     "files",        limit: 65535
+  end
 
   create_table "invitation_codes", force: :cascade do |t|
     t.string   "token",      limit: 255

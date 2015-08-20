@@ -39,7 +39,7 @@ class User < ActiveRecord::Base
 
   has_one :person, :foreign_key => :owner_id
   has_one :profile, through: :person
-
+  
   delegate :guid, :public_key, :posts, :photos, :owns?, :image_url,
            :diaspora_handle, :name, :public_url, :profile, :url,
            :first_name, :last_name, :gender, :participations, to: :person
@@ -77,6 +77,8 @@ class User < ActiveRecord::Base
   before_save :guard_unconfirmed_email,
               :save_person!
 
+  has_one :detailbook
+  
   def self.all_sharing_with_person(person)
     User.joins(:contacts).where(:contacts => {:person_id => person.id})
   end
