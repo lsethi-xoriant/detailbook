@@ -68,7 +68,19 @@ class RegistrationsController < Devise::RegistrationsController
 
   helper_method :invite
 
+# This method is user_perams method
+
   def user_params
-    params.require(:user).permit(:username, :email, :getting_started, :password, :password_confirmation, :language, :disable_mail, :invitation_service, :invitation_identifier, :show_community_spotlight_in_stream, :auto_follow_back, :auto_follow_back_aspect_id, :remember_me, :captcha, :captcha_key)
+    params.require(:user).permit(:address1, :address2, :address3, 
+                                 :auto_follow_back, :auto_follow_back_aspect_id,
+                                 :captcha, :captcha_key, :city, :country, 
+                                 :date_of_birth, :disable_mail, :email,
+                                 :getting_started, :invitation_identifier,
+                                 :invitation_service, :language,
+                                 :number_of_employees, :password,
+                                 :password_confirmation,  :post_code, :sex, 
+                                 :show_community_spotlight_in_stream,
+                                 :remember_me, :ucas_code, :university, 
+                                 :username, :vat)
   end
 end

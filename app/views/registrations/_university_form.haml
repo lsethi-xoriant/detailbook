@@ -1,0 +1,79 @@
+= form_for(resource, url: registration_path(resource_name), html: {class: "form-horizontal block-form", autocomplete: "off"}) do |f|
+
+  %fieldset
+    %label
+      = f.label :user_email, t("registrations.new.email"), class: "control-label"
+    %i.entypo.mail
+    = f.email_field :email,
+      autofocus: true,
+      class: "input-block-level form-control",
+      data: {content: t("users.edit.your_email_private")},
+      placeholder: t("registrations.new.email"),
+      required: true,
+      title: t("registrations.new.enter_email")
+
+    %label.control-label{for: "user_username"}
+      = t('registrations.new.username')
+    %i.entypo.user
+    = f.text_field :username, class: "input-block-level form-control", placeholder: t('registrations.new.username'), title: t('registrations.new.enter_username'), required: true, pattern: "[A-Za-z0-9_]+"
+
+    %label.control-label{for: "user_password"}
+      = t('registrations.new.password')
+    %i.entypo.lock
+    = f.password_field :password, class: "input-block-level form-control", placeholder: t('registrations.new.password'), title: t('registrations.new.enter_password'), required: true, pattern: "......+"
+
+    %label.control-label{for: "user_password_confirmation"}
+      = t('registrations.new.password_confirmation')
+    %i.entypo.lock
+    = f.password_field :password_confirmation, class: "input-block-level form-control", placeholder: t('registrations.new.password_confirmation'), title: t('registrations.new.enter_password_again'), required: true, pattern: "......+"
+
+    %label.control-label{for: "ucas_code"}
+      = t('registrations.new.ucas_code')
+    %i.entypo
+    = f.text_field :ucas_code, class: "input-block-level form-control", placeholder: t('registrations.new.ucas_code'), title: t('registrations.new.enter_ucas_code'), required: true
+
+    %label.control-label{for: "address1"}
+      = t('registrations.new.address1')
+    %i.entypo
+    = f.text_field :address1, class: "input-block-level form-control", placeholder: t('registrations.new.address1'), title: t('registrations.new.enter_address1'), required: true
+
+    %label.control-label{for: "address2"}
+      = t('registrations.new.address2')
+    %i.entypo
+    = f.text_field :address2, class: "input-block-level form-control", placeholder: t('registrations.new.address2'), title: t('registrations.new.enter_address2'), required: true
+
+    %label.control-label{for: "address3"}
+      = t('registrations.new.address3')
+    %i.entypo
+    = f.text_field :address1, class: "input-block-level form-control", placeholder: t('registrations.new.address3'), title: t('registrations.new.enter_address3'), required: true
+    
+    %label.control-label{for: "post_code"}
+      = t('registrations.new.post_code')
+    %i.entypo
+    = f.text_field :post_code, class: "input-block-level form-control", placeholder: t('registrations.new.post_code'), title: t('registrations.new.enter_post_code'), required: true
+
+    %label.control-label{for: "country"}
+      = t('registrations.new.country')
+    %i.entypo
+    = f.text_field :country, class: "input-block-level form-control", placeholder: t('registrations.new.country'), title: t('registrations.new.enter_country'), required: true
+
+    %label.control-label{for: "city"}
+      = t('registrations.new.city')
+    %i.entypo
+    = f.text_field :city, class: "input-block-level form-control", placeholder: t('registrations.new.city'), title: t('registrations.new.enter_city'), required: true
+
+
+
+    - if AppConfig.settings.captcha.enable?
+      = show_simple_captcha :object => 'user', :code_type => 'numeric'
+
+    = invite_hidden_tag(invite)
+
+    = f.hidden_field :role, value: "university"
+
+
+  - if AppConfig.settings.terms.enable?
+    %p#terms.text-center
+      = t('registrations.new.terms', terms_link: link_to(t('registrations.new.terms_link'), terms_path, target: "_blank")).html_safe
+
+  = f.submit t('registrations.new.sign_up'), class: "btn btn-block btn-large", data: {disable_with: t('registrations.new.submitting')}
