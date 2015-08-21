@@ -39,7 +39,8 @@
           = render 'aspects/aspect_listings', :stream => @stream
         %li
           = render 'tags/followed_tags_listings'
-        %a#detailbooks-link.btn.btn-info{:href => "detailbooks"} Create Detailbook 
+        #detailbooks-link.btn.btn-info
+          = link_to 'Create Detailbook' 
           
 
     .col-md-6
