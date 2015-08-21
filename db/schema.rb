@@ -593,6 +593,18 @@ ActiveRecord::Schema.define(version: 20150820092439) do
     t.string   "exported_photos_file",               limit: 255
     t.datetime "exported_photos_at"
     t.boolean  "exporting_photos",                                 default: false
+    t.string   "university",                         limit: 255
+    t.string   "sex",                                limit: 255
+    t.datetime "date_of_birth"
+    t.string   "country",                            limit: 255
+    t.string   "city",                               limit: 255
+    t.string   "ucas_code",                          limit: 255
+    t.string   "address1",                           limit: 255
+    t.string   "address2",                           limit: 255
+    t.string   "address3",                           limit: 255
+    t.integer  "post_code",                          limit: 4
+    t.string   "vat",                                limit: 255
+    t.integer  "number_of_employees",                limit: 4
   end
 
   add_index "users", ["authentication_token"], name: "index_users_on_authentication_token", unique: true, using: :btree

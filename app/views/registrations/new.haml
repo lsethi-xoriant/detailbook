@@ -6,6 +6,14 @@
           .content.text-center
             %h2#pod-name
               = AppConfig.settings.pod_name
-            = render partial: 'form'
+            
+            - if params[:type] == 'student' 
+              = render partial: 'student_tutor_form'
+            - elsif params[:type] == 'tutor'
+              = render partial: 'student_tutor_form'
+            - elsif params[:type] == 'university'
+              = render partial: 'university_form'
+            - elsif params[:type] == 'business'
+              = render partial: 'business_form'
 
         

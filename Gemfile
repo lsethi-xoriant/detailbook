@@ -262,6 +262,11 @@ group :development do
   gem "pry"
   gem "pry-debundle"
   gem "pry-byebug"
+  gem 'pry-nav'
+  gem 'pry-rails'
+  gem 'pry-rescue'
+  gem 'better_errors'
+  gem 'binding_of_caller'
 
   # test coverage
   gem "simplecov", "0.10.0", require: false

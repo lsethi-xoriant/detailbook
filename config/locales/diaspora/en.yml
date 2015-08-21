@@ -853,7 +853,8 @@ en:
 
         The detailbook* email robot!
 
-        P.S.: Just in case you don't know (yet) what detailbook* is, [here][2] is the answer!
+
+        P.S.: Just in case you dont know (yet) what detailbook* is, [here][2] is the answer!
 
         [1]: %{invite_url}
         [2]: %{diasporafoundation_url}
@@ -1030,23 +1031,47 @@ en:
 
   registrations:
     new:
+      address1: "Address 1"
+      address2: "Address 2"
+      address3: "Address 3"
+      city: "CITY"
+      country: "COUNTRY"
       create_my_account: "Create my account!"
+      date_of_birth: "BIRTHDATE"
 
       join_the_movement: "Join the movement!"
       sign_up_message: "Social networking with a ♥"
-
+      enter_address1: "Enter a valid address 1"
+      enter_address2: "Enter a valid address 2"
+      enter_address3: "Enter a valid address 3"
+      enter_city: "Enter the City"
+      enter_country: "Enter the Country"
+      enter_date_of_birth: "Enter your birthdate"
       enter_email: "Enter an email"
+      enter_number_of_employees: "Enter a number of employees"
+      enter_post_code: "Enter your postal code"
+      enter_sex: "Enter your gender"
+      enter_ucas_code: "Enter your UCAS ID"
+      enter_university: "Enter your university"
       enter_username: "Pick a username (only letters, numbers, and underscores)"
       enter_password: "Enter a password (six character minimum)"
       enter_password_again: "Enter the same password as before"
+      enter_vat: "Enter the Value added tax registration number"
       sign_up: "Sign up"
       email: "Email"
       username: "Username"
+      number_of_employees: "NUMBER OF EMPLOYEES"
       password: "Password"
       password_confirmation: "Password confirmation"
+      post_code: "POSTAL CODE"
+      sex: "GENDER"
       submitting: "Submitting..."
       terms: "By creating an account you accept the %{terms_link}."
       terms_link: "terms of service"
+      ucas_code: "UCAS ID"
+      university: "UNIVERSITY"
+      username: "USERNAME"
+      vat: "VAT Reg No"
     create:
       success: "You’ve joined detailbook*!"
     edit:
