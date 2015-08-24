@@ -27,36 +27,19 @@
     %i.entypo.lock
     = f.password_field :password_confirmation, class: "input-block-level form-control", placeholder: t('registrations.new.password_confirmation'), title: t('registrations.new.enter_password_again'), required: true, pattern: "......+"
 
-    %label.control-label{for: "university"}
-      = t('registrations.new.university')
-    %i.entypo
-    = f.text_field :university, class: "input-block-level form-control", placeholder: t('registrations.new.university'), title: t('registrations.new.enter_university'), required: true, pattern: "......+"
-
-    %label.control-label{for: "sex"}
-      = t('registrations.new.sex')
-    %i.entypo
-    = f.text_field :sex, class: "input-block-level form-control", placeholder: t('registrations.new.sex'), title: t('registrations.new.enter_sex'), required: true, pattern: "......+"
-
-    %label.control-label{for: "date_of_birth"}
-      = t('registrations.new.date_of_birth')
-    %i.entypo
-    = f.date_field :date_of_birth, class: "input-block-level form-control", placeholder: t('registrations.new.date_of_birth'), title: t('registrations.new.enter_date_of_birth'), required: true
-
-    %label.control-label{for: "country"}
-      = t('registrations.new.country')
-    %i.entypo
-    = f.text_field :country, class: "input-block-level form-control", placeholder: t('registrations.new.country'), title: t('registrations.new.enter_country'), required: true
-
-    %label.control-label{for: "city"}
-      = t('registrations.new.city')
-    %i.entypo
-    = f.text_field :city, class: "input-block-level form-control", placeholder: t('registrations.new.city'), title: t('registrations.new.enter_city'), required: true
-
     - if AppConfig.settings.captcha.enable?
       = show_simple_captcha :object => 'user', :code_type => 'numeric'
 
     = invite_hidden_tag(invite)
 
+    - if params[:type] == 'student'
+      = f.hidden_field :role, value: "student"
+    - elsif params[:type] == 'tutor'
+      = f.hidden_field :role, value: "tutor"
+    - elsif params[:type] == 'university'
+      = f.hidden_field :role, value: "university"
+    - elsif params[:type] == 'business'
+      = f.hidden_field :role, value: "business"
 
   - if AppConfig.settings.terms.enable?
     %p#terms.text-center
