@@ -39,7 +39,8 @@
           = render 'aspects/aspect_listings', :stream => @stream
         %li
           = render 'tags/followed_tags_listings'
-
+        %li.hoverable{:data => {:stream => 'detailbook'}}  
+          = link_to t("streams.detailbook.title"), detailbooks_path
     .col-md-6
       #aspect_stream_container.stream_container
         = render 'aspects/aspect_stream', :stream => @stream

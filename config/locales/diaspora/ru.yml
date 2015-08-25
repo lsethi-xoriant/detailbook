@@ -1275,6 +1275,8 @@ ru:
       other: "Показать еще %{count} комментариев"
       zero: "Больше нет комментариев"
   streams:
+    detailbook:
+      title: "My Detailbook"
     activity:
       title: "Моя активность"
     aspects:
