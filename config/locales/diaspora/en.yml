@@ -1298,6 +1298,9 @@ en:
     mentioned_stream: "@Mentions"
     followed_tags_stream: "#Followed tags"
 
+    detailbook:
+      title: "My Detailbook"
+
     mentions:
       title: "@Mentions"
       contacts_title: "People who mentioned you"
