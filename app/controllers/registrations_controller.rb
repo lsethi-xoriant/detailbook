@@ -80,7 +80,7 @@ class RegistrationsController < Devise::RegistrationsController
                                  :number_of_employees, :password,
                                  :password_confirmation,  :post_code, :sex, 
                                  :show_community_spotlight_in_stream,
-                                 :remember_me, :role, :ucas_code, :university, 
+                                 :remember_me, :ucas_code, :university, 
                                  :username, :vat)
   end
 end
