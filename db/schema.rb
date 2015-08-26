@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150825091607) do
+ActiveRecord::Schema.define(version: 20150820092439) do
 
   create_table "account_deletions", force: :cascade do |t|
     t.string   "diaspora_handle", limit: 255
@@ -605,7 +605,6 @@ ActiveRecord::Schema.define(version: 20150825091607) do
     t.integer  "post_code",                          limit: 4
     t.string   "vat",                                limit: 255
     t.integer  "number_of_employees",                limit: 4
-    t.string   "role",                               limit: 255
   end
 
   add_index "users", ["authentication_token"], name: "index_users_on_authentication_token", unique: true, using: :btree

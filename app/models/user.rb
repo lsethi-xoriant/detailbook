@@ -29,7 +29,7 @@ class User < ActiveRecord::Base
   validates_length_of :username, :maximum => 32
   validates_exclusion_of :username, :in => AppConfig.settings.username_blacklist
   validates_inclusion_of :language, :in => AVAILABLE_LANGUAGE_CODES
-  validates_with EmailValidator
+  validates_format_of :unconfirmed_email, :with  => Devise.email_regexp, :allow_blank => true
 
   validates_presence_of :person, :unless => proc {|user| user.invitation_token.present?}
   validates_associated :person
@@ -613,4 +613,3 @@ class User < ActiveRecord::Base
                             "exported_photos_file", "exporting_photos", "exported_photos_at"]
   end
 end
-
