@@ -17,12 +17,22 @@
             != t('.connect_to_facebook', :link => link_to(t('.connect_to_facebook_link'), "auth/facebook?callback_url=#{getting_started_url}"))
 
         = form_tag profile_path, :method => :put, :remote => true, :id => 'edit_profile' do
-          %fieldset
+          %fieldset.forms_fields
             = label_tag 'profile[first_name]', t('profiles.edit.your_name')
+            %br/           
             = text_field_tag 'profile[first_name]', current_user.first_name
+            %br/
             = image_tag 'ajax-loader.gif', :id => "gs-name-form-spinner", :class => "hidden"
             = label_tag :your_photo, t('profiles.edit.your_photo')
             = render 'photos/new_profile_photo', :aspect => :getting_started, :person => current_user.person
+            - if @user.role == "student" 
+              = render partial: 'getting_started_st_tutor'
+            - elsif @user.role == 'tutor'
+              = render partial: 'getting_started_st_tutor'
+            - elsif @user.role == 'university'
+              = render partial: 'getting_started_university'
+            - elsif @user.role == 'business'
+              = render partial: 'getting_started_business'
 
         %h2
           = t('.what_are_you_in_to')
