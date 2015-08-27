@@ -66,7 +66,7 @@ gem 'font-awesome-sass', '~> 4.3.0'
 #gem 'draper'
 #gem 'pundit'
 
-gem "rails_admin", "0.6.7"
+gem "rails_admin"
 
 
 # Profanity Filter
@@ -259,15 +259,7 @@ group :development do
 
   gem "rails-erd"
 
-  # Debugging
-  gem "pry"
-  gem "pry-debundle"
-  gem "pry-byebug"
-  gem 'pry-nav'
-  gem 'pry-rails'
-  gem 'pry-rescue'
-  gem 'better_errors'
-  gem 'binding_of_caller'
+ 
 
   # test coverage
   gem "simplecov", "0.10.0", require: false
@@ -316,3 +308,14 @@ group :development, :test do
   # silence assets
   gem "quiet_assets", "1.1.0"
 end
+
+
+ # Debugging
+  gem "pry"
+  gem "pry-debundle"
+  gem "pry-byebug"
+  gem 'pry-nav'
+  gem 'pry-rails'
+  gem 'pry-rescue'
+  gem 'better_errors'
+  gem 'binding_of_caller'

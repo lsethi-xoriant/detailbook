@@ -11,7 +11,8 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150827111234) do
+
+ActiveRecord::Schema.define(version: 20150829123839) do
 
   create_table "account_deletions", force: :cascade do |t|
     t.string   "diaspora_handle", limit: 255
@@ -608,10 +609,14 @@ ActiveRecord::Schema.define(version: 20150827111234) do
     t.string   "role",                               limit: 255
     t.string   "business_no",                        limit: 255
     t.string   "industry",                           limit: 255
+<<<<<<< HEAD
     t.string   "job_applications",                   limit: 255
     t.string   "website_link",                       limit: 255
     t.string   "second_email",                       limit: 255
     t.integer  "phone_no",                           limit: 4
+=======
+    t.boolean  "admin",                                            default: false
+>>>>>>> 579c019... [Finishes #101764692] let admin edit all
   end
 
   add_index "users", ["authentication_token"], name: "index_users_on_authentication_token", unique: true, using: :btree

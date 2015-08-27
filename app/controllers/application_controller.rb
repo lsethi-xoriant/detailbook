@@ -4,14 +4,12 @@
 
 class ApplicationController < ActionController::Base
   before_action :force_tablet_html
-  has_mobile_fu
   protect_from_forgery :except => :receive
 
   before_action :ensure_http_referer_is_set
   before_action :set_locale
   before_action :set_diaspora_header
   before_action :set_grammatical_gender
-  before_action :mobile_switch
   before_action :gon_set_current_user
   before_action :gon_set_preloads
 
@@ -25,7 +23,6 @@ class ApplicationController < ActionController::Base
                 :tags,
                 :open_publisher
 
-  layout proc { request.format == :mobile ? "application" : "with_header_with_footer" }
 
   private
 
@@ -39,11 +36,7 @@ class ApplicationController < ActionController::Base
 
   # Overwriting the sign_out redirect path method
   def after_sign_out_path_for(resource_or_scope)
-    if is_mobile_device?
       root_path
-    else
-      new_user_session_path
-    end
   end
 
   def all_aspects
@@ -118,13 +111,7 @@ class ApplicationController < ActionController::Base
     @grammatical_gender || nil
   end
 
-  # use :mobile view for mobile and :html for everything else
-  # (except if explicitly specified, e.g. :json, :xml)
-  def mobile_switch
-    if session[:mobile_view] == true && request.format.html?
-      request.format = :mobile
-    end
-  end
+  
 
   def force_tablet_html
     session[:tablet_view] = false
