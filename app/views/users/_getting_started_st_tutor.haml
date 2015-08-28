@@ -1,25 +1,27 @@
-.btn-group
-  %button.btn.btn-default{:type => "button"} #{t('profiles.edit.your_gender')}
-  %button.btn.btn-default.dropdown-toggle{"data-toggle" => "dropdown", :type => "button"}
-    %span.caret
-  %ul.dropdown-menu
-    %li
-      = link_to t('profiles.edit.male'), current_user.sex
-    %li
-      = link_to t('profiles.edit.female'), current_user.sex
+= label_tag 'profile[your_gender]', t('profiles.edit.your_gender')
+%br
+%label.radio-inline
+  %input{:name => "optradio", :type => "radio"} #{current_user.sex}
+  = t('profiles.edit.male')
+%label.radio-inline
+  %input{:name => "optradio", :type => "radio"} #{current_user.sex}
+  = t('profiles.edit.female')
+%label.radio-inline
+  %input{:name => "optradio", :type => "radio"} #{current_user.sex}
+  = t('profiles.edit.prefer_not_to_say')
 %p
 = label_tag 'profile[date_of_birth]', t('profiles.edit.date_of_birth')
-%br/
+%br
 = date_field_tag 'profile[date_of_birth]', current_user.date_of_birth
-%br/
+%br
 = label_tag 'profile[university]', t('profiles.edit.university')
-%br/
+%br
 = text_field_tag 'profile[university]', current_user.university
-%br/
+%br
 = label_tag 'profile[country]', t('profiles.edit.country')
-%br/
+%br
 = text_field_tag 'profile[city]', current_user.country
-%br/
+%br
 = label_tag 'profile[city]', t('profiles.edit.city')
-%br/
+%br
 = text_field_tag 'profile[city]', current_user.city
