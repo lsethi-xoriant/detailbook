@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150827111234) do
+ActiveRecord::Schema.define(version: 20150831064841) do
 
   create_table "account_deletions", force: :cascade do |t|
     t.string   "diaspora_handle", limit: 255
@@ -189,6 +189,21 @@ ActiveRecord::Schema.define(version: 20150827111234) do
   add_index "invitations", ["aspect_id"], name: "index_invitations_on_aspect_id", using: :btree
   add_index "invitations", ["recipient_id"], name: "index_invitations_on_recipient_id", using: :btree
   add_index "invitations", ["sender_id"], name: "index_invitations_on_sender_id", using: :btree
+
+  create_table "job_applications", force: :cascade do |t|
+    t.string   "company_name",    limit: 255
+    t.string   "industry",        limit: 255
+    t.string   "job_title",       limit: 255
+    t.string   "experience",      limit: 255
+    t.string   "job_function",    limit: 255
+    t.string   "employment_type", limit: 255
+    t.text     "job_description", limit: 65535
+    t.string   "city",            limit: 255
+    t.string   "country",         limit: 255
+    t.boolean  "public"
+    t.datetime "created_at",                    null: false
+    t.datetime "updated_at",                    null: false
+  end
 
   create_table "likes", force: :cascade do |t|
     t.boolean  "positive",                              default: true

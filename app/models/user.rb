@@ -78,6 +78,8 @@ class User < ActiveRecord::Base
               :save_person!
 
   has_one :detailbook
+
+  belongs_to :job_applications
   
   def self.all_sharing_with_person(person)
     User.joins(:contacts).where(:contacts => {:person_id => person.id})
